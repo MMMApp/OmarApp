@@ -3933,7 +3933,7 @@ namespace WindowsFormsApplication2
 
         private void button68_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT Paid_ID as[آید پرداخت],[E_Name] as [نام مشتری],Quantity[مقدار], What_For as [از درک],  Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as S Join [MobileData].[dbo].[Taken_Loan] as T on T.S_ID = S.S_ID");
+            DataAccess.RunQuery("SELECT Paid_ID as[آید پرداخت],[E_Name] as [نام مشتری],Quantity[مقدار], T_Pay_Loan as [مقدار],  T_L_Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as S Join [MobileData].[dbo].[Taken_Loan] as T on T.S_ID = S.S_ID");
             Paid_Loan_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
