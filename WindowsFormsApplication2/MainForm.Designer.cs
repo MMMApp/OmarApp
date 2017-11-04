@@ -137,8 +137,8 @@
             this.GeneralReports = new System.Windows.Forms.Button();
             this.Loans = new System.Windows.Forms.Button();
             this.Purchases = new System.Windows.Forms.Button();
-            this.StockReports = new System.Windows.Forms.Button();
             this.Sales = new System.Windows.Forms.Button();
+            this.StockReports = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuBar = new System.Windows.Forms.MenuStrip();
             this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1441,7 +1441,7 @@
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 697F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1008, 561);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1008, 562);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -1457,7 +1457,7 @@
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1002, 555);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1002, 556);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // MainTabs
@@ -1515,7 +1515,7 @@
             this.MainTabs.Padding = new System.Drawing.Point(0, 0);
             this.MainTabs.SelectedIndex = 0;
             this.MainTabs.ShowToolTips = true;
-            this.MainTabs.Size = new System.Drawing.Size(998, 555);
+            this.MainTabs.Size = new System.Drawing.Size(998, 556);
             this.MainTabs.TabIndex = 2;
             // 
             // MainTab
@@ -1525,7 +1525,7 @@
             this.MainTab.Location = new System.Drawing.Point(4, 22);
             this.MainTab.Margin = new System.Windows.Forms.Padding(0);
             this.MainTab.Name = "MainTab";
-            this.MainTab.Size = new System.Drawing.Size(990, 529);
+            this.MainTab.Size = new System.Drawing.Size(990, 530);
             this.MainTab.TabIndex = 6;
             this.MainTab.Text = "MainTab";
             // 
@@ -1542,7 +1542,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.78F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 92.22F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(990, 529);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(990, 530);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
             // MainPageLayoutPanel
@@ -1561,8 +1561,8 @@
             this.MainPageLayoutPanel.Controls.Add(this.GeneralReports, 1, 1);
             this.MainPageLayoutPanel.Controls.Add(this.Loans, 2, 0);
             this.MainPageLayoutPanel.Controls.Add(this.Purchases, 3, 0);
-            this.MainPageLayoutPanel.Controls.Add(this.Sales, 4, 1);
-            this.MainPageLayoutPanel.Controls.Add(this.StockReports, 4, 0);
+            this.MainPageLayoutPanel.Controls.Add(this.StockReports, 4, 1);
+            this.MainPageLayoutPanel.Controls.Add(this.Sales, 4, 0);
             this.MainPageLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPageLayoutPanel.Location = new System.Drawing.Point(0, 41);
             this.MainPageLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
@@ -1573,7 +1573,7 @@
             this.MainPageLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.30241F));
             this.MainPageLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.91294F));
             this.MainPageLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.MainPageLayoutPanel.Size = new System.Drawing.Size(990, 488);
+            this.MainPageLayoutPanel.Size = new System.Drawing.Size(990, 489);
             this.MainPageLayoutPanel.TabIndex = 5;
             // 
             // SalesReports
@@ -1589,7 +1589,7 @@
             this.SalesReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
             this.SalesReports.ForeColor = System.Drawing.Color.White;
             this.SalesReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.SalesReports.Location = new System.Drawing.Point(343, 174);
+            this.SalesReports.Location = new System.Drawing.Point(343, 175);
             this.SalesReports.Name = "SalesReports";
             this.SalesReports.Size = new System.Drawing.Size(133, 140);
             this.SalesReports.TabIndex = 6;
@@ -1613,7 +1613,7 @@
             this.LoanReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
             this.LoanReports.ForeColor = System.Drawing.Color.White;
             this.LoanReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LoanReports.Location = new System.Drawing.Point(507, 174);
+            this.LoanReports.Location = new System.Drawing.Point(507, 175);
             this.LoanReports.Name = "LoanReports";
             this.LoanReports.Size = new System.Drawing.Size(133, 140);
             this.LoanReports.TabIndex = 8;
@@ -1661,7 +1661,7 @@
             this.GeneralReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
             this.GeneralReports.ForeColor = System.Drawing.Color.White;
             this.GeneralReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GeneralReports.Location = new System.Drawing.Point(179, 174);
+            this.GeneralReports.Location = new System.Drawing.Point(179, 175);
             this.GeneralReports.Name = "GeneralReports";
             this.GeneralReports.Size = new System.Drawing.Size(133, 140);
             this.GeneralReports.TabIndex = 7;
@@ -1721,30 +1721,6 @@
             this.Purchases.MouseLeave += new System.EventHandler(this.Purchases_MouseLeave);
             this.Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseUp);
             // 
-            // StockReports
-            // 
-            this.StockReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.StockReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.StockReports;
-            this.StockReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.StockReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.StockReports.FlatAppearance.BorderSize = 0;
-            this.StockReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.StockReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.StockReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StockReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.StockReports.ForeColor = System.Drawing.Color.White;
-            this.StockReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.StockReports.Location = new System.Drawing.Point(671, 34);
-            this.StockReports.Name = "StockReports";
-            this.StockReports.Size = new System.Drawing.Size(133, 134);
-            this.StockReports.TabIndex = 4;
-            this.StockReports.UseVisualStyleBackColor = false;
-            this.StockReports.Click += new System.EventHandler(this.StockReports_Click);
-            this.StockReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseDown);
-            this.StockReports.MouseEnter += new System.EventHandler(this.StockReports_MouseEnter);
-            this.StockReports.MouseLeave += new System.EventHandler(this.StockReports_MouseLeave);
-            this.StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseUp);
-            // 
             // Sales
             // 
             this.Sales.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1758,7 +1734,7 @@
             this.Sales.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
             this.Sales.ForeColor = System.Drawing.Color.White;
             this.Sales.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Sales.Location = new System.Drawing.Point(671, 177);
+            this.Sales.Location = new System.Drawing.Point(671, 34);
             this.Sales.Name = "Sales";
             this.Sales.Size = new System.Drawing.Size(133, 134);
             this.Sales.TabIndex = 1;
@@ -1769,6 +1745,30 @@
             this.Sales.MouseEnter += new System.EventHandler(this.Sales_MouseEnter);
             this.Sales.MouseLeave += new System.EventHandler(this.Sales_MouseLeave);
             this.Sales.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Sales_MouseUp);
+            // 
+            // StockReports
+            // 
+            this.StockReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.StockReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.StockReports;
+            this.StockReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.StockReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StockReports.FlatAppearance.BorderSize = 0;
+            this.StockReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.StockReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.StockReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StockReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.StockReports.ForeColor = System.Drawing.Color.White;
+            this.StockReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.StockReports.Location = new System.Drawing.Point(671, 178);
+            this.StockReports.Name = "StockReports";
+            this.StockReports.Size = new System.Drawing.Size(133, 134);
+            this.StockReports.TabIndex = 4;
+            this.StockReports.UseVisualStyleBackColor = false;
+            this.StockReports.Click += new System.EventHandler(this.StockReports_Click);
+            this.StockReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseDown);
+            this.StockReports.MouseEnter += new System.EventHandler(this.StockReports_MouseEnter);
+            this.StockReports.MouseLeave += new System.EventHandler(this.StockReports_MouseLeave);
+            this.StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseUp);
             // 
             // tableLayoutPanel4
             // 
@@ -1821,14 +1821,14 @@
             // CalToolStripMenuItem
             // 
             this.CalToolStripMenuItem.Name = "CalToolStripMenuItem";
-            this.CalToolStripMenuItem.Size = new System.Drawing.Size(184, 30);
+            this.CalToolStripMenuItem.Size = new System.Drawing.Size(186, 30);
             this.CalToolStripMenuItem.Text = "ماشین حساب";
             this.CalToolStripMenuItem.Click += new System.EventHandler(this.خروچToolStripMenuItem_Click);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(184, 30);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(186, 30);
             this.ExitToolStripMenuItem.Text = "خروج";
             // 
             // ViewToolStripMenuItem
@@ -1839,7 +1839,7 @@
             this.ViewToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.ViewToolStripMenuItem.Name = "ViewToolStripMenuItem";
             this.ViewToolStripMenuItem.Padding = new System.Windows.Forms.Padding(5);
-            this.ViewToolStripMenuItem.Size = new System.Drawing.Size(73, 39);
+            this.ViewToolStripMenuItem.Size = new System.Drawing.Size(71, 39);
             this.ViewToolStripMenuItem.Text = "نمایش";
             this.ViewToolStripMenuItem.DropDownClosed += new System.EventHandler(this.ViewToolStripMenuItem_DropDownClosed_1);
             this.ViewToolStripMenuItem.DropDownOpened += new System.EventHandler(this.ViewToolStripMenuItem_DropDownOpened_1);
@@ -1847,13 +1847,13 @@
             // View1ToolStripMenuItem
             // 
             this.View1ToolStripMenuItem.Name = "View1ToolStripMenuItem";
-            this.View1ToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.View1ToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.View1ToolStripMenuItem.Text = "ذخیره دیتا";
             // 
             // View2ToolStripMenuItem
             // 
             this.View2ToolStripMenuItem.Name = "View2ToolStripMenuItem";
-            this.View2ToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.View2ToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.View2ToolStripMenuItem.Text = "بازگیری دیتا";
             // 
             // SysMgmToolStripMenuItem1
@@ -1863,7 +1863,7 @@
             this.restoreToolStripMenuItem});
             this.SysMgmToolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.SysMgmToolStripMenuItem1.Name = "SysMgmToolStripMenuItem1";
-            this.SysMgmToolStripMenuItem1.Size = new System.Drawing.Size(140, 39);
+            this.SysMgmToolStripMenuItem1.Size = new System.Drawing.Size(135, 39);
             this.SysMgmToolStripMenuItem1.Text = "مدیریت سیستم";
             this.SysMgmToolStripMenuItem1.DropDownClosed += new System.EventHandler(this.SysMgmToolStripMenuItem1_DropDownClosed);
             this.SysMgmToolStripMenuItem1.DropDownOpened += new System.EventHandler(this.SysMgmToolStripMenuItem1_DropDownOpened);
@@ -1871,13 +1871,13 @@
             // backupToolStripMenuItem
             // 
             this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
-            this.backupToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.backupToolStripMenuItem.Text = "ذخیره دیتا";
             // 
             // restoreToolStripMenuItem
             // 
             this.restoreToolStripMenuItem.Name = "restoreToolStripMenuItem";
-            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(166, 30);
+            this.restoreToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.restoreToolStripMenuItem.Text = "بازگیری دیتا";
             // 
             // HelpToolStripMenuItem
@@ -1888,7 +1888,7 @@
             this.PhoneHelpToolStripMenuItem});
             this.HelpToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
-            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(61, 39);
+            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(55, 39);
             this.HelpToolStripMenuItem.Text = "کمک";
             this.HelpToolStripMenuItem.DropDownClosed += new System.EventHandler(this.HelpToolStripMenuItem_DropDownClosed);
             this.HelpToolStripMenuItem.DropDownOpened += new System.EventHandler(this.HelpToolStripMenuItem_DropDownOpened);
@@ -1896,19 +1896,19 @@
             // BuiltInToolStripMenuItem1
             // 
             this.BuiltInToolStripMenuItem1.Name = "BuiltInToolStripMenuItem1";
-            this.BuiltInToolStripMenuItem1.Size = new System.Drawing.Size(222, 30);
+            this.BuiltInToolStripMenuItem1.Size = new System.Drawing.Size(215, 30);
             this.BuiltInToolStripMenuItem1.Text = "کمک داخل سیستم";
             // 
             // OnlineToolStripMenuItem
             // 
             this.OnlineToolStripMenuItem.Name = "OnlineToolStripMenuItem";
-            this.OnlineToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
+            this.OnlineToolStripMenuItem.Size = new System.Drawing.Size(215, 30);
             this.OnlineToolStripMenuItem.Text = "کمک آنلاین";
             // 
             // PhoneHelpToolStripMenuItem
             // 
             this.PhoneHelpToolStripMenuItem.Name = "PhoneHelpToolStripMenuItem";
-            this.PhoneHelpToolStripMenuItem.Size = new System.Drawing.Size(222, 30);
+            this.PhoneHelpToolStripMenuItem.Size = new System.Drawing.Size(215, 30);
             this.PhoneHelpToolStripMenuItem.Text = "کمک تیلیفونی";
             // 
             // SalesTab
@@ -11133,7 +11133,7 @@
             this.label110.Location = new System.Drawing.Point(692, 0);
             this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(102, 29);
+            this.label110.Size = new System.Drawing.Size(101, 29);
             this.label110.TabIndex = 12;
             this.label110.Text = "فروش (دالر)";
             // 
@@ -17623,7 +17623,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1008, 561);
+            this.ClientSize = new System.Drawing.Size(1008, 562);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
             this.MainMenuStrip = this.MenuBar;
