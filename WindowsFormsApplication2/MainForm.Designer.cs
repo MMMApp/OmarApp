@@ -1580,10 +1580,10 @@
             this.MainPageLayoutPanel.Controls.Add(this.Purchases, 3, 0);
             this.MainPageLayoutPanel.Controls.Add(this.Loans, 2, 0);
             this.MainPageLayoutPanel.Controls.Add(this.SalesReports, 2, 1);
-            this.MainPageLayoutPanel.Controls.Add(this.StockReports, 4, 1);
-            this.MainPageLayoutPanel.Controls.Add(this.Sales, 4, 0);
             this.MainPageLayoutPanel.Controls.Add(this.GeneralReports, 1, 1);
             this.MainPageLayoutPanel.Controls.Add(this.Management, 1, 0);
+            this.MainPageLayoutPanel.Controls.Add(this.StockReports, 4, 1);
+            this.MainPageLayoutPanel.Controls.Add(this.Sales, 4, 0);
             this.MainPageLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPageLayoutPanel.Location = new System.Drawing.Point(0, 41);
             this.MainPageLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
@@ -1836,7 +1836,7 @@
             this.ExitToolStripMenuItem});
             this.FileToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
-            this.FileToolStripMenuItem.Size = new System.Drawing.Size(78, 39);
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(80, 39);
             this.FileToolStripMenuItem.Text = "فهرست";
             this.FileToolStripMenuItem.DropDownClosed += new System.EventHandler(this.FileToolStripMenuItem_DropDownClosed);
             this.FileToolStripMenuItem.DropDownOpened += new System.EventHandler(this.FileToolStripMenuItem_DropDownOpened);
@@ -2941,8 +2941,8 @@
             // textBox73
             // 
             this.textBox73.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.textBox73.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.textBox73.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox73.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox73.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox73.ForeColor = System.Drawing.Color.Black;
             this.textBox73.Location = new System.Drawing.Point(154, 2);
@@ -11182,7 +11182,7 @@
             this.label110.Location = new System.Drawing.Point(692, 0);
             this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(101, 29);
+            this.label110.Size = new System.Drawing.Size(102, 29);
             this.label110.TabIndex = 12;
             this.label110.Text = "فروش (دالر)";
             // 
