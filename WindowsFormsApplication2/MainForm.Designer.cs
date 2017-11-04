@@ -131,14 +131,14 @@
             this.MainTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.MainPageLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.SalesReports = new System.Windows.Forms.Button();
             this.LoanReports = new System.Windows.Forms.Button();
-            this.Management = new System.Windows.Forms.Button();
             this.Sales = new System.Windows.Forms.Button();
-            this.GeneralReports = new System.Windows.Forms.Button();
             this.StockReports = new System.Windows.Forms.Button();
-            this.Loans = new System.Windows.Forms.Button();
             this.Purchases = new System.Windows.Forms.Button();
+            this.SalesReports = new System.Windows.Forms.Button();
+            this.Loans = new System.Windows.Forms.Button();
+            this.GeneralReports = new System.Windows.Forms.Button();
+            this.Management = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuBar = new System.Windows.Forms.MenuStrip();
             this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1576,14 +1576,14 @@
             this.MainPageLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.MainPageLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.MainPageLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.MainPageLayoutPanel.Controls.Add(this.LoanReports, 3, 1);
             this.MainPageLayoutPanel.Controls.Add(this.Sales, 4, 0);
             this.MainPageLayoutPanel.Controls.Add(this.StockReports, 4, 1);
-            this.MainPageLayoutPanel.Controls.Add(this.Purchases, 3, 0);
             this.MainPageLayoutPanel.Controls.Add(this.SalesReports, 2, 1);
             this.MainPageLayoutPanel.Controls.Add(this.Loans, 2, 0);
             this.MainPageLayoutPanel.Controls.Add(this.GeneralReports, 1, 0);
             this.MainPageLayoutPanel.Controls.Add(this.Management, 1, 1);
+            this.MainPageLayoutPanel.Controls.Add(this.LoanReports, 3, 0);
+            this.MainPageLayoutPanel.Controls.Add(this.Purchases, 3, 1);
             this.MainPageLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPageLayoutPanel.Location = new System.Drawing.Point(0, 41);
             this.MainPageLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
@@ -1596,30 +1596,6 @@
             this.MainPageLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.MainPageLayoutPanel.Size = new System.Drawing.Size(990, 488);
             this.MainPageLayoutPanel.TabIndex = 5;
-            // 
-            // SalesReports
-            // 
-            this.SalesReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SalesReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.SalesReport;
-            this.SalesReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SalesReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SalesReports.FlatAppearance.BorderSize = 0;
-            this.SalesReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.SalesReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.SalesReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SalesReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.SalesReports.ForeColor = System.Drawing.Color.White;
-            this.SalesReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.SalesReports.Location = new System.Drawing.Point(358, 183);
-            this.SalesReports.Name = "SalesReports";
-            this.SalesReports.Size = new System.Drawing.Size(103, 123);
-            this.SalesReports.TabIndex = 6;
-            this.SalesReports.UseVisualStyleBackColor = false;
-            this.SalesReports.Click += new System.EventHandler(this.SalesReports_Click);
-            this.SalesReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseDown);
-            this.SalesReports.MouseEnter += new System.EventHandler(this.SalesReports_MouseEnter);
-            this.SalesReports.MouseLeave += new System.EventHandler(this.SalesReports_MouseLeave);
-            this.SalesReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseUp);
             // 
             // LoanReports
             // 
@@ -1634,7 +1610,7 @@
             this.LoanReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
             this.LoanReports.ForeColor = System.Drawing.Color.White;
             this.LoanReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LoanReports.Location = new System.Drawing.Point(522, 183);
+            this.LoanReports.Location = new System.Drawing.Point(522, 39);
             this.LoanReports.Name = "LoanReports";
             this.LoanReports.Size = new System.Drawing.Size(103, 123);
             this.LoanReports.TabIndex = 8;
@@ -1644,30 +1620,6 @@
             this.LoanReports.MouseEnter += new System.EventHandler(this.LoanReports_MouseEnter);
             this.LoanReports.MouseLeave += new System.EventHandler(this.LoanReports_MouseLeave);
             this.LoanReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LoanReports_MouseUp);
-            // 
-            // Management
-            // 
-            this.Management.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Management.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Management;
-            this.Management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Management.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Management.FlatAppearance.BorderSize = 0;
-            this.Management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Management.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.Management.ForeColor = System.Drawing.Color.White;
-            this.Management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Management.Location = new System.Drawing.Point(194, 186);
-            this.Management.Name = "Management";
-            this.Management.Size = new System.Drawing.Size(103, 117);
-            this.Management.TabIndex = 0;
-            this.Management.UseVisualStyleBackColor = false;
-            this.Management.Click += new System.EventHandler(this.Management_Click);
-            this.Management.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Management_MouseDown);
-            this.Management.MouseEnter += new System.EventHandler(this.Management_MouseEnter);
-            this.Management.MouseLeave += new System.EventHandler(this.Management_MouseLeave);
-            this.Management.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Management_MouseUp);
             // 
             // Sales
             // 
@@ -1694,30 +1646,6 @@
             this.Sales.MouseLeave += new System.EventHandler(this.Sales_MouseLeave);
             this.Sales.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Sales_MouseUp);
             // 
-            // GeneralReports
-            // 
-            this.GeneralReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.GeneralReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.GeneralReport;
-            this.GeneralReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.GeneralReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GeneralReports.FlatAppearance.BorderSize = 0;
-            this.GeneralReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.GeneralReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.GeneralReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GeneralReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.GeneralReports.ForeColor = System.Drawing.Color.White;
-            this.GeneralReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GeneralReports.Location = new System.Drawing.Point(194, 39);
-            this.GeneralReports.Name = "GeneralReports";
-            this.GeneralReports.Size = new System.Drawing.Size(103, 123);
-            this.GeneralReports.TabIndex = 7;
-            this.GeneralReports.UseVisualStyleBackColor = false;
-            this.GeneralReports.Click += new System.EventHandler(this.GeneralReports_Click);
-            this.GeneralReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseDown);
-            this.GeneralReports.MouseEnter += new System.EventHandler(this.GeneralReports_MouseEnter);
-            this.GeneralReports.MouseLeave += new System.EventHandler(this.GeneralReports_MouseLeave);
-            this.GeneralReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseUp);
-            // 
             // StockReports
             // 
             this.StockReports.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1741,6 +1669,54 @@
             this.StockReports.MouseEnter += new System.EventHandler(this.StockReports_MouseEnter);
             this.StockReports.MouseLeave += new System.EventHandler(this.StockReports_MouseLeave);
             this.StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseUp);
+            // 
+            // Purchases
+            // 
+            this.Purchases.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Purchases.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Purchases;
+            this.Purchases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Purchases.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Purchases.FlatAppearance.BorderSize = 0;
+            this.Purchases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Purchases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Purchases.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.Purchases.ForeColor = System.Drawing.Color.White;
+            this.Purchases.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Purchases.Location = new System.Drawing.Point(522, 186);
+            this.Purchases.Name = "Purchases";
+            this.Purchases.Size = new System.Drawing.Size(103, 117);
+            this.Purchases.TabIndex = 5;
+            this.Purchases.UseVisualStyleBackColor = false;
+            this.Purchases.Click += new System.EventHandler(this.Purchases_Click);
+            this.Purchases.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseDown);
+            this.Purchases.MouseEnter += new System.EventHandler(this.Purchases_MouseEnter);
+            this.Purchases.MouseLeave += new System.EventHandler(this.Purchases_MouseLeave);
+            this.Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseUp);
+            // 
+            // SalesReports
+            // 
+            this.SalesReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SalesReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.SalesReport;
+            this.SalesReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SalesReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SalesReports.FlatAppearance.BorderSize = 0;
+            this.SalesReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.SalesReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.SalesReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SalesReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.SalesReports.ForeColor = System.Drawing.Color.White;
+            this.SalesReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.SalesReports.Location = new System.Drawing.Point(358, 183);
+            this.SalesReports.Name = "SalesReports";
+            this.SalesReports.Size = new System.Drawing.Size(103, 123);
+            this.SalesReports.TabIndex = 6;
+            this.SalesReports.UseVisualStyleBackColor = false;
+            this.SalesReports.Click += new System.EventHandler(this.SalesReports_Click);
+            this.SalesReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseDown);
+            this.SalesReports.MouseEnter += new System.EventHandler(this.SalesReports_MouseEnter);
+            this.SalesReports.MouseLeave += new System.EventHandler(this.SalesReports_MouseLeave);
+            this.SalesReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseUp);
             // 
             // Loans
             // 
@@ -1767,29 +1743,53 @@
             this.Loans.MouseLeave += new System.EventHandler(this.Loans_MouseLeave);
             this.Loans.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Loans_MouseUp);
             // 
-            // Purchases
+            // GeneralReports
             // 
-            this.Purchases.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Purchases.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Purchases;
-            this.Purchases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Purchases.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Purchases.FlatAppearance.BorderSize = 0;
-            this.Purchases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Purchases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Purchases.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.Purchases.ForeColor = System.Drawing.Color.White;
-            this.Purchases.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Purchases.Location = new System.Drawing.Point(522, 42);
-            this.Purchases.Name = "Purchases";
-            this.Purchases.Size = new System.Drawing.Size(103, 117);
-            this.Purchases.TabIndex = 5;
-            this.Purchases.UseVisualStyleBackColor = false;
-            this.Purchases.Click += new System.EventHandler(this.Purchases_Click);
-            this.Purchases.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseDown);
-            this.Purchases.MouseEnter += new System.EventHandler(this.Purchases_MouseEnter);
-            this.Purchases.MouseLeave += new System.EventHandler(this.Purchases_MouseLeave);
-            this.Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseUp);
+            this.GeneralReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.GeneralReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.GeneralReport;
+            this.GeneralReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.GeneralReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GeneralReports.FlatAppearance.BorderSize = 0;
+            this.GeneralReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.GeneralReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.GeneralReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GeneralReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.GeneralReports.ForeColor = System.Drawing.Color.White;
+            this.GeneralReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.GeneralReports.Location = new System.Drawing.Point(194, 39);
+            this.GeneralReports.Name = "GeneralReports";
+            this.GeneralReports.Size = new System.Drawing.Size(103, 123);
+            this.GeneralReports.TabIndex = 7;
+            this.GeneralReports.UseVisualStyleBackColor = false;
+            this.GeneralReports.Click += new System.EventHandler(this.GeneralReports_Click);
+            this.GeneralReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseDown);
+            this.GeneralReports.MouseEnter += new System.EventHandler(this.GeneralReports_MouseEnter);
+            this.GeneralReports.MouseLeave += new System.EventHandler(this.GeneralReports_MouseLeave);
+            this.GeneralReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseUp);
+            // 
+            // Management
+            // 
+            this.Management.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Management.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Management;
+            this.Management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Management.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Management.FlatAppearance.BorderSize = 0;
+            this.Management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Management.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.Management.ForeColor = System.Drawing.Color.White;
+            this.Management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Management.Location = new System.Drawing.Point(194, 186);
+            this.Management.Name = "Management";
+            this.Management.Size = new System.Drawing.Size(103, 117);
+            this.Management.TabIndex = 0;
+            this.Management.UseVisualStyleBackColor = false;
+            this.Management.Click += new System.EventHandler(this.Management_Click);
+            this.Management.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Management_MouseDown);
+            this.Management.MouseEnter += new System.EventHandler(this.Management_MouseEnter);
+            this.Management.MouseLeave += new System.EventHandler(this.Management_MouseLeave);
+            this.Management.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Management_MouseUp);
             // 
             // tableLayoutPanel4
             // 
@@ -1836,7 +1836,7 @@
             this.ExitToolStripMenuItem});
             this.FileToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
-            this.FileToolStripMenuItem.Size = new System.Drawing.Size(80, 39);
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(78, 39);
             this.FileToolStripMenuItem.Text = "فهرست";
             this.FileToolStripMenuItem.DropDownClosed += new System.EventHandler(this.FileToolStripMenuItem_DropDownClosed);
             this.FileToolStripMenuItem.DropDownOpened += new System.EventHandler(this.FileToolStripMenuItem_DropDownOpened);
@@ -11182,7 +11182,7 @@
             this.label110.Location = new System.Drawing.Point(692, 0);
             this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(102, 29);
+            this.label110.Size = new System.Drawing.Size(101, 29);
             this.label110.TabIndex = 12;
             this.label110.Text = "فروش (دالر)";
             // 
