@@ -1577,13 +1577,13 @@
             this.MainPageLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.MainPageLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.MainPageLayoutPanel.Controls.Add(this.LoanReports, 3, 1);
-            this.MainPageLayoutPanel.Controls.Add(this.Management, 1, 0);
             this.MainPageLayoutPanel.Controls.Add(this.Sales, 4, 0);
-            this.MainPageLayoutPanel.Controls.Add(this.GeneralReports, 1, 1);
             this.MainPageLayoutPanel.Controls.Add(this.StockReports, 4, 1);
             this.MainPageLayoutPanel.Controls.Add(this.Purchases, 3, 0);
-            this.MainPageLayoutPanel.Controls.Add(this.SalesReports, 2, 0);
-            this.MainPageLayoutPanel.Controls.Add(this.Loans, 2, 1);
+            this.MainPageLayoutPanel.Controls.Add(this.SalesReports, 2, 1);
+            this.MainPageLayoutPanel.Controls.Add(this.Loans, 2, 0);
+            this.MainPageLayoutPanel.Controls.Add(this.GeneralReports, 1, 0);
+            this.MainPageLayoutPanel.Controls.Add(this.Management, 1, 1);
             this.MainPageLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPageLayoutPanel.Location = new System.Drawing.Point(0, 41);
             this.MainPageLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
@@ -1610,7 +1610,7 @@
             this.SalesReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
             this.SalesReports.ForeColor = System.Drawing.Color.White;
             this.SalesReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.SalesReports.Location = new System.Drawing.Point(358, 39);
+            this.SalesReports.Location = new System.Drawing.Point(358, 183);
             this.SalesReports.Name = "SalesReports";
             this.SalesReports.Size = new System.Drawing.Size(103, 123);
             this.SalesReports.TabIndex = 6;
@@ -1658,7 +1658,7 @@
             this.Management.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
             this.Management.ForeColor = System.Drawing.Color.White;
             this.Management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Management.Location = new System.Drawing.Point(194, 42);
+            this.Management.Location = new System.Drawing.Point(194, 186);
             this.Management.Name = "Management";
             this.Management.Size = new System.Drawing.Size(103, 117);
             this.Management.TabIndex = 0;
@@ -1707,7 +1707,7 @@
             this.GeneralReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
             this.GeneralReports.ForeColor = System.Drawing.Color.White;
             this.GeneralReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GeneralReports.Location = new System.Drawing.Point(194, 183);
+            this.GeneralReports.Location = new System.Drawing.Point(194, 39);
             this.GeneralReports.Name = "GeneralReports";
             this.GeneralReports.Size = new System.Drawing.Size(103, 123);
             this.GeneralReports.TabIndex = 7;
@@ -1755,7 +1755,7 @@
             this.Loans.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
             this.Loans.ForeColor = System.Drawing.Color.White;
             this.Loans.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Loans.Location = new System.Drawing.Point(358, 186);
+            this.Loans.Location = new System.Drawing.Point(358, 42);
             this.Loans.Name = "Loans";
             this.Loans.Size = new System.Drawing.Size(103, 117);
             this.Loans.TabIndex = 2;
@@ -1836,7 +1836,7 @@
             this.ExitToolStripMenuItem});
             this.FileToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
-            this.FileToolStripMenuItem.Size = new System.Drawing.Size(78, 39);
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(80, 39);
             this.FileToolStripMenuItem.Text = "فهرست";
             this.FileToolStripMenuItem.DropDownClosed += new System.EventHandler(this.FileToolStripMenuItem_DropDownClosed);
             this.FileToolStripMenuItem.DropDownOpened += new System.EventHandler(this.FileToolStripMenuItem_DropDownOpened);
@@ -11182,7 +11182,7 @@
             this.label110.Location = new System.Drawing.Point(692, 0);
             this.label110.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(101, 29);
+            this.label110.Size = new System.Drawing.Size(102, 29);
             this.label110.TabIndex = 12;
             this.label110.Text = "فروش (دالر)";
             // 
