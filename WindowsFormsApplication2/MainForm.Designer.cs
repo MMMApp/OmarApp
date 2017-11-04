@@ -29,108 +29,116 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle86 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle89 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle91 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle92 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle93 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle94 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle95 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle96 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1061 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1062 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1063 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1064 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1057 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1058 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1059 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1060 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1065 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1066 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1067 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1068 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1069 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1070 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1071 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1072 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1073 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1074 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1075 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1076 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1077 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1078 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1079 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1080 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1081 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1082 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1083 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1084 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1085 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1086 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1087 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1088 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1089 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1090 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1091 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1092 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1093 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1094 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1095 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1096 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1097 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1098 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1099 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1100 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1101 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1102 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1103 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1104 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1105 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1106 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1107 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1108 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1109 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1110 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1111 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1112 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1113 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1114 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1115 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1116 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1117 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1118 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1119 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1120 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1121 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1122 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1123 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1124 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1125 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1126 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1127 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1128 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1129 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1130 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1131 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1132 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1133 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1134 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1135 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1136 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1137 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1138 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1139 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1140 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1141 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1142 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1143 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1144 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1145 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1146 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1147 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1148 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1149 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1150 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1151 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1152 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.MainTabs = new System.Windows.Forms.TabControl();
             this.MainTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.MainPageLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.LoanReports = new System.Windows.Forms.Button();
+            this.Purchases = new System.Windows.Forms.Button();
+            this.Loans = new System.Windows.Forms.Button();
+            this.SalesReports = new System.Windows.Forms.Button();
+            this.GeneralReports = new System.Windows.Forms.Button();
+            this.Management = new System.Windows.Forms.Button();
+            this.StockReports = new System.Windows.Forms.Button();
+            this.Sales = new System.Windows.Forms.Button();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.MenuBar = new System.Windows.Forms.MenuStrip();
             this.FileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -142,10 +150,12 @@
             this.SysMgmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restoreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutCustToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BuiltInToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.OnlineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.PhoneHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.SalesTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel20 = new System.Windows.Forms.TableLayoutPanel();
@@ -154,9 +164,12 @@
             this.CustomerItem_Return = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Back_Sales = new System.Windows.Forms.Button();
             this.CustomersTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel31 = new System.Windows.Forms.TableLayoutPanel();
+            this.Back_Customers = new System.Windows.Forms.Button();
             this.tableLayoutPanel38 = new System.Windows.Forms.TableLayoutPanel();
+            this.button22 = new System.Windows.Forms.Button();
             this.Customer_New = new System.Windows.Forms.Button();
             this.Customer_Remove = new System.Windows.Forms.Button();
             this.tableLayoutPanel95 = new System.Windows.Forms.TableLayoutPanel();
@@ -173,6 +186,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox77 = new System.Windows.Forms.TextBox();
+            this.Back_NewCustomer = new System.Windows.Forms.Button();
             this.tableLayoutPanel35 = new System.Windows.Forms.TableLayoutPanel();
             this.Customer_Invoice = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
@@ -194,13 +208,15 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox78 = new System.Windows.Forms.TextBox();
+            this.Invoices_Back = new System.Windows.Forms.Button();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel117 = new System.Windows.Forms.TableLayoutPanel();
-            this.label120 = new System.Windows.Forms.Label();
             this.textBox73 = new System.Windows.Forms.TextBox();
+            this.button32 = new System.Windows.Forms.Button();
             this.Invoices_New = new System.Windows.Forms.Button();
             this.Invoices_Remove = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.NewInvoiceTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel34 = new System.Windows.Forms.TableLayoutPanel();
@@ -210,7 +226,9 @@
             this.Customer_invoice_ID = new System.Windows.Forms.TextBox();
             this.invoice_Chackup = new System.Windows.Forms.TextBox();
             this.Delete_New_Invoice_Item = new System.Windows.Forms.TextBox();
+            this.Back_NewInvoice = new System.Windows.Forms.Button();
             this.tableLayoutPanel36 = new System.Windows.Forms.TableLayoutPanel();
+            this.button18 = new System.Windows.Forms.Button();
             this.NewInvoice_Cancel = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.NewInvoice_Save = new System.Windows.Forms.Button();
@@ -291,7 +309,9 @@
             this.label57 = new System.Windows.Forms.Label();
             this.textBox35 = new System.Windows.Forms.TextBox();
             this.textBox36 = new System.Windows.Forms.TextBox();
+            this.BackItemReturn = new System.Windows.Forms.Button();
             this.tableLayoutPanel53 = new System.Windows.Forms.TableLayoutPanel();
+            this.button19 = new System.Windows.Forms.Button();
             this.ItemReturnCancel = new System.Windows.Forms.Button();
             this.label60 = new System.Windows.Forms.Label();
             this.ItemReturnSave = new System.Windows.Forms.Button();
@@ -306,11 +326,13 @@
             this.Supplier = new System.Windows.Forms.Button();
             this.PurchaseInvoice = new System.Windows.Forms.Button();
             this.ReturnSuppliersItems = new System.Windows.Forms.Button();
+            this.Back_Purchases = new System.Windows.Forms.Button();
             this.NewItem = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel17 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox82 = new System.Windows.Forms.TextBox();
+            this.NewItemReturn = new System.Windows.Forms.Button();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
             this.NewItemSave = new System.Windows.Forms.Button();
@@ -331,6 +353,7 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel18 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox83 = new System.Windows.Forms.TextBox();
+            this.NewSupplierItem = new System.Windows.Forms.Button();
             this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
             this.NewSupplierInvoice = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
@@ -391,7 +414,9 @@
             this.panel9 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel19 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox84 = new System.Windows.Forms.TextBox();
+            this.PurchaseInvoiceReturn = new System.Windows.Forms.Button();
             this.tableLayoutPanel46 = new System.Windows.Forms.TableLayoutPanel();
+            this.button20 = new System.Windows.Forms.Button();
             this.PurchaseInvoiceCancel = new System.Windows.Forms.Button();
             this.label48 = new System.Windows.Forms.Label();
             this.PurchaseInvoiceSave = new System.Windows.Forms.Button();
@@ -435,7 +460,9 @@
             this.label63 = new System.Windows.Forms.Label();
             this.textBox42 = new System.Windows.Forms.TextBox();
             this.textBox43 = new System.Windows.Forms.TextBox();
+            this.BackPurchaseItemReturn = new System.Windows.Forms.Button();
             this.tableLayoutPanel60 = new System.Windows.Forms.TableLayoutPanel();
+            this.button21 = new System.Windows.Forms.Button();
             this.PIR_Cancel = new System.Windows.Forms.Button();
             this.label70 = new System.Windows.Forms.Label();
             this.PIR_Save = new System.Windows.Forms.Button();
@@ -450,11 +477,13 @@
             this.SupplierLoan = new System.Windows.Forms.Button();
             this.OldCustomerLoan = new System.Windows.Forms.Button();
             this.OldSupplierLoan = new System.Windows.Forms.Button();
+            this.Back_LoansTab = new System.Windows.Forms.Button();
             this.CustomerLoanTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel22 = new System.Windows.Forms.FlowLayoutPanel();
             this.Cutomer_Loan_ID = new System.Windows.Forms.TextBox();
+            this.Back_CustomerLoanTab = new System.Windows.Forms.Button();
             this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.CL_Save = new System.Windows.Forms.Button();
@@ -476,6 +505,7 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel23 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox88 = new System.Windows.Forms.TextBox();
+            this.Back_SupplierLoanTab = new System.Windows.Forms.Button();
             this.tableLayoutPanel67 = new System.Windows.Forms.TableLayoutPanel();
             this.label77 = new System.Windows.Forms.Label();
             this.SL_Save = new System.Windows.Forms.Button();
@@ -504,11 +534,13 @@
             this.Expenses = new System.Windows.Forms.Button();
             this.MoneyTG = new System.Windows.Forms.Button();
             this.BankMGM = new System.Windows.Forms.Button();
+            this.Back_ManagementTab = new System.Windows.Forms.Button();
             this.EmployeesTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel76 = new System.Windows.Forms.TableLayoutPanel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel25 = new System.Windows.Forms.FlowLayoutPanel();
             this.Delete_T_Employee = new System.Windows.Forms.TextBox();
+            this.Back_EmployeesTab = new System.Windows.Forms.Button();
             this.tableLayoutPanel77 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel119 = new System.Windows.Forms.TableLayoutPanel();
             this.label121 = new System.Windows.Forms.Label();
@@ -516,12 +548,14 @@
             this.label92 = new System.Windows.Forms.Label();
             this.NewEmployee = new System.Windows.Forms.Button();
             this.DeleteEmployee = new System.Windows.Forms.Button();
+            this.RefreshEmployees = new System.Windows.Forms.Button();
             this.D_G_V_Employee = new System.Windows.Forms.DataGridView();
             this.NewEmployeeTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel71 = new System.Windows.Forms.TableLayoutPanel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel26 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.Back_NewEmployee = new System.Windows.Forms.Button();
             this.tableLayoutPanel72 = new System.Windows.Forms.TableLayoutPanel();
             this.label83 = new System.Windows.Forms.Label();
             this.NE_Save = new System.Windows.Forms.Button();
@@ -548,6 +582,7 @@
             this.panel17 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel27 = new System.Windows.Forms.FlowLayoutPanel();
             this.Delete_Expenses_ID = new System.Windows.Forms.TextBox();
+            this.Back_ExpensesTab = new System.Windows.Forms.Button();
             this.tableLayoutPanel84 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel120 = new System.Windows.Forms.TableLayoutPanel();
             this.label128 = new System.Windows.Forms.Label();
@@ -555,12 +590,14 @@
             this.label98 = new System.Windows.Forms.Label();
             this.NewExpenses = new System.Windows.Forms.Button();
             this.NewExpenseCancel = new System.Windows.Forms.Button();
+            this.RefreshExp = new System.Windows.Forms.Button();
             this.Expenses_Data_GrideView = new System.Windows.Forms.DataGridView();
             this.NewExpenseTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel78 = new System.Windows.Forms.TableLayoutPanel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel28 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox93 = new System.Windows.Forms.TextBox();
+            this.Back_NewExpense = new System.Windows.Forms.Button();
             this.tableLayoutPanel79 = new System.Windows.Forms.TableLayoutPanel();
             this.label93 = new System.Windows.Forms.Label();
             this.NewExpense_Save = new System.Windows.Forms.Button();
@@ -580,6 +617,7 @@
             this.panel19 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel29 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox94 = new System.Windows.Forms.TextBox();
+            this.Back_MoneyTGTab = new System.Windows.Forms.Button();
             this.tableLayoutPanel86 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel121 = new System.Windows.Forms.TableLayoutPanel();
             this.label129 = new System.Windows.Forms.Label();
@@ -587,12 +625,14 @@
             this.label99 = new System.Windows.Forms.Label();
             this.NewMoneyTG = new System.Windows.Forms.Button();
             this.NewMoneyTG_Cancel = new System.Windows.Forms.Button();
+            this.Refresh_MoneyTG = new System.Windows.Forms.Button();
             this.dataGridView6 = new System.Windows.Forms.DataGridView();
             this.NewMoneyTGTAB = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel87 = new System.Windows.Forms.TableLayoutPanel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel30 = new System.Windows.Forms.FlowLayoutPanel();
             this.W_ID = new System.Windows.Forms.TextBox();
+            this.Back_NewMoneyTG = new System.Windows.Forms.Button();
             this.tableLayoutPanel88 = new System.Windows.Forms.TableLayoutPanel();
             this.label100 = new System.Windows.Forms.Label();
             this.NMTG_Save = new System.Windows.Forms.Button();
@@ -615,15 +655,21 @@
             this.flowLayoutPanel31 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox96 = new System.Windows.Forms.TextBox();
             this.label106 = new System.Windows.Forms.Label();
+            this.Back_StockReports = new System.Windows.Forms.Button();
             this.tableLayoutPanel92 = new System.Windows.Forms.TableLayoutPanel();
             this.dataGridView19 = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel94 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
             this.Loan_Reports = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel101 = new System.Windows.Forms.TableLayoutPanel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel32 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox97 = new System.Windows.Forms.TextBox();
             this.label113 = new System.Windows.Forms.Label();
+            this.Back_LoandReports = new System.Windows.Forms.Button();
             this.tableLayoutPanel102 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel103 = new System.Windows.Forms.TableLayoutPanel();
             this.dateTimePicker11 = new System.Windows.Forms.DateTimePicker();
@@ -631,9 +677,14 @@
             this.label114 = new System.Windows.Forms.Label();
             this.label115 = new System.Windows.Forms.Label();
             this.tableLayoutPanel104 = new System.Windows.Forms.TableLayoutPanel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.tableLayoutPanel105 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox64 = new System.Windows.Forms.TextBox();
             this.label116 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.dataGridView18 = new System.Windows.Forms.DataGridView();
             this.PS_Reports = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel96 = new System.Windows.Forms.TableLayoutPanel();
@@ -641,6 +692,7 @@
             this.flowLayoutPanel33 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox98 = new System.Windows.Forms.TextBox();
             this.label108 = new System.Windows.Forms.Label();
+            this.Back_PSReports = new System.Windows.Forms.Button();
             this.tableLayoutPanel97 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel98 = new System.Windows.Forms.TableLayoutPanel();
             this.dateTimePicker10 = new System.Windows.Forms.DateTimePicker();
@@ -648,7 +700,10 @@
             this.label109 = new System.Windows.Forms.Label();
             this.label111 = new System.Windows.Forms.Label();
             this.tableLayoutPanel99 = new System.Windows.Forms.TableLayoutPanel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.tableLayoutPanel100 = new System.Windows.Forms.TableLayoutPanel();
+            this.button26 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label110 = new System.Windows.Forms.Label();
@@ -659,10 +714,12 @@
             this.panel24 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel34 = new System.Windows.Forms.FlowLayoutPanel();
             this.Delete_pro = new System.Windows.Forms.TextBox();
+            this.Back_Supplier = new System.Windows.Forms.Button();
             this.tableLayoutPanel111 = new System.Windows.Forms.TableLayoutPanel();
             this.label69 = new System.Windows.Forms.Label();
             this.Supplier_Add = new System.Windows.Forms.Button();
             this.Supplier_Cancel = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
             this.tableLayoutPanel112 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox66 = new System.Windows.Forms.TextBox();
             this.label118 = new System.Windows.Forms.Label();
@@ -673,6 +730,7 @@
             this.panel25 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel35 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox99 = new System.Windows.Forms.TextBox();
+            this.Back_GReport = new System.Windows.Forms.Button();
             this.tableLayoutPanel115 = new System.Windows.Forms.TableLayoutPanel();
             this.label119 = new System.Windows.Forms.Label();
             this.tableLayoutPanel116 = new System.Windows.Forms.TableLayoutPanel();
@@ -690,15 +748,18 @@
             this.label122 = new System.Windows.Forms.Label();
             this.textBox69 = new System.Windows.Forms.TextBox();
             this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
+            this.button27 = new System.Windows.Forms.Button();
             this.Suppliers = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel122 = new System.Windows.Forms.TableLayoutPanel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel36 = new System.Windows.Forms.FlowLayoutPanel();
             this.Delete_Supplier_ID = new System.Windows.Forms.TextBox();
+            this.Back_Suppliers = new System.Windows.Forms.Button();
             this.tableLayoutPanel123 = new System.Windows.Forms.TableLayoutPanel();
             this.label130 = new System.Windows.Forms.Label();
             this.Add_Supplier = new System.Windows.Forms.Button();
             this.Delete_Supplier = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
             this.tableLayoutPanel124 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label131 = new System.Windows.Forms.Label();
@@ -709,6 +770,7 @@
             this.panel27 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel37 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.Back_PurchaseInvoice = new System.Windows.Forms.Button();
             this.tableLayoutPanel127 = new System.Windows.Forms.TableLayoutPanel();
             this.label132 = new System.Windows.Forms.Label();
             this.tableLayoutPanel128 = new System.Windows.Forms.TableLayoutPanel();
@@ -716,12 +778,14 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.NewPurchaseInvoice = new System.Windows.Forms.Button();
             this.Delete_PurchaseInvoice = new System.Windows.Forms.Button();
+            this.button35 = new System.Windows.Forms.Button();
             this.dataGridView10 = new System.Windows.Forms.DataGridView();
             this.OldCustomerLoanTab = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel129 = new System.Windows.Forms.TableLayoutPanel();
             this.panel28 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel38 = new System.Windows.Forms.FlowLayoutPanel();
             this.O_C_ID = new System.Windows.Forms.TextBox();
+            this.Back_OCL = new System.Windows.Forms.Button();
             this.tableLayoutPanel130 = new System.Windows.Forms.TableLayoutPanel();
             this.label134 = new System.Windows.Forms.Label();
             this.Save_OCL = new System.Windows.Forms.Button();
@@ -743,6 +807,7 @@
             this.panel29 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel39 = new System.Windows.Forms.FlowLayoutPanel();
             this.P_T_S_ID = new System.Windows.Forms.TextBox();
+            this.Back_OSL = new System.Windows.Forms.Button();
             this.tableLayoutPanel135 = new System.Windows.Forms.TableLayoutPanel();
             this.label140 = new System.Windows.Forms.Label();
             this.Save_OSL = new System.Windows.Forms.Button();
@@ -769,11 +834,13 @@
             this.Banks = new System.Windows.Forms.Button();
             this.TkBank = new System.Windows.Forms.Button();
             this.GVBank = new System.Windows.Forms.Button();
+            this.Back_BMgm = new System.Windows.Forms.Button();
             this.TGBank = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel156 = new System.Windows.Forms.TableLayoutPanel();
             this.panel34 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel44 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox59 = new System.Windows.Forms.TextBox();
+            this.Back_TGBank = new System.Windows.Forms.Button();
             this.tableLayoutPanel157 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel158 = new System.Windows.Forms.TableLayoutPanel();
             this.label167 = new System.Windows.Forms.Label();
@@ -781,12 +848,14 @@
             this.label168 = new System.Windows.Forms.Label();
             this.Add_Bank = new System.Windows.Forms.Button();
             this.DeleteBank = new System.Windows.Forms.Button();
+            this.button47 = new System.Windows.Forms.Button();
             this.dataGridView11 = new System.Windows.Forms.DataGridView();
             this.NewBank = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel141 = new System.Windows.Forms.TableLayoutPanel();
             this.panel31 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel41 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox31 = new System.Windows.Forms.TextBox();
+            this.Back_NBank = new System.Windows.Forms.Button();
             this.tableLayoutPanel142 = new System.Windows.Forms.TableLayoutPanel();
             this.label147 = new System.Windows.Forms.Label();
             this.button36 = new System.Windows.Forms.Button();
@@ -812,6 +881,7 @@
             this.flowLayoutPanel42 = new System.Windows.Forms.FlowLayoutPanel();
             this.T_F_B_ID = new System.Windows.Forms.TextBox();
             this.T_F_B_E_ID = new System.Windows.Forms.TextBox();
+            this.Back_TkBank = new System.Windows.Forms.Button();
             this.tableLayoutPanel147 = new System.Windows.Forms.TableLayoutPanel();
             this.label155 = new System.Windows.Forms.Label();
             this.button39 = new System.Windows.Forms.Button();
@@ -836,6 +906,7 @@
             this.flowLayoutPanel43 = new System.Windows.Forms.FlowLayoutPanel();
             this.P_T_B_ID = new System.Windows.Forms.TextBox();
             this.P_T_B_E_ID = new System.Windows.Forms.TextBox();
+            this.Back_GVBank = new System.Windows.Forms.Button();
             this.tableLayoutPanel152 = new System.Windows.Forms.TableLayoutPanel();
             this.label161 = new System.Windows.Forms.Label();
             this.button42 = new System.Windows.Forms.Button();
@@ -863,11 +934,13 @@
             this.tableLayoutPanel160 = new System.Windows.Forms.TableLayoutPanel();
             this.TKMoney = new System.Windows.Forms.Button();
             this.GVMoney = new System.Windows.Forms.Button();
+            this.Back_TGOptions = new System.Windows.Forms.Button();
             this.NMTTAB = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel161 = new System.Windows.Forms.TableLayoutPanel();
             this.panel36 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel46 = new System.Windows.Forms.FlowLayoutPanel();
             this.P_M_ID = new System.Windows.Forms.TextBox();
+            this.button28 = new System.Windows.Forms.Button();
             this.tableLayoutPanel162 = new System.Windows.Forms.TableLayoutPanel();
             this.label170 = new System.Windows.Forms.Label();
             this.button29 = new System.Windows.Forms.Button();
@@ -889,6 +962,7 @@
             this.panel37 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel47 = new System.Windows.Forms.FlowLayoutPanel();
             this.Taken_PasT_Loan_Delete_ID = new System.Windows.Forms.TextBox();
+            this.button33 = new System.Windows.Forms.Button();
             this.tableLayoutPanel167 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel168 = new System.Windows.Forms.TableLayoutPanel();
             this.label176 = new System.Windows.Forms.Label();
@@ -896,12 +970,14 @@
             this.label177 = new System.Windows.Forms.Label();
             this.button34 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
             this.On_Customer_Money_Pay_DataGrideView = new System.Windows.Forms.DataGridView();
             this.OSLR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel169 = new System.Windows.Forms.TableLayoutPanel();
             this.panel38 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel48 = new System.Windows.Forms.FlowLayoutPanel();
             this.Delete_Loan_Past_Delete_ID = new System.Windows.Forms.TextBox();
+            this.button44 = new System.Windows.Forms.Button();
             this.tableLayoutPanel170 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel171 = new System.Windows.Forms.TableLayoutPanel();
             this.label178 = new System.Windows.Forms.Label();
@@ -909,12 +985,14 @@
             this.label179 = new System.Windows.Forms.Label();
             this.button45 = new System.Windows.Forms.Button();
             this.button46 = new System.Windows.Forms.Button();
+            this.button48 = new System.Windows.Forms.Button();
             this.Pay_To_Supplier_DataGriveView = new System.Windows.Forms.DataGridView();
             this.TBR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel172 = new System.Windows.Forms.TableLayoutPanel();
             this.panel39 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel49 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.button49 = new System.Windows.Forms.Button();
             this.tableLayoutPanel173 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel174 = new System.Windows.Forms.TableLayoutPanel();
             this.label180 = new System.Windows.Forms.Label();
@@ -922,12 +1000,14 @@
             this.label181 = new System.Windows.Forms.Label();
             this.button50 = new System.Windows.Forms.Button();
             this.button51 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
             this.Take_From_Bank_Data_GrideView = new System.Windows.Forms.DataGridView();
             this.GBR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel175 = new System.Windows.Forms.TableLayoutPanel();
             this.panel40 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel50 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox14 = new System.Windows.Forms.TextBox();
+            this.button53 = new System.Windows.Forms.Button();
             this.tableLayoutPanel176 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel177 = new System.Windows.Forms.TableLayoutPanel();
             this.label182 = new System.Windows.Forms.Label();
@@ -935,12 +1015,14 @@
             this.label183 = new System.Windows.Forms.Label();
             this.button54 = new System.Windows.Forms.Button();
             this.button55 = new System.Windows.Forms.Button();
+            this.button56 = new System.Windows.Forms.Button();
             this.Pay_To_Bank_DataGrideView = new System.Windows.Forms.DataGridView();
             this.CLR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel178 = new System.Windows.Forms.TableLayoutPanel();
             this.panel41 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel51 = new System.Windows.Forms.FlowLayoutPanel();
             this.Given_Loan_Delete_ID = new System.Windows.Forms.TextBox();
+            this.Back_CLR = new System.Windows.Forms.Button();
             this.tableLayoutPanel179 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel180 = new System.Windows.Forms.TableLayoutPanel();
             this.label184 = new System.Windows.Forms.Label();
@@ -948,12 +1030,14 @@
             this.label185 = new System.Windows.Forms.Label();
             this.button58 = new System.Windows.Forms.Button();
             this.button59 = new System.Windows.Forms.Button();
+            this.button60 = new System.Windows.Forms.Button();
             this.Given_loan_DataGrideView = new System.Windows.Forms.DataGridView();
             this.SLR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel181 = new System.Windows.Forms.TableLayoutPanel();
             this.panel42 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel52 = new System.Windows.Forms.FlowLayoutPanel();
             this.Taken_Loan_Delete_ID = new System.Windows.Forms.TextBox();
+            this.Back_SLR = new System.Windows.Forms.Button();
             this.tableLayoutPanel182 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel183 = new System.Windows.Forms.TableLayoutPanel();
             this.label186 = new System.Windows.Forms.Label();
@@ -961,12 +1045,14 @@
             this.label187 = new System.Windows.Forms.Label();
             this.button62 = new System.Windows.Forms.Button();
             this.button63 = new System.Windows.Forms.Button();
+            this.button64 = new System.Windows.Forms.Button();
             this.Taken_Loan_DataGrideView = new System.Windows.Forms.DataGridView();
             this.EGR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel184 = new System.Windows.Forms.TableLayoutPanel();
             this.panel43 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel53 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox40 = new System.Windows.Forms.TextBox();
+            this.Back_EGR = new System.Windows.Forms.Button();
             this.tableLayoutPanel185 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel186 = new System.Windows.Forms.TableLayoutPanel();
             this.label188 = new System.Windows.Forms.Label();
@@ -974,12 +1060,14 @@
             this.label189 = new System.Windows.Forms.Label();
             this.NewEG = new System.Windows.Forms.Button();
             this.button67 = new System.Windows.Forms.Button();
+            this.button68 = new System.Windows.Forms.Button();
             this.Paid_Loan_DataGrideView = new System.Windows.Forms.DataGridView();
             this.ETR = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel187 = new System.Windows.Forms.TableLayoutPanel();
             this.panel44 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel54 = new System.Windows.Forms.FlowLayoutPanel();
             this.textBox48 = new System.Windows.Forms.TextBox();
+            this.Back_ETR = new System.Windows.Forms.Button();
             this.tableLayoutPanel188 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel189 = new System.Windows.Forms.TableLayoutPanel();
             this.label190 = new System.Windows.Forms.Label();
@@ -987,96 +1075,8 @@
             this.label191 = new System.Windows.Forms.Label();
             this.NewET = new System.Windows.Forms.Button();
             this.button71 = new System.Windows.Forms.Button();
-            this.dataGridView14 = new System.Windows.Forms.DataGridView();
-            this.LoanReports = new System.Windows.Forms.Button();
-            this.Purchases = new System.Windows.Forms.Button();
-            this.Loans = new System.Windows.Forms.Button();
-            this.SalesReports = new System.Windows.Forms.Button();
-            this.GeneralReports = new System.Windows.Forms.Button();
-            this.Management = new System.Windows.Forms.Button();
-            this.StockReports = new System.Windows.Forms.Button();
-            this.Sales = new System.Windows.Forms.Button();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.Back_Sales = new System.Windows.Forms.Button();
-            this.Back_Customers = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.Back_NewCustomer = new System.Windows.Forms.Button();
-            this.Invoices_Back = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.Back_NewInvoice = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.BackItemReturn = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.Back_Purchases = new System.Windows.Forms.Button();
-            this.NewItemReturn = new System.Windows.Forms.Button();
-            this.NewSupplierItem = new System.Windows.Forms.Button();
-            this.PurchaseInvoiceReturn = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.BackPurchaseItemReturn = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.Back_LoansTab = new System.Windows.Forms.Button();
-            this.Back_CustomerLoanTab = new System.Windows.Forms.Button();
-            this.Back_SupplierLoanTab = new System.Windows.Forms.Button();
-            this.Back_ManagementTab = new System.Windows.Forms.Button();
-            this.Back_EmployeesTab = new System.Windows.Forms.Button();
-            this.RefreshEmployees = new System.Windows.Forms.Button();
-            this.Back_NewEmployee = new System.Windows.Forms.Button();
-            this.Back_ExpensesTab = new System.Windows.Forms.Button();
-            this.RefreshExp = new System.Windows.Forms.Button();
-            this.Back_NewExpense = new System.Windows.Forms.Button();
-            this.Back_MoneyTGTab = new System.Windows.Forms.Button();
-            this.Refresh_MoneyTG = new System.Windows.Forms.Button();
-            this.Back_NewMoneyTG = new System.Windows.Forms.Button();
-            this.Back_StockReports = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.Back_LoandReports = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.Back_PSReports = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.Back_Supplier = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.Back_GReport = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.Back_Suppliers = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.Back_PurchaseInvoice = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.Back_OCL = new System.Windows.Forms.Button();
-            this.Back_OSL = new System.Windows.Forms.Button();
-            this.Back_BMgm = new System.Windows.Forms.Button();
-            this.Back_TGBank = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.Back_NBank = new System.Windows.Forms.Button();
-            this.Back_TkBank = new System.Windows.Forms.Button();
-            this.Back_GVBank = new System.Windows.Forms.Button();
-            this.Back_TGOptions = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.Back_CLR = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.Back_SLR = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.Back_EGR = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.Back_ETR = new System.Windows.Forms.Button();
             this.button72 = new System.Windows.Forms.Button();
-            this.AboutCustToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView14 = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.MainTabs.SuspendLayout();
@@ -1458,7 +1458,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.MinimumSize = new System.Drawing.Size(960, 738);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
@@ -1477,7 +1477,7 @@
             this.tableLayoutPanel2.Controls.Add(this.MainTabs, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 4);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -1562,7 +1562,7 @@
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.78F));
@@ -1600,6 +1600,208 @@
             this.MainPageLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.MainPageLayoutPanel.Size = new System.Drawing.Size(1490, 739);
             this.MainPageLayoutPanel.TabIndex = 5;
+            // 
+            // LoanReports
+            // 
+            this.LoanReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.LoanReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.LoanReports;
+            this.LoanReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.LoanReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LoanReports.FlatAppearance.BorderSize = 0;
+            this.LoanReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.LoanReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.LoanReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoanReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.LoanReports.ForeColor = System.Drawing.Color.White;
+            this.LoanReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.LoanReports.Location = new System.Drawing.Point(791, 278);
+            this.LoanReports.Margin = new System.Windows.Forms.Padding(4);
+            this.LoanReports.Name = "LoanReports";
+            this.LoanReports.Size = new System.Drawing.Size(154, 184);
+            this.LoanReports.TabIndex = 8;
+            this.LoanReports.UseVisualStyleBackColor = false;
+            this.LoanReports.Click += new System.EventHandler(this.LoanReports_Click);
+            this.LoanReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LoanReports_MouseDown);
+            this.LoanReports.MouseEnter += new System.EventHandler(this.LoanReports_MouseEnter);
+            this.LoanReports.MouseLeave += new System.EventHandler(this.LoanReports_MouseLeave);
+            this.LoanReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LoanReports_MouseUp);
+            // 
+            // Purchases
+            // 
+            this.Purchases.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Purchases.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Purchases;
+            this.Purchases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Purchases.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Purchases.FlatAppearance.BorderSize = 0;
+            this.Purchases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Purchases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Purchases.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.Purchases.ForeColor = System.Drawing.Color.White;
+            this.Purchases.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Purchases.Location = new System.Drawing.Point(791, 64);
+            this.Purchases.Margin = new System.Windows.Forms.Padding(4);
+            this.Purchases.Name = "Purchases";
+            this.Purchases.Size = new System.Drawing.Size(154, 176);
+            this.Purchases.TabIndex = 5;
+            this.Purchases.UseVisualStyleBackColor = false;
+            this.Purchases.Click += new System.EventHandler(this.Purchases_Click);
+            this.Purchases.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseDown);
+            this.Purchases.MouseEnter += new System.EventHandler(this.Purchases_MouseEnter);
+            this.Purchases.MouseLeave += new System.EventHandler(this.Purchases_MouseLeave);
+            this.Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseUp);
+            // 
+            // Loans
+            // 
+            this.Loans.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Loans.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Loan;
+            this.Loans.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Loans.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Loans.FlatAppearance.BorderSize = 0;
+            this.Loans.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Loans.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Loans.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Loans.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.Loans.ForeColor = System.Drawing.Color.White;
+            this.Loans.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Loans.Location = new System.Drawing.Point(543, 64);
+            this.Loans.Margin = new System.Windows.Forms.Padding(4);
+            this.Loans.Name = "Loans";
+            this.Loans.Size = new System.Drawing.Size(154, 176);
+            this.Loans.TabIndex = 2;
+            this.Loans.Text = "قرضه";
+            this.Loans.UseVisualStyleBackColor = false;
+            this.Loans.Click += new System.EventHandler(this.Loans_Click);
+            this.Loans.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Loans_MouseDown);
+            this.Loans.MouseEnter += new System.EventHandler(this.Loans_MouseEnter);
+            this.Loans.MouseLeave += new System.EventHandler(this.Loans_MouseLeave);
+            this.Loans.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Loans_MouseUp);
+            // 
+            // SalesReports
+            // 
+            this.SalesReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.SalesReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.SalesReport;
+            this.SalesReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SalesReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SalesReports.FlatAppearance.BorderSize = 0;
+            this.SalesReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.SalesReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.SalesReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SalesReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.SalesReports.ForeColor = System.Drawing.Color.White;
+            this.SalesReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.SalesReports.Location = new System.Drawing.Point(543, 278);
+            this.SalesReports.Margin = new System.Windows.Forms.Padding(4);
+            this.SalesReports.Name = "SalesReports";
+            this.SalesReports.Size = new System.Drawing.Size(154, 184);
+            this.SalesReports.TabIndex = 6;
+            this.SalesReports.UseVisualStyleBackColor = false;
+            this.SalesReports.Click += new System.EventHandler(this.SalesReports_Click);
+            this.SalesReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseDown);
+            this.SalesReports.MouseEnter += new System.EventHandler(this.SalesReports_MouseEnter);
+            this.SalesReports.MouseLeave += new System.EventHandler(this.SalesReports_MouseLeave);
+            this.SalesReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseUp);
+            // 
+            // GeneralReports
+            // 
+            this.GeneralReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.GeneralReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.GeneralReport;
+            this.GeneralReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.GeneralReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GeneralReports.FlatAppearance.BorderSize = 0;
+            this.GeneralReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.GeneralReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.GeneralReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GeneralReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.GeneralReports.ForeColor = System.Drawing.Color.White;
+            this.GeneralReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.GeneralReports.Location = new System.Drawing.Point(295, 278);
+            this.GeneralReports.Margin = new System.Windows.Forms.Padding(4);
+            this.GeneralReports.Name = "GeneralReports";
+            this.GeneralReports.Size = new System.Drawing.Size(154, 184);
+            this.GeneralReports.TabIndex = 7;
+            this.GeneralReports.UseVisualStyleBackColor = false;
+            this.GeneralReports.Click += new System.EventHandler(this.GeneralReports_Click);
+            this.GeneralReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseDown);
+            this.GeneralReports.MouseEnter += new System.EventHandler(this.GeneralReports_MouseEnter);
+            this.GeneralReports.MouseLeave += new System.EventHandler(this.GeneralReports_MouseLeave);
+            this.GeneralReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseUp);
+            // 
+            // Management
+            // 
+            this.Management.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Management.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Management;
+            this.Management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Management.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Management.FlatAppearance.BorderSize = 0;
+            this.Management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Management.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.Management.ForeColor = System.Drawing.Color.White;
+            this.Management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Management.Location = new System.Drawing.Point(295, 64);
+            this.Management.Margin = new System.Windows.Forms.Padding(4);
+            this.Management.Name = "Management";
+            this.Management.Size = new System.Drawing.Size(154, 176);
+            this.Management.TabIndex = 0;
+            this.Management.UseVisualStyleBackColor = false;
+            this.Management.Click += new System.EventHandler(this.Management_Click);
+            this.Management.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Management_MouseDown);
+            this.Management.MouseEnter += new System.EventHandler(this.Management_MouseEnter);
+            this.Management.MouseLeave += new System.EventHandler(this.Management_MouseLeave);
+            this.Management.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Management_MouseUp);
+            // 
+            // StockReports
+            // 
+            this.StockReports.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.StockReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.StockReports;
+            this.StockReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.StockReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.StockReports.FlatAppearance.BorderSize = 0;
+            this.StockReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.StockReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.StockReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StockReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
+            this.StockReports.ForeColor = System.Drawing.Color.White;
+            this.StockReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.StockReports.Location = new System.Drawing.Point(1039, 278);
+            this.StockReports.Margin = new System.Windows.Forms.Padding(4);
+            this.StockReports.Name = "StockReports";
+            this.StockReports.Size = new System.Drawing.Size(154, 184);
+            this.StockReports.TabIndex = 4;
+            this.StockReports.UseVisualStyleBackColor = false;
+            this.StockReports.Click += new System.EventHandler(this.StockReports_Click);
+            this.StockReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseDown);
+            this.StockReports.MouseEnter += new System.EventHandler(this.StockReports_MouseEnter);
+            this.StockReports.MouseLeave += new System.EventHandler(this.StockReports_MouseLeave);
+            this.StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseUp);
+            // 
+            // Sales
+            // 
+            this.Sales.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Sales.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Sales;
+            this.Sales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Sales.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Sales.FlatAppearance.BorderSize = 0;
+            this.Sales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Sales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Sales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Sales.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.Sales.ForeColor = System.Drawing.Color.White;
+            this.Sales.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Sales.Location = new System.Drawing.Point(1039, 64);
+            this.Sales.Margin = new System.Windows.Forms.Padding(4);
+            this.Sales.Name = "Sales";
+            this.Sales.Size = new System.Drawing.Size(154, 176);
+            this.Sales.TabIndex = 1;
+            this.Sales.Tag = "";
+            this.Sales.UseVisualStyleBackColor = false;
+            this.Sales.Click += new System.EventHandler(this.Sales_Click);
+            this.Sales.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Sales_MouseDown);
+            this.Sales.MouseEnter += new System.EventHandler(this.Sales_MouseEnter);
+            this.Sales.MouseLeave += new System.EventHandler(this.Sales_MouseLeave);
+            this.Sales.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Sales_MouseUp);
             // 
             // tableLayoutPanel4
             // 
@@ -1714,6 +1916,13 @@
             this.restoreToolStripMenuItem.Size = new System.Drawing.Size(276, 48);
             this.restoreToolStripMenuItem.Text = "بازگیری دیتا";
             // 
+            // AboutCustToolStripMenuItem
+            // 
+            this.AboutCustToolStripMenuItem.Name = "AboutCustToolStripMenuItem";
+            this.AboutCustToolStripMenuItem.Size = new System.Drawing.Size(276, 48);
+            this.AboutCustToolStripMenuItem.Text = "معلومات شرکت";
+            this.AboutCustToolStripMenuItem.Click += new System.EventHandler(this.AboutCustToolStripMenuItem_Click);
+            // 
             // HelpToolStripMenuItem
             // 
             this.HelpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -1744,6 +1953,18 @@
             this.PhoneHelpToolStripMenuItem.Name = "PhoneHelpToolStripMenuItem";
             this.PhoneHelpToolStripMenuItem.Size = new System.Drawing.Size(312, 48);
             this.PhoneHelpToolStripMenuItem.Text = "کمک تیلیفونی";
+            // 
+            // flowLayoutPanel4
+            // 
+            this.flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel4.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Icon;
+            this.flowLayoutPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(1384, 1);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(105, 60);
+            this.flowLayoutPanel4.TabIndex = 0;
             // 
             // SalesTab
             // 
@@ -1889,6 +2110,29 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(112, 736);
             this.flowLayoutPanel2.TabIndex = 9;
             // 
+            // Back_Sales
+            // 
+            this.Back_Sales.BackColor = System.Drawing.Color.Transparent;
+            this.Back_Sales.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_Sales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_Sales.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_Sales.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_Sales.FlatAppearance.BorderSize = 0;
+            this.Back_Sales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_Sales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_Sales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_Sales.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_Sales.Location = new System.Drawing.Point(4, 4);
+            this.Back_Sales.Name = "Back_Sales";
+            this.Back_Sales.Size = new System.Drawing.Size(106, 56);
+            this.Back_Sales.TabIndex = 3;
+            this.Back_Sales.UseVisualStyleBackColor = false;
+            this.Back_Sales.Click += new System.EventHandler(this.Back_Sales_Click);
+            this.Back_Sales.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Sales_MouseDown);
+            this.Back_Sales.MouseEnter += new System.EventHandler(this.Back_Sales_MouseEnter);
+            this.Back_Sales.MouseLeave += new System.EventHandler(this.Back_Sales_MouseLeave);
+            this.Back_Sales.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Sales_MouseUp);
+            // 
             // CustomersTab
             // 
             this.CustomersTab.Controls.Add(this.tableLayoutPanel31);
@@ -1923,6 +2167,29 @@
             this.tableLayoutPanel31.Size = new System.Drawing.Size(1490, 801);
             this.tableLayoutPanel31.TabIndex = 3;
             // 
+            // Back_Customers
+            // 
+            this.Back_Customers.BackColor = System.Drawing.Color.Transparent;
+            this.Back_Customers.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_Customers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_Customers.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_Customers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_Customers.FlatAppearance.BorderSize = 0;
+            this.Back_Customers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_Customers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_Customers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_Customers.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_Customers.Location = new System.Drawing.Point(4, 4);
+            this.Back_Customers.Name = "Back_Customers";
+            this.Back_Customers.Size = new System.Drawing.Size(106, 56);
+            this.Back_Customers.TabIndex = 3;
+            this.Back_Customers.UseVisualStyleBackColor = false;
+            this.Back_Customers.Click += new System.EventHandler(this.Back_Customers_Click);
+            this.Back_Customers.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Customers_MouseDown);
+            this.Back_Customers.MouseEnter += new System.EventHandler(this.Back_Customers_MouseEnter);
+            this.Back_Customers.MouseLeave += new System.EventHandler(this.Back_Customers_MouseLeave);
+            this.Back_Customers.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Customers_MouseUp);
+            // 
             // tableLayoutPanel38
             // 
             this.tableLayoutPanel38.ColumnCount = 5;
@@ -1943,6 +2210,25 @@
             this.tableLayoutPanel38.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel38.Size = new System.Drawing.Size(1369, 56);
             this.tableLayoutPanel38.TabIndex = 10;
+            // 
+            // button22
+            // 
+            this.button22.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button22.FlatAppearance.BorderSize = 0;
+            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button22.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button22.ForeColor = System.Drawing.Color.White;
+            this.button22.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button22.Location = new System.Drawing.Point(998, 4);
+            this.button22.Margin = new System.Windows.Forms.Padding(4);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(116, 48);
+            this.button22.TabIndex = 17;
+            this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button22.UseVisualStyleBackColor = false;
             // 
             // Customer_New
             // 
@@ -2063,46 +2349,46 @@
             this.D_G_V_Customer.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.D_G_V_Customer.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.D_G_V_Customer.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.D_G_V_Customer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle1061.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1061.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1061.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1061.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1061.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1061.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1061.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1061.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.D_G_V_Customer.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1061;
             this.D_G_V_Customer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.D_G_V_Customer.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1062.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1062.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1062.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1062.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1062.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1062.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1062.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1062.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.D_G_V_Customer.DefaultCellStyle = dataGridViewCellStyle1062;
             this.D_G_V_Customer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.D_G_V_Customer.Location = new System.Drawing.Point(3, 3);
             this.D_G_V_Customer.Name = "D_G_V_Customer";
             this.D_G_V_Customer.ReadOnly = true;
             this.D_G_V_Customer.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.D_G_V_Customer.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            this.D_G_V_Customer.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1063.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1063.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1063.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1063.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1063.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1063.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1063.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.D_G_V_Customer.RowHeadersDefaultCellStyle = dataGridViewCellStyle1063;
+            dataGridViewCellStyle1064.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1064.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1064.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1064.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1064.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1064.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1064.SelectionForeColor = System.Drawing.Color.Black;
+            this.D_G_V_Customer.RowsDefaultCellStyle = dataGridViewCellStyle1064;
             this.D_G_V_Customer.RowTemplate.Height = 28;
             this.D_G_V_Customer.Size = new System.Drawing.Size(1363, 724);
             this.D_G_V_Customer.TabIndex = 13;
@@ -2211,6 +2497,29 @@
             this.textBox77.TabIndex = 14;
             this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox77.Visible = false;
+            // 
+            // Back_NewCustomer
+            // 
+            this.Back_NewCustomer.BackColor = System.Drawing.Color.Transparent;
+            this.Back_NewCustomer.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_NewCustomer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_NewCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_NewCustomer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_NewCustomer.FlatAppearance.BorderSize = 0;
+            this.Back_NewCustomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_NewCustomer.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_NewCustomer.Location = new System.Drawing.Point(4, 4);
+            this.Back_NewCustomer.Name = "Back_NewCustomer";
+            this.Back_NewCustomer.Size = new System.Drawing.Size(106, 56);
+            this.Back_NewCustomer.TabIndex = 3;
+            this.Back_NewCustomer.UseVisualStyleBackColor = false;
+            this.Back_NewCustomer.Click += new System.EventHandler(this.Back_NewCustomer_Click);
+            this.Back_NewCustomer.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewCustomer_MouseDown);
+            this.Back_NewCustomer.MouseEnter += new System.EventHandler(this.Back_NewCustomer_MouseEnter);
+            this.Back_NewCustomer.MouseLeave += new System.EventHandler(this.Back_NewCustomer_MouseLeave);
+            this.Back_NewCustomer.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewCustomer_MouseUp);
             // 
             // tableLayoutPanel35
             // 
@@ -2516,14 +2825,38 @@
             this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox78.Visible = false;
             // 
+            // Invoices_Back
+            // 
+            this.Invoices_Back.BackColor = System.Drawing.Color.Transparent;
+            this.Invoices_Back.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Invoices_Back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Invoices_Back.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Invoices_Back.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Invoices_Back.FlatAppearance.BorderSize = 0;
+            this.Invoices_Back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Invoices_Back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Invoices_Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Invoices_Back.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Invoices_Back.Location = new System.Drawing.Point(4, 4);
+            this.Invoices_Back.MaximumSize = new System.Drawing.Size(150, 100);
+            this.Invoices_Back.Name = "Invoices_Back";
+            this.Invoices_Back.Size = new System.Drawing.Size(106, 56);
+            this.Invoices_Back.TabIndex = 3;
+            this.Invoices_Back.UseVisualStyleBackColor = false;
+            this.Invoices_Back.Click += new System.EventHandler(this.Invoices_Back_Click);
+            this.Invoices_Back.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Invoices_Back_MouseDown);
+            this.Invoices_Back.MouseEnter += new System.EventHandler(this.Invoices_Back_MouseEnter);
+            this.Invoices_Back.MouseLeave += new System.EventHandler(this.Invoices_Back_MouseLeave);
+            this.Invoices_Back.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Invoices_Back_MouseUp);
+            // 
             // tableLayoutPanel6
             // 
             this.tableLayoutPanel6.ColumnCount = 5;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.72886F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.9999F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.090633F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.090633F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.089973F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 22.72972F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.99938F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.09052F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.09052F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.08986F));
             this.tableLayoutPanel6.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.tableLayoutPanel117, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.Invoices_New, 4, 0);
@@ -2548,55 +2881,69 @@
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(45, 0, 0, 0);
-            this.label1.Size = new System.Drawing.Size(510, 56);
+            this.label1.Size = new System.Drawing.Size(305, 56);
             this.label1.TabIndex = 9;
             this.label1.Text = "بیل های فروش";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // tableLayoutPanel117
             // 
+            this.tableLayoutPanel117.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel117.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel117.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel117.ColumnCount = 2;
-            this.tableLayoutPanel117.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.51658F));
-            this.tableLayoutPanel117.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.48342F));
-            this.tableLayoutPanel117.Controls.Add(this.label120, 0, 0);
-            this.tableLayoutPanel117.Controls.Add(this.textBox73, 1, 0);
-            this.tableLayoutPanel117.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel117.Location = new System.Drawing.Point(519, 3);
+            this.tableLayoutPanel117.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.76401F));
+            this.tableLayoutPanel117.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80.23598F));
+            this.tableLayoutPanel117.Controls.Add(this.textBox73, 0, 0);
+            this.tableLayoutPanel117.Controls.Add(this.button32, 0, 0);
+            this.tableLayoutPanel117.Location = new System.Drawing.Point(314, 3);
             this.tableLayoutPanel117.Name = "tableLayoutPanel117";
             this.tableLayoutPanel117.RowCount = 1;
             this.tableLayoutPanel117.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel117.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
-            this.tableLayoutPanel117.Size = new System.Drawing.Size(473, 50);
+            this.tableLayoutPanel117.Size = new System.Drawing.Size(678, 50);
             this.tableLayoutPanel117.TabIndex = 11;
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.label120.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label120.Font = new System.Drawing.Font("Adobe Arabic", 20.25F, System.Drawing.FontStyle.Bold);
-            this.label120.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label120.Location = new System.Drawing.Point(3, 0);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(223, 50);
-            this.label120.TabIndex = 2;
-            this.label120.Text = "جستجو";
-            this.label120.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // textBox73
             // 
             this.textBox73.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.textBox73.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.textBox73.BackColor = System.Drawing.Color.White;
+            this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox73.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox73.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox73.ForeColor = System.Drawing.Color.Black;
-            this.textBox73.Location = new System.Drawing.Point(232, 3);
-            this.textBox73.MaximumSize = new System.Drawing.Size(1000, 1000);
+            this.textBox73.Location = new System.Drawing.Point(135, 1);
+            this.textBox73.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox73.MaximumSize = new System.Drawing.Size(550, 50);
             this.textBox73.MaxLength = 30;
             this.textBox73.Multiline = true;
             this.textBox73.Name = "textBox73";
+            this.textBox73.ReadOnly = true;
             this.textBox73.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.textBox73.Size = new System.Drawing.Size(238, 44);
-            this.textBox73.TabIndex = 1;
+            this.textBox73.Size = new System.Drawing.Size(542, 48);
+            this.textBox73.TabIndex = 10;
+            this.textBox73.Text = "جستجو";
+            this.textBox73.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox73_Click);
+            this.textBox73.Leave += new System.EventHandler(this.textBox73_Leave);
+            // 
+            // button32
+            // 
+            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
+            this.button32.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button32.FlatAppearance.BorderColor = System.Drawing.Color.LightGray;
+            this.button32.FlatAppearance.BorderSize = 0;
+            this.button32.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gainsboro;
+            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button32.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button32.ForeColor = System.Drawing.Color.Black;
+            this.button32.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button32.Location = new System.Drawing.Point(1, 1);
+            this.button32.Margin = new System.Windows.Forms.Padding(0);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(133, 48);
+            this.button32.TabIndex = 9;
+            this.button32.Text = "🔎";
+            this.button32.UseVisualStyleBackColor = false;
             // 
             // Invoices_New
             // 
@@ -2607,9 +2954,10 @@
             this.Invoices_New.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.Invoices_New.ForeColor = System.Drawing.Color.White;
             this.Invoices_New.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Invoices_New.Location = new System.Drawing.Point(1246, 3);
+            this.Invoices_New.Location = new System.Drawing.Point(1243, 0);
+            this.Invoices_New.Margin = new System.Windows.Forms.Padding(0);
             this.Invoices_New.Name = "Invoices_New";
-            this.Invoices_New.Size = new System.Drawing.Size(120, 50);
+            this.Invoices_New.Size = new System.Drawing.Size(126, 56);
             this.Invoices_New.TabIndex = 6;
             this.Invoices_New.Text = "افزودن";
             this.Invoices_New.UseVisualStyleBackColor = false;
@@ -2624,12 +2972,32 @@
             this.Invoices_Remove.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.Invoices_Remove.ForeColor = System.Drawing.Color.Black;
             this.Invoices_Remove.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Invoices_Remove.Location = new System.Drawing.Point(1122, 3);
+            this.Invoices_Remove.Location = new System.Drawing.Point(1119, 0);
+            this.Invoices_Remove.Margin = new System.Windows.Forms.Padding(0);
             this.Invoices_Remove.Name = "Invoices_Remove";
-            this.Invoices_Remove.Size = new System.Drawing.Size(118, 50);
+            this.Invoices_Remove.Size = new System.Drawing.Size(124, 56);
             this.Invoices_Remove.TabIndex = 7;
             this.Invoices_Remove.Text = "حذف ";
             this.Invoices_Remove.UseVisualStyleBackColor = false;
+            // 
+            // button23
+            // 
+            this.button23.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button23.FlatAppearance.BorderSize = 0;
+            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button23.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button23.ForeColor = System.Drawing.Color.White;
+            this.button23.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button23.Location = new System.Drawing.Point(999, 4);
+            this.button23.Margin = new System.Windows.Forms.Padding(4);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(116, 48);
+            this.button23.TabIndex = 18;
+            this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button23.UseVisualStyleBackColor = false;
             // 
             // dataGridView2
             // 
@@ -2641,46 +3009,46 @@
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1057.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1057.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1057.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1057.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1057.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1057.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1057.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1057.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1057;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1058.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1058.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1058.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1058.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1058.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1058.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1058.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1058.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle1058;
             this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView2.Location = new System.Drawing.Point(117, 67);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle1059.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1059.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1059.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1059.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1059.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1059.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1059.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle1059;
+            dataGridViewCellStyle1060.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1060.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1060.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1060.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1060.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1060.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1060.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle1060;
             this.dataGridView2.RowTemplate.Height = 28;
             this.dataGridView2.Size = new System.Drawing.Size(1369, 730);
             this.dataGridView2.TabIndex = 15;
@@ -2745,7 +3113,7 @@
             // Invoice_Customer_Name_ID
             // 
             this.Invoice_Customer_Name_ID.Location = new System.Drawing.Point(4, 4);
-            this.Invoice_Customer_Name_ID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Invoice_Customer_Name_ID.Margin = new System.Windows.Forms.Padding(4);
             this.Invoice_Customer_Name_ID.Name = "Invoice_Customer_Name_ID";
             this.Invoice_Customer_Name_ID.Size = new System.Drawing.Size(148, 26);
             this.Invoice_Customer_Name_ID.TabIndex = 17;
@@ -2753,7 +3121,7 @@
             // Customer_invoice_ID
             // 
             this.Customer_invoice_ID.Location = new System.Drawing.Point(4, 38);
-            this.Customer_invoice_ID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Customer_invoice_ID.Margin = new System.Windows.Forms.Padding(4);
             this.Customer_invoice_ID.Name = "Customer_invoice_ID";
             this.Customer_invoice_ID.Size = new System.Drawing.Size(148, 26);
             this.Customer_invoice_ID.TabIndex = 18;
@@ -2761,7 +3129,7 @@
             // invoice_Chackup
             // 
             this.invoice_Chackup.Location = new System.Drawing.Point(4, 72);
-            this.invoice_Chackup.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.invoice_Chackup.Margin = new System.Windows.Forms.Padding(4);
             this.invoice_Chackup.Name = "invoice_Chackup";
             this.invoice_Chackup.Size = new System.Drawing.Size(148, 26);
             this.invoice_Chackup.TabIndex = 20;
@@ -2769,10 +3137,33 @@
             // Delete_New_Invoice_Item
             // 
             this.Delete_New_Invoice_Item.Location = new System.Drawing.Point(4, 106);
-            this.Delete_New_Invoice_Item.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Delete_New_Invoice_Item.Margin = new System.Windows.Forms.Padding(4);
             this.Delete_New_Invoice_Item.Name = "Delete_New_Invoice_Item";
             this.Delete_New_Invoice_Item.Size = new System.Drawing.Size(148, 26);
             this.Delete_New_Invoice_Item.TabIndex = 21;
+            // 
+            // Back_NewInvoice
+            // 
+            this.Back_NewInvoice.BackColor = System.Drawing.Color.Transparent;
+            this.Back_NewInvoice.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_NewInvoice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_NewInvoice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_NewInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_NewInvoice.FlatAppearance.BorderSize = 0;
+            this.Back_NewInvoice.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewInvoice.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_NewInvoice.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_NewInvoice.Location = new System.Drawing.Point(4, 4);
+            this.Back_NewInvoice.Name = "Back_NewInvoice";
+            this.Back_NewInvoice.Size = new System.Drawing.Size(106, 56);
+            this.Back_NewInvoice.TabIndex = 3;
+            this.Back_NewInvoice.UseVisualStyleBackColor = false;
+            this.Back_NewInvoice.Click += new System.EventHandler(this.Back_NewInvoice_Click);
+            this.Back_NewInvoice.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewInvoice_MouseDown);
+            this.Back_NewInvoice.MouseEnter += new System.EventHandler(this.Back_NewInvoice_MouseEnter);
+            this.Back_NewInvoice.MouseLeave += new System.EventHandler(this.Back_NewInvoice_MouseLeave);
+            this.Back_NewInvoice.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewInvoice_MouseUp);
             // 
             // tableLayoutPanel36
             // 
@@ -2792,6 +3183,26 @@
             this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel36.Size = new System.Drawing.Size(1369, 56);
             this.tableLayoutPanel36.TabIndex = 10;
+            // 
+            // button18
+            // 
+            this.button18.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button18.Location = new System.Drawing.Point(962, 4);
+            this.button18.Margin = new System.Windows.Forms.Padding(4);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(128, 48);
+            this.button18.TabIndex = 16;
+            this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // NewInvoice_Cancel
             // 
@@ -2892,7 +3303,7 @@
             this.tableLayoutPanel7.Controls.Add(this.flowLayoutPanel3, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.flowLayoutPanel7, 5, 0);
             this.tableLayoutPanel7.Location = new System.Drawing.Point(8, 193);
-            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 2;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -2908,7 +3319,7 @@
             this.New_Invoice_TotalPrice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.New_Invoice_TotalPrice.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.New_Invoice_TotalPrice.Location = new System.Drawing.Point(208, 54);
-            this.New_Invoice_TotalPrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.New_Invoice_TotalPrice.Margin = new System.Windows.Forms.Padding(4);
             this.New_Invoice_TotalPrice.Name = "New_Invoice_TotalPrice";
             this.New_Invoice_TotalPrice.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.New_Invoice_TotalPrice.Size = new System.Drawing.Size(194, 40);
@@ -2982,7 +3393,7 @@
             this.Invoice_Product_Name.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Invoice_Product_Name.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.Invoice_Product_Name.Location = new System.Drawing.Point(817, 54);
-            this.Invoice_Product_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Invoice_Product_Name.Margin = new System.Windows.Forms.Padding(4);
             this.Invoice_Product_Name.Name = "Invoice_Product_Name";
             this.Invoice_Product_Name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Invoice_Product_Name.Size = new System.Drawing.Size(464, 40);
@@ -2998,7 +3409,7 @@
             this.New_Invoice_quantity.Dock = System.Windows.Forms.DockStyle.Fill;
             this.New_Invoice_quantity.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.New_Invoice_quantity.Location = new System.Drawing.Point(614, 54);
-            this.New_Invoice_quantity.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.New_Invoice_quantity.Margin = new System.Windows.Forms.Padding(4);
             this.New_Invoice_quantity.Name = "New_Invoice_quantity";
             this.New_Invoice_quantity.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.New_Invoice_quantity.Size = new System.Drawing.Size(194, 40);
@@ -3012,7 +3423,7 @@
             this.New_Invice_Price.Dock = System.Windows.Forms.DockStyle.Fill;
             this.New_Invice_Price.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.New_Invice_Price.Location = new System.Drawing.Point(411, 54);
-            this.New_Invice_Price.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.New_Invice_Price.Margin = new System.Windows.Forms.Padding(4);
             this.New_Invice_Price.Name = "New_Invice_Price";
             this.New_Invice_Price.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.New_Invice_Price.Size = new System.Drawing.Size(194, 40);
@@ -3069,7 +3480,7 @@
             this.tableLayoutPanel13.Location = new System.Drawing.Point(1, 317);
             this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel13.Name = "tableLayoutPanel13";
-            this.tableLayoutPanel13.Padding = new System.Windows.Forms.Padding(30, 30, 30, 30);
+            this.tableLayoutPanel13.Padding = new System.Windows.Forms.Padding(30);
             this.tableLayoutPanel13.RowCount = 1;
             this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel13.Size = new System.Drawing.Size(1373, 307);
@@ -3102,47 +3513,47 @@
             this.New_invoice_DataGrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.New_invoice_DataGrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.New_invoice_DataGrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.New_invoice_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle1065.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1065.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1065.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1065.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1065.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1065.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1065.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1065.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.New_invoice_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1065;
             this.New_invoice_DataGrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.New_invoice_DataGrideView.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1066.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1066.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1066.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1066.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1066.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1066.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1066.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1066.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.New_invoice_DataGrideView.DefaultCellStyle = dataGridViewCellStyle1066;
             this.New_invoice_DataGrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.New_invoice_DataGrideView.Location = new System.Drawing.Point(0, 0);
             this.New_invoice_DataGrideView.Margin = new System.Windows.Forms.Padding(0);
             this.New_invoice_DataGrideView.Name = "New_invoice_DataGrideView";
             this.New_invoice_DataGrideView.ReadOnly = true;
             this.New_invoice_DataGrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.New_invoice_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle12.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.Black;
-            this.New_invoice_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle1067.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1067.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1067.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1067.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1067.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1067.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1067.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.New_invoice_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1067;
+            dataGridViewCellStyle1068.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1068.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1068.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1068.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1068.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1068.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1068.SelectionForeColor = System.Drawing.Color.Black;
+            this.New_invoice_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle1068;
             this.New_invoice_DataGrideView.RowTemplate.Height = 28;
             this.New_invoice_DataGrideView.Size = new System.Drawing.Size(1311, 196);
             this.New_invoice_DataGrideView.TabIndex = 16;
@@ -3171,7 +3582,7 @@
             this.panel54.Controls.Add(this.tableLayoutPanel190);
             this.panel54.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel54.Location = new System.Drawing.Point(5, 5);
-            this.panel54.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel54.Margin = new System.Windows.Forms.Padding(4);
             this.panel54.Name = "panel54";
             this.panel54.Size = new System.Drawing.Size(1365, 160);
             this.panel54.TabIndex = 16;
@@ -3189,7 +3600,7 @@
             this.tableLayoutPanel190.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel190.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel190.Name = "tableLayoutPanel190";
-            this.tableLayoutPanel190.Padding = new System.Windows.Forms.Padding(14, 14, 14, 14);
+            this.tableLayoutPanel190.Padding = new System.Windows.Forms.Padding(14);
             this.tableLayoutPanel190.RowCount = 2;
             this.tableLayoutPanel190.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel190.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -3202,7 +3613,7 @@
             this.panel55.Controls.Add(this.label13);
             this.panel55.Controls.Add(this.New_invoice_End_date);
             this.panel55.Location = new System.Drawing.Point(22, 86);
-            this.panel55.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel55.Margin = new System.Windows.Forms.Padding(4);
             this.panel55.Name = "panel55";
             this.panel55.Size = new System.Drawing.Size(656, 54);
             this.panel55.TabIndex = 3;
@@ -3239,7 +3650,7 @@
             this.panel56.Controls.Add(this.New_invoice_Start_date);
             this.panel56.Controls.Add(this.label10);
             this.panel56.Location = new System.Drawing.Point(22, 20);
-            this.panel56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel56.Margin = new System.Windows.Forms.Padding(4);
             this.panel56.Name = "panel56";
             this.panel56.Size = new System.Drawing.Size(656, 54);
             this.panel56.TabIndex = 2;
@@ -3275,7 +3686,7 @@
             this.panel57.Controls.Add(this.label196);
             this.panel57.Controls.Add(this.I_IDP_T_B_ID);
             this.panel57.Location = new System.Drawing.Point(690, 20);
-            this.panel57.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel57.Margin = new System.Windows.Forms.Padding(4);
             this.panel57.Name = "panel57";
             this.panel57.Size = new System.Drawing.Size(657, 54);
             this.panel57.TabIndex = 0;
@@ -3315,7 +3726,7 @@
             this.panel58.Controls.Add(this.label197);
             this.panel58.Controls.Add(this.New_Invoice_C_Name);
             this.panel58.Location = new System.Drawing.Point(690, 86);
-            this.panel58.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel58.Margin = new System.Windows.Forms.Padding(4);
             this.panel58.Name = "panel58";
             this.panel58.Size = new System.Drawing.Size(657, 54);
             this.panel58.TabIndex = 1;
@@ -3554,7 +3965,7 @@
             this.tableLayoutPanel48.Controls.Add(this.flowLayoutPanel12, 0, 0);
             this.tableLayoutPanel48.Controls.Add(this.flowLayoutPanel13, 5, 0);
             this.tableLayoutPanel48.Location = new System.Drawing.Point(8, 193);
-            this.tableLayoutPanel48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel48.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel48.Name = "tableLayoutPanel48";
             this.tableLayoutPanel48.RowCount = 2;
             this.tableLayoutPanel48.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -3570,7 +3981,7 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox1.Location = new System.Drawing.Point(208, 54);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox1.Size = new System.Drawing.Size(194, 40);
@@ -3643,7 +4054,7 @@
             this.Item_return_Name.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Item_return_Name.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.Item_return_Name.Location = new System.Drawing.Point(817, 54);
-            this.Item_return_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Item_return_Name.Margin = new System.Windows.Forms.Padding(4);
             this.Item_return_Name.Name = "Item_return_Name";
             this.Item_return_Name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Item_return_Name.Size = new System.Drawing.Size(464, 40);
@@ -3656,7 +4067,7 @@
             this.textBox30.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox30.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox30.Location = new System.Drawing.Point(614, 54);
-            this.textBox30.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox30.Margin = new System.Windows.Forms.Padding(4);
             this.textBox30.Name = "textBox30";
             this.textBox30.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox30.Size = new System.Drawing.Size(194, 40);
@@ -3669,7 +4080,7 @@
             this.textBox32.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox32.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox32.Location = new System.Drawing.Point(411, 54);
-            this.textBox32.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox32.Margin = new System.Windows.Forms.Padding(4);
             this.textBox32.Name = "textBox32";
             this.textBox32.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox32.Size = new System.Drawing.Size(194, 40);
@@ -3724,7 +4135,7 @@
             this.tableLayoutPanel49.Location = new System.Drawing.Point(1, 317);
             this.tableLayoutPanel49.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel49.Name = "tableLayoutPanel49";
-            this.tableLayoutPanel49.Padding = new System.Windows.Forms.Padding(30, 30, 30, 30);
+            this.tableLayoutPanel49.Padding = new System.Windows.Forms.Padding(30);
             this.tableLayoutPanel49.RowCount = 1;
             this.tableLayoutPanel49.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel49.Size = new System.Drawing.Size(1373, 307);
@@ -3756,47 +4167,47 @@
             this.dataGridView8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView8.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView8.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView8.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle1069.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1069.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1069.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1069.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1069.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1069.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1069.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1069.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView8.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1069;
             this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView8.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle1070.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1070.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1070.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1070.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1070.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1070.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1070.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1070.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView8.DefaultCellStyle = dataGridViewCellStyle1070;
             this.dataGridView8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView8.Location = new System.Drawing.Point(0, 0);
             this.dataGridView8.Margin = new System.Windows.Forms.Padding(0);
             this.dataGridView8.Name = "dataGridView8";
             this.dataGridView8.ReadOnly = true;
             this.dataGridView8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView8.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle16.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView8.RowsDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1071.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1071.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1071.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1071.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1071.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1071.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1071.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView8.RowHeadersDefaultCellStyle = dataGridViewCellStyle1071;
+            dataGridViewCellStyle1072.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1072.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1072.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1072.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1072.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1072.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1072.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView8.RowsDefaultCellStyle = dataGridViewCellStyle1072;
             this.dataGridView8.RowTemplate.Height = 28;
             this.dataGridView8.Size = new System.Drawing.Size(1311, 196);
             this.dataGridView8.TabIndex = 16;
@@ -3824,7 +4235,7 @@
             this.panel45.Controls.Add(this.tableLayoutPanel51);
             this.panel45.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel45.Location = new System.Drawing.Point(5, 5);
-            this.panel45.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel45.Margin = new System.Windows.Forms.Padding(4);
             this.panel45.Name = "panel45";
             this.panel45.Size = new System.Drawing.Size(1365, 160);
             this.panel45.TabIndex = 16;
@@ -3842,7 +4253,7 @@
             this.tableLayoutPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel51.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel51.Name = "tableLayoutPanel51";
-            this.tableLayoutPanel51.Padding = new System.Windows.Forms.Padding(14, 14, 14, 14);
+            this.tableLayoutPanel51.Padding = new System.Windows.Forms.Padding(14);
             this.tableLayoutPanel51.RowCount = 2;
             this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -3853,7 +4264,7 @@
             // 
             this.panel46.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.panel46.Location = new System.Drawing.Point(22, 86);
-            this.panel46.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel46.Margin = new System.Windows.Forms.Padding(4);
             this.panel46.Name = "panel46";
             this.panel46.Size = new System.Drawing.Size(656, 54);
             this.panel46.TabIndex = 3;
@@ -3864,7 +4275,7 @@
             this.panel47.Controls.Add(this.dateTimePicker2);
             this.panel47.Controls.Add(this.label53);
             this.panel47.Location = new System.Drawing.Point(22, 21);
-            this.panel47.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel47.Margin = new System.Windows.Forms.Padding(4);
             this.panel47.Name = "panel47";
             this.panel47.Size = new System.Drawing.Size(656, 52);
             this.panel47.TabIndex = 2;
@@ -3900,7 +4311,7 @@
             this.panel48.Controls.Add(this.label54);
             this.panel48.Controls.Add(this.textBox33);
             this.panel48.Location = new System.Drawing.Point(690, 21);
-            this.panel48.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel48.Margin = new System.Windows.Forms.Padding(4);
             this.panel48.Name = "panel48";
             this.panel48.Size = new System.Drawing.Size(657, 52);
             this.panel48.TabIndex = 0;
@@ -3939,7 +4350,7 @@
             this.panel49.Controls.Add(this.label55);
             this.panel49.Controls.Add(this.textBox34);
             this.panel49.Location = new System.Drawing.Point(690, 85);
-            this.panel49.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel49.Margin = new System.Windows.Forms.Padding(4);
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(657, 56);
             this.panel49.TabIndex = 1;
@@ -4062,6 +4473,25 @@
             this.textBox36.Size = new System.Drawing.Size(240, 47);
             this.textBox36.TabIndex = 12;
             // 
+            // BackItemReturn
+            // 
+            this.BackItemReturn.BackColor = System.Drawing.Color.Transparent;
+            this.BackItemReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.BackItemReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackItemReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BackItemReturn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BackItemReturn.FlatAppearance.BorderSize = 0;
+            this.BackItemReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BackItemReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BackItemReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BackItemReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BackItemReturn.Location = new System.Drawing.Point(4, 4);
+            this.BackItemReturn.Name = "BackItemReturn";
+            this.BackItemReturn.Size = new System.Drawing.Size(106, 56);
+            this.BackItemReturn.TabIndex = 3;
+            this.BackItemReturn.UseVisualStyleBackColor = false;
+            this.BackItemReturn.Click += new System.EventHandler(this.BackItemReturn_Click_1);
+            // 
             // tableLayoutPanel53
             // 
             this.tableLayoutPanel53.ColumnCount = 4;
@@ -4080,6 +4510,25 @@
             this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel53.Size = new System.Drawing.Size(1369, 56);
             this.tableLayoutPanel53.TabIndex = 10;
+            // 
+            // button19
+            // 
+            this.button19.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button19.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button19.ForeColor = System.Drawing.Color.White;
+            this.button19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button19.Location = new System.Drawing.Point(962, 4);
+            this.button19.Margin = new System.Windows.Forms.Padding(4);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(128, 48);
+            this.button19.TabIndex = 16;
+            this.button19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button19.UseVisualStyleBackColor = false;
             // 
             // ItemReturnCancel
             // 
@@ -4324,6 +4773,29 @@
             this.ReturnSuppliersItems.UseVisualStyleBackColor = false;
             this.ReturnSuppliersItems.Click += new System.EventHandler(this.ReturnSuppliersItems_Click);
             // 
+            // Back_Purchases
+            // 
+            this.Back_Purchases.BackColor = System.Drawing.Color.Transparent;
+            this.Back_Purchases.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_Purchases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_Purchases.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_Purchases.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_Purchases.FlatAppearance.BorderSize = 0;
+            this.Back_Purchases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_Purchases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_Purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_Purchases.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_Purchases.Location = new System.Drawing.Point(4, 4);
+            this.Back_Purchases.Name = "Back_Purchases";
+            this.Back_Purchases.Size = new System.Drawing.Size(106, 56);
+            this.Back_Purchases.TabIndex = 3;
+            this.Back_Purchases.UseVisualStyleBackColor = false;
+            this.Back_Purchases.Click += new System.EventHandler(this.PurchasesReturn_Click);
+            this.Back_Purchases.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Purchases_MouseDown);
+            this.Back_Purchases.MouseEnter += new System.EventHandler(this.Back_Purchases_MouseEnter);
+            this.Back_Purchases.MouseLeave += new System.EventHandler(this.Back_Purchases_MouseLeave);
+            this.Back_Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Purchases_MouseUp);
+            // 
             // NewItem
             // 
             this.NewItem.Controls.Add(this.tableLayoutPanel10);
@@ -4392,6 +4864,29 @@
             this.textBox82.TabIndex = 14;
             this.textBox82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox82.Visible = false;
+            // 
+            // NewItemReturn
+            // 
+            this.NewItemReturn.BackColor = System.Drawing.Color.Transparent;
+            this.NewItemReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.NewItemReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.NewItemReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NewItemReturn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NewItemReturn.FlatAppearance.BorderSize = 0;
+            this.NewItemReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.NewItemReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.NewItemReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NewItemReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.NewItemReturn.Location = new System.Drawing.Point(4, 4);
+            this.NewItemReturn.Name = "NewItemReturn";
+            this.NewItemReturn.Size = new System.Drawing.Size(106, 56);
+            this.NewItemReturn.TabIndex = 3;
+            this.NewItemReturn.UseVisualStyleBackColor = false;
+            this.NewItemReturn.Click += new System.EventHandler(this.NewItemReturn_Click);
+            this.NewItemReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NewItemReturn_MouseDown);
+            this.NewItemReturn.MouseEnter += new System.EventHandler(this.NewItemReturn_MouseEnter);
+            this.NewItemReturn.MouseLeave += new System.EventHandler(this.NewItemReturn_MouseLeave);
+            this.NewItemReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.NewItemReturn_MouseUp);
             // 
             // tableLayoutPanel11
             // 
@@ -4676,6 +5171,29 @@
             this.textBox83.TabIndex = 14;
             this.textBox83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox83.Visible = false;
+            // 
+            // NewSupplierItem
+            // 
+            this.NewSupplierItem.BackColor = System.Drawing.Color.Transparent;
+            this.NewSupplierItem.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.NewSupplierItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.NewSupplierItem.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NewSupplierItem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.NewSupplierItem.FlatAppearance.BorderSize = 0;
+            this.NewSupplierItem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.NewSupplierItem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.NewSupplierItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.NewSupplierItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.NewSupplierItem.Location = new System.Drawing.Point(4, 4);
+            this.NewSupplierItem.Name = "NewSupplierItem";
+            this.NewSupplierItem.Size = new System.Drawing.Size(106, 56);
+            this.NewSupplierItem.TabIndex = 3;
+            this.NewSupplierItem.UseVisualStyleBackColor = false;
+            this.NewSupplierItem.Click += new System.EventHandler(this.NewSupplierItem_Click);
+            this.NewSupplierItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NewSupplierItem_MouseDown);
+            this.NewSupplierItem.MouseEnter += new System.EventHandler(this.NewSupplierItem_MouseEnter);
+            this.NewSupplierItem.MouseLeave += new System.EventHandler(this.NewSupplierItem_MouseLeave);
+            this.NewSupplierItem.MouseUp += new System.Windows.Forms.MouseEventHandler(this.NewSupplierItem_MouseUp);
             // 
             // tableLayoutPanel25
             // 
@@ -5015,7 +5533,7 @@
             this.tableLayoutPanel42.Controls.Add(this.flowLayoutPanel9, 0, 0);
             this.tableLayoutPanel42.Controls.Add(this.flowLayoutPanel10, 5, 0);
             this.tableLayoutPanel42.Location = new System.Drawing.Point(8, 193);
-            this.tableLayoutPanel42.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel42.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel42.Name = "tableLayoutPanel42";
             this.tableLayoutPanel42.RowCount = 2;
             this.tableLayoutPanel42.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -5031,7 +5549,7 @@
             this.textBox21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox21.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox21.Location = new System.Drawing.Point(208, 54);
-            this.textBox21.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(4);
             this.textBox21.Name = "textBox21";
             this.textBox21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox21.Size = new System.Drawing.Size(194, 40);
@@ -5104,7 +5622,7 @@
             this.textBox22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox22.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox22.Location = new System.Drawing.Point(817, 54);
-            this.textBox22.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox22.Margin = new System.Windows.Forms.Padding(4);
             this.textBox22.Name = "textBox22";
             this.textBox22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox22.Size = new System.Drawing.Size(464, 40);
@@ -5117,7 +5635,7 @@
             this.textBox23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox23.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox23.Location = new System.Drawing.Point(614, 54);
-            this.textBox23.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox23.Margin = new System.Windows.Forms.Padding(4);
             this.textBox23.Name = "textBox23";
             this.textBox23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox23.Size = new System.Drawing.Size(194, 40);
@@ -5130,7 +5648,7 @@
             this.textBox24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox24.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox24.Location = new System.Drawing.Point(411, 54);
-            this.textBox24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox24.Margin = new System.Windows.Forms.Padding(4);
             this.textBox24.Name = "textBox24";
             this.textBox24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox24.Size = new System.Drawing.Size(194, 40);
@@ -5185,7 +5703,7 @@
             this.tableLayoutPanel43.Location = new System.Drawing.Point(1, 317);
             this.tableLayoutPanel43.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel43.Name = "tableLayoutPanel43";
-            this.tableLayoutPanel43.Padding = new System.Windows.Forms.Padding(30, 30, 30, 30);
+            this.tableLayoutPanel43.Padding = new System.Windows.Forms.Padding(30);
             this.tableLayoutPanel43.RowCount = 1;
             this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel43.Size = new System.Drawing.Size(1373, 307);
@@ -5217,47 +5735,47 @@
             this.dataGridView7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView7.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView7.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle17.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView7.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle1073.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1073.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1073.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1073.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1073.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1073.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1073.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1073.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView7.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1073;
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle18.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView7.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle1074.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1074.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1074.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1074.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1074.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1074.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1074.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1074.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView7.DefaultCellStyle = dataGridViewCellStyle1074;
             this.dataGridView7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView7.Location = new System.Drawing.Point(0, 0);
             this.dataGridView7.Margin = new System.Windows.Forms.Padding(0);
             this.dataGridView7.Name = "dataGridView7";
             this.dataGridView7.ReadOnly = true;
             this.dataGridView7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle19.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView7.RowHeadersDefaultCellStyle = dataGridViewCellStyle19;
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle20.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle20.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView7.RowsDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle1075.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1075.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1075.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1075.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1075.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1075.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1075.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView7.RowHeadersDefaultCellStyle = dataGridViewCellStyle1075;
+            dataGridViewCellStyle1076.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1076.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1076.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1076.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1076.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1076.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1076.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView7.RowsDefaultCellStyle = dataGridViewCellStyle1076;
             this.dataGridView7.RowTemplate.Height = 28;
             this.dataGridView7.Size = new System.Drawing.Size(1311, 196);
             this.dataGridView7.TabIndex = 16;
@@ -5285,7 +5803,7 @@
             this.panel52.Controls.Add(this.tableLayoutPanel45);
             this.panel52.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel52.Location = new System.Drawing.Point(5, 5);
-            this.panel52.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel52.Margin = new System.Windows.Forms.Padding(4);
             this.panel52.Name = "panel52";
             this.panel52.Size = new System.Drawing.Size(1365, 160);
             this.panel52.TabIndex = 16;
@@ -5303,7 +5821,7 @@
             this.tableLayoutPanel45.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel45.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel45.Name = "tableLayoutPanel45";
-            this.tableLayoutPanel45.Padding = new System.Windows.Forms.Padding(14, 14, 14, 14);
+            this.tableLayoutPanel45.Padding = new System.Windows.Forms.Padding(14);
             this.tableLayoutPanel45.RowCount = 2;
             this.tableLayoutPanel45.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel45.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -5316,7 +5834,7 @@
             this.panel53.Controls.Add(this.label41);
             this.panel53.Controls.Add(this.dateTimePicker1);
             this.panel53.Location = new System.Drawing.Point(22, 86);
-            this.panel53.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel53.Margin = new System.Windows.Forms.Padding(4);
             this.panel53.Name = "panel53";
             this.panel53.Size = new System.Drawing.Size(656, 54);
             this.panel53.TabIndex = 3;
@@ -5353,7 +5871,7 @@
             this.panel59.Controls.Add(this.dateTimePicker3);
             this.panel59.Controls.Add(this.label42);
             this.panel59.Location = new System.Drawing.Point(22, 20);
-            this.panel59.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel59.Margin = new System.Windows.Forms.Padding(4);
             this.panel59.Name = "panel59";
             this.panel59.Size = new System.Drawing.Size(656, 54);
             this.panel59.TabIndex = 2;
@@ -5389,7 +5907,7 @@
             this.panel60.Controls.Add(this.label43);
             this.panel60.Controls.Add(this.textBox25);
             this.panel60.Location = new System.Drawing.Point(690, 20);
-            this.panel60.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel60.Margin = new System.Windows.Forms.Padding(4);
             this.panel60.Name = "panel60";
             this.panel60.Size = new System.Drawing.Size(657, 54);
             this.panel60.TabIndex = 0;
@@ -5428,7 +5946,7 @@
             this.panel61.Controls.Add(this.label44);
             this.panel61.Controls.Add(this.New_Supplier_Name);
             this.panel61.Location = new System.Drawing.Point(690, 86);
-            this.panel61.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel61.Margin = new System.Windows.Forms.Padding(4);
             this.panel61.Name = "panel61";
             this.panel61.Size = new System.Drawing.Size(657, 54);
             this.panel61.TabIndex = 1;
@@ -5586,6 +6104,29 @@
             this.textBox84.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox84.Visible = false;
             // 
+            // PurchaseInvoiceReturn
+            // 
+            this.PurchaseInvoiceReturn.BackColor = System.Drawing.Color.Transparent;
+            this.PurchaseInvoiceReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.PurchaseInvoiceReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PurchaseInvoiceReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PurchaseInvoiceReturn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PurchaseInvoiceReturn.FlatAppearance.BorderSize = 0;
+            this.PurchaseInvoiceReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.PurchaseInvoiceReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.PurchaseInvoiceReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PurchaseInvoiceReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.PurchaseInvoiceReturn.Location = new System.Drawing.Point(4, 4);
+            this.PurchaseInvoiceReturn.Name = "PurchaseInvoiceReturn";
+            this.PurchaseInvoiceReturn.Size = new System.Drawing.Size(106, 56);
+            this.PurchaseInvoiceReturn.TabIndex = 3;
+            this.PurchaseInvoiceReturn.UseVisualStyleBackColor = false;
+            this.PurchaseInvoiceReturn.Click += new System.EventHandler(this.PurchaseInvoiceReturn_Click);
+            this.PurchaseInvoiceReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PurchaseInvoiceReturn_MouseDown);
+            this.PurchaseInvoiceReturn.MouseEnter += new System.EventHandler(this.PurchaseInvoiceReturn_MouseEnter);
+            this.PurchaseInvoiceReturn.MouseLeave += new System.EventHandler(this.PurchaseInvoiceReturn_MouseLeave);
+            this.PurchaseInvoiceReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.PurchaseInvoiceReturn_MouseUp);
+            // 
             // tableLayoutPanel46
             // 
             this.tableLayoutPanel46.ColumnCount = 4;
@@ -5604,6 +6145,25 @@
             this.tableLayoutPanel46.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel46.Size = new System.Drawing.Size(1369, 56);
             this.tableLayoutPanel46.TabIndex = 10;
+            // 
+            // button20
+            // 
+            this.button20.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button20.ForeColor = System.Drawing.Color.White;
+            this.button20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button20.Location = new System.Drawing.Point(962, 4);
+            this.button20.Margin = new System.Windows.Forms.Padding(4);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(128, 48);
+            this.button20.TabIndex = 16;
+            this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button20.UseVisualStyleBackColor = false;
             // 
             // PurchaseInvoiceCancel
             // 
@@ -5771,7 +6331,7 @@
             this.tableLayoutPanel56.Controls.Add(this.flowLayoutPanel15, 0, 0);
             this.tableLayoutPanel56.Controls.Add(this.flowLayoutPanel16, 5, 0);
             this.tableLayoutPanel56.Location = new System.Drawing.Point(8, 193);
-            this.tableLayoutPanel56.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel56.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel56.Name = "tableLayoutPanel56";
             this.tableLayoutPanel56.RowCount = 2;
             this.tableLayoutPanel56.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -5787,7 +6347,7 @@
             this.textBox26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox26.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox26.Location = new System.Drawing.Point(208, 54);
-            this.textBox26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox26.Margin = new System.Windows.Forms.Padding(4);
             this.textBox26.Name = "textBox26";
             this.textBox26.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox26.Size = new System.Drawing.Size(194, 40);
@@ -5860,7 +6420,7 @@
             this.Purchase_Item_Return_Name.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Purchase_Item_Return_Name.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.Purchase_Item_Return_Name.Location = new System.Drawing.Point(817, 54);
-            this.Purchase_Item_Return_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Purchase_Item_Return_Name.Margin = new System.Windows.Forms.Padding(4);
             this.Purchase_Item_Return_Name.Name = "Purchase_Item_Return_Name";
             this.Purchase_Item_Return_Name.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Purchase_Item_Return_Name.Size = new System.Drawing.Size(464, 40);
@@ -5873,7 +6433,7 @@
             this.textBox37.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox37.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox37.Location = new System.Drawing.Point(614, 54);
-            this.textBox37.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox37.Margin = new System.Windows.Forms.Padding(4);
             this.textBox37.Name = "textBox37";
             this.textBox37.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox37.Size = new System.Drawing.Size(194, 40);
@@ -5886,7 +6446,7 @@
             this.textBox38.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox38.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
             this.textBox38.Location = new System.Drawing.Point(411, 54);
-            this.textBox38.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox38.Margin = new System.Windows.Forms.Padding(4);
             this.textBox38.Name = "textBox38";
             this.textBox38.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.textBox38.Size = new System.Drawing.Size(194, 40);
@@ -5941,7 +6501,7 @@
             this.tableLayoutPanel57.Location = new System.Drawing.Point(1, 317);
             this.tableLayoutPanel57.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel57.Name = "tableLayoutPanel57";
-            this.tableLayoutPanel57.Padding = new System.Windows.Forms.Padding(30, 30, 30, 30);
+            this.tableLayoutPanel57.Padding = new System.Windows.Forms.Padding(30);
             this.tableLayoutPanel57.RowCount = 1;
             this.tableLayoutPanel57.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel57.Size = new System.Drawing.Size(1373, 307);
@@ -5973,47 +6533,47 @@
             this.dataGridView9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView9.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView9.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle21.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView9.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle1077.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1077.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1077.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1077.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1077.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1077.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1077.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1077.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView9.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1077;
             this.dataGridView9.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle22.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView9.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle1078.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1078.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1078.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1078.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1078.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1078.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1078.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1078.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView9.DefaultCellStyle = dataGridViewCellStyle1078;
             this.dataGridView9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView9.Location = new System.Drawing.Point(0, 0);
             this.dataGridView9.Margin = new System.Windows.Forms.Padding(0);
             this.dataGridView9.Name = "dataGridView9";
             this.dataGridView9.ReadOnly = true;
             this.dataGridView9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView9.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle24.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView9.RowsDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle1079.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1079.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1079.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1079.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1079.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1079.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1079.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView9.RowHeadersDefaultCellStyle = dataGridViewCellStyle1079;
+            dataGridViewCellStyle1080.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1080.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1080.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1080.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1080.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1080.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1080.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView9.RowsDefaultCellStyle = dataGridViewCellStyle1080;
             this.dataGridView9.RowTemplate.Height = 28;
             this.dataGridView9.Size = new System.Drawing.Size(1311, 196);
             this.dataGridView9.TabIndex = 16;
@@ -6041,7 +6601,7 @@
             this.panel63.Controls.Add(this.tableLayoutPanel59);
             this.panel63.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel63.Location = new System.Drawing.Point(5, 5);
-            this.panel63.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel63.Margin = new System.Windows.Forms.Padding(4);
             this.panel63.Name = "panel63";
             this.panel63.Size = new System.Drawing.Size(1365, 160);
             this.panel63.TabIndex = 16;
@@ -6059,7 +6619,7 @@
             this.tableLayoutPanel59.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel59.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel59.Name = "tableLayoutPanel59";
-            this.tableLayoutPanel59.Padding = new System.Windows.Forms.Padding(14, 14, 14, 14);
+            this.tableLayoutPanel59.Padding = new System.Windows.Forms.Padding(14);
             this.tableLayoutPanel59.RowCount = 2;
             this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -6070,7 +6630,7 @@
             // 
             this.panel64.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.panel64.Location = new System.Drawing.Point(22, 86);
-            this.panel64.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel64.Margin = new System.Windows.Forms.Padding(4);
             this.panel64.Name = "panel64";
             this.panel64.Size = new System.Drawing.Size(656, 54);
             this.panel64.TabIndex = 3;
@@ -6081,7 +6641,7 @@
             this.panel65.Controls.Add(this.dateTimePicker4);
             this.panel65.Controls.Add(this.label58);
             this.panel65.Location = new System.Drawing.Point(22, 20);
-            this.panel65.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel65.Margin = new System.Windows.Forms.Padding(4);
             this.panel65.Name = "panel65";
             this.panel65.Size = new System.Drawing.Size(656, 54);
             this.panel65.TabIndex = 2;
@@ -6117,7 +6677,7 @@
             this.panel66.Controls.Add(this.label59);
             this.panel66.Controls.Add(this.textBox39);
             this.panel66.Location = new System.Drawing.Point(690, 20);
-            this.panel66.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel66.Margin = new System.Windows.Forms.Padding(4);
             this.panel66.Name = "panel66";
             this.panel66.Size = new System.Drawing.Size(657, 54);
             this.panel66.TabIndex = 0;
@@ -6156,7 +6716,7 @@
             this.panel67.Controls.Add(this.label61);
             this.panel67.Controls.Add(this.textBox41);
             this.panel67.Location = new System.Drawing.Point(690, 86);
-            this.panel67.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel67.Margin = new System.Windows.Forms.Padding(4);
             this.panel67.Name = "panel67";
             this.panel67.Size = new System.Drawing.Size(657, 54);
             this.panel67.TabIndex = 1;
@@ -6279,6 +6839,29 @@
             this.textBox43.Size = new System.Drawing.Size(240, 47);
             this.textBox43.TabIndex = 12;
             // 
+            // BackPurchaseItemReturn
+            // 
+            this.BackPurchaseItemReturn.BackColor = System.Drawing.Color.Transparent;
+            this.BackPurchaseItemReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.BackPurchaseItemReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BackPurchaseItemReturn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BackPurchaseItemReturn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BackPurchaseItemReturn.FlatAppearance.BorderSize = 0;
+            this.BackPurchaseItemReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.BackPurchaseItemReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.BackPurchaseItemReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BackPurchaseItemReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.BackPurchaseItemReturn.Location = new System.Drawing.Point(4, 4);
+            this.BackPurchaseItemReturn.Name = "BackPurchaseItemReturn";
+            this.BackPurchaseItemReturn.Size = new System.Drawing.Size(106, 56);
+            this.BackPurchaseItemReturn.TabIndex = 3;
+            this.BackPurchaseItemReturn.UseVisualStyleBackColor = false;
+            this.BackPurchaseItemReturn.Click += new System.EventHandler(this.BackPurchaseItemReturn_Click);
+            this.BackPurchaseItemReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BackPurchaseItemReturn_MouseDown);
+            this.BackPurchaseItemReturn.MouseEnter += new System.EventHandler(this.BackPurchaseItemReturn_MouseEnter);
+            this.BackPurchaseItemReturn.MouseLeave += new System.EventHandler(this.BackPurchaseItemReturn_MouseLeave);
+            this.BackPurchaseItemReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BackPurchaseItemReturn_MouseUp);
+            // 
             // tableLayoutPanel60
             // 
             this.tableLayoutPanel60.ColumnCount = 4;
@@ -6297,6 +6880,25 @@
             this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel60.Size = new System.Drawing.Size(1369, 56);
             this.tableLayoutPanel60.TabIndex = 10;
+            // 
+            // button21
+            // 
+            this.button21.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button21.ForeColor = System.Drawing.Color.White;
+            this.button21.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button21.Location = new System.Drawing.Point(962, 4);
+            this.button21.Margin = new System.Windows.Forms.Padding(4);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(128, 48);
+            this.button21.TabIndex = 16;
+            this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button21.UseVisualStyleBackColor = false;
             // 
             // PIR_Cancel
             // 
@@ -6541,6 +7143,29 @@
             this.OldSupplierLoan.UseVisualStyleBackColor = false;
             this.OldSupplierLoan.Click += new System.EventHandler(this.OldSupplierLoan_Click);
             // 
+            // Back_LoansTab
+            // 
+            this.Back_LoansTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_LoansTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_LoansTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_LoansTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_LoansTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_LoansTab.FlatAppearance.BorderSize = 0;
+            this.Back_LoansTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_LoansTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_LoansTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_LoansTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_LoansTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_LoansTab.Name = "Back_LoansTab";
+            this.Back_LoansTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_LoansTab.TabIndex = 3;
+            this.Back_LoansTab.UseVisualStyleBackColor = false;
+            this.Back_LoansTab.Click += new System.EventHandler(this.BackLoanTab_Click);
+            this.Back_LoansTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_LoansTab_MouseDown);
+            this.Back_LoansTab.MouseEnter += new System.EventHandler(this.Back_LoansTab_MouseEnter);
+            this.Back_LoansTab.MouseLeave += new System.EventHandler(this.Back_LoansTab_MouseLeave);
+            this.Back_LoansTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_LoansTab_MouseUp);
+            // 
             // CustomerLoanTab
             // 
             this.CustomerLoanTab.Controls.Add(this.tableLayoutPanel18);
@@ -6609,6 +7234,29 @@
             this.Cutomer_Loan_ID.TabIndex = 14;
             this.Cutomer_Loan_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Cutomer_Loan_ID.Visible = false;
+            // 
+            // Back_CustomerLoanTab
+            // 
+            this.Back_CustomerLoanTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_CustomerLoanTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_CustomerLoanTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_CustomerLoanTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_CustomerLoanTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_CustomerLoanTab.FlatAppearance.BorderSize = 0;
+            this.Back_CustomerLoanTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_CustomerLoanTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_CustomerLoanTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_CustomerLoanTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_CustomerLoanTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_CustomerLoanTab.Name = "Back_CustomerLoanTab";
+            this.Back_CustomerLoanTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_CustomerLoanTab.TabIndex = 3;
+            this.Back_CustomerLoanTab.UseVisualStyleBackColor = false;
+            this.Back_CustomerLoanTab.Click += new System.EventHandler(this.Back_CustomerLoanTab_Click);
+            this.Back_CustomerLoanTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_CustomerLoanTab_MouseDown);
+            this.Back_CustomerLoanTab.MouseEnter += new System.EventHandler(this.Back_CustomerLoanTab_MouseEnter);
+            this.Back_CustomerLoanTab.MouseLeave += new System.EventHandler(this.Back_CustomerLoanTab_MouseLeave);
+            this.Back_CustomerLoanTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_CustomerLoanTab_MouseUp);
             // 
             // tableLayoutPanel19
             // 
@@ -6912,6 +7560,29 @@
             this.textBox88.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox88.Visible = false;
             // 
+            // Back_SupplierLoanTab
+            // 
+            this.Back_SupplierLoanTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_SupplierLoanTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_SupplierLoanTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_SupplierLoanTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_SupplierLoanTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_SupplierLoanTab.FlatAppearance.BorderSize = 0;
+            this.Back_SupplierLoanTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_SupplierLoanTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_SupplierLoanTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_SupplierLoanTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_SupplierLoanTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_SupplierLoanTab.Name = "Back_SupplierLoanTab";
+            this.Back_SupplierLoanTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_SupplierLoanTab.TabIndex = 3;
+            this.Back_SupplierLoanTab.UseVisualStyleBackColor = false;
+            this.Back_SupplierLoanTab.Click += new System.EventHandler(this.Back_SupplierLoanTab_Click);
+            this.Back_SupplierLoanTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_SupplierLoanTab_MouseDown);
+            this.Back_SupplierLoanTab.MouseEnter += new System.EventHandler(this.Back_SupplierLoanTab_MouseEnter);
+            this.Back_SupplierLoanTab.MouseLeave += new System.EventHandler(this.Back_SupplierLoanTab_MouseLeave);
+            this.Back_SupplierLoanTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_SupplierLoanTab_MouseUp);
+            // 
             // tableLayoutPanel67
             // 
             this.tableLayoutPanel67.ColumnCount = 4;
@@ -7112,7 +7783,7 @@
             // S_L_ID
             // 
             this.S_L_ID.Location = new System.Drawing.Point(1162, 244);
-            this.S_L_ID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.S_L_ID.Margin = new System.Windows.Forms.Padding(4);
             this.S_L_ID.Name = "S_L_ID";
             this.S_L_ID.Size = new System.Drawing.Size(126, 26);
             this.S_L_ID.TabIndex = 13;
@@ -7347,6 +8018,29 @@
             this.BankMGM.UseVisualStyleBackColor = false;
             this.BankMGM.Click += new System.EventHandler(this.BankMGM_Click);
             // 
+            // Back_ManagementTab
+            // 
+            this.Back_ManagementTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_ManagementTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_ManagementTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_ManagementTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_ManagementTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_ManagementTab.FlatAppearance.BorderSize = 0;
+            this.Back_ManagementTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_ManagementTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_ManagementTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_ManagementTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_ManagementTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_ManagementTab.Name = "Back_ManagementTab";
+            this.Back_ManagementTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_ManagementTab.TabIndex = 3;
+            this.Back_ManagementTab.UseVisualStyleBackColor = false;
+            this.Back_ManagementTab.Click += new System.EventHandler(this.Back_ManagementTab_Click);
+            this.Back_ManagementTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_ManagementTab_MouseDown);
+            this.Back_ManagementTab.MouseEnter += new System.EventHandler(this.Back_ManagementTab_MouseEnter);
+            this.Back_ManagementTab.MouseLeave += new System.EventHandler(this.Back_ManagementTab_MouseLeave);
+            this.Back_ManagementTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_ManagementTab_MouseUp);
+            // 
             // EmployeesTab
             // 
             this.EmployeesTab.Controls.Add(this.tableLayoutPanel76);
@@ -7415,6 +8109,29 @@
             this.Delete_T_Employee.TabIndex = 14;
             this.Delete_T_Employee.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Delete_T_Employee.Visible = false;
+            // 
+            // Back_EmployeesTab
+            // 
+            this.Back_EmployeesTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_EmployeesTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_EmployeesTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_EmployeesTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_EmployeesTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_EmployeesTab.FlatAppearance.BorderSize = 0;
+            this.Back_EmployeesTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_EmployeesTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_EmployeesTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_EmployeesTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_EmployeesTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_EmployeesTab.Name = "Back_EmployeesTab";
+            this.Back_EmployeesTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_EmployeesTab.TabIndex = 3;
+            this.Back_EmployeesTab.UseVisualStyleBackColor = false;
+            this.Back_EmployeesTab.Click += new System.EventHandler(this.Back_EmployeesTab_Click);
+            this.Back_EmployeesTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_EmployeesTab_MouseDown);
+            this.Back_EmployeesTab.MouseEnter += new System.EventHandler(this.Back_EmployeesTab_MouseEnter);
+            this.Back_EmployeesTab.MouseLeave += new System.EventHandler(this.Back_EmployeesTab_MouseLeave);
+            this.Back_EmployeesTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_EmployeesTab_MouseUp);
             // 
             // tableLayoutPanel77
             // 
@@ -7532,6 +8249,27 @@
             this.DeleteEmployee.UseVisualStyleBackColor = false;
             this.DeleteEmployee.Click += new System.EventHandler(this.DeleteEmployee_Click);
             // 
+            // RefreshEmployees
+            // 
+            this.RefreshEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.RefreshEmployees.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RefreshEmployees.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RefreshEmployees.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RefreshEmployees.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.RefreshEmployees.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.RefreshEmployees.ForeColor = System.Drawing.Color.Black;
+            this.RefreshEmployees.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.RefreshEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.RefreshEmployees.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.RefreshEmployees.Location = new System.Drawing.Point(998, 3);
+            this.RefreshEmployees.Name = "RefreshEmployees";
+            this.RefreshEmployees.Size = new System.Drawing.Size(118, 50);
+            this.RefreshEmployees.TabIndex = 8;
+            this.RefreshEmployees.Text = "بازدید";
+            this.RefreshEmployees.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.RefreshEmployees.UseVisualStyleBackColor = false;
+            this.RefreshEmployees.Click += new System.EventHandler(this.RefreshEmployees_Click);
+            // 
             // D_G_V_Employee
             // 
             this.D_G_V_Employee.AllowDrop = true;
@@ -7542,46 +8280,46 @@
             this.D_G_V_Employee.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.D_G_V_Employee.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.D_G_V_Employee.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle25.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.D_G_V_Employee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle1081.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1081.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1081.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1081.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1081.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1081.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1081.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1081.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.D_G_V_Employee.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1081;
             this.D_G_V_Employee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle26.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.D_G_V_Employee.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle1082.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1082.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1082.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1082.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1082.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1082.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1082.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1082.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.D_G_V_Employee.DefaultCellStyle = dataGridViewCellStyle1082;
             this.D_G_V_Employee.Dock = System.Windows.Forms.DockStyle.Fill;
             this.D_G_V_Employee.Location = new System.Drawing.Point(117, 67);
             this.D_G_V_Employee.Name = "D_G_V_Employee";
             this.D_G_V_Employee.ReadOnly = true;
             this.D_G_V_Employee.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.D_G_V_Employee.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle28.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
-            this.D_G_V_Employee.RowsDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle1083.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1083.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1083.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1083.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1083.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1083.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1083.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.D_G_V_Employee.RowHeadersDefaultCellStyle = dataGridViewCellStyle1083;
+            dataGridViewCellStyle1084.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1084.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1084.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1084.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1084.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1084.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1084.SelectionForeColor = System.Drawing.Color.Black;
+            this.D_G_V_Employee.RowsDefaultCellStyle = dataGridViewCellStyle1084;
             this.D_G_V_Employee.RowTemplate.Height = 28;
             this.D_G_V_Employee.Size = new System.Drawing.Size(1369, 730);
             this.D_G_V_Employee.TabIndex = 16;
@@ -7643,11 +8381,34 @@
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(4, 4);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(148, 26);
             this.textBox12.TabIndex = 5;
             this.textBox12.Visible = false;
+            // 
+            // Back_NewEmployee
+            // 
+            this.Back_NewEmployee.BackColor = System.Drawing.Color.Transparent;
+            this.Back_NewEmployee.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_NewEmployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_NewEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_NewEmployee.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_NewEmployee.FlatAppearance.BorderSize = 0;
+            this.Back_NewEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_NewEmployee.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_NewEmployee.Location = new System.Drawing.Point(4, 4);
+            this.Back_NewEmployee.Name = "Back_NewEmployee";
+            this.Back_NewEmployee.Size = new System.Drawing.Size(106, 56);
+            this.Back_NewEmployee.TabIndex = 3;
+            this.Back_NewEmployee.UseVisualStyleBackColor = false;
+            this.Back_NewEmployee.Click += new System.EventHandler(this.Back_NewEmployee_Click);
+            this.Back_NewEmployee.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewEmployee_MouseDown);
+            this.Back_NewEmployee.MouseEnter += new System.EventHandler(this.Back_NewEmployee_MouseEnter);
+            this.Back_NewEmployee.MouseLeave += new System.EventHandler(this.Back_NewEmployee_MouseLeave);
+            this.Back_NewEmployee.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewEmployee_MouseUp);
             // 
             // tableLayoutPanel72
             // 
@@ -8014,6 +8775,29 @@
             this.Delete_Expenses_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Delete_Expenses_ID.Visible = false;
             // 
+            // Back_ExpensesTab
+            // 
+            this.Back_ExpensesTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_ExpensesTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_ExpensesTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_ExpensesTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_ExpensesTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_ExpensesTab.FlatAppearance.BorderSize = 0;
+            this.Back_ExpensesTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_ExpensesTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_ExpensesTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_ExpensesTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_ExpensesTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_ExpensesTab.Name = "Back_ExpensesTab";
+            this.Back_ExpensesTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_ExpensesTab.TabIndex = 3;
+            this.Back_ExpensesTab.UseVisualStyleBackColor = false;
+            this.Back_ExpensesTab.Click += new System.EventHandler(this.Back_ExpensesTab_Click);
+            this.Back_ExpensesTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_ExpensesTab_MouseDown);
+            this.Back_ExpensesTab.MouseEnter += new System.EventHandler(this.Back_ExpensesTab_MouseEnter);
+            this.Back_ExpensesTab.MouseLeave += new System.EventHandler(this.Back_ExpensesTab_MouseLeave);
+            this.Back_ExpensesTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_ExpensesTab_MouseUp);
+            // 
             // tableLayoutPanel84
             // 
             this.tableLayoutPanel84.ColumnCount = 5;
@@ -8130,6 +8914,27 @@
             this.NewExpenseCancel.UseVisualStyleBackColor = false;
             this.NewExpenseCancel.Click += new System.EventHandler(this.NewExpenseCancel_Click);
             // 
+            // RefreshExp
+            // 
+            this.RefreshExp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.RefreshExp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RefreshExp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RefreshExp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.RefreshExp.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.RefreshExp.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.RefreshExp.ForeColor = System.Drawing.Color.Black;
+            this.RefreshExp.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.RefreshExp.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.RefreshExp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.RefreshExp.Location = new System.Drawing.Point(998, 3);
+            this.RefreshExp.Name = "RefreshExp";
+            this.RefreshExp.Size = new System.Drawing.Size(118, 50);
+            this.RefreshExp.TabIndex = 8;
+            this.RefreshExp.Text = "بازدید";
+            this.RefreshExp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.RefreshExp.UseVisualStyleBackColor = false;
+            this.RefreshExp.Click += new System.EventHandler(this.RefreshExp_Click);
+            // 
             // Expenses_Data_GrideView
             // 
             this.Expenses_Data_GrideView.AllowDrop = true;
@@ -8140,46 +8945,46 @@
             this.Expenses_Data_GrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Expenses_Data_GrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Expenses_Data_GrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle29.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle29.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Expenses_Data_GrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle1085.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1085.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1085.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1085.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1085.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1085.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1085.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1085.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Expenses_Data_GrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1085;
             this.Expenses_Data_GrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle30.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle30.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Expenses_Data_GrideView.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle1086.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1086.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1086.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1086.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1086.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1086.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1086.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1086.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Expenses_Data_GrideView.DefaultCellStyle = dataGridViewCellStyle1086;
             this.Expenses_Data_GrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Expenses_Data_GrideView.Location = new System.Drawing.Point(117, 67);
             this.Expenses_Data_GrideView.Name = "Expenses_Data_GrideView";
             this.Expenses_Data_GrideView.ReadOnly = true;
             this.Expenses_Data_GrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle31.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle31.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle31.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Expenses_Data_GrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle31;
-            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle32.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle32.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle32.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle32.SelectionForeColor = System.Drawing.Color.Black;
-            this.Expenses_Data_GrideView.RowsDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle1087.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1087.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1087.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1087.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1087.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1087.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1087.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Expenses_Data_GrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1087;
+            dataGridViewCellStyle1088.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1088.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1088.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1088.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1088.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1088.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1088.SelectionForeColor = System.Drawing.Color.Black;
+            this.Expenses_Data_GrideView.RowsDefaultCellStyle = dataGridViewCellStyle1088;
             this.Expenses_Data_GrideView.RowTemplate.Height = 28;
             this.Expenses_Data_GrideView.Size = new System.Drawing.Size(1369, 730);
             this.Expenses_Data_GrideView.TabIndex = 16;
@@ -8252,6 +9057,29 @@
             this.textBox93.TabIndex = 14;
             this.textBox93.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox93.Visible = false;
+            // 
+            // Back_NewExpense
+            // 
+            this.Back_NewExpense.BackColor = System.Drawing.Color.Transparent;
+            this.Back_NewExpense.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_NewExpense.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_NewExpense.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_NewExpense.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_NewExpense.FlatAppearance.BorderSize = 0;
+            this.Back_NewExpense.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewExpense.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewExpense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_NewExpense.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_NewExpense.Location = new System.Drawing.Point(4, 4);
+            this.Back_NewExpense.Name = "Back_NewExpense";
+            this.Back_NewExpense.Size = new System.Drawing.Size(106, 56);
+            this.Back_NewExpense.TabIndex = 3;
+            this.Back_NewExpense.UseVisualStyleBackColor = false;
+            this.Back_NewExpense.Click += new System.EventHandler(this.Back_NewExpense_Click);
+            this.Back_NewExpense.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewExpense_MouseDown);
+            this.Back_NewExpense.MouseEnter += new System.EventHandler(this.Back_NewExpense_MouseEnter);
+            this.Back_NewExpense.MouseLeave += new System.EventHandler(this.Back_NewExpense_MouseLeave);
+            this.Back_NewExpense.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewExpense_MouseUp);
             // 
             // tableLayoutPanel79
             // 
@@ -8530,6 +9358,29 @@
             this.textBox94.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox94.Visible = false;
             // 
+            // Back_MoneyTGTab
+            // 
+            this.Back_MoneyTGTab.BackColor = System.Drawing.Color.Transparent;
+            this.Back_MoneyTGTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_MoneyTGTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_MoneyTGTab.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_MoneyTGTab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_MoneyTGTab.FlatAppearance.BorderSize = 0;
+            this.Back_MoneyTGTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_MoneyTGTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_MoneyTGTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_MoneyTGTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_MoneyTGTab.Location = new System.Drawing.Point(4, 4);
+            this.Back_MoneyTGTab.Name = "Back_MoneyTGTab";
+            this.Back_MoneyTGTab.Size = new System.Drawing.Size(106, 56);
+            this.Back_MoneyTGTab.TabIndex = 3;
+            this.Back_MoneyTGTab.UseVisualStyleBackColor = false;
+            this.Back_MoneyTGTab.Click += new System.EventHandler(this.Back_MoneyTGTab_Click);
+            this.Back_MoneyTGTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_MoneyTGTab_MouseDown);
+            this.Back_MoneyTGTab.MouseEnter += new System.EventHandler(this.Back_MoneyTGTab_MouseEnter);
+            this.Back_MoneyTGTab.MouseLeave += new System.EventHandler(this.Back_MoneyTGTab_MouseLeave);
+            this.Back_MoneyTGTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_MoneyTGTab_MouseUp);
+            // 
             // tableLayoutPanel86
             // 
             this.tableLayoutPanel86.ColumnCount = 5;
@@ -8645,6 +9496,26 @@
             this.NewMoneyTG_Cancel.Text = "حذف ";
             this.NewMoneyTG_Cancel.UseVisualStyleBackColor = false;
             // 
+            // Refresh_MoneyTG
+            // 
+            this.Refresh_MoneyTG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.Refresh_MoneyTG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Refresh_MoneyTG.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Refresh_MoneyTG.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Refresh_MoneyTG.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.Refresh_MoneyTG.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.Refresh_MoneyTG.ForeColor = System.Drawing.Color.Black;
+            this.Refresh_MoneyTG.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.Refresh_MoneyTG.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Refresh_MoneyTG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Refresh_MoneyTG.Location = new System.Drawing.Point(998, 3);
+            this.Refresh_MoneyTG.Name = "Refresh_MoneyTG";
+            this.Refresh_MoneyTG.Size = new System.Drawing.Size(118, 50);
+            this.Refresh_MoneyTG.TabIndex = 8;
+            this.Refresh_MoneyTG.Text = "بازدید";
+            this.Refresh_MoneyTG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Refresh_MoneyTG.UseVisualStyleBackColor = false;
+            // 
             // dataGridView6
             // 
             this.dataGridView6.AllowDrop = true;
@@ -8655,46 +9526,46 @@
             this.dataGridView6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView6.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView6.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle33.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle1089.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1089.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1089.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1089.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1089.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1089.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1089.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1089.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1089;
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle34.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle34.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle1090.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1090.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1090.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1090.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1090.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1090.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1090.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1090.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView6.DefaultCellStyle = dataGridViewCellStyle1090;
             this.dataGridView6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView6.Location = new System.Drawing.Point(117, 67);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.ReadOnly = true;
             this.dataGridView6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView6.RowHeadersDefaultCellStyle = dataGridViewCellStyle35;
-            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle36.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle36.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView6.RowsDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle1091.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1091.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1091.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1091.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1091.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1091.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1091.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView6.RowHeadersDefaultCellStyle = dataGridViewCellStyle1091;
+            dataGridViewCellStyle1092.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1092.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1092.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1092.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1092.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1092.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1092.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView6.RowsDefaultCellStyle = dataGridViewCellStyle1092;
             this.dataGridView6.RowTemplate.Height = 28;
             this.dataGridView6.Size = new System.Drawing.Size(1369, 730);
             this.dataGridView6.TabIndex = 16;
@@ -8767,6 +9638,29 @@
             this.W_ID.TabIndex = 14;
             this.W_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.W_ID.Visible = false;
+            // 
+            // Back_NewMoneyTG
+            // 
+            this.Back_NewMoneyTG.BackColor = System.Drawing.Color.Transparent;
+            this.Back_NewMoneyTG.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_NewMoneyTG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_NewMoneyTG.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_NewMoneyTG.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_NewMoneyTG.FlatAppearance.BorderSize = 0;
+            this.Back_NewMoneyTG.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewMoneyTG.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_NewMoneyTG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_NewMoneyTG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_NewMoneyTG.Location = new System.Drawing.Point(4, 4);
+            this.Back_NewMoneyTG.Name = "Back_NewMoneyTG";
+            this.Back_NewMoneyTG.Size = new System.Drawing.Size(106, 56);
+            this.Back_NewMoneyTG.TabIndex = 3;
+            this.Back_NewMoneyTG.UseVisualStyleBackColor = false;
+            this.Back_NewMoneyTG.Click += new System.EventHandler(this.Back_NewMoneyTG_Click);
+            this.Back_NewMoneyTG.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewMoneyTG_MouseDown);
+            this.Back_NewMoneyTG.MouseEnter += new System.EventHandler(this.Back_NewMoneyTG_MouseEnter);
+            this.Back_NewMoneyTG.MouseLeave += new System.EventHandler(this.Back_NewMoneyTG_MouseLeave);
+            this.Back_NewMoneyTG.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewMoneyTG_MouseUp);
             // 
             // tableLayoutPanel88
             // 
@@ -9088,6 +9982,29 @@
             this.label106.Text = "گزارشات موجودی";
             this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Back_StockReports
+            // 
+            this.Back_StockReports.BackColor = System.Drawing.Color.Transparent;
+            this.Back_StockReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_StockReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_StockReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_StockReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_StockReports.FlatAppearance.BorderSize = 0;
+            this.Back_StockReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_StockReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_StockReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_StockReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_StockReports.Location = new System.Drawing.Point(4, 4);
+            this.Back_StockReports.Name = "Back_StockReports";
+            this.Back_StockReports.Size = new System.Drawing.Size(106, 56);
+            this.Back_StockReports.TabIndex = 3;
+            this.Back_StockReports.UseVisualStyleBackColor = false;
+            this.Back_StockReports.Click += new System.EventHandler(this.Back_StockReports_Click);
+            this.Back_StockReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_StockReports_MouseDown);
+            this.Back_StockReports.MouseEnter += new System.EventHandler(this.Back_StockReports_MouseEnter);
+            this.Back_StockReports.MouseLeave += new System.EventHandler(this.Back_StockReports_MouseLeave);
+            this.Back_StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_StockReports_MouseUp);
+            // 
             // tableLayoutPanel92
             // 
             this.tableLayoutPanel92.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
@@ -9114,46 +10031,46 @@
             this.dataGridView19.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView19.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView19.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.Azure;
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle37.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle37.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView19.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle1093.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1093.BackColor = System.Drawing.Color.Azure;
+            dataGridViewCellStyle1093.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1093.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1093.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1093.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1093.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1093.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView19.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1093;
             this.dataGridView19.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle38.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView19.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle1094.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1094.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1094.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1094.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1094.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1094.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1094.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1094.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView19.DefaultCellStyle = dataGridViewCellStyle1094;
             this.dataGridView19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView19.Location = new System.Drawing.Point(5, 5);
             this.dataGridView19.Name = "dataGridView19";
             this.dataGridView19.ReadOnly = true;
             this.dataGridView19.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle39.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView19.RowHeadersDefaultCellStyle = dataGridViewCellStyle39;
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle40.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle40.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle40.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView19.RowsDefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle1095.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1095.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1095.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1095.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1095.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1095.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1095.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView19.RowHeadersDefaultCellStyle = dataGridViewCellStyle1095;
+            dataGridViewCellStyle1096.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1096.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1096.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1096.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1096.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1096.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1096.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView19.RowsDefaultCellStyle = dataGridViewCellStyle1096;
             this.dataGridView19.RowTemplate.Height = 28;
             this.dataGridView19.Size = new System.Drawing.Size(1220, 720);
             this.dataGridView19.TabIndex = 15;
@@ -9177,6 +10094,79 @@
             this.tableLayoutPanel94.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel94.Size = new System.Drawing.Size(131, 720);
             this.tableLayoutPanel94.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.trolley1;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button1.Location = new System.Drawing.Point(4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(123, 136);
+            this.button1.TabIndex = 1;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.ItemPrice;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button2.Location = new System.Drawing.Point(4, 148);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(123, 136);
+            this.button2.TabIndex = 2;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Not_Sold;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button3.Location = new System.Drawing.Point(4, 292);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(123, 136);
+            this.button3.TabIndex = 3;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button24
+            // 
+            this.button24.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button24.ForeColor = System.Drawing.Color.White;
+            this.button24.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button24.Location = new System.Drawing.Point(4, 652);
+            this.button24.Margin = new System.Windows.Forms.Padding(4);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(123, 64);
+            this.button24.TabIndex = 19;
+            this.button24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button24.UseVisualStyleBackColor = false;
             // 
             // Loan_Reports
             // 
@@ -9262,6 +10252,29 @@
             this.label113.TabIndex = 8;
             this.label113.Text = "اوگرایی ها";
             this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Back_LoandReports
+            // 
+            this.Back_LoandReports.BackColor = System.Drawing.Color.Transparent;
+            this.Back_LoandReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_LoandReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_LoandReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_LoandReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_LoandReports.FlatAppearance.BorderSize = 0;
+            this.Back_LoandReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_LoandReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_LoandReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_LoandReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_LoandReports.Location = new System.Drawing.Point(4, 4);
+            this.Back_LoandReports.Name = "Back_LoandReports";
+            this.Back_LoandReports.Size = new System.Drawing.Size(106, 56);
+            this.Back_LoandReports.TabIndex = 3;
+            this.Back_LoandReports.UseVisualStyleBackColor = false;
+            this.Back_LoandReports.Click += new System.EventHandler(this.Back_LoandReports_Click);
+            this.Back_LoandReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_LoandReports_MouseDown);
+            this.Back_LoandReports.MouseEnter += new System.EventHandler(this.Back_LoandReports_MouseEnter);
+            this.Back_LoandReports.MouseLeave += new System.EventHandler(this.Back_LoandReports_MouseLeave);
+            this.Back_LoandReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_LoandReports_MouseUp);
             // 
             // tableLayoutPanel102
             // 
@@ -9376,6 +10389,78 @@
             this.tableLayoutPanel104.Size = new System.Drawing.Size(131, 593);
             this.tableLayoutPanel104.TabIndex = 1;
             // 
+            // button9
+            // 
+            this.button9.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.ULC;
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button9.Location = new System.Drawing.Point(4, 4);
+            this.button9.Margin = new System.Windows.Forms.Padding(4);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(123, 140);
+            this.button9.TabIndex = 2;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.PLC;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button10.Location = new System.Drawing.Point(4, 152);
+            this.button10.Margin = new System.Windows.Forms.Padding(4);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(123, 140);
+            this.button10.TabIndex = 3;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.ULS;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button11.Location = new System.Drawing.Point(4, 300);
+            this.button11.Margin = new System.Windows.Forms.Padding(4);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(123, 140);
+            this.button11.TabIndex = 4;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.PLS;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button12.Location = new System.Drawing.Point(4, 448);
+            this.button12.Margin = new System.Windows.Forms.Padding(4);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(123, 141);
+            this.button12.TabIndex = 5;
+            this.button12.UseVisualStyleBackColor = false;
+            // 
             // tableLayoutPanel105
             // 
             this.tableLayoutPanel105.ColumnCount = 5;
@@ -9424,6 +10509,25 @@
             this.label116.TabIndex = 12;
             this.label116.Text = "مجموع (دالر)";
             // 
+            // button13
+            // 
+            this.button13.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button13.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button13.ForeColor = System.Drawing.Color.White;
+            this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button13.Location = new System.Drawing.Point(9, 4);
+            this.button13.Margin = new System.Windows.Forms.Padding(4);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(172, 59);
+            this.button13.TabIndex = 15;
+            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button13.UseVisualStyleBackColor = false;
+            // 
             // dataGridView18
             // 
             this.dataGridView18.AllowDrop = true;
@@ -9434,46 +10538,46 @@
             this.dataGridView18.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView18.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView18.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle41.BackColor = System.Drawing.Color.Azure;
-            dataGridViewCellStyle41.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle41.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle41.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView18.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle1097.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1097.BackColor = System.Drawing.Color.Azure;
+            dataGridViewCellStyle1097.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1097.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1097.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1097.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1097.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1097.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView18.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1097;
             this.dataGridView18.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle42.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle42.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle42.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView18.DefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle1098.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1098.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1098.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1098.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1098.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1098.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1098.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1098.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView18.DefaultCellStyle = dataGridViewCellStyle1098;
             this.dataGridView18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView18.Location = new System.Drawing.Point(5, 57);
             this.dataGridView18.Name = "dataGridView18";
             this.dataGridView18.ReadOnly = true;
             this.dataGridView18.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle43.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView18.RowHeadersDefaultCellStyle = dataGridViewCellStyle43;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle44.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle44.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView18.RowsDefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle1099.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1099.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1099.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1099.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1099.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1099.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1099.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView18.RowHeadersDefaultCellStyle = dataGridViewCellStyle1099;
+            dataGridViewCellStyle1100.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1100.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1100.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1100.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1100.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1100.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1100.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView18.RowsDefaultCellStyle = dataGridViewCellStyle1100;
             this.dataGridView18.RowTemplate.Height = 28;
             this.dataGridView18.Size = new System.Drawing.Size(1220, 593);
             this.dataGridView18.TabIndex = 14;
@@ -9562,6 +10666,29 @@
             this.label108.TabIndex = 8;
             this.label108.Text = "گزارشات خرید و فروش";
             this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Back_PSReports
+            // 
+            this.Back_PSReports.BackColor = System.Drawing.Color.Transparent;
+            this.Back_PSReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_PSReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_PSReports.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_PSReports.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_PSReports.FlatAppearance.BorderSize = 0;
+            this.Back_PSReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_PSReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_PSReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_PSReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_PSReports.Location = new System.Drawing.Point(4, 4);
+            this.Back_PSReports.Name = "Back_PSReports";
+            this.Back_PSReports.Size = new System.Drawing.Size(106, 56);
+            this.Back_PSReports.TabIndex = 3;
+            this.Back_PSReports.UseVisualStyleBackColor = false;
+            this.Back_PSReports.Click += new System.EventHandler(this.Back_PSReports_Click);
+            this.Back_PSReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_PSReports_MouseDown);
+            this.Back_PSReports.MouseEnter += new System.EventHandler(this.Back_PSReports_MouseEnter);
+            this.Back_PSReports.MouseLeave += new System.EventHandler(this.Back_PSReports_MouseLeave);
+            this.Back_PSReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_PSReports_MouseUp);
             // 
             // tableLayoutPanel97
             // 
@@ -9672,6 +10799,42 @@
             this.tableLayoutPanel99.Size = new System.Drawing.Size(131, 593);
             this.tableLayoutPanel99.TabIndex = 1;
             // 
+            // button6
+            // 
+            this.button6.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.sale_report1;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button6.Location = new System.Drawing.Point(4, 4);
+            this.button6.Margin = new System.Windows.Forms.Padding(4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(123, 280);
+            this.button6.TabIndex = 2;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.purchase_report;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button7.Location = new System.Drawing.Point(4, 300);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(123, 233);
+            this.button7.TabIndex = 3;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
             // tableLayoutPanel100
             // 
             this.tableLayoutPanel100.ColumnCount = 5;
@@ -9692,6 +10855,25 @@
             this.tableLayoutPanel100.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel100.Size = new System.Drawing.Size(1220, 67);
             this.tableLayoutPanel100.TabIndex = 2;
+            // 
+            // button26
+            // 
+            this.button26.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button26.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button26.FlatAppearance.BorderSize = 0;
+            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button26.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button26.ForeColor = System.Drawing.Color.White;
+            this.button26.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button26.Location = new System.Drawing.Point(4, 4);
+            this.button26.Margin = new System.Windows.Forms.Padding(4);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(105, 59);
+            this.button26.TabIndex = 19;
+            this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button26.UseVisualStyleBackColor = false;
             // 
             // textBox3
             // 
@@ -9761,46 +10943,46 @@
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle45.BackColor = System.Drawing.Color.Azure;
-            dataGridViewCellStyle45.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle45.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle45.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle45;
+            dataGridViewCellStyle1101.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1101.BackColor = System.Drawing.Color.Azure;
+            dataGridViewCellStyle1101.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1101.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1101.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1101.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1101.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1101.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1101;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle46.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle46.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle46;
+            dataGridViewCellStyle1102.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1102.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1102.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1102.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1102.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1102.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1102.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1102.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle1102;
             this.dataGridView3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView3.Location = new System.Drawing.Point(5, 57);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
             this.dataGridView3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle47.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle47.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle47.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle47;
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle48.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle1103.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1103.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1103.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1103.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1103.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1103.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1103.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle1103;
+            dataGridViewCellStyle1104.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1104.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1104.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1104.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1104.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1104.SelectionBackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1104.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView3.RowsDefaultCellStyle = dataGridViewCellStyle1104;
             this.dataGridView3.RowTemplate.Height = 28;
             this.dataGridView3.Size = new System.Drawing.Size(1220, 593);
             this.dataGridView3.TabIndex = 14;
@@ -9872,8 +11054,29 @@
             this.Delete_pro.Size = new System.Drawing.Size(152, 23);
             this.Delete_pro.TabIndex = 15;
             this.Delete_pro.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.Delete_pro.Visible = false;
-            this.Delete_pro.TextChanged += new System.EventHandler(this.Delete_pro_TextChanged);
+            // 
+            // Back_Supplier
+            // 
+            this.Back_Supplier.BackColor = System.Drawing.Color.Transparent;
+            this.Back_Supplier.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_Supplier.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_Supplier.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_Supplier.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_Supplier.FlatAppearance.BorderSize = 0;
+            this.Back_Supplier.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_Supplier.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_Supplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_Supplier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_Supplier.Location = new System.Drawing.Point(4, 4);
+            this.Back_Supplier.Name = "Back_Supplier";
+            this.Back_Supplier.Size = new System.Drawing.Size(106, 56);
+            this.Back_Supplier.TabIndex = 3;
+            this.Back_Supplier.UseVisualStyleBackColor = false;
+            this.Back_Supplier.Click += new System.EventHandler(this.Back_Supplier_Click);
+            this.Back_Supplier.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Supplier_MouseDown);
+            this.Back_Supplier.MouseEnter += new System.EventHandler(this.Back_Supplier_MouseEnter);
+            this.Back_Supplier.MouseLeave += new System.EventHandler(this.Back_Supplier_MouseLeave);
+            this.Back_Supplier.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Supplier_MouseUp);
             // 
             // tableLayoutPanel111
             // 
@@ -9946,6 +11149,27 @@
             this.Supplier_Cancel.UseVisualStyleBackColor = false;
             this.Supplier_Cancel.Click += new System.EventHandler(this.Supplier_Cancel_Click);
             // 
+            // button25
+            // 
+            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button25.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button25.ForeColor = System.Drawing.Color.Black;
+            this.button25.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button25.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button25.Location = new System.Drawing.Point(997, 3);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(118, 50);
+            this.button25.TabIndex = 8;
+            this.button25.Text = "بازدید";
+            this.button25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button25.UseVisualStyleBackColor = false;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
             // tableLayoutPanel112
             // 
             this.tableLayoutPanel112.ColumnCount = 2;
@@ -10015,50 +11239,49 @@
             this.Product_list_Data_grideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Product_list_Data_grideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Product_list_Data_grideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle49.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle49.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle49.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle49.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle49.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle49.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Product_list_Data_grideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle1105.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1105.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1105.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1105.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1105.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1105.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1105.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1105.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Product_list_Data_grideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1105;
             this.Product_list_Data_grideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle50.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Product_list_Data_grideView.DefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle1106.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1106.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1106.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1106.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1106.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1106.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1106.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1106.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Product_list_Data_grideView.DefaultCellStyle = dataGridViewCellStyle1106;
             this.Product_list_Data_grideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Product_list_Data_grideView.Location = new System.Drawing.Point(3, 3);
             this.Product_list_Data_grideView.Name = "Product_list_Data_grideView";
             this.Product_list_Data_grideView.ReadOnly = true;
             this.Product_list_Data_grideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle51.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Product_list_Data_grideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle51;
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle52.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle52.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.Color.Black;
-            this.Product_list_Data_grideView.RowsDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle1107.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1107.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1107.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1107.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1107.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1107.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1107.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Product_list_Data_grideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1107;
+            dataGridViewCellStyle1108.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1108.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1108.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1108.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1108.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1108.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1108.SelectionForeColor = System.Drawing.Color.Black;
+            this.Product_list_Data_grideView.RowsDefaultCellStyle = dataGridViewCellStyle1108;
             this.Product_list_Data_grideView.RowTemplate.Height = 28;
             this.Product_list_Data_grideView.Size = new System.Drawing.Size(1363, 724);
             this.Product_list_Data_grideView.TabIndex = 14;
-            this.Product_list_Data_grideView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Product_list_Data_grideView_CellContentClick);
             // 
             // GeneralReportTab
             // 
@@ -10128,6 +11351,29 @@
             this.textBox99.TabIndex = 14;
             this.textBox99.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox99.Visible = false;
+            // 
+            // Back_GReport
+            // 
+            this.Back_GReport.BackColor = System.Drawing.Color.Transparent;
+            this.Back_GReport.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_GReport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_GReport.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_GReport.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_GReport.FlatAppearance.BorderSize = 0;
+            this.Back_GReport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_GReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_GReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_GReport.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_GReport.Location = new System.Drawing.Point(4, 4);
+            this.Back_GReport.Name = "Back_GReport";
+            this.Back_GReport.Size = new System.Drawing.Size(106, 56);
+            this.Back_GReport.TabIndex = 3;
+            this.Back_GReport.UseVisualStyleBackColor = false;
+            this.Back_GReport.Click += new System.EventHandler(this.Back_GReport_Click);
+            this.Back_GReport.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_GReport_MouseDown);
+            this.Back_GReport.MouseEnter += new System.EventHandler(this.Back_GReport_MouseEnter);
+            this.Back_GReport.MouseLeave += new System.EventHandler(this.Back_GReport_MouseLeave);
+            this.Back_GReport.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_GReport_MouseUp);
             // 
             // tableLayoutPanel115
             // 
@@ -10386,6 +11632,24 @@
             this.dateTimePicker6.Size = new System.Drawing.Size(414, 35);
             this.dateTimePicker6.TabIndex = 9;
             // 
+            // button27
+            // 
+            this.button27.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button27.FlatAppearance.BorderSize = 0;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button27.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button27.ForeColor = System.Drawing.Color.White;
+            this.button27.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button27.Location = new System.Drawing.Point(4, 541);
+            this.button27.Margin = new System.Windows.Forms.Padding(4);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(142, 88);
+            this.button27.TabIndex = 19;
+            this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button27.UseVisualStyleBackColor = false;
+            // 
             // Suppliers
             // 
             this.Suppliers.Controls.Add(this.tableLayoutPanel122);
@@ -10454,6 +11718,29 @@
             this.Delete_Supplier_ID.TabIndex = 14;
             this.Delete_Supplier_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Delete_Supplier_ID.Visible = false;
+            // 
+            // Back_Suppliers
+            // 
+            this.Back_Suppliers.BackColor = System.Drawing.Color.Transparent;
+            this.Back_Suppliers.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_Suppliers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_Suppliers.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_Suppliers.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_Suppliers.FlatAppearance.BorderSize = 0;
+            this.Back_Suppliers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_Suppliers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_Suppliers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_Suppliers.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_Suppliers.Location = new System.Drawing.Point(4, 4);
+            this.Back_Suppliers.Name = "Back_Suppliers";
+            this.Back_Suppliers.Size = new System.Drawing.Size(106, 56);
+            this.Back_Suppliers.TabIndex = 3;
+            this.Back_Suppliers.UseVisualStyleBackColor = false;
+            this.Back_Suppliers.Click += new System.EventHandler(this.Back_Suppliers_Click);
+            this.Back_Suppliers.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Suppliers_MouseDown);
+            this.Back_Suppliers.MouseEnter += new System.EventHandler(this.Back_Suppliers_MouseEnter);
+            this.Back_Suppliers.MouseLeave += new System.EventHandler(this.Back_Suppliers_MouseLeave);
+            this.Back_Suppliers.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Suppliers_MouseUp);
             // 
             // tableLayoutPanel123
             // 
@@ -10526,6 +11813,27 @@
             this.Delete_Supplier.UseVisualStyleBackColor = false;
             this.Delete_Supplier.Click += new System.EventHandler(this.Delete_Supplier_Click);
             // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button31.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button31.ForeColor = System.Drawing.Color.Black;
+            this.button31.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button31.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button31.Location = new System.Drawing.Point(997, 3);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(118, 50);
+            this.button31.TabIndex = 8;
+            this.button31.Text = "بازدید";
+            this.button31.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button31.UseVisualStyleBackColor = false;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
+            // 
             // tableLayoutPanel124
             // 
             this.tableLayoutPanel124.ColumnCount = 2;
@@ -10595,46 +11903,46 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle53.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle53.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle1109.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1109.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1109.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1109.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1109.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1109.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1109.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1109.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1109;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle54.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle1110.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1110.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1110.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1110.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1110.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1110.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1110.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1110.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1110;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle55.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle55.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle55.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle55.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle55;
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle56.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle56.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle1111.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1111.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1111.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1111.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1111.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1111.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1111.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1111;
+            dataGridViewCellStyle1112.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1112.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1112.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1112.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1112.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1112.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1112.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle1112;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(1363, 724);
             this.dataGridView1.TabIndex = 17;
@@ -10707,6 +12015,29 @@
             this.textBox8.TabIndex = 14;
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox8.Visible = false;
+            // 
+            // Back_PurchaseInvoice
+            // 
+            this.Back_PurchaseInvoice.BackColor = System.Drawing.Color.Transparent;
+            this.Back_PurchaseInvoice.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_PurchaseInvoice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_PurchaseInvoice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_PurchaseInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_PurchaseInvoice.FlatAppearance.BorderSize = 0;
+            this.Back_PurchaseInvoice.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_PurchaseInvoice.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_PurchaseInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_PurchaseInvoice.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_PurchaseInvoice.Location = new System.Drawing.Point(4, 4);
+            this.Back_PurchaseInvoice.Name = "Back_PurchaseInvoice";
+            this.Back_PurchaseInvoice.Size = new System.Drawing.Size(106, 56);
+            this.Back_PurchaseInvoice.TabIndex = 3;
+            this.Back_PurchaseInvoice.UseVisualStyleBackColor = false;
+            this.Back_PurchaseInvoice.Click += new System.EventHandler(this.Back_PurchaseInvoice_Click);
+            this.Back_PurchaseInvoice.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_PurchaseInvoice_MouseDown);
+            this.Back_PurchaseInvoice.MouseEnter += new System.EventHandler(this.Back_PurchaseInvoice_MouseEnter);
+            this.Back_PurchaseInvoice.MouseLeave += new System.EventHandler(this.Back_PurchaseInvoice_MouseLeave);
+            this.Back_PurchaseInvoice.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_PurchaseInvoice_MouseUp);
             // 
             // tableLayoutPanel127
             // 
@@ -10823,6 +12154,25 @@
             this.Delete_PurchaseInvoice.Text = "حذف ";
             this.Delete_PurchaseInvoice.UseVisualStyleBackColor = false;
             // 
+            // button35
+            // 
+            this.button35.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
+            this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button35.FlatAppearance.BorderSize = 0;
+            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button35.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
+            this.button35.ForeColor = System.Drawing.Color.White;
+            this.button35.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button35.Location = new System.Drawing.Point(999, 4);
+            this.button35.Margin = new System.Windows.Forms.Padding(4);
+            this.button35.Name = "button35";
+            this.button35.Size = new System.Drawing.Size(116, 48);
+            this.button35.TabIndex = 18;
+            this.button35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button35.UseVisualStyleBackColor = false;
+            // 
             // dataGridView10
             // 
             this.dataGridView10.AllowDrop = true;
@@ -10833,46 +12183,46 @@
             this.dataGridView10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView10.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView10.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle57.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle57.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle57.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle57.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle57.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle57.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle57.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle57.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView10.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle1113.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1113.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1113.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1113.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1113.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1113.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1113.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1113.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView10.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1113;
             this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle58.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle58.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle58.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView10.DefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle1114.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1114.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1114.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1114.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1114.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1114.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1114.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1114.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView10.DefaultCellStyle = dataGridViewCellStyle1114;
             this.dataGridView10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView10.Location = new System.Drawing.Point(117, 67);
             this.dataGridView10.Name = "dataGridView10";
             this.dataGridView10.ReadOnly = true;
             this.dataGridView10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle59.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle59.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle59.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle59.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle59.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle59.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle59.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView10.RowHeadersDefaultCellStyle = dataGridViewCellStyle59;
-            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle60.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle60.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView10.RowsDefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle1115.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1115.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1115.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1115.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1115.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1115.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1115.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView10.RowHeadersDefaultCellStyle = dataGridViewCellStyle1115;
+            dataGridViewCellStyle1116.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1116.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1116.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1116.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1116.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1116.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1116.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView10.RowsDefaultCellStyle = dataGridViewCellStyle1116;
             this.dataGridView10.RowTemplate.Height = 28;
             this.dataGridView10.Size = new System.Drawing.Size(1369, 730);
             this.dataGridView10.TabIndex = 15;
@@ -10945,6 +12295,29 @@
             this.O_C_ID.TabIndex = 14;
             this.O_C_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.O_C_ID.Visible = false;
+            // 
+            // Back_OCL
+            // 
+            this.Back_OCL.BackColor = System.Drawing.Color.Transparent;
+            this.Back_OCL.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_OCL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_OCL.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_OCL.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_OCL.FlatAppearance.BorderSize = 0;
+            this.Back_OCL.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_OCL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_OCL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_OCL.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_OCL.Location = new System.Drawing.Point(4, 4);
+            this.Back_OCL.Name = "Back_OCL";
+            this.Back_OCL.Size = new System.Drawing.Size(106, 56);
+            this.Back_OCL.TabIndex = 3;
+            this.Back_OCL.UseVisualStyleBackColor = false;
+            this.Back_OCL.Click += new System.EventHandler(this.Back_OCL_Click);
+            this.Back_OCL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_OCL_MouseDown);
+            this.Back_OCL.MouseEnter += new System.EventHandler(this.Back_OCL_MouseEnter);
+            this.Back_OCL.MouseLeave += new System.EventHandler(this.Back_OCL_MouseLeave);
+            this.Back_OCL.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_OCL_MouseUp);
             // 
             // tableLayoutPanel130
             // 
@@ -11246,6 +12619,29 @@
             this.P_T_S_ID.TabIndex = 14;
             this.P_T_S_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.P_T_S_ID.Visible = false;
+            // 
+            // Back_OSL
+            // 
+            this.Back_OSL.BackColor = System.Drawing.Color.Transparent;
+            this.Back_OSL.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_OSL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_OSL.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_OSL.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_OSL.FlatAppearance.BorderSize = 0;
+            this.Back_OSL.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_OSL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_OSL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_OSL.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_OSL.Location = new System.Drawing.Point(4, 4);
+            this.Back_OSL.Name = "Back_OSL";
+            this.Back_OSL.Size = new System.Drawing.Size(106, 56);
+            this.Back_OSL.TabIndex = 3;
+            this.Back_OSL.UseVisualStyleBackColor = false;
+            this.Back_OSL.Click += new System.EventHandler(this.Back_OSL_Click);
+            this.Back_OSL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_OSL_MouseDown);
+            this.Back_OSL.MouseEnter += new System.EventHandler(this.Back_OSL_MouseEnter);
+            this.Back_OSL.MouseLeave += new System.EventHandler(this.Back_OSL_MouseLeave);
+            this.Back_OSL.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_OSL_MouseUp);
             // 
             // tableLayoutPanel135
             // 
@@ -11649,6 +13045,29 @@
             this.GVBank.UseVisualStyleBackColor = false;
             this.GVBank.Click += new System.EventHandler(this.GVBank_Click);
             // 
+            // Back_BMgm
+            // 
+            this.Back_BMgm.BackColor = System.Drawing.Color.Transparent;
+            this.Back_BMgm.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_BMgm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_BMgm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_BMgm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_BMgm.FlatAppearance.BorderSize = 0;
+            this.Back_BMgm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_BMgm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_BMgm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_BMgm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_BMgm.Location = new System.Drawing.Point(4, 4);
+            this.Back_BMgm.Name = "Back_BMgm";
+            this.Back_BMgm.Size = new System.Drawing.Size(106, 56);
+            this.Back_BMgm.TabIndex = 3;
+            this.Back_BMgm.UseVisualStyleBackColor = false;
+            this.Back_BMgm.Click += new System.EventHandler(this.Back_BMgm_Click);
+            this.Back_BMgm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_BMgm_MouseDown);
+            this.Back_BMgm.MouseEnter += new System.EventHandler(this.Back_BMgm_MouseEnter);
+            this.Back_BMgm.MouseLeave += new System.EventHandler(this.Back_BMgm_MouseLeave);
+            this.Back_BMgm.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_BMgm_MouseUp);
+            // 
             // TGBank
             // 
             this.TGBank.Controls.Add(this.tableLayoutPanel156);
@@ -11717,6 +13136,29 @@
             this.textBox59.TabIndex = 14;
             this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox59.Visible = false;
+            // 
+            // Back_TGBank
+            // 
+            this.Back_TGBank.BackColor = System.Drawing.Color.Transparent;
+            this.Back_TGBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_TGBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_TGBank.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_TGBank.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_TGBank.FlatAppearance.BorderSize = 0;
+            this.Back_TGBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_TGBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_TGBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_TGBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_TGBank.Location = new System.Drawing.Point(4, 4);
+            this.Back_TGBank.Name = "Back_TGBank";
+            this.Back_TGBank.Size = new System.Drawing.Size(106, 56);
+            this.Back_TGBank.TabIndex = 3;
+            this.Back_TGBank.UseVisualStyleBackColor = false;
+            this.Back_TGBank.Click += new System.EventHandler(this.Back_TGBank_Click);
+            this.Back_TGBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_TGBank_MouseDown);
+            this.Back_TGBank.MouseEnter += new System.EventHandler(this.Back_TGBank_MouseEnter);
+            this.Back_TGBank.MouseLeave += new System.EventHandler(this.Back_TGBank_MouseLeave);
+            this.Back_TGBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_TGBank_MouseUp);
             // 
             // tableLayoutPanel157
             // 
@@ -11834,6 +13276,26 @@
             this.DeleteBank.UseVisualStyleBackColor = false;
             this.DeleteBank.Click += new System.EventHandler(this.DeleteBank_Click);
             // 
+            // button47
+            // 
+            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button47.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button47.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button47.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button47.ForeColor = System.Drawing.Color.Black;
+            this.button47.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button47.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button47.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button47.Location = new System.Drawing.Point(998, 3);
+            this.button47.Name = "button47";
+            this.button47.Size = new System.Drawing.Size(118, 50);
+            this.button47.TabIndex = 8;
+            this.button47.Text = "بازدید";
+            this.button47.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button47.UseVisualStyleBackColor = false;
+            // 
             // dataGridView11
             // 
             this.dataGridView11.AllowDrop = true;
@@ -11844,46 +13306,46 @@
             this.dataGridView11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView11.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGridView11.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle61.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle61.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle61.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle61.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle61.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle61.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle61.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle61.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView11.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle1117.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1117.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1117.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1117.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1117.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1117.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1117.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1117.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView11.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1117;
             this.dataGridView11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle62.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle62.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle62.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView11.DefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle1118.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1118.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1118.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1118.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1118.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1118.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1118.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1118.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView11.DefaultCellStyle = dataGridViewCellStyle1118;
             this.dataGridView11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView11.Location = new System.Drawing.Point(117, 67);
             this.dataGridView11.Name = "dataGridView11";
             this.dataGridView11.ReadOnly = true;
             this.dataGridView11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle63.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle63.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle63.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle63.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle63.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView11.RowHeadersDefaultCellStyle = dataGridViewCellStyle63;
-            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle64.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle64.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle64.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView11.RowsDefaultCellStyle = dataGridViewCellStyle64;
+            dataGridViewCellStyle1119.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1119.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1119.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1119.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1119.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1119.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1119.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView11.RowHeadersDefaultCellStyle = dataGridViewCellStyle1119;
+            dataGridViewCellStyle1120.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1120.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1120.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1120.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1120.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1120.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1120.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView11.RowsDefaultCellStyle = dataGridViewCellStyle1120;
             this.dataGridView11.RowTemplate.Height = 28;
             this.dataGridView11.Size = new System.Drawing.Size(1369, 730);
             this.dataGridView11.TabIndex = 16;
@@ -11945,11 +13407,34 @@
             // textBox31
             // 
             this.textBox31.Location = new System.Drawing.Point(4, 4);
-            this.textBox31.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox31.Margin = new System.Windows.Forms.Padding(4);
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(148, 26);
             this.textBox31.TabIndex = 5;
             this.textBox31.Visible = false;
+            // 
+            // Back_NBank
+            // 
+            this.Back_NBank.BackColor = System.Drawing.Color.Transparent;
+            this.Back_NBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_NBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_NBank.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_NBank.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_NBank.FlatAppearance.BorderSize = 0;
+            this.Back_NBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_NBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_NBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_NBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_NBank.Location = new System.Drawing.Point(4, 4);
+            this.Back_NBank.Name = "Back_NBank";
+            this.Back_NBank.Size = new System.Drawing.Size(106, 56);
+            this.Back_NBank.TabIndex = 3;
+            this.Back_NBank.UseVisualStyleBackColor = false;
+            this.Back_NBank.Click += new System.EventHandler(this.Back_NBank_Click);
+            this.Back_NBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NBank_MouseDown);
+            this.Back_NBank.MouseEnter += new System.EventHandler(this.Back_NBank_MouseEnter);
+            this.Back_NBank.MouseLeave += new System.EventHandler(this.Back_NBank_MouseLeave);
+            this.Back_NBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NBank_MouseUp);
             // 
             // tableLayoutPanel142
             // 
@@ -12306,6 +13791,29 @@
             this.T_F_B_E_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.T_F_B_E_ID.Visible = false;
             // 
+            // Back_TkBank
+            // 
+            this.Back_TkBank.BackColor = System.Drawing.Color.Transparent;
+            this.Back_TkBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_TkBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_TkBank.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_TkBank.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_TkBank.FlatAppearance.BorderSize = 0;
+            this.Back_TkBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_TkBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_TkBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_TkBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_TkBank.Location = new System.Drawing.Point(4, 4);
+            this.Back_TkBank.Name = "Back_TkBank";
+            this.Back_TkBank.Size = new System.Drawing.Size(106, 56);
+            this.Back_TkBank.TabIndex = 3;
+            this.Back_TkBank.UseVisualStyleBackColor = false;
+            this.Back_TkBank.Click += new System.EventHandler(this.Back_TkBank_Click);
+            this.Back_TkBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_TkBank_MouseDown);
+            this.Back_TkBank.MouseEnter += new System.EventHandler(this.Back_TkBank_MouseEnter);
+            this.Back_TkBank.MouseLeave += new System.EventHandler(this.Back_TkBank_MouseLeave);
+            this.Back_TkBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_TkBank_MouseUp);
+            // 
             // tableLayoutPanel147
             // 
             this.tableLayoutPanel147.ColumnCount = 4;
@@ -12652,6 +14160,29 @@
             this.P_T_B_E_ID.TabIndex = 15;
             this.P_T_B_E_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.P_T_B_E_ID.Visible = false;
+            // 
+            // Back_GVBank
+            // 
+            this.Back_GVBank.BackColor = System.Drawing.Color.Transparent;
+            this.Back_GVBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_GVBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_GVBank.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_GVBank.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_GVBank.FlatAppearance.BorderSize = 0;
+            this.Back_GVBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_GVBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_GVBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_GVBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_GVBank.Location = new System.Drawing.Point(4, 4);
+            this.Back_GVBank.Name = "Back_GVBank";
+            this.Back_GVBank.Size = new System.Drawing.Size(106, 56);
+            this.Back_GVBank.TabIndex = 3;
+            this.Back_GVBank.UseVisualStyleBackColor = false;
+            this.Back_GVBank.Click += new System.EventHandler(this.Back_GVBank_Click);
+            this.Back_GVBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_GVBank_MouseDown);
+            this.Back_GVBank.MouseEnter += new System.EventHandler(this.Back_GVBank_MouseEnter);
+            this.Back_GVBank.MouseLeave += new System.EventHandler(this.Back_GVBank_MouseLeave);
+            this.Back_GVBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_GVBank_MouseUp);
             // 
             // tableLayoutPanel152
             // 
@@ -13061,6 +14592,29 @@
             this.GVMoney.UseVisualStyleBackColor = false;
             this.GVMoney.Click += new System.EventHandler(this.GVMoney_Click);
             // 
+            // Back_TGOptions
+            // 
+            this.Back_TGOptions.BackColor = System.Drawing.Color.Transparent;
+            this.Back_TGOptions.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_TGOptions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_TGOptions.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_TGOptions.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_TGOptions.FlatAppearance.BorderSize = 0;
+            this.Back_TGOptions.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_TGOptions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_TGOptions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_TGOptions.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_TGOptions.Location = new System.Drawing.Point(4, 4);
+            this.Back_TGOptions.Name = "Back_TGOptions";
+            this.Back_TGOptions.Size = new System.Drawing.Size(106, 56);
+            this.Back_TGOptions.TabIndex = 3;
+            this.Back_TGOptions.UseVisualStyleBackColor = false;
+            this.Back_TGOptions.Click += new System.EventHandler(this.Back_TGOptions_Click);
+            this.Back_TGOptions.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_TGOptions_MouseDown);
+            this.Back_TGOptions.MouseEnter += new System.EventHandler(this.Back_TGOptions_MouseEnter);
+            this.Back_TGOptions.MouseLeave += new System.EventHandler(this.Back_TGOptions_MouseLeave);
+            this.Back_TGOptions.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_TGOptions_MouseUp);
+            // 
             // NMTTAB
             // 
             this.NMTTAB.Controls.Add(this.tableLayoutPanel161);
@@ -13129,6 +14683,29 @@
             this.P_M_ID.TabIndex = 14;
             this.P_M_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.P_M_ID.Visible = false;
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.Transparent;
+            this.button28.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button28.Location = new System.Drawing.Point(4, 4);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(106, 56);
+            this.button28.TabIndex = 3;
+            this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
+            this.button28.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button28_MouseDown);
+            this.button28.MouseEnter += new System.EventHandler(this.button28_MouseEnter);
+            this.button28.MouseLeave += new System.EventHandler(this.button28_MouseLeave);
+            this.button28.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button28_MouseUp);
             // 
             // tableLayoutPanel162
             // 
@@ -13434,6 +15011,29 @@
             this.Taken_PasT_Loan_Delete_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Taken_PasT_Loan_Delete_ID.Visible = false;
             // 
+            // button33
+            // 
+            this.button33.BackColor = System.Drawing.Color.Transparent;
+            this.button33.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button33.FlatAppearance.BorderSize = 0;
+            this.button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button33.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button33.Location = new System.Drawing.Point(4, 4);
+            this.button33.Name = "button33";
+            this.button33.Size = new System.Drawing.Size(106, 56);
+            this.button33.TabIndex = 3;
+            this.button33.UseVisualStyleBackColor = false;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
+            this.button33.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button33_MouseDown);
+            this.button33.MouseEnter += new System.EventHandler(this.button33_MouseEnter);
+            this.button33.MouseLeave += new System.EventHandler(this.button33_MouseLeave);
+            this.button33.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button33_MouseUp);
+            // 
             // tableLayoutPanel167
             // 
             this.tableLayoutPanel167.ColumnCount = 5;
@@ -13550,6 +15150,27 @@
             this.button38.UseVisualStyleBackColor = false;
             this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
+            // button41
+            // 
+            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button41.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button41.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button41.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button41.ForeColor = System.Drawing.Color.Black;
+            this.button41.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button41.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button41.Location = new System.Drawing.Point(998, 3);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(118, 50);
+            this.button41.TabIndex = 8;
+            this.button41.Text = "بازدید";
+            this.button41.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button41.UseVisualStyleBackColor = false;
+            this.button41.Click += new System.EventHandler(this.button41_Click);
+            // 
             // On_Customer_Money_Pay_DataGrideView
             // 
             this.On_Customer_Money_Pay_DataGrideView.AllowDrop = true;
@@ -13560,46 +15181,46 @@
             this.On_Customer_Money_Pay_DataGrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.On_Customer_Money_Pay_DataGrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.On_Customer_Money_Pay_DataGrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle65.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle65.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle65.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle65.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle65.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle65.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle65.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle65.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.On_Customer_Money_Pay_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle1121.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1121.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1121.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1121.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1121.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1121.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1121.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1121.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.On_Customer_Money_Pay_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1121;
             this.On_Customer_Money_Pay_DataGrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle66.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle66.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle66.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle66.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle66.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.On_Customer_Money_Pay_DataGrideView.DefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle1122.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1122.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1122.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1122.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1122.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1122.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1122.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1122.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.On_Customer_Money_Pay_DataGrideView.DefaultCellStyle = dataGridViewCellStyle1122;
             this.On_Customer_Money_Pay_DataGrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.On_Customer_Money_Pay_DataGrideView.Location = new System.Drawing.Point(117, 67);
             this.On_Customer_Money_Pay_DataGrideView.Name = "On_Customer_Money_Pay_DataGrideView";
             this.On_Customer_Money_Pay_DataGrideView.ReadOnly = true;
             this.On_Customer_Money_Pay_DataGrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle67.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle67.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle67.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle67.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle67.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle67.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle67.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.On_Customer_Money_Pay_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle67;
-            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle68.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle68.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle68.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.Color.Black;
-            this.On_Customer_Money_Pay_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle1123.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1123.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1123.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1123.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1123.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1123.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1123.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.On_Customer_Money_Pay_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1123;
+            dataGridViewCellStyle1124.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1124.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1124.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1124.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1124.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1124.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1124.SelectionForeColor = System.Drawing.Color.Black;
+            this.On_Customer_Money_Pay_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle1124;
             this.On_Customer_Money_Pay_DataGrideView.RowTemplate.Height = 28;
             this.On_Customer_Money_Pay_DataGrideView.Size = new System.Drawing.Size(1369, 730);
             this.On_Customer_Money_Pay_DataGrideView.TabIndex = 16;
@@ -13672,6 +15293,29 @@
             this.Delete_Loan_Past_Delete_ID.TabIndex = 14;
             this.Delete_Loan_Past_Delete_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Delete_Loan_Past_Delete_ID.Visible = false;
+            // 
+            // button44
+            // 
+            this.button44.BackColor = System.Drawing.Color.Transparent;
+            this.button44.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button44.FlatAppearance.BorderSize = 0;
+            this.button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button44.Location = new System.Drawing.Point(4, 4);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(106, 56);
+            this.button44.TabIndex = 3;
+            this.button44.UseVisualStyleBackColor = false;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
+            this.button44.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button44_MouseDown);
+            this.button44.MouseEnter += new System.EventHandler(this.button44_MouseEnter);
+            this.button44.MouseLeave += new System.EventHandler(this.button44_MouseLeave);
+            this.button44.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button44_MouseUp);
             // 
             // tableLayoutPanel170
             // 
@@ -13789,6 +15433,27 @@
             this.button46.UseVisualStyleBackColor = false;
             this.button46.Click += new System.EventHandler(this.button46_Click);
             // 
+            // button48
+            // 
+            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button48.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button48.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button48.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button48.ForeColor = System.Drawing.Color.Black;
+            this.button48.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button48.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button48.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button48.Location = new System.Drawing.Point(998, 3);
+            this.button48.Name = "button48";
+            this.button48.Size = new System.Drawing.Size(118, 50);
+            this.button48.TabIndex = 8;
+            this.button48.Text = "بازدید";
+            this.button48.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button48.UseVisualStyleBackColor = false;
+            this.button48.Click += new System.EventHandler(this.button48_Click);
+            // 
             // Pay_To_Supplier_DataGriveView
             // 
             this.Pay_To_Supplier_DataGriveView.AllowDrop = true;
@@ -13799,46 +15464,46 @@
             this.Pay_To_Supplier_DataGriveView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Pay_To_Supplier_DataGriveView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Pay_To_Supplier_DataGriveView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle69.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle69.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle69.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle69.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle69.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle69.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle69.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle69.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Pay_To_Supplier_DataGriveView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle1125.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1125.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1125.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1125.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1125.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1125.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1125.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1125.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Pay_To_Supplier_DataGriveView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1125;
             this.Pay_To_Supplier_DataGriveView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle70.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle70.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle70.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle70.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle70.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Pay_To_Supplier_DataGriveView.DefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle1126.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1126.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1126.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1126.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1126.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1126.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1126.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1126.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Pay_To_Supplier_DataGriveView.DefaultCellStyle = dataGridViewCellStyle1126;
             this.Pay_To_Supplier_DataGriveView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Pay_To_Supplier_DataGriveView.Location = new System.Drawing.Point(117, 67);
             this.Pay_To_Supplier_DataGriveView.Name = "Pay_To_Supplier_DataGriveView";
             this.Pay_To_Supplier_DataGriveView.ReadOnly = true;
             this.Pay_To_Supplier_DataGriveView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle71.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle71.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle71.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle71.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Pay_To_Supplier_DataGriveView.RowHeadersDefaultCellStyle = dataGridViewCellStyle71;
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle72.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle72.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle72.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.Color.Black;
-            this.Pay_To_Supplier_DataGriveView.RowsDefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle1127.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1127.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1127.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1127.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1127.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1127.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1127.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Pay_To_Supplier_DataGriveView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1127;
+            dataGridViewCellStyle1128.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1128.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1128.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1128.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1128.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1128.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1128.SelectionForeColor = System.Drawing.Color.Black;
+            this.Pay_To_Supplier_DataGriveView.RowsDefaultCellStyle = dataGridViewCellStyle1128;
             this.Pay_To_Supplier_DataGriveView.RowTemplate.Height = 28;
             this.Pay_To_Supplier_DataGriveView.Size = new System.Drawing.Size(1369, 730);
             this.Pay_To_Supplier_DataGriveView.TabIndex = 16;
@@ -13911,6 +15576,29 @@
             this.textBox10.TabIndex = 14;
             this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox10.Visible = false;
+            // 
+            // button49
+            // 
+            this.button49.BackColor = System.Drawing.Color.Transparent;
+            this.button49.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button49.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button49.FlatAppearance.BorderSize = 0;
+            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button49.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button49.Location = new System.Drawing.Point(4, 4);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(106, 56);
+            this.button49.TabIndex = 3;
+            this.button49.UseVisualStyleBackColor = false;
+            this.button49.Click += new System.EventHandler(this.button49_Click);
+            this.button49.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button49_MouseDown);
+            this.button49.MouseEnter += new System.EventHandler(this.button49_MouseEnter);
+            this.button49.MouseLeave += new System.EventHandler(this.button49_MouseLeave);
+            this.button49.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button49_MouseUp);
             // 
             // tableLayoutPanel173
             // 
@@ -14027,6 +15715,27 @@
             this.button51.Text = "حذف ";
             this.button51.UseVisualStyleBackColor = false;
             // 
+            // button52
+            // 
+            this.button52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button52.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button52.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button52.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button52.ForeColor = System.Drawing.Color.Black;
+            this.button52.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button52.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button52.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button52.Location = new System.Drawing.Point(998, 3);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(118, 50);
+            this.button52.TabIndex = 8;
+            this.button52.Text = "بازدید";
+            this.button52.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button52.UseVisualStyleBackColor = false;
+            this.button52.Click += new System.EventHandler(this.button52_Click);
+            // 
             // Take_From_Bank_Data_GrideView
             // 
             this.Take_From_Bank_Data_GrideView.AllowDrop = true;
@@ -14037,46 +15746,46 @@
             this.Take_From_Bank_Data_GrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Take_From_Bank_Data_GrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Take_From_Bank_Data_GrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle73.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle73.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle73.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Take_From_Bank_Data_GrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle1129.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1129.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1129.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1129.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1129.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1129.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1129.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1129.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Take_From_Bank_Data_GrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1129;
             this.Take_From_Bank_Data_GrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle74.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle74.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle74.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle74.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Take_From_Bank_Data_GrideView.DefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle1130.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1130.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1130.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1130.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1130.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1130.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1130.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1130.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Take_From_Bank_Data_GrideView.DefaultCellStyle = dataGridViewCellStyle1130;
             this.Take_From_Bank_Data_GrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Take_From_Bank_Data_GrideView.Location = new System.Drawing.Point(117, 67);
             this.Take_From_Bank_Data_GrideView.Name = "Take_From_Bank_Data_GrideView";
             this.Take_From_Bank_Data_GrideView.ReadOnly = true;
             this.Take_From_Bank_Data_GrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle75.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle75.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle75.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle75.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle75.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle75.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle75.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Take_From_Bank_Data_GrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle75;
-            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle76.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle76.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle76.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle76.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.Color.Black;
-            this.Take_From_Bank_Data_GrideView.RowsDefaultCellStyle = dataGridViewCellStyle76;
+            dataGridViewCellStyle1131.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1131.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1131.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1131.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1131.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1131.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1131.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Take_From_Bank_Data_GrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1131;
+            dataGridViewCellStyle1132.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1132.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1132.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1132.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1132.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1132.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1132.SelectionForeColor = System.Drawing.Color.Black;
+            this.Take_From_Bank_Data_GrideView.RowsDefaultCellStyle = dataGridViewCellStyle1132;
             this.Take_From_Bank_Data_GrideView.RowTemplate.Height = 28;
             this.Take_From_Bank_Data_GrideView.Size = new System.Drawing.Size(1369, 730);
             this.Take_From_Bank_Data_GrideView.TabIndex = 16;
@@ -14149,6 +15858,29 @@
             this.textBox14.TabIndex = 14;
             this.textBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox14.Visible = false;
+            // 
+            // button53
+            // 
+            this.button53.BackColor = System.Drawing.Color.Transparent;
+            this.button53.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button53.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button53.FlatAppearance.BorderSize = 0;
+            this.button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button53.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button53.Location = new System.Drawing.Point(4, 4);
+            this.button53.Name = "button53";
+            this.button53.Size = new System.Drawing.Size(106, 56);
+            this.button53.TabIndex = 3;
+            this.button53.UseVisualStyleBackColor = false;
+            this.button53.Click += new System.EventHandler(this.button53_Click);
+            this.button53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button53_MouseDown);
+            this.button53.MouseEnter += new System.EventHandler(this.button53_MouseEnter);
+            this.button53.MouseLeave += new System.EventHandler(this.button53_MouseLeave);
+            this.button53.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button53_MouseUp);
             // 
             // tableLayoutPanel176
             // 
@@ -14265,6 +15997,27 @@
             this.button55.Text = "حذف ";
             this.button55.UseVisualStyleBackColor = false;
             // 
+            // button56
+            // 
+            this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button56.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button56.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button56.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button56.ForeColor = System.Drawing.Color.Black;
+            this.button56.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button56.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button56.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button56.Location = new System.Drawing.Point(998, 3);
+            this.button56.Name = "button56";
+            this.button56.Size = new System.Drawing.Size(118, 50);
+            this.button56.TabIndex = 8;
+            this.button56.Text = "بازدید";
+            this.button56.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button56.UseVisualStyleBackColor = false;
+            this.button56.Click += new System.EventHandler(this.button56_Click);
+            // 
             // Pay_To_Bank_DataGrideView
             // 
             this.Pay_To_Bank_DataGrideView.AllowDrop = true;
@@ -14275,46 +16028,46 @@
             this.Pay_To_Bank_DataGrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Pay_To_Bank_DataGrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Pay_To_Bank_DataGrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle77.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle77.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle77.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle77.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle77.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle77.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle77.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Pay_To_Bank_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle77;
+            dataGridViewCellStyle1133.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1133.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1133.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1133.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1133.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1133.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1133.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1133.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Pay_To_Bank_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1133;
             this.Pay_To_Bank_DataGrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle78.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle78.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle78.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle78.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle78.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle78.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle78.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Pay_To_Bank_DataGrideView.DefaultCellStyle = dataGridViewCellStyle78;
+            dataGridViewCellStyle1134.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1134.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1134.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1134.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1134.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1134.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1134.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1134.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Pay_To_Bank_DataGrideView.DefaultCellStyle = dataGridViewCellStyle1134;
             this.Pay_To_Bank_DataGrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Pay_To_Bank_DataGrideView.Location = new System.Drawing.Point(117, 67);
             this.Pay_To_Bank_DataGrideView.Name = "Pay_To_Bank_DataGrideView";
             this.Pay_To_Bank_DataGrideView.ReadOnly = true;
             this.Pay_To_Bank_DataGrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle79.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle79.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle79.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle79.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle79.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Pay_To_Bank_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle79;
-            dataGridViewCellStyle80.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle80.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle80.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle80.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle80.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle80.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle80.SelectionForeColor = System.Drawing.Color.Black;
-            this.Pay_To_Bank_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle80;
+            dataGridViewCellStyle1135.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1135.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1135.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1135.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1135.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1135.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1135.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Pay_To_Bank_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1135;
+            dataGridViewCellStyle1136.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1136.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1136.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1136.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1136.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1136.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1136.SelectionForeColor = System.Drawing.Color.Black;
+            this.Pay_To_Bank_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle1136;
             this.Pay_To_Bank_DataGrideView.RowTemplate.Height = 28;
             this.Pay_To_Bank_DataGrideView.Size = new System.Drawing.Size(1369, 730);
             this.Pay_To_Bank_DataGrideView.TabIndex = 16;
@@ -14387,6 +16140,29 @@
             this.Given_Loan_Delete_ID.TabIndex = 14;
             this.Given_Loan_Delete_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.Given_Loan_Delete_ID.Visible = false;
+            // 
+            // Back_CLR
+            // 
+            this.Back_CLR.BackColor = System.Drawing.Color.Transparent;
+            this.Back_CLR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_CLR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_CLR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_CLR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_CLR.FlatAppearance.BorderSize = 0;
+            this.Back_CLR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_CLR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_CLR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_CLR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_CLR.Location = new System.Drawing.Point(4, 4);
+            this.Back_CLR.Name = "Back_CLR";
+            this.Back_CLR.Size = new System.Drawing.Size(106, 56);
+            this.Back_CLR.TabIndex = 3;
+            this.Back_CLR.UseVisualStyleBackColor = false;
+            this.Back_CLR.Click += new System.EventHandler(this.button57_Click);
+            this.Back_CLR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_CLR_MouseDown);
+            this.Back_CLR.MouseEnter += new System.EventHandler(this.Back_CLR_MouseEnter);
+            this.Back_CLR.MouseLeave += new System.EventHandler(this.Back_CLR_MouseLeave);
+            this.Back_CLR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_CLR_MouseUp);
             // 
             // tableLayoutPanel179
             // 
@@ -14504,6 +16280,27 @@
             this.button59.UseVisualStyleBackColor = false;
             this.button59.Click += new System.EventHandler(this.button59_Click);
             // 
+            // button60
+            // 
+            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button60.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button60.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button60.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button60.ForeColor = System.Drawing.Color.Black;
+            this.button60.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button60.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button60.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button60.Location = new System.Drawing.Point(998, 3);
+            this.button60.Name = "button60";
+            this.button60.Size = new System.Drawing.Size(118, 50);
+            this.button60.TabIndex = 8;
+            this.button60.Text = "بازدید";
+            this.button60.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button60.UseVisualStyleBackColor = false;
+            this.button60.Click += new System.EventHandler(this.button60_Click);
+            // 
             // Given_loan_DataGrideView
             // 
             this.Given_loan_DataGrideView.AllowDrop = true;
@@ -14514,46 +16311,46 @@
             this.Given_loan_DataGrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Given_loan_DataGrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Given_loan_DataGrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle81.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle81.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle81.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle81.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle81.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle81.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle81.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle81.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Given_loan_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle81;
+            dataGridViewCellStyle1137.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1137.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1137.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1137.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1137.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1137.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1137.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1137.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Given_loan_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1137;
             this.Given_loan_DataGrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle82.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle82.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle82.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle82.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Given_loan_DataGrideView.DefaultCellStyle = dataGridViewCellStyle82;
+            dataGridViewCellStyle1138.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1138.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1138.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1138.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1138.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1138.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1138.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1138.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Given_loan_DataGrideView.DefaultCellStyle = dataGridViewCellStyle1138;
             this.Given_loan_DataGrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Given_loan_DataGrideView.Location = new System.Drawing.Point(117, 67);
             this.Given_loan_DataGrideView.Name = "Given_loan_DataGrideView";
             this.Given_loan_DataGrideView.ReadOnly = true;
             this.Given_loan_DataGrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle83.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle83.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle83.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle83.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle83.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle83.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle83.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Given_loan_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle83;
-            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle84.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle84.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle84.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle84.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.Color.Black;
-            this.Given_loan_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle84;
+            dataGridViewCellStyle1139.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1139.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1139.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1139.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1139.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1139.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1139.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Given_loan_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1139;
+            dataGridViewCellStyle1140.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1140.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1140.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1140.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1140.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1140.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1140.SelectionForeColor = System.Drawing.Color.Black;
+            this.Given_loan_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle1140;
             this.Given_loan_DataGrideView.RowTemplate.Height = 28;
             this.Given_loan_DataGrideView.Size = new System.Drawing.Size(1369, 730);
             this.Given_loan_DataGrideView.TabIndex = 16;
@@ -14626,6 +16423,29 @@
             this.Taken_Loan_Delete_ID.Size = new System.Drawing.Size(152, 23);
             this.Taken_Loan_Delete_ID.TabIndex = 14;
             this.Taken_Loan_Delete_ID.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // Back_SLR
+            // 
+            this.Back_SLR.BackColor = System.Drawing.Color.Transparent;
+            this.Back_SLR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_SLR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_SLR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_SLR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_SLR.FlatAppearance.BorderSize = 0;
+            this.Back_SLR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_SLR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_SLR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_SLR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_SLR.Location = new System.Drawing.Point(4, 4);
+            this.Back_SLR.Name = "Back_SLR";
+            this.Back_SLR.Size = new System.Drawing.Size(106, 56);
+            this.Back_SLR.TabIndex = 3;
+            this.Back_SLR.UseVisualStyleBackColor = false;
+            this.Back_SLR.Click += new System.EventHandler(this.button61_Click);
+            this.Back_SLR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button61_MouseDown);
+            this.Back_SLR.MouseEnter += new System.EventHandler(this.button61_MouseEnter);
+            this.Back_SLR.MouseLeave += new System.EventHandler(this.button61_MouseLeave);
+            this.Back_SLR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button61_MouseUp);
             // 
             // tableLayoutPanel182
             // 
@@ -14743,6 +16563,27 @@
             this.button63.UseVisualStyleBackColor = false;
             this.button63.Click += new System.EventHandler(this.button63_Click);
             // 
+            // button64
+            // 
+            this.button64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button64.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button64.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button64.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button64.ForeColor = System.Drawing.Color.Black;
+            this.button64.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button64.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button64.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button64.Location = new System.Drawing.Point(998, 3);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(118, 50);
+            this.button64.TabIndex = 8;
+            this.button64.Text = "بازدید";
+            this.button64.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button64.UseVisualStyleBackColor = false;
+            this.button64.Click += new System.EventHandler(this.button64_Click);
+            // 
             // Taken_Loan_DataGrideView
             // 
             this.Taken_Loan_DataGrideView.AllowDrop = true;
@@ -14753,46 +16594,46 @@
             this.Taken_Loan_DataGrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Taken_Loan_DataGrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Taken_Loan_DataGrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle85.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle85.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle85.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle85.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle85.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle85.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle85.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle85.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Taken_Loan_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle85;
+            dataGridViewCellStyle1141.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1141.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1141.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1141.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1141.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1141.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1141.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1141.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Taken_Loan_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1141;
             this.Taken_Loan_DataGrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle86.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle86.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle86.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle86.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle86.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle86.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle86.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Taken_Loan_DataGrideView.DefaultCellStyle = dataGridViewCellStyle86;
+            dataGridViewCellStyle1142.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1142.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1142.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1142.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1142.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1142.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1142.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1142.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Taken_Loan_DataGrideView.DefaultCellStyle = dataGridViewCellStyle1142;
             this.Taken_Loan_DataGrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Taken_Loan_DataGrideView.Location = new System.Drawing.Point(117, 67);
             this.Taken_Loan_DataGrideView.Name = "Taken_Loan_DataGrideView";
             this.Taken_Loan_DataGrideView.ReadOnly = true;
             this.Taken_Loan_DataGrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle87.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle87.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle87.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle87.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle87.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle87.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle87.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Taken_Loan_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle87;
-            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle88.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle88.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle88.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle88.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.Color.Black;
-            this.Taken_Loan_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle88;
+            dataGridViewCellStyle1143.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1143.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1143.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1143.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1143.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1143.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1143.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Taken_Loan_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1143;
+            dataGridViewCellStyle1144.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1144.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1144.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1144.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1144.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1144.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1144.SelectionForeColor = System.Drawing.Color.Black;
+            this.Taken_Loan_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle1144;
             this.Taken_Loan_DataGrideView.RowTemplate.Height = 28;
             this.Taken_Loan_DataGrideView.Size = new System.Drawing.Size(1369, 730);
             this.Taken_Loan_DataGrideView.TabIndex = 16;
@@ -14865,6 +16706,29 @@
             this.textBox40.TabIndex = 14;
             this.textBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox40.Visible = false;
+            // 
+            // Back_EGR
+            // 
+            this.Back_EGR.BackColor = System.Drawing.Color.Transparent;
+            this.Back_EGR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_EGR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_EGR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_EGR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_EGR.FlatAppearance.BorderSize = 0;
+            this.Back_EGR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_EGR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_EGR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_EGR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_EGR.Location = new System.Drawing.Point(4, 4);
+            this.Back_EGR.Name = "Back_EGR";
+            this.Back_EGR.Size = new System.Drawing.Size(106, 56);
+            this.Back_EGR.TabIndex = 3;
+            this.Back_EGR.UseVisualStyleBackColor = false;
+            this.Back_EGR.Click += new System.EventHandler(this.Back_EGR_Click);
+            this.Back_EGR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_EGR_MouseDown);
+            this.Back_EGR.MouseEnter += new System.EventHandler(this.Back_EGR_MouseEnter);
+            this.Back_EGR.MouseLeave += new System.EventHandler(this.Back_EGR_MouseLeave);
+            this.Back_EGR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_EGR_MouseUp);
             // 
             // tableLayoutPanel185
             // 
@@ -14981,6 +16845,27 @@
             this.button67.Text = "حذف ";
             this.button67.UseVisualStyleBackColor = false;
             // 
+            // button68
+            // 
+            this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
+            this.button68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button68.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button68.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button68.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
+            this.button68.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
+            this.button68.ForeColor = System.Drawing.Color.Black;
+            this.button68.Image = global::WindowsFormsApplication2.Properties.Resources.load;
+            this.button68.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button68.Location = new System.Drawing.Point(998, 3);
+            this.button68.Name = "button68";
+            this.button68.Size = new System.Drawing.Size(118, 50);
+            this.button68.TabIndex = 8;
+            this.button68.Text = "بازدید";
+            this.button68.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button68.UseVisualStyleBackColor = false;
+            this.button68.Click += new System.EventHandler(this.button68_Click);
+            // 
             // Paid_Loan_DataGrideView
             // 
             this.Paid_Loan_DataGrideView.AllowDrop = true;
@@ -14991,46 +16876,46 @@
             this.Paid_Loan_DataGrideView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Paid_Loan_DataGrideView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.Paid_Loan_DataGrideView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle89.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle89.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle89.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle89.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle89.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle89.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle89.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Paid_Loan_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle89;
+            dataGridViewCellStyle1145.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1145.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1145.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1145.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1145.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1145.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1145.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1145.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Paid_Loan_DataGrideView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1145;
             this.Paid_Loan_DataGrideView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle90.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle90.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle90.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle90.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Paid_Loan_DataGrideView.DefaultCellStyle = dataGridViewCellStyle90;
+            dataGridViewCellStyle1146.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1146.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1146.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1146.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1146.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1146.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1146.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1146.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Paid_Loan_DataGrideView.DefaultCellStyle = dataGridViewCellStyle1146;
             this.Paid_Loan_DataGrideView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Paid_Loan_DataGrideView.Location = new System.Drawing.Point(117, 67);
             this.Paid_Loan_DataGrideView.Name = "Paid_Loan_DataGrideView";
             this.Paid_Loan_DataGrideView.ReadOnly = true;
             this.Paid_Loan_DataGrideView.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle91.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle91.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle91.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle91.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle91.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle91.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle91.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Paid_Loan_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle91;
-            dataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle92.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle92.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle92.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle92.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle92.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle92.SelectionForeColor = System.Drawing.Color.Black;
-            this.Paid_Loan_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle92;
+            dataGridViewCellStyle1147.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1147.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1147.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1147.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1147.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1147.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1147.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Paid_Loan_DataGrideView.RowHeadersDefaultCellStyle = dataGridViewCellStyle1147;
+            dataGridViewCellStyle1148.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1148.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1148.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1148.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1148.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1148.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1148.SelectionForeColor = System.Drawing.Color.Black;
+            this.Paid_Loan_DataGrideView.RowsDefaultCellStyle = dataGridViewCellStyle1148;
             this.Paid_Loan_DataGrideView.RowTemplate.Height = 28;
             this.Paid_Loan_DataGrideView.Size = new System.Drawing.Size(1369, 730);
             this.Paid_Loan_DataGrideView.TabIndex = 16;
@@ -15103,6 +16988,29 @@
             this.textBox48.TabIndex = 14;
             this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox48.Visible = false;
+            // 
+            // Back_ETR
+            // 
+            this.Back_ETR.BackColor = System.Drawing.Color.Transparent;
+            this.Back_ETR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
+            this.Back_ETR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Back_ETR.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Back_ETR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Back_ETR.FlatAppearance.BorderSize = 0;
+            this.Back_ETR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.Back_ETR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.Back_ETR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Back_ETR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Back_ETR.Location = new System.Drawing.Point(4, 4);
+            this.Back_ETR.Name = "Back_ETR";
+            this.Back_ETR.Size = new System.Drawing.Size(106, 56);
+            this.Back_ETR.TabIndex = 3;
+            this.Back_ETR.UseVisualStyleBackColor = false;
+            this.Back_ETR.Click += new System.EventHandler(this.Back_ETR_Click);
+            this.Back_ETR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_ETR_MouseDown);
+            this.Back_ETR.MouseEnter += new System.EventHandler(this.Back_ETR_MouseEnter);
+            this.Back_ETR.MouseLeave += new System.EventHandler(this.Back_ETR_MouseLeave);
+            this.Back_ETR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_ETR_MouseUp);
             // 
             // tableLayoutPanel188
             // 
@@ -15219,1947 +17127,6 @@
             this.button71.Text = "حذف ";
             this.button71.UseVisualStyleBackColor = false;
             // 
-            // dataGridView14
-            // 
-            this.dataGridView14.AllowDrop = true;
-            this.dataGridView14.AllowUserToOrderColumns = true;
-            this.dataGridView14.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView14.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
-            this.dataGridView14.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(251)))), ((int)(((byte)(252)))));
-            this.dataGridView14.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridView14.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dataGridView14.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle93.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle93.BackColor = System.Drawing.Color.DarkSlateGray;
-            dataGridViewCellStyle93.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle93.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle93.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle93.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle93.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
-            dataGridViewCellStyle93.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView14.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle93;
-            this.dataGridView14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle94.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle94.BackColor = System.Drawing.Color.DeepSkyBlue;
-            dataGridViewCellStyle94.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle94.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle94.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
-            dataGridViewCellStyle94.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle94.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle94.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView14.DefaultCellStyle = dataGridViewCellStyle94;
-            this.dataGridView14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView14.Location = new System.Drawing.Point(117, 67);
-            this.dataGridView14.Name = "dataGridView14";
-            this.dataGridView14.ReadOnly = true;
-            this.dataGridView14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            dataGridViewCellStyle95.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle95.BackColor = System.Drawing.Color.GhostWhite;
-            dataGridViewCellStyle95.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle95.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle95.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle95.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle95.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView14.RowHeadersDefaultCellStyle = dataGridViewCellStyle95;
-            dataGridViewCellStyle96.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle96.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle96.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle96.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle96.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
-            dataGridViewCellStyle96.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
-            dataGridViewCellStyle96.SelectionForeColor = System.Drawing.Color.Black;
-            this.dataGridView14.RowsDefaultCellStyle = dataGridViewCellStyle96;
-            this.dataGridView14.RowTemplate.Height = 28;
-            this.dataGridView14.Size = new System.Drawing.Size(1369, 730);
-            this.dataGridView14.TabIndex = 16;
-            // 
-            // LoanReports
-            // 
-            this.LoanReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.LoanReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.LoanReports;
-            this.LoanReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.LoanReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LoanReports.FlatAppearance.BorderSize = 0;
-            this.LoanReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.LoanReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.LoanReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LoanReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.LoanReports.ForeColor = System.Drawing.Color.White;
-            this.LoanReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LoanReports.Location = new System.Drawing.Point(791, 278);
-            this.LoanReports.Margin = new System.Windows.Forms.Padding(4);
-            this.LoanReports.Name = "LoanReports";
-            this.LoanReports.Size = new System.Drawing.Size(154, 184);
-            this.LoanReports.TabIndex = 8;
-            this.LoanReports.UseVisualStyleBackColor = false;
-            this.LoanReports.Click += new System.EventHandler(this.LoanReports_Click);
-            this.LoanReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LoanReports_MouseDown);
-            this.LoanReports.MouseEnter += new System.EventHandler(this.LoanReports_MouseEnter);
-            this.LoanReports.MouseLeave += new System.EventHandler(this.LoanReports_MouseLeave);
-            this.LoanReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LoanReports_MouseUp);
-            // 
-            // Purchases
-            // 
-            this.Purchases.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Purchases.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Purchases;
-            this.Purchases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Purchases.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Purchases.FlatAppearance.BorderSize = 0;
-            this.Purchases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Purchases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Purchases.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.Purchases.ForeColor = System.Drawing.Color.White;
-            this.Purchases.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Purchases.Location = new System.Drawing.Point(791, 64);
-            this.Purchases.Margin = new System.Windows.Forms.Padding(4);
-            this.Purchases.Name = "Purchases";
-            this.Purchases.Size = new System.Drawing.Size(154, 176);
-            this.Purchases.TabIndex = 5;
-            this.Purchases.UseVisualStyleBackColor = false;
-            this.Purchases.Click += new System.EventHandler(this.Purchases_Click);
-            this.Purchases.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseDown);
-            this.Purchases.MouseEnter += new System.EventHandler(this.Purchases_MouseEnter);
-            this.Purchases.MouseLeave += new System.EventHandler(this.Purchases_MouseLeave);
-            this.Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Purchases_MouseUp);
-            // 
-            // Loans
-            // 
-            this.Loans.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Loans.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Loan;
-            this.Loans.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Loans.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Loans.FlatAppearance.BorderSize = 0;
-            this.Loans.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Loans.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Loans.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Loans.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.Loans.ForeColor = System.Drawing.Color.White;
-            this.Loans.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Loans.Location = new System.Drawing.Point(543, 64);
-            this.Loans.Margin = new System.Windows.Forms.Padding(4);
-            this.Loans.Name = "Loans";
-            this.Loans.Size = new System.Drawing.Size(154, 176);
-            this.Loans.TabIndex = 2;
-            this.Loans.Text = "قرضه";
-            this.Loans.UseVisualStyleBackColor = false;
-            this.Loans.Click += new System.EventHandler(this.Loans_Click);
-            this.Loans.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Loans_MouseDown);
-            this.Loans.MouseEnter += new System.EventHandler(this.Loans_MouseEnter);
-            this.Loans.MouseLeave += new System.EventHandler(this.Loans_MouseLeave);
-            this.Loans.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Loans_MouseUp);
-            // 
-            // SalesReports
-            // 
-            this.SalesReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.SalesReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.SalesReport;
-            this.SalesReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SalesReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SalesReports.FlatAppearance.BorderSize = 0;
-            this.SalesReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.SalesReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.SalesReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SalesReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.SalesReports.ForeColor = System.Drawing.Color.White;
-            this.SalesReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.SalesReports.Location = new System.Drawing.Point(543, 278);
-            this.SalesReports.Margin = new System.Windows.Forms.Padding(4);
-            this.SalesReports.Name = "SalesReports";
-            this.SalesReports.Size = new System.Drawing.Size(154, 184);
-            this.SalesReports.TabIndex = 6;
-            this.SalesReports.UseVisualStyleBackColor = false;
-            this.SalesReports.Click += new System.EventHandler(this.SalesReports_Click);
-            this.SalesReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseDown);
-            this.SalesReports.MouseEnter += new System.EventHandler(this.SalesReports_MouseEnter);
-            this.SalesReports.MouseLeave += new System.EventHandler(this.SalesReports_MouseLeave);
-            this.SalesReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.SalesReports_MouseUp);
-            // 
-            // GeneralReports
-            // 
-            this.GeneralReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.GeneralReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.GeneralReport;
-            this.GeneralReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.GeneralReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GeneralReports.FlatAppearance.BorderSize = 0;
-            this.GeneralReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.GeneralReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.GeneralReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.GeneralReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.GeneralReports.ForeColor = System.Drawing.Color.White;
-            this.GeneralReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.GeneralReports.Location = new System.Drawing.Point(295, 278);
-            this.GeneralReports.Margin = new System.Windows.Forms.Padding(4);
-            this.GeneralReports.Name = "GeneralReports";
-            this.GeneralReports.Size = new System.Drawing.Size(154, 184);
-            this.GeneralReports.TabIndex = 7;
-            this.GeneralReports.UseVisualStyleBackColor = false;
-            this.GeneralReports.Click += new System.EventHandler(this.GeneralReports_Click);
-            this.GeneralReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseDown);
-            this.GeneralReports.MouseEnter += new System.EventHandler(this.GeneralReports_MouseEnter);
-            this.GeneralReports.MouseLeave += new System.EventHandler(this.GeneralReports_MouseLeave);
-            this.GeneralReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.GeneralReports_MouseUp);
-            // 
-            // Management
-            // 
-            this.Management.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Management.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Management;
-            this.Management.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Management.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Management.FlatAppearance.BorderSize = 0;
-            this.Management.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Management.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Management.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Management.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.Management.ForeColor = System.Drawing.Color.White;
-            this.Management.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Management.Location = new System.Drawing.Point(295, 64);
-            this.Management.Margin = new System.Windows.Forms.Padding(4);
-            this.Management.Name = "Management";
-            this.Management.Size = new System.Drawing.Size(154, 176);
-            this.Management.TabIndex = 0;
-            this.Management.UseVisualStyleBackColor = false;
-            this.Management.Click += new System.EventHandler(this.Management_Click);
-            this.Management.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Management_MouseDown);
-            this.Management.MouseEnter += new System.EventHandler(this.Management_MouseEnter);
-            this.Management.MouseLeave += new System.EventHandler(this.Management_MouseLeave);
-            this.Management.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Management_MouseUp);
-            // 
-            // StockReports
-            // 
-            this.StockReports.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.StockReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.StockReports;
-            this.StockReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.StockReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.StockReports.FlatAppearance.BorderSize = 0;
-            this.StockReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.StockReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.StockReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StockReports.Font = new System.Drawing.Font("Traditional Arabic", 12F, System.Drawing.FontStyle.Bold);
-            this.StockReports.ForeColor = System.Drawing.Color.White;
-            this.StockReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.StockReports.Location = new System.Drawing.Point(1039, 278);
-            this.StockReports.Margin = new System.Windows.Forms.Padding(4);
-            this.StockReports.Name = "StockReports";
-            this.StockReports.Size = new System.Drawing.Size(154, 184);
-            this.StockReports.TabIndex = 4;
-            this.StockReports.UseVisualStyleBackColor = false;
-            this.StockReports.Click += new System.EventHandler(this.StockReports_Click);
-            this.StockReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseDown);
-            this.StockReports.MouseEnter += new System.EventHandler(this.StockReports_MouseEnter);
-            this.StockReports.MouseLeave += new System.EventHandler(this.StockReports_MouseLeave);
-            this.StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.StockReports_MouseUp);
-            // 
-            // Sales
-            // 
-            this.Sales.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Sales.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Sales;
-            this.Sales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Sales.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Sales.FlatAppearance.BorderSize = 0;
-            this.Sales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Sales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Sales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Sales.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.Sales.ForeColor = System.Drawing.Color.White;
-            this.Sales.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Sales.Location = new System.Drawing.Point(1039, 64);
-            this.Sales.Margin = new System.Windows.Forms.Padding(4);
-            this.Sales.Name = "Sales";
-            this.Sales.Size = new System.Drawing.Size(154, 176);
-            this.Sales.TabIndex = 1;
-            this.Sales.Tag = "";
-            this.Sales.UseVisualStyleBackColor = false;
-            this.Sales.Click += new System.EventHandler(this.Sales_Click);
-            this.Sales.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Sales_MouseDown);
-            this.Sales.MouseEnter += new System.EventHandler(this.Sales_MouseEnter);
-            this.Sales.MouseLeave += new System.EventHandler(this.Sales_MouseLeave);
-            this.Sales.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Sales_MouseUp);
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel4.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Icon;
-            this.flowLayoutPanel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.flowLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(1384, 1);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(105, 60);
-            this.flowLayoutPanel4.TabIndex = 0;
-            // 
-            // Back_Sales
-            // 
-            this.Back_Sales.BackColor = System.Drawing.Color.Transparent;
-            this.Back_Sales.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_Sales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_Sales.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_Sales.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_Sales.FlatAppearance.BorderSize = 0;
-            this.Back_Sales.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_Sales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_Sales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_Sales.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_Sales.Location = new System.Drawing.Point(4, 4);
-            this.Back_Sales.Name = "Back_Sales";
-            this.Back_Sales.Size = new System.Drawing.Size(106, 56);
-            this.Back_Sales.TabIndex = 3;
-            this.Back_Sales.UseVisualStyleBackColor = false;
-            this.Back_Sales.Click += new System.EventHandler(this.Back_Sales_Click);
-            this.Back_Sales.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Sales_MouseDown);
-            this.Back_Sales.MouseEnter += new System.EventHandler(this.Back_Sales_MouseEnter);
-            this.Back_Sales.MouseLeave += new System.EventHandler(this.Back_Sales_MouseLeave);
-            this.Back_Sales.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Sales_MouseUp);
-            // 
-            // Back_Customers
-            // 
-            this.Back_Customers.BackColor = System.Drawing.Color.Transparent;
-            this.Back_Customers.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_Customers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_Customers.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_Customers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_Customers.FlatAppearance.BorderSize = 0;
-            this.Back_Customers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_Customers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_Customers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_Customers.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_Customers.Location = new System.Drawing.Point(4, 4);
-            this.Back_Customers.Name = "Back_Customers";
-            this.Back_Customers.Size = new System.Drawing.Size(106, 56);
-            this.Back_Customers.TabIndex = 3;
-            this.Back_Customers.UseVisualStyleBackColor = false;
-            this.Back_Customers.Click += new System.EventHandler(this.Back_Customers_Click);
-            this.Back_Customers.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Customers_MouseDown);
-            this.Back_Customers.MouseEnter += new System.EventHandler(this.Back_Customers_MouseEnter);
-            this.Back_Customers.MouseLeave += new System.EventHandler(this.Back_Customers_MouseLeave);
-            this.Back_Customers.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Customers_MouseUp);
-            // 
-            // button22
-            // 
-            this.button22.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button22.Location = new System.Drawing.Point(998, 4);
-            this.button22.Margin = new System.Windows.Forms.Padding(4);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(116, 48);
-            this.button22.TabIndex = 17;
-            this.button22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // Back_NewCustomer
-            // 
-            this.Back_NewCustomer.BackColor = System.Drawing.Color.Transparent;
-            this.Back_NewCustomer.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_NewCustomer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_NewCustomer.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_NewCustomer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_NewCustomer.FlatAppearance.BorderSize = 0;
-            this.Back_NewCustomer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewCustomer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewCustomer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_NewCustomer.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_NewCustomer.Location = new System.Drawing.Point(4, 4);
-            this.Back_NewCustomer.Name = "Back_NewCustomer";
-            this.Back_NewCustomer.Size = new System.Drawing.Size(106, 56);
-            this.Back_NewCustomer.TabIndex = 3;
-            this.Back_NewCustomer.UseVisualStyleBackColor = false;
-            this.Back_NewCustomer.Click += new System.EventHandler(this.Back_NewCustomer_Click);
-            this.Back_NewCustomer.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewCustomer_MouseDown);
-            this.Back_NewCustomer.MouseEnter += new System.EventHandler(this.Back_NewCustomer_MouseEnter);
-            this.Back_NewCustomer.MouseLeave += new System.EventHandler(this.Back_NewCustomer_MouseLeave);
-            this.Back_NewCustomer.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewCustomer_MouseUp);
-            // 
-            // Invoices_Back
-            // 
-            this.Invoices_Back.BackColor = System.Drawing.Color.Transparent;
-            this.Invoices_Back.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Invoices_Back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Invoices_Back.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Invoices_Back.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Invoices_Back.FlatAppearance.BorderSize = 0;
-            this.Invoices_Back.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Invoices_Back.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Invoices_Back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Invoices_Back.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Invoices_Back.Location = new System.Drawing.Point(4, 4);
-            this.Invoices_Back.Name = "Invoices_Back";
-            this.Invoices_Back.Size = new System.Drawing.Size(106, 56);
-            this.Invoices_Back.TabIndex = 3;
-            this.Invoices_Back.UseVisualStyleBackColor = false;
-            this.Invoices_Back.Click += new System.EventHandler(this.Invoices_Back_Click);
-            this.Invoices_Back.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Invoices_Back_MouseDown);
-            this.Invoices_Back.MouseEnter += new System.EventHandler(this.Invoices_Back_MouseEnter);
-            this.Invoices_Back.MouseLeave += new System.EventHandler(this.Invoices_Back_MouseLeave);
-            this.Invoices_Back.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Invoices_Back_MouseUp);
-            // 
-            // button23
-            // 
-            this.button23.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button23.ForeColor = System.Drawing.Color.White;
-            this.button23.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button23.Location = new System.Drawing.Point(999, 4);
-            this.button23.Margin = new System.Windows.Forms.Padding(4);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(116, 48);
-            this.button23.TabIndex = 18;
-            this.button23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // Back_NewInvoice
-            // 
-            this.Back_NewInvoice.BackColor = System.Drawing.Color.Transparent;
-            this.Back_NewInvoice.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_NewInvoice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_NewInvoice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_NewInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_NewInvoice.FlatAppearance.BorderSize = 0;
-            this.Back_NewInvoice.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewInvoice.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_NewInvoice.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_NewInvoice.Location = new System.Drawing.Point(4, 4);
-            this.Back_NewInvoice.Name = "Back_NewInvoice";
-            this.Back_NewInvoice.Size = new System.Drawing.Size(106, 56);
-            this.Back_NewInvoice.TabIndex = 3;
-            this.Back_NewInvoice.UseVisualStyleBackColor = false;
-            this.Back_NewInvoice.Click += new System.EventHandler(this.Back_NewInvoice_Click);
-            this.Back_NewInvoice.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewInvoice_MouseDown);
-            this.Back_NewInvoice.MouseEnter += new System.EventHandler(this.Back_NewInvoice_MouseEnter);
-            this.Back_NewInvoice.MouseLeave += new System.EventHandler(this.Back_NewInvoice_MouseLeave);
-            this.Back_NewInvoice.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewInvoice_MouseUp);
-            // 
-            // button18
-            // 
-            this.button18.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button18.Location = new System.Drawing.Point(962, 4);
-            this.button18.Margin = new System.Windows.Forms.Padding(4);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(128, 48);
-            this.button18.TabIndex = 16;
-            this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // BackItemReturn
-            // 
-            this.BackItemReturn.BackColor = System.Drawing.Color.Transparent;
-            this.BackItemReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.BackItemReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BackItemReturn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BackItemReturn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BackItemReturn.FlatAppearance.BorderSize = 0;
-            this.BackItemReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.BackItemReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.BackItemReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BackItemReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BackItemReturn.Location = new System.Drawing.Point(4, 4);
-            this.BackItemReturn.Name = "BackItemReturn";
-            this.BackItemReturn.Size = new System.Drawing.Size(106, 56);
-            this.BackItemReturn.TabIndex = 3;
-            this.BackItemReturn.UseVisualStyleBackColor = false;
-            this.BackItemReturn.Click += new System.EventHandler(this.BackItemReturn_Click_1);
-            // 
-            // button19
-            // 
-            this.button19.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button19.Location = new System.Drawing.Point(962, 4);
-            this.button19.Margin = new System.Windows.Forms.Padding(4);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(128, 48);
-            this.button19.TabIndex = 16;
-            this.button19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // Back_Purchases
-            // 
-            this.Back_Purchases.BackColor = System.Drawing.Color.Transparent;
-            this.Back_Purchases.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_Purchases.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_Purchases.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_Purchases.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_Purchases.FlatAppearance.BorderSize = 0;
-            this.Back_Purchases.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_Purchases.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_Purchases.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_Purchases.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_Purchases.Location = new System.Drawing.Point(4, 4);
-            this.Back_Purchases.Name = "Back_Purchases";
-            this.Back_Purchases.Size = new System.Drawing.Size(106, 56);
-            this.Back_Purchases.TabIndex = 3;
-            this.Back_Purchases.UseVisualStyleBackColor = false;
-            this.Back_Purchases.Click += new System.EventHandler(this.PurchasesReturn_Click);
-            this.Back_Purchases.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Purchases_MouseDown);
-            this.Back_Purchases.MouseEnter += new System.EventHandler(this.Back_Purchases_MouseEnter);
-            this.Back_Purchases.MouseLeave += new System.EventHandler(this.Back_Purchases_MouseLeave);
-            this.Back_Purchases.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Purchases_MouseUp);
-            // 
-            // NewItemReturn
-            // 
-            this.NewItemReturn.BackColor = System.Drawing.Color.Transparent;
-            this.NewItemReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.NewItemReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.NewItemReturn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NewItemReturn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NewItemReturn.FlatAppearance.BorderSize = 0;
-            this.NewItemReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.NewItemReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.NewItemReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NewItemReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.NewItemReturn.Location = new System.Drawing.Point(4, 4);
-            this.NewItemReturn.Name = "NewItemReturn";
-            this.NewItemReturn.Size = new System.Drawing.Size(106, 56);
-            this.NewItemReturn.TabIndex = 3;
-            this.NewItemReturn.UseVisualStyleBackColor = false;
-            this.NewItemReturn.Click += new System.EventHandler(this.NewItemReturn_Click);
-            this.NewItemReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NewItemReturn_MouseDown);
-            this.NewItemReturn.MouseEnter += new System.EventHandler(this.NewItemReturn_MouseEnter);
-            this.NewItemReturn.MouseLeave += new System.EventHandler(this.NewItemReturn_MouseLeave);
-            this.NewItemReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.NewItemReturn_MouseUp);
-            // 
-            // NewSupplierItem
-            // 
-            this.NewSupplierItem.BackColor = System.Drawing.Color.Transparent;
-            this.NewSupplierItem.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.NewSupplierItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.NewSupplierItem.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NewSupplierItem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.NewSupplierItem.FlatAppearance.BorderSize = 0;
-            this.NewSupplierItem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.NewSupplierItem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.NewSupplierItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NewSupplierItem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.NewSupplierItem.Location = new System.Drawing.Point(4, 4);
-            this.NewSupplierItem.Name = "NewSupplierItem";
-            this.NewSupplierItem.Size = new System.Drawing.Size(106, 56);
-            this.NewSupplierItem.TabIndex = 3;
-            this.NewSupplierItem.UseVisualStyleBackColor = false;
-            this.NewSupplierItem.Click += new System.EventHandler(this.NewSupplierItem_Click);
-            this.NewSupplierItem.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NewSupplierItem_MouseDown);
-            this.NewSupplierItem.MouseEnter += new System.EventHandler(this.NewSupplierItem_MouseEnter);
-            this.NewSupplierItem.MouseLeave += new System.EventHandler(this.NewSupplierItem_MouseLeave);
-            this.NewSupplierItem.MouseUp += new System.Windows.Forms.MouseEventHandler(this.NewSupplierItem_MouseUp);
-            // 
-            // PurchaseInvoiceReturn
-            // 
-            this.PurchaseInvoiceReturn.BackColor = System.Drawing.Color.Transparent;
-            this.PurchaseInvoiceReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.PurchaseInvoiceReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PurchaseInvoiceReturn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PurchaseInvoiceReturn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PurchaseInvoiceReturn.FlatAppearance.BorderSize = 0;
-            this.PurchaseInvoiceReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.PurchaseInvoiceReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.PurchaseInvoiceReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PurchaseInvoiceReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.PurchaseInvoiceReturn.Location = new System.Drawing.Point(4, 4);
-            this.PurchaseInvoiceReturn.Name = "PurchaseInvoiceReturn";
-            this.PurchaseInvoiceReturn.Size = new System.Drawing.Size(106, 56);
-            this.PurchaseInvoiceReturn.TabIndex = 3;
-            this.PurchaseInvoiceReturn.UseVisualStyleBackColor = false;
-            this.PurchaseInvoiceReturn.Click += new System.EventHandler(this.PurchaseInvoiceReturn_Click);
-            this.PurchaseInvoiceReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.PurchaseInvoiceReturn_MouseDown);
-            this.PurchaseInvoiceReturn.MouseEnter += new System.EventHandler(this.PurchaseInvoiceReturn_MouseEnter);
-            this.PurchaseInvoiceReturn.MouseLeave += new System.EventHandler(this.PurchaseInvoiceReturn_MouseLeave);
-            this.PurchaseInvoiceReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.PurchaseInvoiceReturn_MouseUp);
-            // 
-            // button20
-            // 
-            this.button20.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button20.Location = new System.Drawing.Point(962, 4);
-            this.button20.Margin = new System.Windows.Forms.Padding(4);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(128, 48);
-            this.button20.TabIndex = 16;
-            this.button20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // BackPurchaseItemReturn
-            // 
-            this.BackPurchaseItemReturn.BackColor = System.Drawing.Color.Transparent;
-            this.BackPurchaseItemReturn.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.BackPurchaseItemReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BackPurchaseItemReturn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BackPurchaseItemReturn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BackPurchaseItemReturn.FlatAppearance.BorderSize = 0;
-            this.BackPurchaseItemReturn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.BackPurchaseItemReturn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.BackPurchaseItemReturn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BackPurchaseItemReturn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BackPurchaseItemReturn.Location = new System.Drawing.Point(4, 4);
-            this.BackPurchaseItemReturn.Name = "BackPurchaseItemReturn";
-            this.BackPurchaseItemReturn.Size = new System.Drawing.Size(106, 56);
-            this.BackPurchaseItemReturn.TabIndex = 3;
-            this.BackPurchaseItemReturn.UseVisualStyleBackColor = false;
-            this.BackPurchaseItemReturn.Click += new System.EventHandler(this.BackPurchaseItemReturn_Click);
-            this.BackPurchaseItemReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BackPurchaseItemReturn_MouseDown);
-            this.BackPurchaseItemReturn.MouseEnter += new System.EventHandler(this.BackPurchaseItemReturn_MouseEnter);
-            this.BackPurchaseItemReturn.MouseLeave += new System.EventHandler(this.BackPurchaseItemReturn_MouseLeave);
-            this.BackPurchaseItemReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.BackPurchaseItemReturn_MouseUp);
-            // 
-            // button21
-            // 
-            this.button21.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button21.Location = new System.Drawing.Point(962, 4);
-            this.button21.Margin = new System.Windows.Forms.Padding(4);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(128, 48);
-            this.button21.TabIndex = 16;
-            this.button21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // Back_LoansTab
-            // 
-            this.Back_LoansTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_LoansTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_LoansTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_LoansTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_LoansTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_LoansTab.FlatAppearance.BorderSize = 0;
-            this.Back_LoansTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_LoansTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_LoansTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_LoansTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_LoansTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_LoansTab.Name = "Back_LoansTab";
-            this.Back_LoansTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_LoansTab.TabIndex = 3;
-            this.Back_LoansTab.UseVisualStyleBackColor = false;
-            this.Back_LoansTab.Click += new System.EventHandler(this.BackLoanTab_Click);
-            this.Back_LoansTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_LoansTab_MouseDown);
-            this.Back_LoansTab.MouseEnter += new System.EventHandler(this.Back_LoansTab_MouseEnter);
-            this.Back_LoansTab.MouseLeave += new System.EventHandler(this.Back_LoansTab_MouseLeave);
-            this.Back_LoansTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_LoansTab_MouseUp);
-            // 
-            // Back_CustomerLoanTab
-            // 
-            this.Back_CustomerLoanTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_CustomerLoanTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_CustomerLoanTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_CustomerLoanTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_CustomerLoanTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_CustomerLoanTab.FlatAppearance.BorderSize = 0;
-            this.Back_CustomerLoanTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_CustomerLoanTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_CustomerLoanTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_CustomerLoanTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_CustomerLoanTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_CustomerLoanTab.Name = "Back_CustomerLoanTab";
-            this.Back_CustomerLoanTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_CustomerLoanTab.TabIndex = 3;
-            this.Back_CustomerLoanTab.UseVisualStyleBackColor = false;
-            this.Back_CustomerLoanTab.Click += new System.EventHandler(this.Back_CustomerLoanTab_Click);
-            this.Back_CustomerLoanTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_CustomerLoanTab_MouseDown);
-            this.Back_CustomerLoanTab.MouseEnter += new System.EventHandler(this.Back_CustomerLoanTab_MouseEnter);
-            this.Back_CustomerLoanTab.MouseLeave += new System.EventHandler(this.Back_CustomerLoanTab_MouseLeave);
-            this.Back_CustomerLoanTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_CustomerLoanTab_MouseUp);
-            // 
-            // Back_SupplierLoanTab
-            // 
-            this.Back_SupplierLoanTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_SupplierLoanTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_SupplierLoanTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_SupplierLoanTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_SupplierLoanTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_SupplierLoanTab.FlatAppearance.BorderSize = 0;
-            this.Back_SupplierLoanTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_SupplierLoanTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_SupplierLoanTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_SupplierLoanTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_SupplierLoanTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_SupplierLoanTab.Name = "Back_SupplierLoanTab";
-            this.Back_SupplierLoanTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_SupplierLoanTab.TabIndex = 3;
-            this.Back_SupplierLoanTab.UseVisualStyleBackColor = false;
-            this.Back_SupplierLoanTab.Click += new System.EventHandler(this.Back_SupplierLoanTab_Click);
-            this.Back_SupplierLoanTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_SupplierLoanTab_MouseDown);
-            this.Back_SupplierLoanTab.MouseEnter += new System.EventHandler(this.Back_SupplierLoanTab_MouseEnter);
-            this.Back_SupplierLoanTab.MouseLeave += new System.EventHandler(this.Back_SupplierLoanTab_MouseLeave);
-            this.Back_SupplierLoanTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_SupplierLoanTab_MouseUp);
-            // 
-            // Back_ManagementTab
-            // 
-            this.Back_ManagementTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_ManagementTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_ManagementTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_ManagementTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_ManagementTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_ManagementTab.FlatAppearance.BorderSize = 0;
-            this.Back_ManagementTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_ManagementTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_ManagementTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_ManagementTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_ManagementTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_ManagementTab.Name = "Back_ManagementTab";
-            this.Back_ManagementTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_ManagementTab.TabIndex = 3;
-            this.Back_ManagementTab.UseVisualStyleBackColor = false;
-            this.Back_ManagementTab.Click += new System.EventHandler(this.Back_ManagementTab_Click);
-            this.Back_ManagementTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_ManagementTab_MouseDown);
-            this.Back_ManagementTab.MouseEnter += new System.EventHandler(this.Back_ManagementTab_MouseEnter);
-            this.Back_ManagementTab.MouseLeave += new System.EventHandler(this.Back_ManagementTab_MouseLeave);
-            this.Back_ManagementTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_ManagementTab_MouseUp);
-            // 
-            // Back_EmployeesTab
-            // 
-            this.Back_EmployeesTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_EmployeesTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_EmployeesTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_EmployeesTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_EmployeesTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_EmployeesTab.FlatAppearance.BorderSize = 0;
-            this.Back_EmployeesTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_EmployeesTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_EmployeesTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_EmployeesTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_EmployeesTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_EmployeesTab.Name = "Back_EmployeesTab";
-            this.Back_EmployeesTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_EmployeesTab.TabIndex = 3;
-            this.Back_EmployeesTab.UseVisualStyleBackColor = false;
-            this.Back_EmployeesTab.Click += new System.EventHandler(this.Back_EmployeesTab_Click);
-            this.Back_EmployeesTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_EmployeesTab_MouseDown);
-            this.Back_EmployeesTab.MouseEnter += new System.EventHandler(this.Back_EmployeesTab_MouseEnter);
-            this.Back_EmployeesTab.MouseLeave += new System.EventHandler(this.Back_EmployeesTab_MouseLeave);
-            this.Back_EmployeesTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_EmployeesTab_MouseUp);
-            // 
-            // RefreshEmployees
-            // 
-            this.RefreshEmployees.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.RefreshEmployees.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RefreshEmployees.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RefreshEmployees.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RefreshEmployees.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.RefreshEmployees.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.RefreshEmployees.ForeColor = System.Drawing.Color.Black;
-            this.RefreshEmployees.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.RefreshEmployees.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.RefreshEmployees.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.RefreshEmployees.Location = new System.Drawing.Point(998, 3);
-            this.RefreshEmployees.Name = "RefreshEmployees";
-            this.RefreshEmployees.Size = new System.Drawing.Size(118, 50);
-            this.RefreshEmployees.TabIndex = 8;
-            this.RefreshEmployees.Text = "بازدید";
-            this.RefreshEmployees.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.RefreshEmployees.UseVisualStyleBackColor = false;
-            this.RefreshEmployees.Click += new System.EventHandler(this.RefreshEmployees_Click);
-            // 
-            // Back_NewEmployee
-            // 
-            this.Back_NewEmployee.BackColor = System.Drawing.Color.Transparent;
-            this.Back_NewEmployee.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_NewEmployee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_NewEmployee.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_NewEmployee.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_NewEmployee.FlatAppearance.BorderSize = 0;
-            this.Back_NewEmployee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewEmployee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_NewEmployee.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_NewEmployee.Location = new System.Drawing.Point(4, 4);
-            this.Back_NewEmployee.Name = "Back_NewEmployee";
-            this.Back_NewEmployee.Size = new System.Drawing.Size(106, 56);
-            this.Back_NewEmployee.TabIndex = 3;
-            this.Back_NewEmployee.UseVisualStyleBackColor = false;
-            this.Back_NewEmployee.Click += new System.EventHandler(this.Back_NewEmployee_Click);
-            this.Back_NewEmployee.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewEmployee_MouseDown);
-            this.Back_NewEmployee.MouseEnter += new System.EventHandler(this.Back_NewEmployee_MouseEnter);
-            this.Back_NewEmployee.MouseLeave += new System.EventHandler(this.Back_NewEmployee_MouseLeave);
-            this.Back_NewEmployee.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewEmployee_MouseUp);
-            // 
-            // Back_ExpensesTab
-            // 
-            this.Back_ExpensesTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_ExpensesTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_ExpensesTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_ExpensesTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_ExpensesTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_ExpensesTab.FlatAppearance.BorderSize = 0;
-            this.Back_ExpensesTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_ExpensesTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_ExpensesTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_ExpensesTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_ExpensesTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_ExpensesTab.Name = "Back_ExpensesTab";
-            this.Back_ExpensesTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_ExpensesTab.TabIndex = 3;
-            this.Back_ExpensesTab.UseVisualStyleBackColor = false;
-            this.Back_ExpensesTab.Click += new System.EventHandler(this.Back_ExpensesTab_Click);
-            this.Back_ExpensesTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_ExpensesTab_MouseDown);
-            this.Back_ExpensesTab.MouseEnter += new System.EventHandler(this.Back_ExpensesTab_MouseEnter);
-            this.Back_ExpensesTab.MouseLeave += new System.EventHandler(this.Back_ExpensesTab_MouseLeave);
-            this.Back_ExpensesTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_ExpensesTab_MouseUp);
-            // 
-            // RefreshExp
-            // 
-            this.RefreshExp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.RefreshExp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RefreshExp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RefreshExp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.RefreshExp.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.RefreshExp.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.RefreshExp.ForeColor = System.Drawing.Color.Black;
-            this.RefreshExp.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.RefreshExp.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.RefreshExp.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.RefreshExp.Location = new System.Drawing.Point(998, 3);
-            this.RefreshExp.Name = "RefreshExp";
-            this.RefreshExp.Size = new System.Drawing.Size(118, 50);
-            this.RefreshExp.TabIndex = 8;
-            this.RefreshExp.Text = "بازدید";
-            this.RefreshExp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.RefreshExp.UseVisualStyleBackColor = false;
-            this.RefreshExp.Click += new System.EventHandler(this.RefreshExp_Click);
-            // 
-            // Back_NewExpense
-            // 
-            this.Back_NewExpense.BackColor = System.Drawing.Color.Transparent;
-            this.Back_NewExpense.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_NewExpense.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_NewExpense.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_NewExpense.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_NewExpense.FlatAppearance.BorderSize = 0;
-            this.Back_NewExpense.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewExpense.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewExpense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_NewExpense.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_NewExpense.Location = new System.Drawing.Point(4, 4);
-            this.Back_NewExpense.Name = "Back_NewExpense";
-            this.Back_NewExpense.Size = new System.Drawing.Size(106, 56);
-            this.Back_NewExpense.TabIndex = 3;
-            this.Back_NewExpense.UseVisualStyleBackColor = false;
-            this.Back_NewExpense.Click += new System.EventHandler(this.Back_NewExpense_Click);
-            this.Back_NewExpense.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewExpense_MouseDown);
-            this.Back_NewExpense.MouseEnter += new System.EventHandler(this.Back_NewExpense_MouseEnter);
-            this.Back_NewExpense.MouseLeave += new System.EventHandler(this.Back_NewExpense_MouseLeave);
-            this.Back_NewExpense.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewExpense_MouseUp);
-            // 
-            // Back_MoneyTGTab
-            // 
-            this.Back_MoneyTGTab.BackColor = System.Drawing.Color.Transparent;
-            this.Back_MoneyTGTab.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_MoneyTGTab.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_MoneyTGTab.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_MoneyTGTab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_MoneyTGTab.FlatAppearance.BorderSize = 0;
-            this.Back_MoneyTGTab.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_MoneyTGTab.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_MoneyTGTab.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_MoneyTGTab.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_MoneyTGTab.Location = new System.Drawing.Point(4, 4);
-            this.Back_MoneyTGTab.Name = "Back_MoneyTGTab";
-            this.Back_MoneyTGTab.Size = new System.Drawing.Size(106, 56);
-            this.Back_MoneyTGTab.TabIndex = 3;
-            this.Back_MoneyTGTab.UseVisualStyleBackColor = false;
-            this.Back_MoneyTGTab.Click += new System.EventHandler(this.Back_MoneyTGTab_Click);
-            this.Back_MoneyTGTab.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_MoneyTGTab_MouseDown);
-            this.Back_MoneyTGTab.MouseEnter += new System.EventHandler(this.Back_MoneyTGTab_MouseEnter);
-            this.Back_MoneyTGTab.MouseLeave += new System.EventHandler(this.Back_MoneyTGTab_MouseLeave);
-            this.Back_MoneyTGTab.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_MoneyTGTab_MouseUp);
-            // 
-            // Refresh_MoneyTG
-            // 
-            this.Refresh_MoneyTG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.Refresh_MoneyTG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Refresh_MoneyTG.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Refresh_MoneyTG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Refresh_MoneyTG.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.Refresh_MoneyTG.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.Refresh_MoneyTG.ForeColor = System.Drawing.Color.Black;
-            this.Refresh_MoneyTG.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.Refresh_MoneyTG.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Refresh_MoneyTG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Refresh_MoneyTG.Location = new System.Drawing.Point(998, 3);
-            this.Refresh_MoneyTG.Name = "Refresh_MoneyTG";
-            this.Refresh_MoneyTG.Size = new System.Drawing.Size(118, 50);
-            this.Refresh_MoneyTG.TabIndex = 8;
-            this.Refresh_MoneyTG.Text = "بازدید";
-            this.Refresh_MoneyTG.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Refresh_MoneyTG.UseVisualStyleBackColor = false;
-            // 
-            // Back_NewMoneyTG
-            // 
-            this.Back_NewMoneyTG.BackColor = System.Drawing.Color.Transparent;
-            this.Back_NewMoneyTG.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_NewMoneyTG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_NewMoneyTG.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_NewMoneyTG.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_NewMoneyTG.FlatAppearance.BorderSize = 0;
-            this.Back_NewMoneyTG.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewMoneyTG.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_NewMoneyTG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_NewMoneyTG.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_NewMoneyTG.Location = new System.Drawing.Point(4, 4);
-            this.Back_NewMoneyTG.Name = "Back_NewMoneyTG";
-            this.Back_NewMoneyTG.Size = new System.Drawing.Size(106, 56);
-            this.Back_NewMoneyTG.TabIndex = 3;
-            this.Back_NewMoneyTG.UseVisualStyleBackColor = false;
-            this.Back_NewMoneyTG.Click += new System.EventHandler(this.Back_NewMoneyTG_Click);
-            this.Back_NewMoneyTG.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NewMoneyTG_MouseDown);
-            this.Back_NewMoneyTG.MouseEnter += new System.EventHandler(this.Back_NewMoneyTG_MouseEnter);
-            this.Back_NewMoneyTG.MouseLeave += new System.EventHandler(this.Back_NewMoneyTG_MouseLeave);
-            this.Back_NewMoneyTG.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NewMoneyTG_MouseUp);
-            // 
-            // Back_StockReports
-            // 
-            this.Back_StockReports.BackColor = System.Drawing.Color.Transparent;
-            this.Back_StockReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_StockReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_StockReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_StockReports.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_StockReports.FlatAppearance.BorderSize = 0;
-            this.Back_StockReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_StockReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_StockReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_StockReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_StockReports.Location = new System.Drawing.Point(4, 4);
-            this.Back_StockReports.Name = "Back_StockReports";
-            this.Back_StockReports.Size = new System.Drawing.Size(106, 56);
-            this.Back_StockReports.TabIndex = 3;
-            this.Back_StockReports.UseVisualStyleBackColor = false;
-            this.Back_StockReports.Click += new System.EventHandler(this.Back_StockReports_Click);
-            this.Back_StockReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_StockReports_MouseDown);
-            this.Back_StockReports.MouseEnter += new System.EventHandler(this.Back_StockReports_MouseEnter);
-            this.Back_StockReports.MouseLeave += new System.EventHandler(this.Back_StockReports_MouseLeave);
-            this.Back_StockReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_StockReports_MouseUp);
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.trolley1;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(28, 13);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 117);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.ItemPrice;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(28, 157);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 117);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Not_Sold;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(28, 301);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 117);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button24.Location = new System.Drawing.Point(4, 652);
-            this.button24.Margin = new System.Windows.Forms.Padding(4);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(123, 64);
-            this.button24.TabIndex = 19;
-            this.button24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // Back_LoandReports
-            // 
-            this.Back_LoandReports.BackColor = System.Drawing.Color.Transparent;
-            this.Back_LoandReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_LoandReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_LoandReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_LoandReports.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_LoandReports.FlatAppearance.BorderSize = 0;
-            this.Back_LoandReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_LoandReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_LoandReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_LoandReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_LoandReports.Location = new System.Drawing.Point(4, 4);
-            this.Back_LoandReports.Name = "Back_LoandReports";
-            this.Back_LoandReports.Size = new System.Drawing.Size(106, 56);
-            this.Back_LoandReports.TabIndex = 3;
-            this.Back_LoandReports.UseVisualStyleBackColor = false;
-            this.Back_LoandReports.Click += new System.EventHandler(this.Back_LoandReports_Click);
-            this.Back_LoandReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_LoandReports_MouseDown);
-            this.Back_LoandReports.MouseEnter += new System.EventHandler(this.Back_LoandReports_MouseEnter);
-            this.Back_LoandReports.MouseLeave += new System.EventHandler(this.Back_LoandReports_MouseLeave);
-            this.Back_LoandReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_LoandReports_MouseUp);
-            // 
-            // button9
-            // 
-            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button9.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.ULC;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button9.Location = new System.Drawing.Point(28, 14);
-            this.button9.Margin = new System.Windows.Forms.Padding(4);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 120);
-            this.button9.TabIndex = 2;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button10.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.PLC;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button10.Location = new System.Drawing.Point(28, 162);
-            this.button10.Margin = new System.Windows.Forms.Padding(4);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 120);
-            this.button10.TabIndex = 3;
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button11.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.ULS;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button11.Location = new System.Drawing.Point(28, 310);
-            this.button11.Margin = new System.Windows.Forms.Padding(4);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 120);
-            this.button11.TabIndex = 4;
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button12.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.PLS;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button12.Location = new System.Drawing.Point(28, 457);
-            this.button12.Margin = new System.Windows.Forms.Padding(4);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 122);
-            this.button12.TabIndex = 5;
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button13.Location = new System.Drawing.Point(9, 4);
-            this.button13.Margin = new System.Windows.Forms.Padding(4);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(172, 59);
-            this.button13.TabIndex = 15;
-            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // Back_PSReports
-            // 
-            this.Back_PSReports.BackColor = System.Drawing.Color.Transparent;
-            this.Back_PSReports.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_PSReports.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_PSReports.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_PSReports.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_PSReports.FlatAppearance.BorderSize = 0;
-            this.Back_PSReports.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_PSReports.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_PSReports.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_PSReports.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_PSReports.Location = new System.Drawing.Point(4, 4);
-            this.Back_PSReports.Name = "Back_PSReports";
-            this.Back_PSReports.Size = new System.Drawing.Size(106, 56);
-            this.Back_PSReports.TabIndex = 3;
-            this.Back_PSReports.UseVisualStyleBackColor = false;
-            this.Back_PSReports.Click += new System.EventHandler(this.Back_PSReports_Click);
-            this.Back_PSReports.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_PSReports_MouseDown);
-            this.Back_PSReports.MouseEnter += new System.EventHandler(this.Back_PSReports_MouseEnter);
-            this.Back_PSReports.MouseLeave += new System.EventHandler(this.Back_PSReports_MouseLeave);
-            this.Back_PSReports.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_PSReports_MouseUp);
-            // 
-            // button6
-            // 
-            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.sale_report1;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button6.Location = new System.Drawing.Point(28, 62);
-            this.button6.Margin = new System.Windows.Forms.Padding(4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 164);
-            this.button6.TabIndex = 2;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button7.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.purchase_report;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button7.Location = new System.Drawing.Point(28, 331);
-            this.button7.Margin = new System.Windows.Forms.Padding(4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 171);
-            this.button7.TabIndex = 3;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button26.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button26.ForeColor = System.Drawing.Color.White;
-            this.button26.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button26.Location = new System.Drawing.Point(4, 4);
-            this.button26.Margin = new System.Windows.Forms.Padding(4);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(105, 59);
-            this.button26.TabIndex = 19;
-            this.button26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // Back_Supplier
-            // 
-            this.Back_Supplier.BackColor = System.Drawing.Color.Transparent;
-            this.Back_Supplier.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_Supplier.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_Supplier.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_Supplier.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_Supplier.FlatAppearance.BorderSize = 0;
-            this.Back_Supplier.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_Supplier.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_Supplier.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_Supplier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_Supplier.Location = new System.Drawing.Point(4, 4);
-            this.Back_Supplier.Name = "Back_Supplier";
-            this.Back_Supplier.Size = new System.Drawing.Size(106, 56);
-            this.Back_Supplier.TabIndex = 3;
-            this.Back_Supplier.UseVisualStyleBackColor = false;
-            this.Back_Supplier.Click += new System.EventHandler(this.Back_Supplier_Click);
-            this.Back_Supplier.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Supplier_MouseDown);
-            this.Back_Supplier.MouseEnter += new System.EventHandler(this.Back_Supplier_MouseEnter);
-            this.Back_Supplier.MouseLeave += new System.EventHandler(this.Back_Supplier_MouseLeave);
-            this.Back_Supplier.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Supplier_MouseUp);
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button25.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button25.ForeColor = System.Drawing.Color.Black;
-            this.button25.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button25.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button25.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button25.Location = new System.Drawing.Point(997, 3);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(118, 50);
-            this.button25.TabIndex = 8;
-            this.button25.Text = "بازدید";
-            this.button25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button25.UseVisualStyleBackColor = false;
-            this.button25.Click += new System.EventHandler(this.button25_Click);
-            // 
-            // Back_GReport
-            // 
-            this.Back_GReport.BackColor = System.Drawing.Color.Transparent;
-            this.Back_GReport.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_GReport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_GReport.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_GReport.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_GReport.FlatAppearance.BorderSize = 0;
-            this.Back_GReport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_GReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_GReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_GReport.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_GReport.Location = new System.Drawing.Point(4, 4);
-            this.Back_GReport.Name = "Back_GReport";
-            this.Back_GReport.Size = new System.Drawing.Size(106, 56);
-            this.Back_GReport.TabIndex = 3;
-            this.Back_GReport.UseVisualStyleBackColor = false;
-            this.Back_GReport.Click += new System.EventHandler(this.Back_GReport_Click);
-            this.Back_GReport.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_GReport_MouseDown);
-            this.Back_GReport.MouseEnter += new System.EventHandler(this.Back_GReport_MouseEnter);
-            this.Back_GReport.MouseLeave += new System.EventHandler(this.Back_GReport_MouseLeave);
-            this.Back_GReport.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_GReport_MouseUp);
-            // 
-            // button27
-            // 
-            this.button27.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button27.ForeColor = System.Drawing.Color.White;
-            this.button27.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button27.Location = new System.Drawing.Point(4, 541);
-            this.button27.Margin = new System.Windows.Forms.Padding(4);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(142, 88);
-            this.button27.TabIndex = 19;
-            this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // Back_Suppliers
-            // 
-            this.Back_Suppliers.BackColor = System.Drawing.Color.Transparent;
-            this.Back_Suppliers.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_Suppliers.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_Suppliers.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_Suppliers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_Suppliers.FlatAppearance.BorderSize = 0;
-            this.Back_Suppliers.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_Suppliers.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_Suppliers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_Suppliers.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_Suppliers.Location = new System.Drawing.Point(4, 4);
-            this.Back_Suppliers.Name = "Back_Suppliers";
-            this.Back_Suppliers.Size = new System.Drawing.Size(106, 56);
-            this.Back_Suppliers.TabIndex = 3;
-            this.Back_Suppliers.UseVisualStyleBackColor = false;
-            this.Back_Suppliers.Click += new System.EventHandler(this.Back_Suppliers_Click);
-            this.Back_Suppliers.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_Suppliers_MouseDown);
-            this.Back_Suppliers.MouseEnter += new System.EventHandler(this.Back_Suppliers_MouseEnter);
-            this.Back_Suppliers.MouseLeave += new System.EventHandler(this.Back_Suppliers_MouseLeave);
-            this.Back_Suppliers.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_Suppliers_MouseUp);
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button31.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button31.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button31.ForeColor = System.Drawing.Color.Black;
-            this.button31.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button31.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button31.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button31.Location = new System.Drawing.Point(997, 3);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(118, 50);
-            this.button31.TabIndex = 8;
-            this.button31.Text = "بازدید";
-            this.button31.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button31.UseVisualStyleBackColor = false;
-            this.button31.Click += new System.EventHandler(this.button31_Click);
-            // 
-            // Back_PurchaseInvoice
-            // 
-            this.Back_PurchaseInvoice.BackColor = System.Drawing.Color.Transparent;
-            this.Back_PurchaseInvoice.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_PurchaseInvoice.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_PurchaseInvoice.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_PurchaseInvoice.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_PurchaseInvoice.FlatAppearance.BorderSize = 0;
-            this.Back_PurchaseInvoice.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_PurchaseInvoice.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_PurchaseInvoice.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_PurchaseInvoice.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_PurchaseInvoice.Location = new System.Drawing.Point(4, 4);
-            this.Back_PurchaseInvoice.Name = "Back_PurchaseInvoice";
-            this.Back_PurchaseInvoice.Size = new System.Drawing.Size(106, 56);
-            this.Back_PurchaseInvoice.TabIndex = 3;
-            this.Back_PurchaseInvoice.UseVisualStyleBackColor = false;
-            this.Back_PurchaseInvoice.Click += new System.EventHandler(this.Back_PurchaseInvoice_Click);
-            this.Back_PurchaseInvoice.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_PurchaseInvoice_MouseDown);
-            this.Back_PurchaseInvoice.MouseEnter += new System.EventHandler(this.Back_PurchaseInvoice_MouseEnter);
-            this.Back_PurchaseInvoice.MouseLeave += new System.EventHandler(this.Back_PurchaseInvoice_MouseLeave);
-            this.Back_PurchaseInvoice.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_PurchaseInvoice_MouseUp);
-            // 
-            // button35
-            // 
-            this.button35.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.printer;
-            this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button35.FlatAppearance.BorderSize = 0;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Font = new System.Drawing.Font("Traditional Arabic", 16F, System.Drawing.FontStyle.Bold);
-            this.button35.ForeColor = System.Drawing.Color.White;
-            this.button35.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button35.Location = new System.Drawing.Point(999, 4);
-            this.button35.Margin = new System.Windows.Forms.Padding(4);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(116, 48);
-            this.button35.TabIndex = 18;
-            this.button35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button35.UseVisualStyleBackColor = false;
-            // 
-            // Back_OCL
-            // 
-            this.Back_OCL.BackColor = System.Drawing.Color.Transparent;
-            this.Back_OCL.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_OCL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_OCL.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_OCL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_OCL.FlatAppearance.BorderSize = 0;
-            this.Back_OCL.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_OCL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_OCL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_OCL.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_OCL.Location = new System.Drawing.Point(4, 4);
-            this.Back_OCL.Name = "Back_OCL";
-            this.Back_OCL.Size = new System.Drawing.Size(106, 56);
-            this.Back_OCL.TabIndex = 3;
-            this.Back_OCL.UseVisualStyleBackColor = false;
-            this.Back_OCL.Click += new System.EventHandler(this.Back_OCL_Click);
-            this.Back_OCL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_OCL_MouseDown);
-            this.Back_OCL.MouseEnter += new System.EventHandler(this.Back_OCL_MouseEnter);
-            this.Back_OCL.MouseLeave += new System.EventHandler(this.Back_OCL_MouseLeave);
-            this.Back_OCL.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_OCL_MouseUp);
-            // 
-            // Back_OSL
-            // 
-            this.Back_OSL.BackColor = System.Drawing.Color.Transparent;
-            this.Back_OSL.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_OSL.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_OSL.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_OSL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_OSL.FlatAppearance.BorderSize = 0;
-            this.Back_OSL.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_OSL.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_OSL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_OSL.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_OSL.Location = new System.Drawing.Point(4, 4);
-            this.Back_OSL.Name = "Back_OSL";
-            this.Back_OSL.Size = new System.Drawing.Size(106, 56);
-            this.Back_OSL.TabIndex = 3;
-            this.Back_OSL.UseVisualStyleBackColor = false;
-            this.Back_OSL.Click += new System.EventHandler(this.Back_OSL_Click);
-            this.Back_OSL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_OSL_MouseDown);
-            this.Back_OSL.MouseEnter += new System.EventHandler(this.Back_OSL_MouseEnter);
-            this.Back_OSL.MouseLeave += new System.EventHandler(this.Back_OSL_MouseLeave);
-            this.Back_OSL.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_OSL_MouseUp);
-            // 
-            // Back_BMgm
-            // 
-            this.Back_BMgm.BackColor = System.Drawing.Color.Transparent;
-            this.Back_BMgm.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_BMgm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_BMgm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_BMgm.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_BMgm.FlatAppearance.BorderSize = 0;
-            this.Back_BMgm.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_BMgm.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_BMgm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_BMgm.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_BMgm.Location = new System.Drawing.Point(4, 4);
-            this.Back_BMgm.Name = "Back_BMgm";
-            this.Back_BMgm.Size = new System.Drawing.Size(106, 56);
-            this.Back_BMgm.TabIndex = 3;
-            this.Back_BMgm.UseVisualStyleBackColor = false;
-            this.Back_BMgm.Click += new System.EventHandler(this.Back_BMgm_Click);
-            this.Back_BMgm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_BMgm_MouseDown);
-            this.Back_BMgm.MouseEnter += new System.EventHandler(this.Back_BMgm_MouseEnter);
-            this.Back_BMgm.MouseLeave += new System.EventHandler(this.Back_BMgm_MouseLeave);
-            this.Back_BMgm.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_BMgm_MouseUp);
-            // 
-            // Back_TGBank
-            // 
-            this.Back_TGBank.BackColor = System.Drawing.Color.Transparent;
-            this.Back_TGBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_TGBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_TGBank.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_TGBank.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_TGBank.FlatAppearance.BorderSize = 0;
-            this.Back_TGBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_TGBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_TGBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_TGBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_TGBank.Location = new System.Drawing.Point(4, 4);
-            this.Back_TGBank.Name = "Back_TGBank";
-            this.Back_TGBank.Size = new System.Drawing.Size(106, 56);
-            this.Back_TGBank.TabIndex = 3;
-            this.Back_TGBank.UseVisualStyleBackColor = false;
-            this.Back_TGBank.Click += new System.EventHandler(this.Back_TGBank_Click);
-            this.Back_TGBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_TGBank_MouseDown);
-            this.Back_TGBank.MouseEnter += new System.EventHandler(this.Back_TGBank_MouseEnter);
-            this.Back_TGBank.MouseLeave += new System.EventHandler(this.Back_TGBank_MouseLeave);
-            this.Back_TGBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_TGBank_MouseUp);
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button47.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button47.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button47.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button47.ForeColor = System.Drawing.Color.Black;
-            this.button47.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button47.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button47.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button47.Location = new System.Drawing.Point(998, 3);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(118, 50);
-            this.button47.TabIndex = 8;
-            this.button47.Text = "بازدید";
-            this.button47.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button47.UseVisualStyleBackColor = false;
-            // 
-            // Back_NBank
-            // 
-            this.Back_NBank.BackColor = System.Drawing.Color.Transparent;
-            this.Back_NBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_NBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_NBank.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_NBank.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_NBank.FlatAppearance.BorderSize = 0;
-            this.Back_NBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_NBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_NBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_NBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_NBank.Location = new System.Drawing.Point(4, 4);
-            this.Back_NBank.Name = "Back_NBank";
-            this.Back_NBank.Size = new System.Drawing.Size(106, 56);
-            this.Back_NBank.TabIndex = 3;
-            this.Back_NBank.UseVisualStyleBackColor = false;
-            this.Back_NBank.Click += new System.EventHandler(this.Back_NBank_Click);
-            this.Back_NBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_NBank_MouseDown);
-            this.Back_NBank.MouseEnter += new System.EventHandler(this.Back_NBank_MouseEnter);
-            this.Back_NBank.MouseLeave += new System.EventHandler(this.Back_NBank_MouseLeave);
-            this.Back_NBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_NBank_MouseUp);
-            // 
-            // Back_TkBank
-            // 
-            this.Back_TkBank.BackColor = System.Drawing.Color.Transparent;
-            this.Back_TkBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_TkBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_TkBank.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_TkBank.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_TkBank.FlatAppearance.BorderSize = 0;
-            this.Back_TkBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_TkBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_TkBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_TkBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_TkBank.Location = new System.Drawing.Point(4, 4);
-            this.Back_TkBank.Name = "Back_TkBank";
-            this.Back_TkBank.Size = new System.Drawing.Size(106, 56);
-            this.Back_TkBank.TabIndex = 3;
-            this.Back_TkBank.UseVisualStyleBackColor = false;
-            this.Back_TkBank.Click += new System.EventHandler(this.Back_TkBank_Click);
-            this.Back_TkBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_TkBank_MouseDown);
-            this.Back_TkBank.MouseEnter += new System.EventHandler(this.Back_TkBank_MouseEnter);
-            this.Back_TkBank.MouseLeave += new System.EventHandler(this.Back_TkBank_MouseLeave);
-            this.Back_TkBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_TkBank_MouseUp);
-            // 
-            // Back_GVBank
-            // 
-            this.Back_GVBank.BackColor = System.Drawing.Color.Transparent;
-            this.Back_GVBank.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_GVBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_GVBank.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_GVBank.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_GVBank.FlatAppearance.BorderSize = 0;
-            this.Back_GVBank.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_GVBank.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_GVBank.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_GVBank.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_GVBank.Location = new System.Drawing.Point(4, 4);
-            this.Back_GVBank.Name = "Back_GVBank";
-            this.Back_GVBank.Size = new System.Drawing.Size(106, 56);
-            this.Back_GVBank.TabIndex = 3;
-            this.Back_GVBank.UseVisualStyleBackColor = false;
-            this.Back_GVBank.Click += new System.EventHandler(this.Back_GVBank_Click);
-            this.Back_GVBank.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_GVBank_MouseDown);
-            this.Back_GVBank.MouseEnter += new System.EventHandler(this.Back_GVBank_MouseEnter);
-            this.Back_GVBank.MouseLeave += new System.EventHandler(this.Back_GVBank_MouseLeave);
-            this.Back_GVBank.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_GVBank_MouseUp);
-            // 
-            // Back_TGOptions
-            // 
-            this.Back_TGOptions.BackColor = System.Drawing.Color.Transparent;
-            this.Back_TGOptions.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_TGOptions.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_TGOptions.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_TGOptions.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_TGOptions.FlatAppearance.BorderSize = 0;
-            this.Back_TGOptions.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_TGOptions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_TGOptions.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_TGOptions.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_TGOptions.Location = new System.Drawing.Point(4, 4);
-            this.Back_TGOptions.Name = "Back_TGOptions";
-            this.Back_TGOptions.Size = new System.Drawing.Size(106, 56);
-            this.Back_TGOptions.TabIndex = 3;
-            this.Back_TGOptions.UseVisualStyleBackColor = false;
-            this.Back_TGOptions.Click += new System.EventHandler(this.Back_TGOptions_Click);
-            this.Back_TGOptions.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_TGOptions_MouseDown);
-            this.Back_TGOptions.MouseEnter += new System.EventHandler(this.Back_TGOptions_MouseEnter);
-            this.Back_TGOptions.MouseLeave += new System.EventHandler(this.Back_TGOptions_MouseLeave);
-            this.Back_TGOptions.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_TGOptions_MouseUp);
-            // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.Transparent;
-            this.button28.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button28.Location = new System.Drawing.Point(4, 4);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(106, 56);
-            this.button28.TabIndex = 3;
-            this.button28.UseVisualStyleBackColor = false;
-            this.button28.Click += new System.EventHandler(this.button28_Click);
-            this.button28.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button28_MouseDown);
-            this.button28.MouseEnter += new System.EventHandler(this.button28_MouseEnter);
-            this.button28.MouseLeave += new System.EventHandler(this.button28_MouseLeave);
-            this.button28.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button28_MouseUp);
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.Transparent;
-            this.button33.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button33.FlatAppearance.BorderSize = 0;
-            this.button33.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button33.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button33.Location = new System.Drawing.Point(4, 4);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(106, 56);
-            this.button33.TabIndex = 3;
-            this.button33.UseVisualStyleBackColor = false;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
-            this.button33.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button33_MouseDown);
-            this.button33.MouseEnter += new System.EventHandler(this.button33_MouseEnter);
-            this.button33.MouseLeave += new System.EventHandler(this.button33_MouseLeave);
-            this.button33.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button33_MouseUp);
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button41.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button41.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button41.ForeColor = System.Drawing.Color.Black;
-            this.button41.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button41.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button41.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button41.Location = new System.Drawing.Point(998, 3);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(118, 50);
-            this.button41.TabIndex = 8;
-            this.button41.Text = "بازدید";
-            this.button41.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button41.UseVisualStyleBackColor = false;
-            this.button41.Click += new System.EventHandler(this.button41_Click);
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.Color.Transparent;
-            this.button44.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button44.FlatAppearance.BorderSize = 0;
-            this.button44.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button44.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button44.Location = new System.Drawing.Point(4, 4);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(106, 56);
-            this.button44.TabIndex = 3;
-            this.button44.UseVisualStyleBackColor = false;
-            this.button44.Click += new System.EventHandler(this.button44_Click);
-            this.button44.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button44_MouseDown);
-            this.button44.MouseEnter += new System.EventHandler(this.button44_MouseEnter);
-            this.button44.MouseLeave += new System.EventHandler(this.button44_MouseLeave);
-            this.button44.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button44_MouseUp);
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button48.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button48.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button48.ForeColor = System.Drawing.Color.Black;
-            this.button48.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button48.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button48.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button48.Location = new System.Drawing.Point(998, 3);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(118, 50);
-            this.button48.TabIndex = 8;
-            this.button48.Text = "بازدید";
-            this.button48.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button48.UseVisualStyleBackColor = false;
-            this.button48.Click += new System.EventHandler(this.button48_Click);
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.Transparent;
-            this.button49.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button49.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button49.FlatAppearance.BorderSize = 0;
-            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button49.Location = new System.Drawing.Point(4, 4);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(106, 56);
-            this.button49.TabIndex = 3;
-            this.button49.UseVisualStyleBackColor = false;
-            this.button49.Click += new System.EventHandler(this.button49_Click);
-            this.button49.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button49_MouseDown);
-            this.button49.MouseEnter += new System.EventHandler(this.button49_MouseEnter);
-            this.button49.MouseLeave += new System.EventHandler(this.button49_MouseLeave);
-            this.button49.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button49_MouseUp);
-            // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button52.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button52.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button52.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button52.ForeColor = System.Drawing.Color.Black;
-            this.button52.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button52.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button52.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button52.Location = new System.Drawing.Point(998, 3);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(118, 50);
-            this.button52.TabIndex = 8;
-            this.button52.Text = "بازدید";
-            this.button52.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button52.UseVisualStyleBackColor = false;
-            this.button52.Click += new System.EventHandler(this.button52_Click);
-            // 
-            // button53
-            // 
-            this.button53.BackColor = System.Drawing.Color.Transparent;
-            this.button53.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button53.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button53.FlatAppearance.BorderSize = 0;
-            this.button53.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button53.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button53.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button53.Location = new System.Drawing.Point(4, 4);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(106, 56);
-            this.button53.TabIndex = 3;
-            this.button53.UseVisualStyleBackColor = false;
-            this.button53.Click += new System.EventHandler(this.button53_Click);
-            this.button53.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button53_MouseDown);
-            this.button53.MouseEnter += new System.EventHandler(this.button53_MouseEnter);
-            this.button53.MouseLeave += new System.EventHandler(this.button53_MouseLeave);
-            this.button53.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button53_MouseUp);
-            // 
-            // button56
-            // 
-            this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button56.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button56.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button56.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button56.ForeColor = System.Drawing.Color.Black;
-            this.button56.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button56.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button56.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button56.Location = new System.Drawing.Point(998, 3);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(118, 50);
-            this.button56.TabIndex = 8;
-            this.button56.Text = "بازدید";
-            this.button56.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button56.UseVisualStyleBackColor = false;
-            this.button56.Click += new System.EventHandler(this.button56_Click);
-            // 
-            // Back_CLR
-            // 
-            this.Back_CLR.BackColor = System.Drawing.Color.Transparent;
-            this.Back_CLR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_CLR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_CLR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_CLR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_CLR.FlatAppearance.BorderSize = 0;
-            this.Back_CLR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_CLR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_CLR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_CLR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_CLR.Location = new System.Drawing.Point(4, 4);
-            this.Back_CLR.Name = "Back_CLR";
-            this.Back_CLR.Size = new System.Drawing.Size(106, 56);
-            this.Back_CLR.TabIndex = 3;
-            this.Back_CLR.UseVisualStyleBackColor = false;
-            this.Back_CLR.Click += new System.EventHandler(this.button57_Click);
-            this.Back_CLR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_CLR_MouseDown);
-            this.Back_CLR.MouseEnter += new System.EventHandler(this.Back_CLR_MouseEnter);
-            this.Back_CLR.MouseLeave += new System.EventHandler(this.Back_CLR_MouseLeave);
-            this.Back_CLR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_CLR_MouseUp);
-            // 
-            // button60
-            // 
-            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button60.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button60.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button60.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button60.ForeColor = System.Drawing.Color.Black;
-            this.button60.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button60.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button60.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button60.Location = new System.Drawing.Point(998, 3);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(118, 50);
-            this.button60.TabIndex = 8;
-            this.button60.Text = "بازدید";
-            this.button60.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button60.UseVisualStyleBackColor = false;
-            this.button60.Click += new System.EventHandler(this.button60_Click);
-            // 
-            // Back_SLR
-            // 
-            this.Back_SLR.BackColor = System.Drawing.Color.Transparent;
-            this.Back_SLR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_SLR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_SLR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_SLR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_SLR.FlatAppearance.BorderSize = 0;
-            this.Back_SLR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_SLR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_SLR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_SLR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_SLR.Location = new System.Drawing.Point(4, 4);
-            this.Back_SLR.Name = "Back_SLR";
-            this.Back_SLR.Size = new System.Drawing.Size(106, 56);
-            this.Back_SLR.TabIndex = 3;
-            this.Back_SLR.UseVisualStyleBackColor = false;
-            this.Back_SLR.Click += new System.EventHandler(this.button61_Click);
-            this.Back_SLR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button61_MouseDown);
-            this.Back_SLR.MouseEnter += new System.EventHandler(this.button61_MouseEnter);
-            this.Back_SLR.MouseLeave += new System.EventHandler(this.button61_MouseLeave);
-            this.Back_SLR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button61_MouseUp);
-            // 
-            // button64
-            // 
-            this.button64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button64.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button64.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button64.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button64.ForeColor = System.Drawing.Color.Black;
-            this.button64.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button64.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button64.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button64.Location = new System.Drawing.Point(998, 3);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(118, 50);
-            this.button64.TabIndex = 8;
-            this.button64.Text = "بازدید";
-            this.button64.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button64.UseVisualStyleBackColor = false;
-            this.button64.Click += new System.EventHandler(this.button64_Click);
-            // 
-            // Back_EGR
-            // 
-            this.Back_EGR.BackColor = System.Drawing.Color.Transparent;
-            this.Back_EGR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_EGR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_EGR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_EGR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_EGR.FlatAppearance.BorderSize = 0;
-            this.Back_EGR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_EGR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_EGR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_EGR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_EGR.Location = new System.Drawing.Point(4, 4);
-            this.Back_EGR.Name = "Back_EGR";
-            this.Back_EGR.Size = new System.Drawing.Size(106, 56);
-            this.Back_EGR.TabIndex = 3;
-            this.Back_EGR.UseVisualStyleBackColor = false;
-            this.Back_EGR.Click += new System.EventHandler(this.Back_EGR_Click);
-            this.Back_EGR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_EGR_MouseDown);
-            this.Back_EGR.MouseEnter += new System.EventHandler(this.Back_EGR_MouseEnter);
-            this.Back_EGR.MouseLeave += new System.EventHandler(this.Back_EGR_MouseLeave);
-            this.Back_EGR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_EGR_MouseUp);
-            // 
-            // button68
-            // 
-            this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
-            this.button68.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button68.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button68.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button68.FlatAppearance.BorderColor = System.Drawing.Color.Navy;
-            this.button68.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold);
-            this.button68.ForeColor = System.Drawing.Color.Black;
-            this.button68.Image = global::WindowsFormsApplication2.Properties.Resources.load;
-            this.button68.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button68.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button68.Location = new System.Drawing.Point(998, 3);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(118, 50);
-            this.button68.TabIndex = 8;
-            this.button68.Text = "بازدید";
-            this.button68.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button68.UseVisualStyleBackColor = false;
-            this.button68.Click += new System.EventHandler(this.button68_Click);
-            // 
-            // Back_ETR
-            // 
-            this.Back_ETR.BackColor = System.Drawing.Color.Transparent;
-            this.Back_ETR.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.Back;
-            this.Back_ETR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Back_ETR.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Back_ETR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Back_ETR.FlatAppearance.BorderSize = 0;
-            this.Back_ETR.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.Back_ETR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.Back_ETR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Back_ETR.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Back_ETR.Location = new System.Drawing.Point(4, 4);
-            this.Back_ETR.Name = "Back_ETR";
-            this.Back_ETR.Size = new System.Drawing.Size(106, 56);
-            this.Back_ETR.TabIndex = 3;
-            this.Back_ETR.UseVisualStyleBackColor = false;
-            this.Back_ETR.Click += new System.EventHandler(this.Back_ETR_Click);
-            this.Back_ETR.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Back_ETR_MouseDown);
-            this.Back_ETR.MouseEnter += new System.EventHandler(this.Back_ETR_MouseEnter);
-            this.Back_ETR.MouseLeave += new System.EventHandler(this.Back_ETR_MouseLeave);
-            this.Back_ETR.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Back_ETR_MouseUp);
-            // 
             // button72
             // 
             this.button72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(244)))), ((int)(((byte)(247)))));
@@ -17180,12 +17147,59 @@
             this.button72.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button72.UseVisualStyleBackColor = false;
             // 
-            // AboutCustToolStripMenuItem
+            // dataGridView14
             // 
-            this.AboutCustToolStripMenuItem.Name = "AboutCustToolStripMenuItem";
-            this.AboutCustToolStripMenuItem.Size = new System.Drawing.Size(276, 48);
-            this.AboutCustToolStripMenuItem.Text = "معلومات شرکت";
-            this.AboutCustToolStripMenuItem.Click += new System.EventHandler(this.AboutCustToolStripMenuItem_Click);
+            this.dataGridView14.AllowDrop = true;
+            this.dataGridView14.AllowUserToOrderColumns = true;
+            this.dataGridView14.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView14.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView14.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(251)))), ((int)(((byte)(252)))));
+            this.dataGridView14.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView14.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dataGridView14.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1149.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1149.BackColor = System.Drawing.Color.DarkSlateGray;
+            dataGridViewCellStyle1149.Font = new System.Drawing.Font("Calibri Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1149.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1149.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle1149.SelectionBackColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle1149.SelectionForeColor = System.Drawing.SystemColors.ControlLightLight;
+            dataGridViewCellStyle1149.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView14.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1149;
+            this.dataGridView14.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1150.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1150.BackColor = System.Drawing.Color.DeepSkyBlue;
+            dataGridViewCellStyle1150.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1150.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1150.Padding = new System.Windows.Forms.Padding(50, 15, 100, 15);
+            dataGridViewCellStyle1150.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1150.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1150.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView14.DefaultCellStyle = dataGridViewCellStyle1150;
+            this.dataGridView14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridView14.Location = new System.Drawing.Point(117, 67);
+            this.dataGridView14.Name = "dataGridView14";
+            this.dataGridView14.ReadOnly = true;
+            this.dataGridView14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            dataGridViewCellStyle1151.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1151.BackColor = System.Drawing.Color.GhostWhite;
+            dataGridViewCellStyle1151.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1151.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1151.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1151.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1151.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView14.RowHeadersDefaultCellStyle = dataGridViewCellStyle1151;
+            dataGridViewCellStyle1152.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1152.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1152.Font = new System.Drawing.Font("Adobe Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1152.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1152.Padding = new System.Windows.Forms.Padding(10, 10, 100, 10);
+            dataGridViewCellStyle1152.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(252)))), ((int)(((byte)(231)))));
+            dataGridViewCellStyle1152.SelectionForeColor = System.Drawing.Color.Black;
+            this.dataGridView14.RowsDefaultCellStyle = dataGridViewCellStyle1152;
+            this.dataGridView14.RowTemplate.Height = 28;
+            this.dataGridView14.Size = new System.Drawing.Size(1369, 730);
+            this.dataGridView14.TabIndex = 16;
             // 
             // MainForm
             // 
@@ -17197,7 +17211,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
             this.MainMenuStrip = this.MenuBar;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(1522, 850);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -18096,8 +18110,6 @@
         private System.Windows.Forms.TextBox textBox72;
         private System.Windows.Forms.DateTimePicker dateTimePicker6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel117;
-        private System.Windows.Forms.Label label120;
-        private System.Windows.Forms.TextBox textBox73;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel119;
         private System.Windows.Forms.Label label121;
         private System.Windows.Forms.TextBox textBox74;
@@ -18698,6 +18710,8 @@
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.ToolStripMenuItem AboutCustToolStripMenuItem;
+        private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.TextBox textBox73;
     }
 }
 

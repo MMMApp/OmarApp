@@ -67,7 +67,7 @@ namespace WindowsFormsApplication2
                         Delete_pro.Text = dr.Cells[0].Value.ToString();
                         // or simply use column name instead of index
                         //dr.Cells["id"].Value.ToString();
-                        delet_product();
+                        Delete_Product();
                         foreach (DataGridViewRow item in this.Product_list_Data_grideView.SelectedRows)
                         {
                             Product_list_Data_grideView.Rows.RemoveAt(item.Index);
@@ -1388,8 +1388,9 @@ namespace WindowsFormsApplication2
         private void Items_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 25;
-            DataAccess.RunQuery("Select P_ID As[آید جنس], P_Name as [نام جنس], P_Color as [رنگ], P_Made as [ساخت ] from Product");
+            DataAccess.RunQuery("Select P_IDD AS [Me], P_ID As[آید جنس], P_Name as [نام جنس], P_Color as [رنگ], P_Made as [ساخت ] from Product");
             Product_list_Data_grideView.DataSource = DataAccess.Dataset.Tables[0];
+            Product_list_Data_grideView.Columns[0].Visible = false;
         }
 
         private void Supplier_Click(object sender, EventArgs e)
@@ -1812,9 +1813,9 @@ namespace WindowsFormsApplication2
         // -------------------------------------- حذف میتود ------------------Employee-------------Function\\
 
         // -------------------------------------- حذف میتود ------------------product-------------Function\\
-        public void delet_product()
+        public void Delete_Product()
         {
-            DataAccess.Delete_Product(Delete_New_Invoice_Item.Text);
+            DataAccess.Delete_Product(Delete_pro.Text);
         }
 
         // -------------------------------------- حذف میتود ------------------Invoice one item-------------Function\\
@@ -3362,8 +3363,9 @@ namespace WindowsFormsApplication2
 
         private void button25_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("Select P_IDD as [ نمبر], P_ID As[آید جنس], P_Name as [نام جنس], P_Color as [رنگ], P_Made as [ساخت ] from Product");
+            DataAccess.RunQuery("Select P_IDD AS[Me], P_ID As[آید جنس], P_Name as [نام جنس], P_Color as [رنگ], P_Made as [ساخت ] from Product");
             Product_list_Data_grideView.DataSource = DataAccess.Dataset.Tables[0];
+            Product_list_Data_grideView.Columns[0].Visible = false;
         }
 
         private void button31_Click(object sender, EventArgs e)
@@ -3372,15 +3374,7 @@ namespace WindowsFormsApplication2
             dataGridView1.DataSource = DataAccess.Dataset.Tables[0];
         }
 
-        private void Product_list_Data_grideView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
-
-        private void Delete_pro_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void button38_Click(object sender, EventArgs e)
         {
@@ -4049,6 +4043,21 @@ namespace WindowsFormsApplication2
             StartUp Start = new StartUp();
             Start.Show();
         }
+
+
+
+        private void textBox73_Click(object sender, MouseEventArgs e)
+        {
+            textBox73.Text = "";
+            textBox73.ReadOnly = false;
+        }
+
+        private void textBox73_Leave(object sender, EventArgs e)
+        {
+            textBox73.Text = "جستجو";
+            textBox73.ReadOnly = true;
+        }
+
 
 
 
