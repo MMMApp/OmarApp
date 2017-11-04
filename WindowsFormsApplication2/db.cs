@@ -11,7 +11,7 @@ namespace WindowsFormsApplication2
 {
     class db
     {
-       SqlConnection con = new SqlConnection("Server=MOZAMEL-OFFICE;Database=MobileData;User Id=sa;Password = hodaka; ");
+       SqlConnection con = new SqlConnection("Server=MBP-WIN-M\\SQLEXPRESS;Database=MobileData;User Id=sa;Password = hodaka; ");
         
         public DataSet Invoice_product(int invid)
         {

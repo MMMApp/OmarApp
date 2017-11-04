@@ -250,6 +250,89 @@ namespace WindowsFormsApplication2
 
         // -------------------------------------- Back Buttons ------------------------------- \\
 
+        private void button45_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 30;
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 29;
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 12;
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 12;
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 34;
+        }
+
+        private void button54_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 35;
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 31;
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 31;
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 44;
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 13;
+        }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 14;
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 12;
+        }
+
+        private void button57_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 12;
+        }
+        private void Back_TGOptions_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 15;
+        }
+
+        private void Back_EGR_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 36;
+        }
+
+        private void Back_ETR_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 36;
+        }
+
+        private void BackItemReturn_Click_1(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 1;
+        }
         private void Back_BMgm_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 15;
@@ -267,12 +350,12 @@ namespace WindowsFormsApplication2
 
         private void Back_TkBank_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 31;
+            MainTabs.SelectedIndex = 40;
         }
 
         private void Back_GVBank_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 31;
+            MainTabs.SelectedIndex = 41;
         }
 
         private void Back_Sales_Click(object sender, EventArgs e)
@@ -327,7 +410,7 @@ namespace WindowsFormsApplication2
         }
         private void Back_CustomerLoanTab_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 12;
+            MainTabs.SelectedIndex = 42;
         }
 
         private void BackPurchaseItemReturn_Click(object sender, EventArgs e)
@@ -337,7 +420,7 @@ namespace WindowsFormsApplication2
 
         private void Back_SupplierLoanTab_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 12;
+            MainTabs.SelectedIndex = 43;
         }
 
 
@@ -367,7 +450,7 @@ namespace WindowsFormsApplication2
 
         private void Back_NewMoneyTG_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 20;
+            MainTabs.SelectedIndex = 45;
         }
 
 
@@ -415,6 +498,206 @@ namespace WindowsFormsApplication2
             MainTabs.SelectedIndex = 0;
         }
 
+
+        private void Back_ETR_MouseDown(object sender, MouseEventArgs e)
+        {
+            Back_ETR.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void Back_ETR_MouseEnter(object sender, EventArgs e)
+        {
+            Back_ETR.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void Back_ETR_MouseLeave(object sender, EventArgs e)
+        {
+            Back_ETR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_ETR_MouseUp(object sender, MouseEventArgs e)
+        {
+            Back_ETR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_EGR_MouseDown(object sender, MouseEventArgs e)
+        {
+            Back_EGR.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void Back_EGR_MouseEnter(object sender, EventArgs e)
+        {
+            Back_EGR.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void Back_EGR_MouseLeave(object sender, EventArgs e)
+        {
+            Back_EGR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_EGR_MouseUp(object sender, MouseEventArgs e)
+        {
+            Back_EGR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button61_MouseDown(object sender, MouseEventArgs e)
+        {
+            Back_SLR.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void button61_MouseEnter(object sender, EventArgs e)
+        {
+            Back_SLR.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void button61_MouseLeave(object sender, EventArgs e)
+        {
+            Back_SLR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button61_MouseUp(object sender, MouseEventArgs e)
+        {
+            Back_SLR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_CLR_MouseDown(object sender, MouseEventArgs e)
+        {
+            Back_CLR.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void Back_CLR_MouseEnter(object sender, EventArgs e)
+        {
+            Back_CLR.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void Back_CLR_MouseLeave(object sender, EventArgs e)
+        {
+            Back_CLR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_CLR_MouseUp(object sender, MouseEventArgs e)
+        {
+            Back_CLR.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button53_MouseDown(object sender, MouseEventArgs e)
+        {
+            button53.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void button53_MouseEnter(object sender, EventArgs e)
+        {
+            button53.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void button53_MouseLeave(object sender, EventArgs e)
+        {
+            button53.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button53_MouseUp(object sender, MouseEventArgs e)
+        {
+            button53.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button49_MouseDown(object sender, MouseEventArgs e)
+        {
+            button49.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void button49_MouseEnter(object sender, EventArgs e)
+        {
+            button49.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void button49_MouseLeave(object sender, EventArgs e)
+        {
+            button49.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button49_MouseUp(object sender, MouseEventArgs e)
+        {
+            button49.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button44_MouseDown(object sender, MouseEventArgs e)
+        {
+            button44.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void button44_MouseEnter(object sender, EventArgs e)
+        {
+            button44.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void button44_MouseLeave(object sender, EventArgs e)
+        {
+            button44.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button44_MouseUp(object sender, MouseEventArgs e)
+        {
+            button44.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button33_MouseDown(object sender, MouseEventArgs e)
+        {
+            button33.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void button33_MouseEnter(object sender, EventArgs e)
+        {
+            button33.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void button33_MouseLeave(object sender, EventArgs e)
+        {
+            button33.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button33_MouseUp(object sender, MouseEventArgs e)
+        {
+            button33.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button28_MouseDown(object sender, MouseEventArgs e)
+        {
+            button28.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void button28_MouseEnter(object sender, EventArgs e)
+        {
+            button28.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void button28_MouseLeave(object sender, EventArgs e)
+        {
+            button28.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void button28_MouseUp(object sender, MouseEventArgs e)
+        {
+            button28.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_TGOptions_MouseDown(object sender, MouseEventArgs e)
+        {
+            Back_TGOptions.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void Back_TGOptions_MouseEnter(object sender, EventArgs e)
+        {
+            Back_TGOptions.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void Back_TGOptions_MouseLeave(object sender, EventArgs e)
+        {
+            Back_TGOptions.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_TGOptions_MouseUp(object sender, MouseEventArgs e)
+        {
+            Back_TGOptions.BackgroundImage = Properties.Resources.Back;
+        }
 
 
         private void Back_Customers_MouseDown(object sender, MouseEventArgs e)
@@ -1208,7 +1491,7 @@ namespace WindowsFormsApplication2
 
         private void MoneyTG_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 20;
+            MainTabs.SelectedIndex = 36;
         }
         private void BankMGM_Click(object sender, EventArgs e)
         {
@@ -1238,14 +1521,22 @@ namespace WindowsFormsApplication2
         }
         private void TKMoney_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 21;
+            MainTabs.SelectedIndex = 45;
         }
 
         private void GVMoney_Click(object sender, EventArgs e)
         {
+            MainTabs.SelectedIndex = 44;
+        }
+        private void NewEG_Click(object sender, EventArgs e)
+        {
             MainTabs.SelectedIndex = 37;
         }
 
+        private void NewET_Click(object sender, EventArgs e)
+        {
+            MainTabs.SelectedIndex = 21;
+        }
 
         // --------------------------------------------------MainPage Buttons---------------------------------\\
 
@@ -1447,6 +1738,7 @@ namespace WindowsFormsApplication2
         {
             Back_PurchaseInvoice.BackgroundImage = Properties.Resources.Back;
         }
+
         private void Sales_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 1;
@@ -1546,6 +1838,29 @@ namespace WindowsFormsApplication2
         {
             DataAccess.Delete_Supplier(Delete_Supplier_ID.Text);
         }
+
+
+        public void Given_loan_Delete()
+        {
+            DataAccess.Delete_Given_Loan(Given_Loan_Delete_ID.Text);
+        }
+        public void Taken__loan_Delete()
+        {
+            DataAccess.Delete_Taken_Loan(Taken_Loan_Delete_ID.Text);
+        }
+
+
+        public void Taken_Past_Loan_Delete()
+        {
+            DataAccess.Delete_Past_Taken_Loan(Taken_PasT_Loan_Delete_ID.Text);
+        }
+
+        public void Delete_Pay_To_Supplier()
+        {
+            DataAccess.Delete_Pay_To_Supplier(Delete_Loan_Past_Delete_ID.Text);
+        }
+
+        
 
 
         // --------------------------------------------------Unsorted Buttons---------------------------------\\
@@ -1828,6 +2143,91 @@ namespace WindowsFormsApplication2
             S_L_ID.Clear();
             Suplier_PC_ID.Clear();
             Suplier_pay_loan.Clear();
+        }
+
+
+
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+
+            if (this.Taken_Loan_DataGrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Taken_Loan_DataGrideView.SelectedRows[0];
+                        Taken_Loan_Delete_ID.Text = dr.Cells[0].Value.ToString();
+                        Taken__loan_Delete();
+                        foreach (DataGridViewRow item in this.Taken_Loan_DataGrideView.SelectedRows)
+                        {
+
+                            Taken_Loan_DataGrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    DataAccess.con.Close();
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+
+            }
+            Taken_Loan_Delete_ID.Clear();
+        }
+
+
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+
+            if (this.Given_loan_DataGrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Given_loan_DataGrideView.SelectedRows[0];
+                        Given_Loan_Delete_ID.Text = dr.Cells[0].Value.ToString();
+                        Given_loan_Delete();
+                        foreach (DataGridViewRow item in this.Given_loan_DataGrideView.SelectedRows)
+                        {
+
+                            Given_loan_DataGrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    DataAccess.con.Close();
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+
+            }
+            Given_Loan_Delete_ID.Clear();
         }
 
         private void DeleteEmployee_Click(object sender, EventArgs e)
@@ -2483,7 +2883,7 @@ namespace WindowsFormsApplication2
                 DataAccess.DR = cmd.ExecuteReader();
                 while (DataAccess.DR.Read())
                 {
-                    Invoice_Customer_Name_ID.Text = DataAccess.DR[0].ToString();
+                    Invoice_Customer_Name_ID.Text = DataAccess.DR[1].ToString();
 
                 }
                 DataAccess.con.Close();
@@ -2509,7 +2909,7 @@ namespace WindowsFormsApplication2
                     DataAccess.DR = cmd.ExecuteReader();
                     while (DataAccess.DR.Read())
                     {
-                        Invoice_Customer_Name_ID.Text = DataAccess.DR[0].ToString();
+                        Invoice_Customer_Name_ID.Text = DataAccess.DR[1].ToString();
 
                     }
                     DataAccess.con.Close();
@@ -2993,10 +3393,10 @@ namespace WindowsFormsApplication2
                     if (dialogResult == DialogResult.Yes)
                     {
                         DataGridViewRow dr = On_Customer_Money_Pay_DataGrideView.SelectedRows[0];
-                        Delete_New_Invoice_Item.Text = dr.Cells[0].Value.ToString();
+                        Taken_PasT_Loan_Delete_ID.Text = dr.Cells[0].Value.ToString();
                         // or simply use column name instead of index
                         //dr.Cells["id"].Value.ToString();
-                        delet_product();
+                        Taken_Past_Loan_Delete();
 
 
                         foreach (DataGridViewRow item in this.On_Customer_Money_Pay_DataGrideView.SelectedRows)
@@ -3018,11 +3418,12 @@ namespace WindowsFormsApplication2
             {
                 MessageBox.Show("لطفا روح را انتخاب کنید");
             }
+            Taken_PasT_Loan_Delete_ID.Clear();
         }
 
         private void button41_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT [C_Name] as [نام کارمند], MO.Quantity as [مقدار], MO.What_For as [از درک], Mo.Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Money_On_Customer] as MO on MO.C_ID = c.C_ID");
+            DataAccess.RunQuery("SELECT P_T_C_ID as[آیدی],[C_Name] as [نام مشتری], MO.Quantity as [مقدار], MO.What_For as [از درک], Mo.Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Money_On_Customer] as MO on MO.C_ID = c.C_ID");
             On_Customer_Money_Pay_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
@@ -3040,7 +3441,10 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("ثبت موفق بود");
                
             }
-        
+            Paid_Money_Name.Clear();
+            P_M_What_For.Clear();
+            P_M_Quantity.Clear();
+            P_M_ID.Clear();
         }
 //--------------------------------------------------------------------------------------Click And KEyDown Event------------PaidMoney---------------------------------------------------
         private void Paid_Money_Name_Click(object sender, EventArgs e)
@@ -3368,6 +3772,11 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("ثبت موفق بود");
 
             }
+
+            P_Supplier_name.Clear();
+            P_T_S_What_For.Clear();
+            P_T_Quantity.Clear();
+            P_T_S_ID.Clear();
         }
 
 
@@ -3489,54 +3898,19 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("ثبت موفق بود");
                 Money_on_Customer();
             }
+            T_F_C_Name.Clear();
+            O_C_What_For.Clear();
+            O_C_Quantity.Clear();
+            O_C_ID.Clear();
         }
 
         private void button48_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT s.S_Name as [نام تهیه کننده], PTS.Quantity as [مقدار], PTS.What_For as [از درک], PTS.Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as s Join [MobileData].[dbo].[Pay_To_Supplier] as PTS on PTS.S_ID = S.S_ID");
+            DataAccess.RunQuery("SELECT P_T_S_ID as[آیدی قرض],s.S_Name as [نام تهیه کننده], PTS.Quantity as [مقدار], PTS.What_For as [از درک], PTS.Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as s Join [MobileData].[dbo].[Pay_To_Supplier] as PTS on PTS.S_ID = S.S_ID");
             Pay_To_Supplier_DataGriveView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
-        private void button45_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 30;
-        }
-
-        private void button34_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 29;
-        }
-
-        private void button44_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 12;
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 12;
-        }
-
-        private void button50_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 34;
-        }
-
-        private void button54_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 35;
-        }
-
-        private void button53_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 31;
-        }
-
-        private void button49_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 31;
-        }
-
+     
         private void button52_Click(object sender, EventArgs e)
         {
             DataAccess.RunQuery("SELECT T_F_Bank_ID as [آیدی], B.B_Name as [نام بانک], E.E_Name [از طرف], TFB.Quantity as [مقدار], TFB.What_For as [از درک], TFB.Date as[تاریخ] FROM Bank B Join Take_From_Bank TFB on TFB.B_ID = TFB.B_ID Join Employee E on TFB.E_ID = E.E_ID");
@@ -3549,54 +3923,136 @@ namespace WindowsFormsApplication2
             Pay_To_Bank_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
             
         }
-
-        private void button28_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 20;
-        }
-
-        private void button58_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 13;
-        }
-
-        private void button62_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 14;
-        }
-
-        private void button61_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 12;
-        }
-
-        private void button57_Click(object sender, EventArgs e)
-        {
-            MainTabs.SelectedIndex = 12;
-        }
+       
 
         private void button60_Click(object sender, EventArgs e)
         {
-            //DataAccess.RunQuery("SELECT W_ID as [آیدی] ,[E_Name] as [نام کارمند], Quantity as [مقدار], What_For as [از درک], Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Withdraw] as w on W.E_ID = E.E_ID");
-          //  dataGridView4.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT G_L_ID as[آید پرداخت],[C_Name] as [نام مشتری], G_Pay_Loan as [مقدار],  G_L_Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Given_Loan] as G on G.C_ID = C.C_ID");
+           Given_loan_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
         private void button68_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT Paid_ID as[آید پرداخت],[E_Name] as [نام کارمند], Quantity as [مقدار], What_For as [از درک], Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Paid_Money] as w on W.E_ID = E.E_ID");
-            dataGridView13.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT Paid_ID as[آید پرداخت],[E_Name] as [نام مشتری],Quantity[مقدار], T_Pay_Loan as [مقدار],  T_L_Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as S Join [MobileData].[dbo].[Taken_Loan] as T on T.S_ID = S.S_ID");
+            Paid_Loan_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
         private void button64_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT Paid_ID as[آید پرداخت],[E_Name] as [نام کارمند], Quantity as [مقدار], What_For as [از درک], Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Paid_Money] as w on W.E_ID = E.E_ID");
-            dataGridView13.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT T_L_ID as[آید پرداخت],[S_Name] as [نام مشتری],PC_ID[بیل نمبر], T_Pay_Loan as [مقدار],  T_L_Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as S Join [MobileData].[dbo].[Taken_Loan] as T on T.S_ID = S.S_ID");
+            Taken_Loan_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
-        private void tableLayoutPanel14_Paint(object sender, PaintEventArgs e)
+        private void Invoice_Product_Name_TextChanged(object sender, EventArgs e)
         {
 
         }
+
+      
+
+        private void DeleteBank_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NewExpenseCancel_Click(object sender, EventArgs e)
+        {
+            if (this.Expenses_Data_GrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Expenses_Data_GrideView.SelectedRows[0];
+                        Delete_Expenses_ID.Text = dr.Cells[0].Value.ToString();
+                        // or simply use column name instead of index
+                        //dr.Cells["id"].Value.ToString();
+                        Delete_Ex();
+
+
+                        foreach (DataGridViewRow item in this.Expenses_Data_GrideView.SelectedRows)
+                        {
+                            Expenses_Data_GrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
+            Delete_Loan_Past_Delete_ID.Clear();
+        }
+
+        private void P_T_Quantity_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+            if (this.Pay_To_Supplier_DataGriveView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Pay_To_Supplier_DataGriveView.SelectedRows[0];
+                        Delete_Loan_Past_Delete_ID.Text = dr.Cells[0].Value.ToString();
+                        // or simply use column name instead of index
+                        //dr.Cells["id"].Value.ToString();
+                        Delete_Pay_To_Supplier();
+
+
+                        foreach (DataGridViewRow item in this.Pay_To_Supplier_DataGriveView.SelectedRows)
+                        {
+                            Pay_To_Supplier_DataGriveView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
+            Delete_Loan_Past_Delete_ID.Clear();
+        }
+
+        private void RefreshExp_Click(object sender, EventArgs e)
+        {
+            DataAccess.RunQuery("SELECT Ex_ID as[آید مصرف],[EX_Name] as [از درک ],Quantity[مقدار ], Date as[تاریخ] FROM [MobileData].[dbo].[Expenses]");
+            Expenses_Data_GrideView.DataSource = DataAccess.Dataset.Tables[0];
+        }
+
+
+
+
+
+
+
+
+
+
 
         //--------------------------------------------------------------------------------------Take_From Customer-----------------------------Pay to Bank----------------------------------
 

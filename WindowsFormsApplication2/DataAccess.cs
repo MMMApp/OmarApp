@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
 
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
 
-        public static SqlConnection con = new SqlConnection("Server=MOZAMEL-OFFICE;Database=MobileData;User Id = sa; Password = hodaka;");
+        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -718,6 +718,92 @@ namespace WindowsFormsApplication2
                 string Delete = "Delete From Supplier where S_ID =" + Delete_Products;
                 con.Open();
                 cmd = new SqlCommand(Delete, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+        }
+
+        public void Delete_Given_Loan(string Delete_Products)
+        {
+            try
+            {
+                string AddNewCustomer = "Delete From Given_Loan where G_L_ID =  " + Delete_Products;
+                con.Open();
+                cmd = new SqlCommand(AddNewCustomer, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+        }
+
+
+        public void Delete_Taken_Loan(string Delete_Products)
+        {
+            try
+            {
+                string AddNewCustomer = "Delete From Taken_loan where T_L_ID =  " + Delete_Products;
+                con.Open();
+                cmd = new SqlCommand(AddNewCustomer, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+        }
+
+        public void Delete_Pay_To_Supplier(string Delete_Products)
+        {
+            try
+            {
+                string AddNewCustomer = "Delete From Pay_To_Supplier where P_T_S_ID =  " + Delete_Products;
+                con.Open();
+                cmd = new SqlCommand(AddNewCustomer, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch
+            {
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+        }
+
+        public void Delete_Past_Taken_Loan(string Delete_Products)
+        {
+            try
+            {
+                string AddNewCustomer = "Delete From Money_On_Customer where P_T_C_ID =  " + Delete_Products;
+                con.Open();
+                cmd = new SqlCommand(AddNewCustomer, con);
                 cmd.ExecuteNonQuery();
                 con.Close();
             }
