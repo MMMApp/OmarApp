@@ -1,0 +1,2112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SalesReports.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="SalesReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 274</value>
+  </data>
+  <data name="LoanReports.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LoanReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>987, 274</value>
+  </data>
+  <data name="Management.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Management.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 58</value>
+  </data>
+  <data name="Sales.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Sales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1296, 58</value>
+  </data>
+  <data name="GeneralReports.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GeneralReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 274</value>
+  </data>
+  <data name="StockReports.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StockReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1296, 274</value>
+  </data>
+  <data name="Loans.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Loans.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 58</value>
+  </data>
+  <data name="Purchases.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Purchases.Location" type="System.Drawing.Point, System.Drawing">
+    <value>987, 58</value>
+  </data>
+  <data name="MainPageLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 82</value>
+  </data>
+  <data name="MainPageLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1858, 910</value>
+  </data>
+  <data name="flowLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 57</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1858, 67</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1866, 997</value>
+  </data>
+  <data name="MainTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="MainTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1007</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Customers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Customers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="Invoices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Invoices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 104</value>
+  </data>
+  <data name="Invoices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="CustomerItem_Return.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CustomerItem_Return.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 204</value>
+  </data>
+  <data name="CustomerItem_Return.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="tableLayoutPanel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="Back_Sales.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="SalesTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="SalesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="Delete_C_ID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 83</value>
+  </data>
+  <data name="Delete_C_ID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="Back_Customers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Back_Customers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 70</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1247, 70</value>
+  </data>
+  <data name="Customer_New.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Customer_New.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1568, 3</value>
+  </data>
+  <data name="Customer_New.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 64</value>
+  </data>
+  <data name="Customer_Remove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Customer_Remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1412, 3</value>
+  </data>
+  <data name="Customer_Remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 64</value>
+  </data>
+  <data name="Customers_Refresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Customers_Refresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1256, 3</value>
+  </data>
+  <data name="Customers_Refresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 64</value>
+  </data>
+  <data name="tableLayoutPanel38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1724, 70</value>
+  </data>
+  <data name="D_G_V_Customer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 48</value>
+  </data>
+  <data name="D_G_V_Customer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 853</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 3</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 33</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 33</value>
+  </data>
+  <data name="tableLayoutPanel94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 39</value>
+  </data>
+  <data name="tableLayoutPanel93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 81</value>
+  </data>
+  <data name="tableLayoutPanel93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1724, 904</value>
+  </data>
+  <data name="tableLayoutPanel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 989</value>
+  </data>
+  <data name="CustomersTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="CustomersTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1880, 995</value>
+  </data>
+  <data name="dataGridView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="Back_NewCustomer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Customer_Invoice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewCustomer_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewCustomer_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1462, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="N_C_Address.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 151</value>
+  </data>
+  <data name="N_C_Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 43</value>
+  </data>
+  <data name="N_C_Phone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 82</value>
+  </data>
+  <data name="N_C_Phone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 43</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="N_C_Name.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 13</value>
+  </data>
+  <data name="N_C_Name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 43</value>
+  </data>
+  <data name="tableLayoutPanel28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
+  </data>
+  <data name="tableLayoutPanel28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1712, 559</value>
+  </data>
+  <data name="tableLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="tableLayoutPanel32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="NewCustomerTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewCustomerTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1716, 995</value>
+  </data>
+  <data name="Invoices_Back.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Invoices_New.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Invoices_Remove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Invoices_Refresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="InvoicesTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="InvoicesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 156</value>
+  </data>
+  <data name="dateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="Inv_Customer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 156</value>
+  </data>
+  <data name="Inv_Customer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 37</value>
+  </data>
+  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 65</value>
+  </data>
+  <data name="textBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 30</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1540, 23</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 23</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1014, 129</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1559, 129</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="dateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 65</value>
+  </data>
+  <data name="dateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="tableLayoutPanel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 217</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 27</value>
+  </data>
+  <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="AddInvoiceItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddInvoiceItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 38</value>
+  </data>
+  <data name="tableLayoutPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 230</value>
+  </data>
+  <data name="tableLayoutPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 151</value>
+  </data>
+  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1624, 362</value>
+  </data>
+  <data name="tableLayoutPanel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 392</value>
+  </data>
+  <data name="tableLayoutPanel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 447</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 0</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1564, 0</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 30</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1328, 0</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 29</value>
+  </data>
+  <data name="textBox11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 37</value>
+  </data>
+  <data name="tableLayoutPanel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 850</value>
+  </data>
+  <data name="tableLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 143</value>
+  </data>
+  <data name="tableLayoutPanel26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="Back_NewInvoice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewInvoice_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewInvoice_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="NewInvoiceTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewInvoiceTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="textBox29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 156</value>
+  </data>
+  <data name="textBox29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 37</value>
+  </data>
+  <data name="textBox30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 65</value>
+  </data>
+  <data name="textBox30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 30</value>
+  </data>
+  <data name="label49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1505, 23</value>
+  </data>
+  <data name="label49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="label50.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1036, 23</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 24</value>
+  </data>
+  <data name="label52.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1559, 129</value>
+  </data>
+  <data name="label52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 24</value>
+  </data>
+  <data name="dateTimePicker6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 65</value>
+  </data>
+  <data name="dateTimePicker6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="tableLayoutPanel49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 217</value>
+  </data>
+  <data name="label53.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label54.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label55.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label56.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 27</value>
+  </data>
+  <data name="textBox32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="AddItemReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AddItemReturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 38</value>
+  </data>
+  <data name="tableLayoutPanel50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 230</value>
+  </data>
+  <data name="tableLayoutPanel50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 151</value>
+  </data>
+  <data name="dataGridView8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1624, 362</value>
+  </data>
+  <data name="tableLayoutPanel51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 392</value>
+  </data>
+  <data name="tableLayoutPanel51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 447</value>
+  </data>
+  <data name="label57.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 0</value>
+  </data>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="label58.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1564, 0</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="textBox36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 30</value>
+  </data>
+  <data name="label59.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1328, 0</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 29</value>
+  </data>
+  <data name="textBox37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 37</value>
+  </data>
+  <data name="tableLayoutPanel52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 850</value>
+  </data>
+  <data name="tableLayoutPanel52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 143</value>
+  </data>
+  <data name="tableLayoutPanel48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="BackItemReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ItemReturnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label60.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ItemReturnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="ItemReturnTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ItemReturnTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Items.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Items.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="Supplier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Supplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 104</value>
+  </data>
+  <data name="Supplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="PurchaseInvoice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PurchaseInvoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 204</value>
+  </data>
+  <data name="PurchaseInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="ReturnSuppliersItems.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ReturnSuppliersItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 304</value>
+  </data>
+  <data name="ReturnSuppliersItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="tableLayoutPanel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="Back_Purchases.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="PurchasesTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="PurchasesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 89</value>
+  </data>
+  <data name="dataGridView4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 995</value>
+  </data>
+  <data name="NewItemReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewItemReturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 78</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1242, 78</value>
+  </data>
+  <data name="NewItemSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewItemSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 72</value>
+  </data>
+  <data name="NewItemCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewItemCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 72</value>
+  </data>
+  <data name="tableLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1717, 78</value>
+  </data>
+  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 157</value>
+  </data>
+  <data name="textBox12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 88</value>
+  </data>
+  <data name="textBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 69</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 138</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="textBox14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 19</value>
+  </data>
+  <data name="textBox14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 207</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="textBox15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 226</value>
+  </data>
+  <data name="textBox15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="tableLayoutPanel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 185</value>
+  </data>
+  <data name="tableLayoutPanel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1711, 556</value>
+  </data>
+  <data name="tableLayoutPanel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 89</value>
+  </data>
+  <data name="tableLayoutPanel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1717, 995</value>
+  </data>
+  <data name="tableLayoutPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1866, 1088</value>
+  </data>
+  <data name="NewItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 89</value>
+  </data>
+  <data name="dataGridView6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 995</value>
+  </data>
+  <data name="NewSupplierItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewSupplierItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 78</value>
+  </data>
+  <data name="NewSupplierInvoice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewSupplierInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 72</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1242, 78</value>
+  </data>
+  <data name="NewSupplierSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewSupplierSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 72</value>
+  </data>
+  <data name="NewSupplierCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewSupplierCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 72</value>
+  </data>
+  <data name="tableLayoutPanel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1717, 78</value>
+  </data>
+  <data name="label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1461, 0</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 157</value>
+  </data>
+  <data name="textBox16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 88</value>
+  </data>
+  <data name="textBox17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 69</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 138</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="textBox18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 19</value>
+  </data>
+  <data name="textBox18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 207</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="textBox19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 226</value>
+  </data>
+  <data name="textBox19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="tableLayoutPanel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 185</value>
+  </data>
+  <data name="tableLayoutPanel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1711, 556</value>
+  </data>
+  <data name="tableLayoutPanel30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 89</value>
+  </data>
+  <data name="tableLayoutPanel30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1717, 995</value>
+  </data>
+  <data name="tableLayoutPanel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1866, 1088</value>
+  </data>
+  <data name="NewSupplier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewSupplier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dateTimePicker3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 156</value>
+  </data>
+  <data name="dateTimePicker3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="textBox20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 156</value>
+  </data>
+  <data name="textBox20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 37</value>
+  </data>
+  <data name="textBox21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 65</value>
+  </data>
+  <data name="textBox21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 30</value>
+  </data>
+  <data name="label37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1540, 23</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 24</value>
+  </data>
+  <data name="label38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 23</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 24</value>
+  </data>
+  <data name="label39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1014, 129</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 24</value>
+  </data>
+  <data name="label40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1536, 129</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="dateTimePicker4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 65</value>
+  </data>
+  <data name="dateTimePicker4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="tableLayoutPanel42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 217</value>
+  </data>
+  <data name="label41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 27</value>
+  </data>
+  <data name="textBox23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="PurchaseInvoiceItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PurchaseInvoiceItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 38</value>
+  </data>
+  <data name="tableLayoutPanel43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 230</value>
+  </data>
+  <data name="tableLayoutPanel43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 151</value>
+  </data>
+  <data name="dataGridView7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1624, 362</value>
+  </data>
+  <data name="tableLayoutPanel44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 392</value>
+  </data>
+  <data name="tableLayoutPanel44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 447</value>
+  </data>
+  <data name="label45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 0</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="label46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1564, 0</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="textBox27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 30</value>
+  </data>
+  <data name="label47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1328, 0</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 29</value>
+  </data>
+  <data name="textBox28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 37</value>
+  </data>
+  <data name="tableLayoutPanel45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 850</value>
+  </data>
+  <data name="tableLayoutPanel45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 143</value>
+  </data>
+  <data name="tableLayoutPanel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="PurchaseInvoiceReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PurchaseInvoiceCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PurchaseInvoiceSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="NewPurchaseInvioceTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewPurchaseInvioceTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="textBox38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 156</value>
+  </data>
+  <data name="textBox38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 37</value>
+  </data>
+  <data name="textBox39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1207, 65</value>
+  </data>
+  <data name="textBox39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 30</value>
+  </data>
+  <data name="label51.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1505, 23</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="label61.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1036, 23</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 24</value>
+  </data>
+  <data name="label62.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1557, 129</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 24</value>
+  </data>
+  <data name="dateTimePicker5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 65</value>
+  </data>
+  <data name="dateTimePicker5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="tableLayoutPanel56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 217</value>
+  </data>
+  <data name="label63.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label64.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label65.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label66.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 27</value>
+  </data>
+  <data name="textBox41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="textBox43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 27</value>
+  </data>
+  <data name="PIRI_Add.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PIRI_Add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 38</value>
+  </data>
+  <data name="tableLayoutPanel57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 230</value>
+  </data>
+  <data name="tableLayoutPanel57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 151</value>
+  </data>
+  <data name="dataGridView9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1624, 362</value>
+  </data>
+  <data name="tableLayoutPanel58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 392</value>
+  </data>
+  <data name="tableLayoutPanel58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 447</value>
+  </data>
+  <data name="label67.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 0</value>
+  </data>
+  <data name="label67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 26</value>
+  </data>
+  <data name="label68.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1564, 0</value>
+  </data>
+  <data name="label68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="textBox45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 30</value>
+  </data>
+  <data name="label69.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1328, 0</value>
+  </data>
+  <data name="label69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 29</value>
+  </data>
+  <data name="textBox46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 37</value>
+  </data>
+  <data name="tableLayoutPanel59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 850</value>
+  </data>
+  <data name="tableLayoutPanel59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1708, 143</value>
+  </data>
+  <data name="tableLayoutPanel55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="BackPurchaseItemReturn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PIR_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label70.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PIR_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="PurchaseItemReturn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="PurchaseItemReturn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CustomerLoan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CustomerLoan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="SupplierLoan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SupplierLoan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 104</value>
+  </data>
+  <data name="SupplierLoan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="tableLayoutPanel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="Back_LoansTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="LoansTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="LoansTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="Back_CustomerLoanTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CL_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CL_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label72.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1462, 0</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label73.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 157</value>
+  </data>
+  <data name="textBox47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 88</value>
+  </data>
+  <data name="textBox48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label74.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label75.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label76.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 19</value>
+  </data>
+  <data name="textBox49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="tableLayoutPanel65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
+  </data>
+  <data name="tableLayoutPanel65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1712, 559</value>
+  </data>
+  <data name="tableLayoutPanel63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="tableLayoutPanel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="CustomerLoanTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="CustomerLoanTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="Back_SupplierLoanTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label77.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SL_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SL_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label78.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1462, 0</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label79.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 157</value>
+  </data>
+  <data name="textBox50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 88</value>
+  </data>
+  <data name="textBox51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label80.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label81.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label82.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 19</value>
+  </data>
+  <data name="textBox52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="tableLayoutPanel70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
+  </data>
+  <data name="tableLayoutPanel70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1712, 559</value>
+  </data>
+  <data name="tableLayoutPanel68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="tableLayoutPanel66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="SupplierLoanTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="SupplierLoanTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="label71.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Employees.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Employees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="Expenses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Expenses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 104</value>
+  </data>
+  <data name="Expenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="MoneyTG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MoneyTG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 204</value>
+  </data>
+  <data name="MoneyTG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="tableLayoutPanel62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="Back_ManagementTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="ManagementTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ManagementTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="flowLayoutPanel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1716, 995</value>
+  </data>
+  <data name="Back_EmployeesTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label92.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewEmployee.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DeleteEmployee.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RefreshEmployees.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="EmployeesTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="EmployeesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 89</value>
+  </data>
+  <data name="dataGridView12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 995</value>
+  </data>
+  <data name="Back_NewEmployee.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Back_NewEmployee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 78</value>
+  </data>
+  <data name="label83.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1242, 78</value>
+  </data>
+  <data name="NE_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NE_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 72</value>
+  </data>
+  <data name="NE_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NE_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 72</value>
+  </data>
+  <data name="tableLayoutPanel72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1717, 78</value>
+  </data>
+  <data name="label84.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1461, 0</value>
+  </data>
+  <data name="label84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label85.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 157</value>
+  </data>
+  <data name="textBox53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 88</value>
+  </data>
+  <data name="textBox54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label86.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label87.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 69</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label88.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 138</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="textBox55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 19</value>
+  </data>
+  <data name="textBox55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label90.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 207</value>
+  </data>
+  <data name="label90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label89.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 276</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="label91.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1488, 345</value>
+  </data>
+  <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 69</value>
+  </data>
+  <data name="textBox56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 226</value>
+  </data>
+  <data name="textBox56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 295</value>
+  </data>
+  <data name="textBox57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1110, 364</value>
+  </data>
+  <data name="textBox58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="tableLayoutPanel75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 185</value>
+  </data>
+  <data name="tableLayoutPanel75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1711, 556</value>
+  </data>
+  <data name="tableLayoutPanel73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 89</value>
+  </data>
+  <data name="tableLayoutPanel73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1717, 995</value>
+  </data>
+  <data name="tableLayoutPanel71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1866, 1088</value>
+  </data>
+  <data name="NewEmployeeTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewEmployeeTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 90</value>
+  </data>
+  <data name="dataGridView15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 1004</value>
+  </data>
+  <data name="flowLayoutPanel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 92</value>
+  </data>
+  <data name="flowLayoutPanel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1722, 1000</value>
+  </data>
+  <data name="Back_ExpensesTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Back_ExpensesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 79</value>
+  </data>
+  <data name="label98.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label98.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1247, 79</value>
+  </data>
+  <data name="NewExpenses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewExpenses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 73</value>
+  </data>
+  <data name="NewExpenseCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewExpenseCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 73</value>
+  </data>
+  <data name="RefreshExp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RefreshExp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 73</value>
+  </data>
+  <data name="tableLayoutPanel84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1724, 79</value>
+  </data>
+  <data name="tableLayoutPanel83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="ExpensesTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="ExpensesTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="Back_NewExpense.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label93.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewExpense_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewExpense_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dateTimePicker7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="label94.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1462, 0</value>
+  </data>
+  <data name="label94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label95.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 88</value>
+  </data>
+  <data name="textBox60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label96.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label97.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1111, 19</value>
+  </data>
+  <data name="textBox61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="tableLayoutPanel82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 186</value>
+  </data>
+  <data name="tableLayoutPanel82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1712, 559</value>
+  </data>
+  <data name="tableLayoutPanel80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="tableLayoutPanel78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="NewExpenseTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewExpenseTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 999</value>
+  </data>
+  <data name="flowLayoutPanel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1716, 995</value>
+  </data>
+  <data name="Back_MoneyTGTab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label99.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewMoneyTG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NewMoneyTG_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Refresh_MoneyTG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="MoneyTGTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="MoneyTGTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="dataGridView17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 90</value>
+  </data>
+  <data name="dataGridView17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 1004</value>
+  </data>
+  <data name="Back_NewMoneyTG.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Back_NewMoneyTG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 79</value>
+  </data>
+  <data name="label100.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1247, 79</value>
+  </data>
+  <data name="NMTG_Save.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NMTG_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 73</value>
+  </data>
+  <data name="NMTG_Cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NMTG_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 73</value>
+  </data>
+  <data name="tableLayoutPanel88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1724, 79</value>
+  </data>
+  <data name="dateTimePicker8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1307, 53</value>
+  </data>
+  <data name="dateTimePicker8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>414, 27</value>
+  </data>
+  <data name="label101.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label101.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1468, 0</value>
+  </data>
+  <data name="label101.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 29</value>
+  </data>
+  <data name="label102.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label102.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 44</value>
+  </data>
+  <data name="tableLayoutPanel90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 44</value>
+  </data>
+  <data name="textBox59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 88</value>
+  </data>
+  <data name="textBox59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label103.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label104.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBox62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 19</value>
+  </data>
+  <data name="textBox62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="textBox63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 157</value>
+  </data>
+  <data name="textBox63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 31</value>
+  </data>
+  <data name="label105.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 187</value>
+  </data>
+  <data name="tableLayoutPanel91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 561</value>
+  </data>
+  <data name="tableLayoutPanel89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 90</value>
+  </data>
+  <data name="tableLayoutPanel89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1724, 1004</value>
+  </data>
+  <data name="tableLayoutPanel87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="NewMoneyTGTAB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="NewMoneyTGTAB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="label106.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 104</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 204</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1710, 93</value>
+  </data>
+  <data name="tableLayoutPanel92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1718, 999</value>
+  </data>
+  <data name="flowLayoutPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 995</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tableLayoutPanel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1868, 1092</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1874, 1098</value>
+  </data>
+  <data name="MainTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1888, 1021</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1896, 1031</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1041</value>
+  </data>
+</root>
