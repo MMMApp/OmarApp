@@ -4044,6 +4044,12 @@ namespace WindowsFormsApplication2
             Expenses_Data_GrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
+        private void AboutCustToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StartUp Start = new StartUp();
+            Start.Show();
+        }
+
 
 
 
