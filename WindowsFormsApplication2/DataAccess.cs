@@ -17,10 +17,10 @@ namespace WindowsFormsApplication2
 
         // Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka;
         //MOZAMEL-OFFICE
-
+        //MBP-WIN-M\SQLEXPRESS
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
 
-        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
+        public static SqlConnection con = new SqlConnection(" Server=MBP-WIN-M\\SQLEXPRESS;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -688,11 +688,11 @@ namespace WindowsFormsApplication2
         }
 
 
-        public void Delete_Product(string Delete_Products)
+        public void Delete_Product(string Delete_AddedProducts)
         {
             try
             {
-                string Delete1 = "Delete FROM Product where P_IDD =" + Delete_Products;
+                string Delete1 = "Delete FROM Product where P_IDD = "+Delete_AddedProducts;
                 con.Open();
                 cmd = new SqlCommand(Delete1, con);
                 cmd.ExecuteNonQuery();
@@ -711,11 +711,11 @@ namespace WindowsFormsApplication2
         }
 
 
-        public void Delete_Supplier(string Delete_Products)
+        public void Delete_Supplier(string Delete_Supplier)
         {
             try
             {
-                string Delete = "Delete From Supplier where S_ID =" + Delete_Products;
+                string Delete = "Delete From Supplier where S_ID =" + Delete_Supplier;
                 con.Open();
                 cmd = new SqlCommand(Delete, con);
                 cmd.ExecuteNonQuery();
