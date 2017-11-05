@@ -1861,7 +1861,30 @@ namespace WindowsFormsApplication2
             DataAccess.Delete_Pay_To_Supplier(Delete_Loan_Past_Delete_ID.Text);
         }
 
-        
+
+        public void Delete_Withrow()
+        {
+            DataAccess.Delete_Widrow(Withrow_Delete_ID.Text);
+        }
+
+        public void Delete_Paid_Money()
+        {
+            DataAccess.Delete_Paid_money(Paid_Delete_ID.Text);
+        }
+        public void Delete_Bank()
+        {
+            DataAccess.Delete_Bank(Bank_Delete_ID.Text);
+        }
+        public void Delete_payto_Bank()
+        {
+            DataAccess.Delete_Pay_To_Bank(Delete_Pay_To_Bank_ID.Text);
+        }
+
+
+        public void Delete_Take_From_Bank()
+        {
+            DataAccess.Delete_Take_From_Bank(Take_FromBank_ID.Text);
+        }
 
 
         // --------------------------------------------------Unsorted Buttons---------------------------------\\
@@ -2027,7 +2050,7 @@ namespace WindowsFormsApplication2
 
         public void Bank()
         {
-
+            
             DataAccess.Bank(B_Name.Text, B_Address.Text, B_Phone.Text, B_Phone1.Text, B_Note.Text);
         }
 
@@ -3634,6 +3657,12 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("ثبت موفق بود");
 
             }
+
+            B_Name.Clear();
+            B_Address.Clear();
+            B_Phone.Clear();
+            B_Phone1.Clear();
+            B_Note.Clear();
         }
 
         private void button39_Click(object sender, EventArgs e)
@@ -3907,14 +3936,14 @@ namespace WindowsFormsApplication2
      
         private void button52_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT T_F_Bank_ID as [آیدی], B.B_Name as [نام بانک], E.E_Name [از طرف], TFB.Quantity as [مقدار], TFB.What_For as [از درک], TFB.Date as[تاریخ] FROM Bank B Join Take_From_Bank TFB on TFB.B_ID = TFB.B_ID Join Employee E on TFB.E_ID = E.E_ID");
-            Take_From_Bank_Data_GrideView.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT T.T_F_Bank_ID as [آید برداشت],B.B_Name[نام بانک],E.E_Name as [نام مشتری],T.Quantity[مقدار], T.What_For as [از درک],  T.Date as[تاریخ] FROM Employee as E Join Take_From_Bank as T on T.E_ID = E.E_ID Join Bank as B on T.B_ID = B.B_ID");
+            Take_From_Bank_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
         private void button56_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT P_T_Bank as [آیدی] ,B.B_Name as [نام بانک], E.E_Name [از طرف], TFB.Quantity as [مقدار], TFB.What_For as [از درک],TFB.Date as[تاریخ] FROM Bank B Join Pay_To_Bank TFB on TFB.B_ID = TFB.B_ID Join Employee E on TFB.E_ID = E.E_ID");
-            Pay_To_Bank_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT P.P_T_Bank as[آید پرداخت],B.B_Name[نام بانک],E.E_Name as [نام مشتری],P.Quantity[مقدار], P.What_For as [از درک],  P.Date as[تاریخ] FROM Employee as E Join Pay_To_Bank as P on P.E_ID = E.E_ID Join Bank as B on P.B_ID = B.B_ID");
+            dataGridView4.DataSource = DataAccess.Dataset.Tables[0];
             
         }
        
@@ -3946,7 +3975,39 @@ namespace WindowsFormsApplication2
 
         private void DeleteBank_Click(object sender, EventArgs e)
         {
+            if (this.Bank_DataGridView.SelectedRows.Count == 1)
+            {
+                try
+                {
 
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Bank_DataGridView.SelectedRows[0];
+                        Bank_Delete_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_Bank();
+
+
+                        foreach (DataGridViewRow item in this.Bank_DataGridView.SelectedRows)
+                        {
+                            Bank_DataGridView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
+            Bank_Delete_ID.Clear();
         }
 
         private void NewExpenseCancel_Click(object sender, EventArgs e)
@@ -4057,6 +4118,131 @@ namespace WindowsFormsApplication2
             textBox73.ReadOnly = true;
         }
 
+        private void button71_Click(object sender, EventArgs e)
+        {
+
+            if (this.Taken_Money_DataGrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Taken_Money_DataGrideView.SelectedRows[0];
+                        Withrow_Delete_ID.Text = dr.Cells[0].Value.ToString();
+
+                        Delete_Withrow();
+
+
+                        foreach (DataGridViewRow item in this.Taken_Money_DataGrideView.SelectedRows)
+                        {
+                            Taken_Money_DataGrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
+            Withrow_Delete_ID.Clear();
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+            if (this.Paid_Loan_DataGrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Paid_Loan_DataGrideView.SelectedRows[0];
+                        Paid_Delete_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_Paid_Money();
+                        foreach (DataGridViewRow item in this.Paid_Loan_DataGrideView.SelectedRows)
+                        {
+                            Paid_Loan_DataGrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
+           
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            DataAccess.RunQuery("SELECT W_ID as[آید برداشت],[E_Name] as [نام مشتری],Quantity[مقدار], What_For as [از درک],  Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Withdraw] as W on W.E_ID = E.E_ID");
+            Taken_Money_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            DataAccess.RunQuery("SELECT B_ID as [آیدی], B_Name as [نام بانک], B_Address [آدرس ], B_Phone as [شماره تماس 1], B_Phone1 as [شماره تماس 2], B_Note as[نوت]FROM Bank ");
+            Bank_DataGridView.DataSource = DataAccess.Dataset.Tables[0];
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+
+            if (this.Take_From_Bank_DataGrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Take_From_Bank_DataGrideView.SelectedRows[0];
+                        Take_FromBank_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_Take_From_Bank();
+                        foreach (DataGridViewRow item in this.Take_From_Bank_DataGrideView.SelectedRows)
+                        {
+
+                            Take_From_Bank_DataGrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    DataAccess.con.Close();
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+
+            }
+            Take_FromBank_ID.Clear();
+        }
 
 
 
@@ -4064,6 +4250,56 @@ namespace WindowsFormsApplication2
 
 
 
+
+
+
+
+
+        private void button55_Click(object sender, EventArgs e)
+        {
+
+            if (this.dataGridView4.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = dataGridView4.SelectedRows[0];
+                        Delete_Pay_To_Bank_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_payto_Bank();
+                        foreach (DataGridViewRow item in this.dataGridView4.SelectedRows)
+                        {
+
+                            dataGridView4.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    DataAccess.con.Close();
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+
+            }
+            Delete_Pay_To_Bank_ID.Clear();
+        }
+
+        private void tableLayoutPanel175_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
 
 
 
@@ -4075,7 +4311,7 @@ namespace WindowsFormsApplication2
 
 
     }
-}
+
 
 
 
