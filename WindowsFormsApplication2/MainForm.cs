@@ -238,10 +238,105 @@ namespace WindowsFormsApplication2
 
 
 
+        // ----------------------------------------------------------------------------Search Boxes-----------------------------------------------------------------\\
 
 
+        private void SearchT_Customer_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Select C_ID As[آید مشتری], C_Name as [نام مشتری], C_Location as [آدرس], C_Phone as [شماره تماس] from Customer", "[نام مشتری]", SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
 
+        private void SearchT_Invoice_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Select C_ID As[آید مشتری], C_Name as [نام مشتری], C_Location as [آدرس], C_Phone as [شماره تماس] from Customer", "[نام مشتری]", SearchT_Invoice.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
 
+        private void SearchT_Employee_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Select E_ID as [آیدی],E_Name As[نام], [F/Name] [نام پدر], E_Phone_1 as [نمبر تلیفون 1], E_Phone_2 as [نمبر تلیفون 2], E_Location as [آدرس],Income as [ماش] from Employee", "[نام]", SearchT_Employee.Text);
+            D_G_V_Employee.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Expenses_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT Ex_ID as[آید مصرف],[EX_Name] as [از درک ],Quantity[مقدار ], Date as[تاریخ] FROM [MobileData].[dbo].[Expenses]", "[از درک ]", SearchT_Expenses.Text);
+            Expenses_Data_GrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Items_TextChanged(object sender, EventArgs e)
+        {
+
+            DataAccess.searchData("Select P_IDD AS [Me], P_ID As[آید جنس], P_Name as [نام جنس], P_Color as [رنگ], P_Made as [ساخت ] from Product", "[آید جنس]", SearchT_Items.Text);
+            Product_list_Data_grideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Suppliers_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Select S_ID As[آید تهیه کننده], S_Name as [نام تهیه کننده], S_Location as [آدرس], S_Phone as [شماره تماس], S_E_Mail as [ایمل آدرس] from Supplier", "[نام تهیه کننده]", SearchT_Suppliers.Text);
+            dataGridView1.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Purchases_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Select C_ID As[آید مشتری], C_Name as [نام مشتری], C_Location as [آدرس], C_Phone as [شماره تماس] from Customer", "[نام مشتری]", SearchT_Purchases.Text);
+            dataGridView10.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Banks_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT B_ID as [آیدی], B_Name as [نام بانک], B_Address [آدرس ], B_Phone as [شماره تماس 1], B_Phone1 as [شماره تماس 2], B_Note as[نوت]FROM Bank ", "[نام بانک]", SearchT_Banks.Text);
+            Bank_DataGridView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_OCL_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT P_T_C_ID as[آیدی],[C_Name] as [نام مشتری], MO.Quantity as [مقدار], MO.What_For as [از درک], Mo.Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Money_On_Customer] as MO on MO.C_ID = c.C_ID", "[نام مشتری]", SearchT_OCL.Text);
+            On_Customer_Money_Pay_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_OSL_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT P_T_S_ID as[آیدی قرض],s.S_Name as [نام تهیه کننده], PTS.Quantity as [مقدار], PTS.What_For as [از درک], PTS.Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as s Join [MobileData].[dbo].[Pay_To_Supplier] as PTS on PTS.S_ID = S.S_ID", "[نام تهیه کننده]", SearchT_OSL.Text);
+            Pay_To_Supplier_DataGriveView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_TB_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT T.T_F_Bank_ID as [آید برداشت],B.B_Name[نام بانک],E.E_Name as [نام مشتری],T.Quantity[مقدار], T.What_For as [از درک],  T.Date as[تاریخ] FROM Employee as E Join Take_From_Bank as T on T.E_ID = E.E_ID Join Bank as B on T.B_ID = B.B_ID", "[نام مشتری]", SearchT_TB.Text);
+            Take_From_Bank_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_GB_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT P.P_T_Bank as[آید پرداخت],B.B_Name[نام بانک],E.E_Name as [نام مشتری],P.Quantity[مقدار], P.What_For as [از درک],  P.Date as[تاریخ] FROM Employee as E Join Pay_To_Bank as P on P.E_ID = E.E_ID Join Bank as B on P.B_ID = B.B_ID", "[نام مشتری]", SearchT_GB.Text);
+            dataGridView4.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_CL_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT G_L_ID as[آید پرداخت],[C_Name] as [نام مشتری], G_Pay_Loan as [مقدار],  G_L_Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Given_Loan] as G on G.C_ID = C.C_ID", "[نام مشتری]", SearchT_CL.Text);
+            Given_loan_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_SL_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT T_L_ID as[آید پرداخت],[S_Name] as [نام مشتری],PC_ID[بیل نمبر], T_Pay_Loan as [مقدار],  T_L_Date as[تاریخ] FROM [MobileData].[dbo].[Supplier] as S Join [MobileData].[dbo].[Taken_Loan] as T on T.S_ID = S.S_ID", "[نام مشتری]", SearchT_SL.Text);
+            Taken_Loan_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_EmployeeG_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT Paid_ID as[آید پرداخت],[E_Name] as [نام مشتری],Quantity[مقدار], What_For as [از درک],  Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Paid_Money] as P on P.E_ID = E.E_ID", "[نام مشتری]", SearchT_EmployeeG.Text);
+            Paid_Loan_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_EmployeeT_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("SELECT W_ID as[آید برداشت],[E_Name] as [نام مشتری],Quantity[مقدار], What_For as [از درک],  Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Withdraw] as W on W.E_ID = E.E_ID", "[نام مشتری]", SearchT_EmployeeT.Text);
+            Taken_Money_DataGrideView.DataSource = DataAccess.DV;
+        }
 
 
 
@@ -1080,25 +1175,6 @@ namespace WindowsFormsApplication2
             Back_NewExpense.BackgroundImage = Properties.Resources.Back;
         }
 
-        private void Back_MoneyTGTab_MouseDown(object sender, MouseEventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.BackS;
-        }
-
-        private void Back_MoneyTGTab_MouseEnter(object sender, EventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.BackH;
-        }
-
-        private void Back_MoneyTGTab_MouseLeave(object sender, EventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.Back;
-        }
-
-        private void Back_MoneyTGTab_MouseUp(object sender, MouseEventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.Back;
-        }
 
         private void Back_NewMoneyTG_MouseDown(object sender, MouseEventArgs e)
         {
@@ -2653,7 +2729,6 @@ namespace WindowsFormsApplication2
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-                Customer_search.AutoCompleteCustomSource = coll;
                 Customer_Loan_Name.AutoCompleteCustomSource = coll;
                 New_Invoice_C_Name.AutoCompleteCustomSource = coll;
                 Item_return_Name.AutoCompleteCustomSource = coll;
@@ -2663,7 +2738,6 @@ namespace WindowsFormsApplication2
                 }
 
             }
-            Customer_search.AutoCompleteCustomSource = coll;
             Customer_Loan_Name.AutoCompleteCustomSource = coll;
             New_Invoice_C_Name.AutoCompleteCustomSource = coll;
             Item_return_Name.AutoCompleteCustomSource = coll;
@@ -4283,14 +4357,14 @@ namespace WindowsFormsApplication2
 
         private void textBox73_Click(object sender, MouseEventArgs e)
         {
-            textBox73.Text = "";
-            textBox73.ReadOnly = false;
+            SearchT_Invoice.Text = "";
+            SearchT_Invoice.ReadOnly = false;
         }
 
         private void textBox73_Leave(object sender, EventArgs e)
         {
-            textBox73.Text = "جستجو";
-            textBox73.ReadOnly = true;
+            SearchT_Invoice.Text = "جستجو";
+            SearchT_Invoice.ReadOnly = true;
         }
 
         private void button71_Click(object sender, EventArgs e)
@@ -4707,6 +4781,10 @@ namespace WindowsFormsApplication2
 
 
         }
+
+
+
+
     }
 
 

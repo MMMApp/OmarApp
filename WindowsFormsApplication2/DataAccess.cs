@@ -1050,17 +1050,25 @@ namespace WindowsFormsApplication2
     }
 
 
-        // ------------------------------------------------------------------------------------------------ Searching------------------------------------------------------------------------------Function\\
+        // ----------------------------------------------------------------- Searching Data Gridview--------------------------------------------------------Function\\
+
+        public void searchData(String Path, String Field, String SearchT)
+        {
+            string query =  Path;
+            cmd = new SqlCommand(query, con);
+            SQLDA = new SqlDataAdapter(cmd);
+            DT = new DataTable();
+            SQLDA.Fill(DT);
+            DV = new DataView(DT);
+            DV.RowFilter = string.Format(Field + " LIKE '%{0}%'", SearchT);
+
+        }
 
 
 
 
 
-
-
-
-
-
+        // ----------------------------------------------------------------- [       ]--------------------------------------------------------Function\\
 
 
 
