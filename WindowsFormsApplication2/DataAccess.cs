@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
         //MBP-WIN-M\SQLEXPRESS
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
 
-        public static SqlConnection con = new SqlConnection(" Server=MBP-WIN-M\\SQLEXPRESS;Database=MobileData;User Id = sa; Password = hodaka");
+        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -29,6 +29,7 @@ namespace WindowsFormsApplication2
         public DataView DV;
         public SqlDataReader DR;
         public SqlDataAdapter DA;
+        public DataTable dbdataset;
 
         // ---------------------------------- Adding IN TO Products-------------------------------Function
         public string textaa;
@@ -56,6 +57,36 @@ namespace WindowsFormsApplication2
             }
 
         }
+
+
+
+        public void RunQuery2(string Query,string textbox)
+        {
+            try
+            {
+                con.Open();
+                cmd = new SqlCommand(Query, con);
+                SQLDA = new SqlDataAdapter(cmd);
+                dbdataset = new DataTable();
+                SQLDA.Fill(dbdataset);
+                DataView DV = new DataView(dbdataset);
+
+                con.Close();
+
+            }
+            catch (Exception e)
+            {
+                if (con.State == ConnectionState.Open)
+
+                {
+                    con.Close();
+                }
+                MessageBox.Show(e.Message);
+
+            }
+
+        }
+
 
         public void RunQuery_1(string Query)
         {
@@ -819,10 +850,20 @@ namespace WindowsFormsApplication2
             }
         }
 
-        // ------------------------------------------------------------------------------------------------ Searching------------------------------------------------------------------------------Function\\
 
 
-
+        // ------------------------------------------------------------------------------ DataGridView Search Box------------------------------------------------------Function\\
+        public void searchData(String Path, String Field, String SearchT)
+        {
+            string query = "Select * from " + Path;
+            cmd = new SqlCommand(query, con);
+            SQLDA = new SqlDataAdapter(cmd);
+            DT = new DataTable();
+            SQLDA.Fill(DT);
+            DV = new DataView(DT);
+            DV.RowFilter = string.Format(Field + " LIKE '%{0}%'", SearchT);
+            
+        }
 
 
 

@@ -1080,26 +1080,6 @@ namespace WindowsFormsApplication2
             Back_NewExpense.BackgroundImage = Properties.Resources.Back;
         }
 
-        private void Back_MoneyTGTab_MouseDown(object sender, MouseEventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.BackS;
-        }
-
-        private void Back_MoneyTGTab_MouseEnter(object sender, EventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.BackH;
-        }
-
-        private void Back_MoneyTGTab_MouseLeave(object sender, EventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.Back;
-        }
-
-        private void Back_MoneyTGTab_MouseUp(object sender, MouseEventArgs e)
-        {
-            Back_MoneyTGTab.BackgroundImage = Properties.Resources.Back;
-        }
-
         private void Back_NewMoneyTG_MouseDown(object sender, MouseEventArgs e)
         {
             Back_NewMoneyTG.BackgroundImage = Properties.Resources.BackS;
@@ -2570,7 +2550,6 @@ namespace WindowsFormsApplication2
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-                Customer_search.AutoCompleteCustomSource = coll;
                 Customer_Loan_Name.AutoCompleteCustomSource = coll;
                 New_Invoice_C_Name.AutoCompleteCustomSource = coll;
                 Item_return_Name.AutoCompleteCustomSource = coll;
@@ -2580,7 +2559,7 @@ namespace WindowsFormsApplication2
                 }
 
             }
-            Customer_search.AutoCompleteCustomSource = coll;
+            
             Customer_Loan_Name.AutoCompleteCustomSource = coll;
             New_Invoice_C_Name.AutoCompleteCustomSource = coll;
             Item_return_Name.AutoCompleteCustomSource = coll;
@@ -4048,20 +4027,140 @@ namespace WindowsFormsApplication2
 
         private void textBox73_Click(object sender, MouseEventArgs e)
         {
-            textBox73.Text = "";
-            textBox73.ReadOnly = false;
+            SearchT_Invoice.Text = "";
+            SearchT_Invoice.ReadOnly = false;
+            SearchT_Invoice.ForeColor = Color.Black;
         }
 
         private void textBox73_Leave(object sender, EventArgs e)
         {
-            textBox73.Text = "جستجو";
-            textBox73.ReadOnly = true;
+            SearchT_Invoice.Text = "جستجو";
+            SearchT_Invoice.ReadOnly = true;
+            SearchT_Invoice.ForeColor = Color.LightGray;
+        }
+
+
+        private void SearchT_Customer_Leave(object sender, EventArgs e)
+        {
+        //    SearchT_Customer.Text = "جستجو";
+         //   SearchT_Customer.ReadOnly = true;
+        //    SearchT_Customer.ForeColor = Color.LightGray;
+        }
+
+        private void SearchT_Customer_Click(object sender, EventArgs e)
+        {
+          //  SearchT_Customer.Text = "";
+          //  SearchT_Customer.ReadOnly = false;
+         //   SearchT_Customer.ForeColor = Color.Black;
+        }
+        // DataTable dt = new DataTable("Cusdsfsdtomer");
+
+
+
+        private void SearchT_Customer_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer","C_Name",SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_EmpT_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Employee", "E_Name", SearchT_EmpT.Text);
+            D_G_V_Employee.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_EmpG_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_EmpG.Text);
+            Paid_Loan_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_SupplierLoan_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_SupplierLoan.Text);
+            Taken_Loan_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_CustomerLoan_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_CustomerLoan.Text);
+            Given_loan_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_GB_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_GB.Text);
+            Pay_To_Bank_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_TB_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_TB.Text);
+            Take_From_Bank_Data_GrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_OSL_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_OSL.Text);
+            Pay_To_Supplier_DataGriveView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_OCL_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_OCL.Text);
+            On_Customer_Money_Pay_DataGrideView.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Banks_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
         }
 
 
 
 
 
+
+
+
+
+
+        private void SearchT_Purchases_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Suppliers_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Items_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Expenses_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
+            D_G_V_Customer.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Employee_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Employee", "E_Name", SearchT_Employee.Text);
+            D_G_V_Employee.DataSource = DataAccess.DV;
+        }
+
+        private void SearchT_Invoice_TextChanged(object sender, EventArgs e)
+        {
+            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
+            D_G_V_Employee.DataSource = DataAccess.DV;
+        }
 
 
 
