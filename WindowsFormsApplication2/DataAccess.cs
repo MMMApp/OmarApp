@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
         //MBP-WIN-M\SQLEXPRESS
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
 
-        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
+        public static SqlConnection con = new SqlConnection(" Server=MBP-WIN-M\\SQLEXPRESS;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -491,7 +491,7 @@ namespace WindowsFormsApplication2
                 cmd = new SqlCommand(New_Item, con);
                 cmd.ExecuteNonQuery();
                 con.Close();
-            }
+        }
 
             catch (Exception ex)
             {
@@ -921,53 +921,6 @@ namespace WindowsFormsApplication2
             try
             {
                 string AddNewCustomer = "Delete From Money_On_Customer where P_T_C_ID =  " + Delete_Products;
-                con.Open();
-                cmd = new SqlCommand(AddNewCustomer, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                if (con.State == ConnectionState.Open)
-                {
-                    con.Close();
-                }
-
-            }
-        }
-
-
-        public void Delete_Widrow(string Delete_Products)
-        {
-            try
-            {
-                string AddNewCustomer = "Delete From Withdraw where W_ID =  " + Delete_Products;
-                con.Open();
-                cmd = new SqlCommand(AddNewCustomer, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                if (con.State == ConnectionState.Open)
-                {
-                    con.Close();
-                }
-
-            }
-        }
-
-
-
-        public void Delete_Paid_money(string Delete_Products)
-        {
-            try
-            {
-                string AddNewCustomer = "Delete From Paid_Money where Paid_ID =  " + Delete_Products;
                 con.Open();
                 cmd = new SqlCommand(AddNewCustomer, con);
                 cmd.ExecuteNonQuery();
