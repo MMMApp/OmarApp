@@ -4011,8 +4011,7 @@ namespace WindowsFormsApplication2
                     {
                         DataGridViewRow dr = Pay_To_Supplier_DataGriveView.SelectedRows[0];
                         Delete_Loan_Past_Delete_ID.Text = dr.Cells[0].Value.ToString();
-                        // or simply use column name instead of index
-                        //dr.Cells["id"].Value.ToString();
+
                         Delete_Pay_To_Supplier();
 
 
