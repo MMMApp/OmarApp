@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
         //MBP-WIN-M\SQLEXPRESS
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
 
-        public static SqlConnection con = new SqlConnection(" Server=MBP-WIN-M\\SQLEXPRESS;Database=MobileData;User Id = sa; Password = hodaka");
+        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -29,7 +29,6 @@ namespace WindowsFormsApplication2
         public DataView DV;
         public SqlDataReader DR;
         public SqlDataAdapter DA;
-        public DataTable dbdataset;
 
         // ---------------------------------- Adding IN TO Products-------------------------------Function
         public string textaa;
@@ -57,36 +56,6 @@ namespace WindowsFormsApplication2
             }
 
         }
-
-
-
-        public void RunQuery2(string Query,string textbox)
-        {
-            try
-            {
-                con.Open();
-                cmd = new SqlCommand(Query, con);
-                SQLDA = new SqlDataAdapter(cmd);
-                dbdataset = new DataTable();
-                SQLDA.Fill(dbdataset);
-                DataView DV = new DataView(dbdataset);
-
-                con.Close();
-
-            }
-            catch (Exception e)
-            {
-                if (con.State == ConnectionState.Open)
-
-                {
-                    con.Close();
-                }
-                MessageBox.Show(e.Message);
-
-            }
-
-        }
-
 
         public void RunQuery_1(string Query)
         {
@@ -425,94 +394,6 @@ namespace WindowsFormsApplication2
             }
 
         }
-
-
-
-
-
-
-
-        public void New_Purchase(string P_ID, string S_ID, string Date, string end_date)
-        {
-            try
-            {
-                string New_Item = "Insert Into Purchase(PC_ID,S_ID,Date, End_Date) Values('" + P_ID + "','" + S_ID + "','" + Date + "','" + end_date + "');";
-                con.Open();
-                cmd = new SqlCommand(New_Item, con);
-                cmd.ExecuteNonQuery();
-                    con.Close();
-                }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                if (con.State == ConnectionState.Open)
-                {
-                    con.Close();
-            }
-
-        }
-
-        }
-
-
-
-
-        public void New_Purchase_Datail(string PC_ID, string P_ID, string Quantity, string Buy_Price, string Total_Amount)
-        {
-            try
-            {
-                string New_Item = "Insert Into Purchase_Details(PC_ID,P_ID,Quantity,Buy_Price,Total_Price) Values('" + PC_ID + "','" + P_ID + "','" + Quantity + "','" + Buy_Price + "','" + Total_Amount + "');";
-                con.Open();
-                cmd = new SqlCommand(New_Item, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
-            }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                if (con.State == ConnectionState.Open)
-                {
-                    con.Close();
-                }
-
-            }
-
-        }
-
-
-        public void Purchase_Amount(string PC_ID, string Total_paid, float Balance, string Grand_Total)
-        {
-            try
-            {
-                string New_Item = "Insert Into Purchase_Amount(PC_ID,Total_Paid,Balance, Grand_Total) Values('" + PC_ID + "','" + Total_paid + "','" + Balance + "','" + Grand_Total + "');";
-                con.Open();
-                cmd = new SqlCommand(New_Item, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
-        }
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                if (con.State == ConnectionState.Open)
-                {
-                    con.Close();
-                }
-
-            }
-
-        }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -939,6 +820,53 @@ namespace WindowsFormsApplication2
         }
 
 
+        public void Delete_Widrow(string Delete_Products)
+        {
+            try
+            {
+                string AddNewCustomer = "Delete From Withdraw where W_ID =  " + Delete_Products;
+                con.Open();
+                cmd = new SqlCommand(AddNewCustomer, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+        }
+
+
+
+        public void Delete_Paid_money(string Delete_Products)
+        {
+            try
+            {
+                string AddNewCustomer = "Delete From Paid_Money where Paid_ID =  " + Delete_Products;
+                con.Open();
+                cmd = new SqlCommand(AddNewCustomer, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+        }
+
+
 
     public void Delete_Bank(string Delete_Products)
         {
@@ -1008,47 +936,10 @@ namespace WindowsFormsApplication2
         }
 
 
-
-        public void Delete_Purchase_Product(string Delete_Products)
-        {
-       
-            try
-            {
-                string Delete = "Delete From Purchase_Details where P_D_ID =  " + Delete_Products;
-                con.Open();
-                cmd = new SqlCommand(Delete, con);
-                cmd.ExecuteNonQuery();
-                con.Close();
-            }
-
-            catch
-            {
-                if (con.State == ConnectionState.Open)
-                {
-                    con.Close();
-                }
-
-            }
-
-        
-    }
-
-
         // ------------------------------------------------------------------------------------------------ Searching------------------------------------------------------------------------------Function\\
 
 
-        // ------------------------------------------------------------------------------ DataGridView Search Box------------------------------------------------------Function\\
-        public void searchData(String Path, String Field, String SearchT)
-        {
-            string query = "Select * from " + Path;
-            cmd = new SqlCommand(query, con);
-            SQLDA = new SqlDataAdapter(cmd);
-            DT = new DataTable();
-            SQLDA.Fill(DT);
-            DV = new DataView(DT);
-            DV.RowFilter = string.Format(Field + " LIKE '%{0}%'", SearchT);
 
-        }
 
 
 

@@ -1080,6 +1080,26 @@ namespace WindowsFormsApplication2
             Back_NewExpense.BackgroundImage = Properties.Resources.Back;
         }
 
+        private void Back_MoneyTGTab_MouseDown(object sender, MouseEventArgs e)
+        {
+            Back_MoneyTGTab.BackgroundImage = Properties.Resources.BackS;
+        }
+
+        private void Back_MoneyTGTab_MouseEnter(object sender, EventArgs e)
+        {
+            Back_MoneyTGTab.BackgroundImage = Properties.Resources.BackH;
+        }
+
+        private void Back_MoneyTGTab_MouseLeave(object sender, EventArgs e)
+        {
+            Back_MoneyTGTab.BackgroundImage = Properties.Resources.Back;
+        }
+
+        private void Back_MoneyTGTab_MouseUp(object sender, MouseEventArgs e)
+        {
+            Back_MoneyTGTab.BackgroundImage = Properties.Resources.Back;
+        }
+
         private void Back_NewMoneyTG_MouseDown(object sender, MouseEventArgs e)
         {
             Back_NewMoneyTG.BackgroundImage = Properties.Resources.BackS;
@@ -1384,7 +1404,6 @@ namespace WindowsFormsApplication2
         private void PurchaseInvoice_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 28;
-            
         }
 
         private void ReturnSuppliersItems_Click(object sender, EventArgs e)
@@ -1399,7 +1418,6 @@ namespace WindowsFormsApplication2
         private void NewPurchaseInvoice_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 10;
-            get_last_ID_Purchase();
         }
         // --------------------------------------------------ADD Buttons---------------------------------\\
 
@@ -1844,17 +1862,30 @@ namespace WindowsFormsApplication2
         }
 
 
+        public void Delete_Withrow()
+        {
+            DataAccess.Delete_Widrow(Withrow_Delete_ID.Text);
+        }
 
+        public void Delete_Paid_Money()
+        {
+            DataAccess.Delete_Paid_money(Paid_Delete_ID.Text);
+        }
+        public void Delete_Bank()
+        {
+            DataAccess.Delete_Bank(Bank_Delete_ID.Text);
+        }
+        public void Delete_payto_Bank()
+        {
+            DataAccess.Delete_Pay_To_Bank(Delete_Pay_To_Bank_ID.Text);
+        }
 
 
         public void Delete_Take_From_Bank()
         {
             DataAccess.Delete_Take_From_Bank(Take_FromBank_ID.Text);
         }
-        public void Delete_Purchase_Product()
-        {
-            DataAccess.Delete_Purchase_Product(Delete_Purchase_ID.Text);
-        }
+
 
         // --------------------------------------------------Unsorted Buttons---------------------------------\\
 
@@ -1963,7 +1994,6 @@ namespace WindowsFormsApplication2
         }
 
 
-//--------------------------------------------------------------------------------Invoice Inerstion--------------------------------------------------------------------------
         public void Invoic_New()
 
         {
@@ -2008,60 +2038,6 @@ namespace WindowsFormsApplication2
             }
 
         }
-
-
-
-
-
-        /// <summary>
-        /// /--------------------------------------------------Purchase Insertion Classes------------------------------------------------------------------------------------------
-        /// </summary>
-        public void Puchase_New()
-
-        {
-            try
-            {
-                //   int one = Convert.ToInt32(Invoice_Grand_Total.Text);
-                //   int two = Convert.ToInt32(New_Invoice_TotalPaid.Text);
-                // float balance = one - two;
-                string Start_Date = Purchase_Start_Date.Value.ToShortDateString();
-                string end_date = Purchase_End_Date.Value.ToShortDateString();
-                DataAccess.New_Purchase(Puchase_ID.Text, Purchase_Selller_Name.Text, Start_Date, end_date);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-        }
-
-        public void Puchase_details()
-        {
-
-            DataAccess.New_Purchase_Datail(Puchase_ID.Text, Purchase_Product_ID.Text, Purchase_Quantity.Text, Purchase_price.Text, Purchase_Total_price.Text);
-        }
-
-
-
-        public void Puchase_Total_Amount()
-
-        {
-            try
-            {
-                int one = Convert.ToInt32(Purchase_Total.Text);
-                int two = Convert.ToInt32(purchase_Paid.Text);
-                float balance = one - two;
-
-                DataAccess.Purchase_Amount(Puchase_ID.Text, purchase_Paid.Text, balance, Purchase_Total.Text);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-        }
-
-        //---------------------------------------------End oFFFFF-----Purchase Insertion Classes------------------------------------------------------------------------------------------
 
 
 
@@ -2617,6 +2593,7 @@ namespace WindowsFormsApplication2
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                Customer_search.AutoCompleteCustomSource = coll;
                 Customer_Loan_Name.AutoCompleteCustomSource = coll;
                 New_Invoice_C_Name.AutoCompleteCustomSource = coll;
                 Item_return_Name.AutoCompleteCustomSource = coll;
@@ -2626,7 +2603,7 @@ namespace WindowsFormsApplication2
                 }
 
             }
-            
+            Customer_search.AutoCompleteCustomSource = coll;
             Customer_Loan_Name.AutoCompleteCustomSource = coll;
             New_Invoice_C_Name.AutoCompleteCustomSource = coll;
             Item_return_Name.AutoCompleteCustomSource = coll;
@@ -2642,16 +2619,12 @@ namespace WindowsFormsApplication2
             Invoice_Product_Name.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             Invoice_Product_Name.AutoCompleteSource = AutoCompleteSource.CustomSource;
 
-            Products_Name.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            Products_Name.AutoCompleteSource = AutoCompleteSource.CustomSource;
-
-
             AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
             DataAccess.cmd = new SqlCommand(Query, DataAccess.con);
 
             DataView DV = new DataView(DataAccess.DT);
             DV.RowFilter = string.Format("P_ID LIKE '%N{0}%'", Invoice_Product_Name.Text);
-            DV.RowFilter = string.Format("P_ID LIKE '%N{0}%'", Products_Name.Text);
+
             try
             {
                 DataAccess.con.Open();
@@ -2670,7 +2643,6 @@ namespace WindowsFormsApplication2
             {
                 MessageBox.Show(ex.Message);
                 Invoice_Product_Name.AutoCompleteCustomSource = coll;
-                Products_Name.AutoCompleteCustomSource = coll;
 
                 if (DataAccess.con.State == ConnectionState.Open)
                 {
@@ -2679,7 +2651,6 @@ namespace WindowsFormsApplication2
 
             }
             Invoice_Product_Name.AutoCompleteCustomSource = coll;
-            Products_Name.AutoCompleteCustomSource = coll;
 
         }
         // --------------------------------------------------Unsorted---------------------------------\\
@@ -3066,28 +3037,7 @@ namespace WindowsFormsApplication2
 
 
 
-
-
-
-        public void Multiply_Purchase()
-        {
-            int a, b;
-
-            bool isAValid = int.TryParse(Purchase_Quantity.Text, out a);
-            bool isBValid = int.TryParse(Purchase_price.Text, out b);
-
-            if (isAValid && isBValid)
-                Purchase_Total_price.Text = (a * b).ToString();
-
-            else
-                Purchase_Total_price.Text = "لطفا نمبر وارد کنید ";
-        }
-
-
-
-
-
-        public void Multiply_Invoice()
+        public void Multiply()
         {
             int a, b;
 
@@ -3103,12 +3053,12 @@ namespace WindowsFormsApplication2
 
         private void New_Invoice_quantity_TextChanged(object sender, EventArgs e)
         {
-            Multiply_Invoice();
+            Multiply();
         }
 
         private void New_Invice_Price_TextChanged(object sender, EventArgs e)
         {
-            Multiply_Invoice();
+            Multiply();
         }
 
 
@@ -3242,68 +3192,6 @@ namespace WindowsFormsApplication2
             }
         }
 
-
-
-        public void get_last_ID_Purchase()
-        {
-            try
-            {
-                DataAccess.con.Open();
-                //     
-                string str = "SELECT MAX(PC_ID) FROM [MobileData].[dbo].[Purchase] ";
-
-                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                DataAccess.DR = cmd.ExecuteReader();
-                while (DataAccess.DR.Read())
-                {
-                    string one = DataAccess.DR[0].ToString();
-                    int total = Convert.ToInt32(one);
-
-                    total = total + 1;
-                    Puchase_ID.Text = total.ToString();
-
-                }
-                DataAccess.con.Close();
-            }
-            catch (Exception ex)
-            {
-                DataAccess.con.Close();
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-
-
-
-        void total_Purchess()
-        {
-            try
-            {
-
-                //     
-                string str = "SELECT  Sum(Total_Price) from [MobileData].[dbo].[Purchase_Details] where PC_ID = '" + Puchase_ID.Text + "'";
-                DataAccess.con.Open();
-                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                DataAccess.DR = cmd.ExecuteReader();
-                while (DataAccess.DR.Read())
-                {
-
-                    string one = DataAccess.DR[0].ToString();
-                    Purchase_Total.Text = one;
-
-                }
-                DataAccess.con.Close();
-            }
-            catch (Exception ex)
-            {
-                DataAccess.con.Close();
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-
-
-
         void total_Invoie()
         {
             try
@@ -3331,15 +3219,6 @@ namespace WindowsFormsApplication2
         }
 
 
-
-    
-
-
-
-
-
-
-
         private void AddInvoiceItem_Click(object sender, EventArgs e)
         {
 
@@ -3348,9 +3227,9 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("جای نام جنس یا از مشتری خالی است");
             }
 
-            else {
-                if (radioButton1.Checked)
+            else 
             {
+
                 if (invoice_Chackup.Text != I_IDP_T_B_ID.Text)
                 {
                     Invoic_New();
@@ -3370,13 +3249,6 @@ namespace WindowsFormsApplication2
                 New_Invice_Price.Clear();
                 New_Invoice_TotalPrice.Clear();
                 Invoice_Customer_Name_ID.Clear();
-                }
-                else
-                {
-                    MessageBox.Show("Chack RadioButton");
-                }
-
-
 
             }
 
@@ -3384,7 +3256,6 @@ namespace WindowsFormsApplication2
          
 
      
-
 
 
         }
@@ -3410,9 +3281,6 @@ namespace WindowsFormsApplication2
 
             else
             {
-
-                if (radioButton1.Checked)
-                {
                 Invoice_Total_Amount();
                 I_IDP_T_B_ID.Clear();
                 New_Invoice_C_Name.Clear();
@@ -3423,17 +3291,11 @@ namespace WindowsFormsApplication2
                 Invoice_Customer_Name_ID.Clear();
                 New_invoice_DataGrideView.DataSource = null;
                 MessageBox.Show("ثبت موفق بود");
-                }
-
-                else
-                {
-                    MessageBox.Show("Chose radio Button 1");
-            }
 
             }
+
 
             
-
 
         }
 
@@ -3795,6 +3657,12 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("ثبت موفق بود");
 
             }
+
+            B_Name.Clear();
+            B_Address.Clear();
+            B_Phone.Clear();
+            B_Phone1.Clear();
+            B_Note.Clear();
         }
 
         private void button39_Click(object sender, EventArgs e)
@@ -4068,14 +3936,14 @@ namespace WindowsFormsApplication2
      
         private void button52_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT T_F_Bank_ID as [آیدی], B.B_Name as [نام بانک], E.E_Name [از طرف], TFB.Quantity as [مقدار], TFB.What_For as [از درک], TFB.Date as[تاریخ] FROM Bank B Join Take_From_Bank TFB on TFB.B_ID = TFB.B_ID Join Employee E on TFB.E_ID = E.E_ID");
-            Take_From_Bank_Data_GrideView.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT T.T_F_Bank_ID as [آید برداشت],B.B_Name[نام بانک],E.E_Name as [نام مشتری],T.Quantity[مقدار], T.What_For as [از درک],  T.Date as[تاریخ] FROM Employee as E Join Take_From_Bank as T on T.E_ID = E.E_ID Join Bank as B on T.B_ID = B.B_ID");
+            Take_From_Bank_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
         private void button56_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT P_T_Bank as [آیدی] ,B.B_Name as [نام بانک], E.E_Name [از طرف], TFB.Quantity as [مقدار], TFB.What_For as [از درک],TFB.Date as[تاریخ] FROM Bank B Join Pay_To_Bank TFB on TFB.B_ID = TFB.B_ID Join Employee E on TFB.E_ID = E.E_ID");
-            Pay_To_Bank_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
+            DataAccess.RunQuery("SELECT P.P_T_Bank as[آید پرداخت],B.B_Name[نام بانک],E.E_Name as [نام مشتری],P.Quantity[مقدار], P.What_For as [از درک],  P.Date as[تاریخ] FROM Employee as E Join Pay_To_Bank as P on P.E_ID = E.E_ID Join Bank as B on P.B_ID = B.B_ID");
+            dataGridView4.DataSource = DataAccess.Dataset.Tables[0];
             
         }
        
@@ -4107,8 +3975,40 @@ namespace WindowsFormsApplication2
 
         private void DeleteBank_Click(object sender, EventArgs e)
         {
+            if (this.Bank_DataGridView.SelectedRows.Count == 1)
+            {
+                try
+                {
 
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Bank_DataGridView.SelectedRows[0];
+                        Bank_Delete_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_Bank();
+
+
+                        foreach (DataGridViewRow item in this.Bank_DataGridView.SelectedRows)
+                        {
+                            Bank_DataGridView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
                 }
+
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
+            Bank_Delete_ID.Clear();
+        }
 
         private void NewExpenseCancel_Click(object sender, EventArgs e)
         {
@@ -4208,152 +4108,32 @@ namespace WindowsFormsApplication2
 
         private void textBox73_Click(object sender, MouseEventArgs e)
         {
-            SearchT_Invoice.Text = "";
-            SearchT_Invoice.ReadOnly = false;
-            SearchT_Invoice.ForeColor = Color.Black;
+            textBox73.Text = "";
+            textBox73.ReadOnly = false;
         }
 
         private void textBox73_Leave(object sender, EventArgs e)
         {
-            SearchT_Invoice.Text = "جستجو";
-            SearchT_Invoice.ReadOnly = true;
-            SearchT_Invoice.ForeColor = Color.LightGray;
+            textBox73.Text = "جستجو";
+            textBox73.ReadOnly = true;
         }
 
-
-        private void SearchT_Customer_Leave(object sender, EventArgs e)
-        {
-        //    SearchT_Customer.Text = "جستجو";
-         //   SearchT_Customer.ReadOnly = true;
-        //    SearchT_Customer.ForeColor = Color.LightGray;
-        }
-
-        private void SearchT_Customer_Click(object sender, EventArgs e)
-        {
-          //  SearchT_Customer.Text = "";
-          //  SearchT_Customer.ReadOnly = false;
-         //   SearchT_Customer.ForeColor = Color.Black;
-        }
-        // DataTable dt = new DataTable("Cusdsfsdtomer");
-
-
-
-        private void SearchT_Customer_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer","C_Name",SearchT_Customer.Text);
-            D_G_V_Customer.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_EmpT_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Employee", "E_Name", SearchT_EmpT.Text);
-            D_G_V_Employee.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_EmpG_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_EmpG.Text);
-            Paid_Loan_DataGrideView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_SupplierLoan_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_SupplierLoan.Text);
-            Taken_Loan_DataGrideView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_CustomerLoan_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_CustomerLoan.Text);
-            Given_loan_DataGrideView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_GB_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_GB.Text);
-            Pay_To_Bank_DataGrideView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_TB_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_TB.Text);
-            Take_From_Bank_Data_GrideView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_OSL_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_OSL.Text);
-            Pay_To_Supplier_DataGriveView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_OCL_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_OCL.Text);
-            On_Customer_Money_Pay_DataGrideView.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_Banks_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
-            D_G_V_Customer.DataSource = DataAccess.DV;
-        }
-
-
-
-
-
-
-
-
-
-
-        private void SearchT_Purchases_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
-            D_G_V_Customer.DataSource = DataAccess.DV;
-        }
-
-        private void SearchT_Suppliers_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
-            D_G_V_Customer.DataSource = DataAccess.DV;
-        }
         private void button71_Click(object sender, EventArgs e)
         {
 
-        private void SearchT_Items_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
-            D_G_V_Customer.DataSource = DataAccess.DV;
-        }
             if (this.Taken_Money_DataGrideView.SelectedRows.Count == 1)
             {
                 try
                 {
 
-        private void SearchT_Expenses_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
-            D_G_V_Customer.DataSource = DataAccess.DV;
-        }
                     DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
                     if (dialogResult == DialogResult.Yes)
                     {
                         DataGridViewRow dr = Taken_Money_DataGrideView.SelectedRows[0];
                         Withrow_Delete_ID.Text = dr.Cells[0].Value.ToString();
 
-        private void SearchT_Employee_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Employee", "E_Name", SearchT_Employee.Text);
-            D_G_V_Employee.DataSource = DataAccess.DV;
-        }
                         Delete_Withrow();
 
-        private void SearchT_Invoice_TextChanged(object sender, EventArgs e)
-        {
-            DataAccess.searchData("Customer", "C_Name", SearchT_Customer.Text);
-            D_G_V_Employee.DataSource = DataAccess.DV;
-        }
 
                         foreach (DataGridViewRow item in this.Taken_Money_DataGrideView.SelectedRows)
                         {
@@ -4400,7 +4180,69 @@ namespace WindowsFormsApplication2
                     }
                 }
 
+                catch (Exception)
+                {
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+            }
            
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+            DataAccess.RunQuery("SELECT W_ID as[آید برداشت],[E_Name] as [نام مشتری],Quantity[مقدار], What_For as [از درک],  Date as[تاریخ] FROM [MobileData].[dbo].[Employee] as E Join [MobileData].[dbo].[Withdraw] as W on W.E_ID = E.E_ID");
+            Taken_Money_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+            DataAccess.RunQuery("SELECT B_ID as [آیدی], B_Name as [نام بانک], B_Address [آدرس ], B_Phone as [شماره تماس 1], B_Phone1 as [شماره تماس 2], B_Note as[نوت]FROM Bank ");
+            Bank_DataGridView.DataSource = DataAccess.Dataset.Tables[0];
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+
+            if (this.Take_From_Bank_DataGrideView.SelectedRows.Count == 1)
+            {
+                try
+                {
+
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = Take_From_Bank_DataGrideView.SelectedRows[0];
+                        Take_FromBank_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_Take_From_Bank();
+                        foreach (DataGridViewRow item in this.Take_From_Bank_DataGrideView.SelectedRows)
+                        {
+
+                            Take_From_Bank_DataGrideView.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                    DataAccess.con.Close();
+                    MessageBox.Show("لطفا  روح را انتخاب کنید");
+                }
+            }
+            else
+            {
+                MessageBox.Show("لطفا روح را انتخاب کنید");
+
+            }
+            Take_FromBank_ID.Clear();
+        }
 
 
 
@@ -4411,12 +4253,30 @@ namespace WindowsFormsApplication2
 
 
 
-        //--------------------------------------------------------------------------------------Take_From Customer-----------------------------Pay to Bank----------------------------------
 
 
+        private void button55_Click(object sender, EventArgs e)
+        {
 
+            if (this.dataGridView4.SelectedRows.Count == 1)
+            {
+                try
+                {
 
+                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        DataGridViewRow dr = dataGridView4.SelectedRows[0];
+                        Delete_Pay_To_Bank_ID.Text = dr.Cells[0].Value.ToString();
+                        Delete_payto_Bank();
+                        foreach (DataGridViewRow item in this.dataGridView4.SelectedRows)
+                        {
 
+                            dataGridView4.Rows.RemoveAt(item.Index);
+                        }
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
                     }
                 }
 
@@ -4437,239 +4297,6 @@ namespace WindowsFormsApplication2
 
         private void tableLayoutPanel175_Paint(object sender, PaintEventArgs e)
         {
-
-        }
-
-        private void Invoice_Total_Grand_TextChanged_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(New_Supplier_Name.Text))
-            {
-                MessageBox.Show("جای نام جنس یا از تهیه کننده خالی است");
-            }
-
-            else {
-                if (Purches_ChackUp.Text != Puchase_ID.Text)
-                    {
-                        Puchase_New();
-                        Purches_ChackUp.Text = Puchase_ID.Text;
-                    }
-
-                    Puchase_details();
-
-                    DataAccess.RunQuery("Select * from Purchase_Details Where PC_ID ='" + Purches_ChackUp.Text + "'");
-                    Purchase_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
-
-
-                total_Purchess();
-
-                Products_Name.Clear();
-                Purchase_Quantity.Clear();
-                Purchase_price.Clear();
-                Purchase_Total_price.Clear();
-                Purchase_Selller_Name.Clear();
-
-                Purchase_DataGrideView.Columns[0].Visible = false;
-                Purchase_DataGrideView.Columns[1].Visible = false;
-
-            }
-
-        }
-
-        private void flowLayoutPanel19_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Purchase_End_Date_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void New_Supplier_Name_Click(object sender, EventArgs e)
-        {
-           try
-                {
-                    DataAccess.con.Open();
-                    //     
-                    string str = "SELECT * FROM[MobileData].[dbo].[Supplier] Where S_Name =   '" + New_Supplier_Name.Text + "'";
-                    SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                    DataAccess.DR = cmd.ExecuteReader();
-                    while (DataAccess.DR.Read())
-                    {
-                    Purchase_Selller_Name.Text = DataAccess.DR[0].ToString();
-
-                    }
-                    DataAccess.con.Close();
-                }
-                catch (Exception ex)
-                {
-                    DataAccess.con.Close();
-                    MessageBox.Show(ex.Message);
-                }
-            }
-
-        private void New_Supplier_Name_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                try
-                {
-                    DataAccess.con.Open();
-                    //     
-                    string str = "SELECT * FROM[MobileData].[dbo].[Supplier] Where S_Name =   '" + New_Supplier_Name.Text + "'";
-                    SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                    DataAccess.DR = cmd.ExecuteReader();
-                    while (DataAccess.DR.Read())
-                    {
-                        Purchase_Selller_Name.Text = DataAccess.DR[0].ToString();
-
-                    }
-                    DataAccess.con.Close();
-                }
-                catch (Exception ex)
-                {
-                    DataAccess.con.Close();
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        private void Products_Name_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                try
-                {
-                    DataAccess.con.Open();
-                    //     
-                    string str = "SELECT * FROM[MobileData].[dbo].[Product] Where P_Name =   '" + Products_Name.Text + "'";
-                    SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                    DataAccess.DR = cmd.ExecuteReader();
-                    while (DataAccess.DR.Read())
-                    {
-                        Purchase_Product_ID.Text = DataAccess.DR[1].ToString();
-
-                    }
-                    DataAccess.con.Close();
-                }
-                catch (Exception ex)
-                {
-                    DataAccess.con.Close();
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        private void Products_Name_Click(object sender, EventArgs e)
-        {
-
-            try
-            {
-                DataAccess.con.Open();
-                //     
-                string str = "SELECT * FROM[MobileData].[dbo].[Product] Where P_Name =   '" + Products_Name.Text + "'";
-                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                DataAccess.DR = cmd.ExecuteReader();
-                while (DataAccess.DR.Read())
-                {
-                    Purchase_Product_ID.Text = DataAccess.DR[1].ToString();
-
-                }
-                DataAccess.con.Close();
-            }
-            catch (Exception ex)
-            {
-                DataAccess.con.Close();
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void Purchase_Quantity_TextChanged(object sender, EventArgs e)
-        {
-            Multiply_Purchase();
-        }
-
-        private void Purchase_price_TextChanged(object sender, EventArgs e)
-        {
-            Multiply_Purchase();
-        }
-
-        private void Product_list_Data_grideView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            if (this.Purchase_DataGrideView.SelectedRows.Count == 1)
-            {
-                try
-                {
-
-                    DialogResult dialogResult = MessageBox.Show("آیا مخواهید مورد انتخاب شده را حذف نماید ", "حذف کردن", MessageBoxButtons.YesNo);
-                    if (dialogResult == DialogResult.Yes)
-                    {
-                        DataGridViewRow dr = Purchase_DataGrideView.SelectedRows[0];
-                        Delete_Purchase_ID.Text = dr.Cells[0].Value.ToString();
-                        // or simply use column name instead of index
-                        //dr.Cells["id"].Value.ToString();
-                        Delete_Purchase_Product();
-                        total_Purchess();
-                        foreach (DataGridViewRow item in this.Purchase_DataGrideView.SelectedRows)
-                        {
-                            Purchase_DataGrideView.Rows.RemoveAt(item.Index);
-                        }
-                    }
-                    else if (dialogResult == DialogResult.No)
-                    {
-                    }
-                }
-
-                catch (Exception)
-                {
-                    DataAccess.con.Close();
-                    MessageBox.Show("لطفا  روح را انتخاب کنید");
-                }
-            }
-            else
-            {
-                MessageBox.Show("لطفا روح را انتخاب کنید");
-
-            }
-            Delete_Purchase_ID.Clear();
-        }
-
-        private void PurchaseInvoiceSave_Click(object sender, EventArgs e)
-        {
-
-            if (string.IsNullOrWhiteSpace(New_Supplier_Name.Text))
-            {
-                MessageBox.Show("جای نام مشتری خالی است");
-            }
-
-            else
-            {
-                Puchase_Total_Amount();
-
-                Puchase_ID.Clear();
-                New_Supplier_Name.Clear();
-                Purches_ChackUp.Clear();
-                Purchase_Selller_Name.Clear();
-                Purchase_Product_ID.Clear();
-                Delete_Purchase_ID.Clear();
-                Purchase_Total.Clear();
-                purchase_Paid.Clear();
-                Purchase_DataGrideView.DataSource = null;
-                    MessageBox.Show("ثبت موفق بود");
-                
-
-            }
-
 
         }
     }
