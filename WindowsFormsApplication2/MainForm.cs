@@ -3229,7 +3229,60 @@ namespace WindowsFormsApplication2
 
         private void New_Invoice_quantity_TextChanged(object sender, EventArgs e)
         {
-            Multiply_Invoice();
+           
+
+
+
+            try
+            {
+                DataAccess.con.Open();
+                //     '" + Invoice_Product_Name.Text + "'"
+                string str = "select (select sum(P.Quantity) - sum(I.Quantity) from Purchase_Details as P where P.P_ID = I.P_ID ) as [اشیای موجود در گدام] from Invoice_Details as I where I.P_ID = '" + Invoice_Product_Name.Text + "' group by I.P_ID";
+
+                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                DataAccess.DR = cmd.ExecuteReader();
+                while (DataAccess.DR.Read())
+                {
+                    string one = DataAccess.DR[0].ToString();
+                    int total = Convert.ToInt32(one);
+
+
+                    textBox2.Text = total.ToString();
+
+                }
+                DataAccess.con.Close();
+            }
+            catch (Exception ex)
+            {
+                DataAccess.con.Close();
+                MessageBox.Show(ex.Message);
+            }
+
+            try
+            {
+                while (New_Invoice_quantity.Text == "")
+                {
+
+                    if (New_Invoice_quantity.Text == "")
+                    {
+
+                        New_Invoice_quantity.Text = "0";
+                    }
+                }
+
+                if (Convert.ToInt32(textBox2.Text) <= Convert.ToInt32(New_Invoice_quantity.Text))
+                {
+
+                    New_Invoice_TotalPrice.Text = "این تعداد موجود نیست";
+
+                }
+
+                else { Multiply_Invoice(); }
+            }
+
+            catch { MessageBox.Show("منفی را پک کو لوده"); }
+           
+
         }
 
         private void New_Invice_Price_TextChanged(object sender, EventArgs e)
@@ -3400,6 +3453,11 @@ namespace WindowsFormsApplication2
 
 
 
+        public void Quantity_Chackup()
+        {
+            
+
+        }
 
         void total_Purchess()
         {
@@ -3458,28 +3516,64 @@ namespace WindowsFormsApplication2
 
 
 
-    
 
 
 
 
 
-
+        //------------------------------------------------------------------------------invoice Button----------------------------------------------------------------------------------------
+        //------------------------------------------------------------------------------invoice Button----------------------------------------------------------------------------------------
+        //------------------------------------------------------------------------------invoice Button----------------------------------------------------------------------------------------
 
         private void AddInvoiceItem_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(Invoice_Product_Name.Text))
+
+
+            try
             {
-                MessageBox.Show("جای نام جنس یا از مشتری خالی است");
+                DataAccess.con.Open();
+                //     '" + Invoice_Product_Name.Text + "'"
+                string str = "select (select sum(P.Quantity) - sum(I.Quantity) from Purchase_Details as P where P.P_ID = I.P_ID ) as [اشیای موجود در گدام] from Invoice_Details as I where I.P_ID = '" + Invoice_Product_Name.Text + "' group by I.P_ID";
+
+                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                DataAccess.DR = cmd.ExecuteReader();
+                while (DataAccess.DR.Read())
+                {
+                    string one = DataAccess.DR[0].ToString();
+                    int total = Convert.ToInt32(one);
+
+
+                    textBox2.Text = total.ToString();
+
+                }
+                DataAccess.con.Close();
+            }
+            catch (Exception ex)
+            {
+                DataAccess.con.Close();
+                MessageBox.Show(ex.Message);
             }
 
-            else {
-               
+
+
+
+
+            if (Convert.ToInt32(textBox2.Text) >= Convert.ToInt32(New_Invoice_quantity.Text))
+            {
+
+                if (string.IsNullOrWhiteSpace(Invoice_Product_Name.Text))
+                {
+                    MessageBox.Show("جای نام جنس یا از مشتری خالی است");
+                }
+
+                else {
+
                     if (invoice_Chackup.Text != I_IDP_T_B_ID.Text)
                     {
                         Invoic_New();
                         invoice_Chackup.Text = I_IDP_T_B_ID.Text;
                     }
+                    Quantity_Chackup();
 
                     invoice_details();
 
@@ -3494,18 +3588,32 @@ namespace WindowsFormsApplication2
                     New_Invice_Price.Clear();
                     New_Invoice_TotalPrice.Clear();
                     Invoice_Customer_Name_ID.Clear();
-                
-               
+
+
+
+
+
+                }
+
+
 
 
 
             }
-          
+
+
+            else { MessageBox.Show("این تعداد موجود نیست" ); }
 
 
 
 
 
+
+
+
+
+
+            //-------------------------------------------------------------------End of-----------invoice Button----------------------------------------------------------------------------------------
 
 
         }
