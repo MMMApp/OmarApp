@@ -224,9 +224,9 @@ namespace WindowsFormsApplication2
         {
 
 
-           
 
-                get_last_ID();
+
+            get_last_ID();
             AutoComlete_Invoice_Product_ID();
             MainTabs.SelectedIndex = 5;
 
@@ -1494,8 +1494,9 @@ namespace WindowsFormsApplication2
 
         private void NewPurchaseInvoice_Click(object sender, EventArgs e)
         {
-            MainTabs.SelectedIndex = 10;
             get_last_ID_Purchase();
+            MainTabs.SelectedIndex = 10;
+            
         }
         // --------------------------------------------------ADD Buttons---------------------------------\\
 
@@ -2150,7 +2151,7 @@ namespace WindowsFormsApplication2
         public void Puchase_details()
         {
 
-            DataAccess.New_Purchase_Datail(Puchase_ID.Text, Purchase_Product_ID.Text, Purchase_Quantity.Text, Purchase_price.Text, Purchase_Total_price.Text);
+            DataAccess.New_Purchase_Datail(Puchase_ID.Text, Purchase_ProductID.Text, Purchase_Quantity.Text, Purchase_price.Text, Purchase_Total_price.Text);
         }
 
 
@@ -2214,10 +2215,24 @@ namespace WindowsFormsApplication2
             DataAccess.Money_On_Customer(O_C_ID.Text, O_C_What_For.Text, O_C_Quantity.Text, O_C_Date);
         }
 
+        public void Given_Take_Loan()
+        {
+            int one = Convert.ToInt32(Invoice_Total_Grand.Text);
+            int two = Convert.ToInt32(New_Invoice_TotalPaid.Text);
+            float balance = one - two;
+            string G_T_Date = New_invoice_Start_date.Value.ToShortDateString();
+            DataAccess.Given_Take_loan(I_IDP_T_B_ID.Text, Customer_invoice_ID.Text, G_T_Date, balance);
+        }
 
 
-
-
+        public void Taken_Loan_NotPaid()
+        {
+            int one = Convert.ToInt32(Purchase_Total.Text);
+            int two = Convert.ToInt32(purchase_Paid.Text);
+            float balance = one - two;
+            string G_T_Date = Purchase_Start_Date.Value.ToShortDateString();
+            DataAccess.Taken_Loan_NotPaid(Puchase_ID.Text, Purchase_Selller_Name.Text, G_T_Date, balance);
+        }
 
 
 
@@ -2753,8 +2768,8 @@ namespace WindowsFormsApplication2
             Invoice_Product_Name.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             Invoice_Product_Name.AutoCompleteSource = AutoCompleteSource.CustomSource;
 
-            Products_Name.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
-            Products_Name.AutoCompleteSource = AutoCompleteSource.CustomSource;
+            Purchase_ProductID.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            Purchase_ProductID.AutoCompleteSource = AutoCompleteSource.CustomSource;
 
 
             AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
@@ -2762,7 +2777,7 @@ namespace WindowsFormsApplication2
 
             DataView DV = new DataView(DataAccess.DT);
             DV.RowFilter = string.Format("P_ID LIKE '%N{0}%'", Invoice_Product_Name.Text);
-            DV.RowFilter = string.Format("P_ID LIKE '%N{0}%'", Products_Name.Text);
+            DV.RowFilter = string.Format("P_ID LIKE '%N{0}%'", Purchase_ProductID.Text);
             try
             {
                 DataAccess.con.Open();
@@ -2781,7 +2796,7 @@ namespace WindowsFormsApplication2
             {
                 MessageBox.Show(ex.Message);
                 Invoice_Product_Name.AutoCompleteCustomSource = coll;
-                Products_Name.AutoCompleteCustomSource = coll;
+                Purchase_ProductID.AutoCompleteCustomSource = coll;
 
                 if (DataAccess.con.State == ConnectionState.Open)
                 {
@@ -2790,7 +2805,7 @@ namespace WindowsFormsApplication2
 
             }
             Invoice_Product_Name.AutoCompleteCustomSource = coll;
-            Products_Name.AutoCompleteCustomSource = coll;
+            Purchase_ProductID.AutoCompleteCustomSource = coll;
             
         }
         // --------------------------------------------------Unsorted---------------------------------\\
@@ -3453,15 +3468,13 @@ namespace WindowsFormsApplication2
 
         private void AddInvoiceItem_Click(object sender, EventArgs e)
         {
-
             if (string.IsNullOrWhiteSpace(Invoice_Product_Name.Text))
             {
                 MessageBox.Show("جای نام جنس یا از مشتری خالی است");
             }
 
             else {
-                if (radioButton1.Checked)
-                {
+               
                     if (invoice_Chackup.Text != I_IDP_T_B_ID.Text)
                     {
                         Invoic_New();
@@ -3481,11 +3494,8 @@ namespace WindowsFormsApplication2
                     New_Invice_Price.Clear();
                     New_Invoice_TotalPrice.Clear();
                     Invoice_Customer_Name_ID.Clear();
-                }
-                else
-                {
-                    MessageBox.Show("Chack RadioButton");
-                }
+                
+               
 
 
 
@@ -3522,9 +3532,9 @@ namespace WindowsFormsApplication2
             else
             {
 
-                if (radioButton1.Checked)
-                {
+              
                     Invoice_Total_Amount();
+                Given_Take_Loan();
                     I_IDP_T_B_ID.Clear();
                     New_Invoice_C_Name.Clear();
                     Customer_invoice_ID.Clear();
@@ -3534,17 +3544,11 @@ namespace WindowsFormsApplication2
                     Invoice_Customer_Name_ID.Clear();
                     New_invoice_DataGrideView.DataSource = null;
                     MessageBox.Show("ثبت موفق بود");
-                }
-
-                else
-                {
-                    MessageBox.Show("Chose radio Button 1");
-                }
-
+            
             }
 
 
-            
+            get_last_ID();
 
         }
 
@@ -4199,7 +4203,7 @@ namespace WindowsFormsApplication2
 
         private void button60_Click(object sender, EventArgs e)
         {
-            DataAccess.RunQuery("SELECT G_L_ID as[آید پرداخت],[C_Name] as [نام مشتری], G_Pay_Loan as [مقدار],  G_L_Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Given_Loan] as G on G.C_ID = C.C_ID");
+            DataAccess.RunQuery("SELECT G_P_L_ID as[آید پرداخت],[C_Name] as [نام مشتری], G_P_Loan as [مقدار],  G_P_L_Date as[تاریخ] FROM [MobileData].[dbo].[Customer] as C Join [MobileData].[dbo].[Given_Loan_Paid] as G on G.C_ID = C.C_ID");
            Given_loan_DataGrideView.DataSource = DataAccess.Dataset.Tables[0];
         }
 
@@ -4556,6 +4560,7 @@ namespace WindowsFormsApplication2
 
         private void button14_Click(object sender, EventArgs e)
         {
+            
             if (string.IsNullOrWhiteSpace(New_Supplier_Name.Text))
             {
                 MessageBox.Show("جای نام جنس یا از تهیه کننده خالی است");
@@ -4576,11 +4581,11 @@ namespace WindowsFormsApplication2
 
                 total_Purchess();
 
-                Products_Name.Clear();
+                
                 Purchase_Quantity.Clear();
                 Purchase_price.Clear();
                 Purchase_Total_price.Clear();
-                Purchase_Selller_Name.Clear();
+                Purchase_ProductID.Clear();
 
                 Purchase_DataGrideView.Columns[0].Visible = false;
                 Purchase_DataGrideView.Columns[1].Visible = false;
@@ -4648,56 +4653,7 @@ namespace WindowsFormsApplication2
             }
         }
 
-        private void Products_Name_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                try
-                {
-                    DataAccess.con.Open();
-                    //     
-                    string str = "SELECT * FROM[MobileData].[dbo].[Product] Where P_Name =   '" + Products_Name.Text + "'";
-                    SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                    DataAccess.DR = cmd.ExecuteReader();
-                    while (DataAccess.DR.Read())
-                    {
-                        Purchase_Product_ID.Text = DataAccess.DR[1].ToString();
-
-                    }
-                    DataAccess.con.Close();
-                }
-                catch (Exception ex)
-                {
-                    DataAccess.con.Close();
-                    MessageBox.Show(ex.Message);
-                }
-            }
-        }
-
-        private void Products_Name_Click(object sender, EventArgs e)
-        {
-
-            try
-            {
-                DataAccess.con.Open();
-                //     
-                string str = "SELECT * FROM[MobileData].[dbo].[Product] Where P_Name =   '" + Products_Name.Text + "'";
-                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
-                DataAccess.DR = cmd.ExecuteReader();
-                while (DataAccess.DR.Read())
-                {
-                    Purchase_Product_ID.Text = DataAccess.DR[1].ToString();
-
-                }
-                DataAccess.con.Close();
-            }
-            catch (Exception ex)
-            {
-                DataAccess.con.Close();
-                MessageBox.Show(ex.Message);
-            }
-        }
-
+       
         private void Purchase_Quantity_TextChanged(object sender, EventArgs e)
         {
             Multiply_Purchase();
@@ -4755,7 +4711,7 @@ namespace WindowsFormsApplication2
 
         private void PurchaseInvoiceSave_Click(object sender, EventArgs e)
         {
-
+            
             if (string.IsNullOrWhiteSpace(New_Supplier_Name.Text))
             {
                 MessageBox.Show("جای نام مشتری خالی است");
@@ -4764,7 +4720,7 @@ namespace WindowsFormsApplication2
             else
             {
                 Puchase_Total_Amount();
-
+                Taken_Loan_NotPaid();
                 Puchase_ID.Clear();
                 New_Supplier_Name.Clear();
                 Purches_ChackUp.Clear();
@@ -4779,12 +4735,10 @@ namespace WindowsFormsApplication2
 
             }
 
-
+            get_last_ID_Purchase();
         }
 
-
-
-
+        
     }
 
 

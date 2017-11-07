@@ -20,7 +20,7 @@ namespace WindowsFormsApplication2
         //MBP-WIN-M\SQLEXPRESS
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
 
-        public static SqlConnection con = new SqlConnection(" Server=MBP-WIN-M\\SQLEXPRESS;Database=MobileData;User Id = sa; Password = hodaka");
+        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -306,7 +306,7 @@ namespace WindowsFormsApplication2
         {
             try
             {
-                string New_Item = "Insert Into Given_Loan(I_ID,C_ID,G_L_Date,G_Pay_Loan) Values('" + I_ID + "','" + C_ID + "','" + Date + "','" + G_pay + "');";
+                string New_Item = "Insert Into Given_Loan_Paid(I_ID,C_ID,G_P_L_Date,G_P_Loan) Values('" + I_ID + "','" + C_ID + "','" + Date + "','" + G_pay + "');";
                 con.Open();
                 cmd = new SqlCommand(New_Item, con);
                 cmd.ExecuteNonQuery();
@@ -644,9 +644,54 @@ namespace WindowsFormsApplication2
         }
 
 
+        public void Given_Take_loan(string I_ID, string C_ID, string Date, float G_pay)
+        {
+
+            try
+            {
+                string New_Item = "Insert Into Given_Loan(I_ID,C_ID,G_L_Date,G_Take_Loan) Values('" + I_ID + "','" + C_ID + "','" + Date + "','" + G_pay + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
 
 
+        public void Taken_Loan_NotPaid(string PC_ID, string S_ID, string Date, float T_G_L_Paid)
+        {
 
+            try
+            {
+                string New_Item = "Insert Into Taken_Loan_NotPaid(PC_ID,S_ID,T_G_L_Date,T_G_L_Paid) Values('" + PC_ID + "','" + S_ID + "','" + Date + "','" + T_G_L_Paid + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
 
 
 
@@ -825,7 +870,7 @@ namespace WindowsFormsApplication2
         {
             try
             {
-                string AddNewCustomer = "Delete From Given_Loan where G_L_ID =  " + Delete_Products;
+                string AddNewCustomer = "Delete From Given_Loan_Paid where G_P_L_ID =  " + Delete_Products;
                 con.Open();
                 cmd = new SqlCommand(AddNewCustomer, con);
                 cmd.ExecuteNonQuery();
