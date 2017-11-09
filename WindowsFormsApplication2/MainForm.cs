@@ -11,7 +11,9 @@ using System.Configuration;
 using System.Data.SqlClient;
 
 using System.Web;
-
+using System.Management;
+using System.Xml;
+using AesEncDec;
 
 namespace WindowsFormsApplication2
 {
@@ -19,12 +21,35 @@ namespace WindowsFormsApplication2
     public partial class MainForm : Form
     {
 
+        string BoardSerial;
+        string ActivationCode;
+        string ProductCode;
+        public bool ProductActivation;
+
         // --------------------------------------------------Class Access---------------------------------\\
         DataAccess DataAccess = new DataAccess();
 
         // --------------------------------------------------Class Access---------------------------------\\
 
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
 
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+
+            // Confirm user wants to close
+            switch (MessageBox.Show(this, "مطمئن هستید که برنامه را بسته کنید", "در حال خارج شدن", MessageBoxButtons.YesNo))
+            {
+                case DialogResult.No:
+                    e.Cancel = true;
+                    break;
+                default:
+                    Application.Exit();
+                   
+                    break;
+
+            }
+        }
         public MainForm()
         {
 
@@ -34,9 +59,44 @@ namespace WindowsFormsApplication2
             AutoComplete_CustomerLoanTap();
             AutoComlete_Invoice_Product_ID();
             AutoComplete_Bank();
+            this.Visible = false;
         }
 
 
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+
+            ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT SerialNumber FROM Win32_BaseBoard");
+            foreach (ManagementObject MySerial in searcher.Get())
+            {
+                BoardSerial = MySerial.GetPropertyValue("SerialNumber").ToString();
+            }
+
+            ProductCode = AesCrypt.Encrypt(BoardSerial);
+            ActivationCode = AesCrypt.Decrypt(ProductCode) + AesCrypt.Decrypt(ProductCode).Substring(5) + "AEOLPV234093LAD" + AesCrypt.Decrypt(ProductCode).Substring(8) + "AB32BD";
+
+
+
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.Load("LI.txt");
+            XmlNodeList accode = xmlDoc.GetElementsByTagName("ActivationCode");
+
+
+            if (ActivationCode != accode[0].InnerText)
+            {
+                ProductActivation = false;
+                this.Enabled = false;
+                this.TopMost = false;
+                ProductRegistry pf = new ProductRegistry();
+                pf.TopLevel = true;
+                pf.Show(this);
+                pf.TopMost = true;
+
+
+            }
+
+        }
 
         // --------------------------------------------------Customers and New Customer Tabs---------------------------------\\
 
@@ -3041,15 +3101,8 @@ namespace WindowsFormsApplication2
             
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
 
-        }
 
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
         // --------------------------------------------------Click-----------------invoice- Name----------------------------------\\
         private void Invoice_Product_Name_Click(object sender, EventArgs e)
         {
@@ -4846,7 +4899,11 @@ namespace WindowsFormsApplication2
             get_last_ID_Purchase();
         }
 
-        
+        private void SettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Settings set = new Settings();
+            set.Show();
+        }
     }
 
 

@@ -118,127 +118,154 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Loan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="load" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_sync_1891404 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StockReports" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stock11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrowS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SalesS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SalesS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ULC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ULC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Purchases" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buy11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trolley" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trolley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PLC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PLC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GeneralReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\General Report11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="purchase-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\purchase-report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BackH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrowH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sale-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sale-report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SalesReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sales  Report11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ItemPrice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Price List3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Not Sold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Not Sold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ULS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ULS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PLS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoanReports" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Loan Report13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sale-report1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sale-report1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\left-arrow (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Management" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Management1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="trolley1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\trolley1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sales14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SalesH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SalesH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GeneralReportH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GeneralReportH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GeneralReportS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GeneralReportS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoanH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Loan ReportsH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoanReportsH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LoanReportsH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoanReportsS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LoanReportsS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LoanS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Loan ReportsS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ManagementH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ManagementH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ManagementS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ManagementS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PurchasesH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PurchasesH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PurchasesS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PurchasesS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SalesReportH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SalesReportH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SalesReportS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SalesReportS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="StockReportsH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StockReportsH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="StockReportsS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StockReportsS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ItemPrice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Price List3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left-arrowH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Purchases" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buy11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeneralReportS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeneralReportS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StockReports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalesReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sales  Report11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="padlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale-report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoanS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loan ReportsS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManagementS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManagementS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurchasesS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PurchasesS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sales14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalesS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SalesS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoanReportsS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoanReportsS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barcode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barcode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Management1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManagementH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManagementH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left-arrow (2)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoanReports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loan Report13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PLC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ULS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ULS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeneralReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\General Report11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalesReportH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SalesReportH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Not Sold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Not Sold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unlocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unlocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GeneralReportH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GeneralReportH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurchasesH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PurchasesH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="purchase-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\purchase-report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Loan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="team" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\team.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PLS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="load" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_sync_1891404 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoanReportsH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoanReportsH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\left-arrowS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalesH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SalesH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ULC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ULC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale-report1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale-report1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoanH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loan ReportsH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trolley1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trolley1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SalesReportS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SalesReportS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trolley" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trolley.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="letter-m" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\letter-m.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

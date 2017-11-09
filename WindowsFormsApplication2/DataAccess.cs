@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace WindowsFormsApplication2
 {
@@ -19,8 +20,11 @@ namespace WindowsFormsApplication2
         //MOZAMEL-OFFICE
         //MBP-WIN-M\SQLEXPRESS
         // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
+      //  string strConnString = ConfigurationManager.ConnectionStrings["dbx"].ConnectionString;
 
-        public static SqlConnection con = new SqlConnection(" Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka");
+        public static SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbx"].ConnectionString);
+
+
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
