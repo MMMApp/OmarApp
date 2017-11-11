@@ -46,16 +46,17 @@ namespace WindowsFormsApplication2
             doc.SelectSingleNode("ActivationCode").InnerText = textBox2.Text.ToString();
             reader.Close();
             doc.Save(@"LI.txt");
-
-            Application.Exit();
+            Application.Restart();
+   
         }
-
+ 
         private void button2_Click(object sender, EventArgs e)
         {
-            ProductRegistry pf = new ProductRegistry();
-            pf.Close();
+          
             Application.Exit();
+           
 
         }
+
     }
 }

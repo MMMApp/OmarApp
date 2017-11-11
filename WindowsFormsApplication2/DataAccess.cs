@@ -19,12 +19,12 @@ namespace WindowsFormsApplication2
         // Server=tcp:MASOUD-PC,1433\\MOBILESQL;Database=MobileData;User Id = sa; Password = hodaka;
         //MOZAMEL-OFFICE
         //MBP-WIN-M\SQLEXPRESS
-        // Server=ABDULRAUF-MASOU;Database=MobileData;Trusted_Connection=True
-      //  string strConnString = ConfigurationManager.ConnectionStrings["dbx"].ConnectionString;
+        // Server=MASOUD-PC\\MASOUDD;atabase=MobileData;Trusted_Connection=True
+        //  string strConnString = ConfigurationManager.ConnectionStrings["dbx"].ConnectionString;
 
-        public static SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbx"].ConnectionString);
+      public static SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbx"].ConnectionString);
 
-
+      //  public static SqlConnection con = new SqlConnection(" Server=MASOUD-PC\\MASOUDD;Database=MobileData;User Id = sa; Password = hodaka");
 
         public SqlCommand cmd;
         public SqlDataAdapter SQLDA;
@@ -376,7 +376,7 @@ namespace WindowsFormsApplication2
         }
 
 
-        public void New_Invoice_Amount(string I_ID, string Total_paid, float Balance, string Grand_Total)
+        public void New_Invoice_Amount(string I_ID, float Total_paid, float Balance, float Grand_Total)
         {
             try
             {
@@ -398,6 +398,90 @@ namespace WindowsFormsApplication2
             }
 
         }
+
+
+
+
+
+
+
+
+        public void Return_Purchase(string I_ID, string Date)
+        {
+            try
+            {
+                string New_Item = "Insert Into Return_From_Us(S_ID,Date) Values('" + I_ID + "','" + Date + ");";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
+        // --------------------------------------New_Invoice_Details -------------------------------Function\\
+        public void Return_Purcahse_Datail(string R_F_U_ID, string P_ID, string Quantity, string Price, string Total_Amount)
+        {
+            try
+            {
+                string New_Item = "Insert Into Return_From_Us_Details(R_F_U_ID,P_ID,Quantity,Price,Total_Amount) Values('" + R_F_U_ID + "','" + P_ID + "','" + Quantity + "','" + Price + "','" + Total_Amount + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
+
+
+        public void Return_Purchase_Amount(string R_F_U_ID, string Total_paid, float Balance, string Grand_Total)
+        {
+            try
+            {
+                string New_Item = "Insert Into Return_From_Us_TotalAmount(R_F_U_ID,Total_Paid,Balance, Grand_Total) Values('" + R_F_U_ID + "','" + Total_paid + "','" + Balance + "','" + Grand_Total + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
+
+
+
+
+
+
+
 
 
 
@@ -477,6 +561,92 @@ namespace WindowsFormsApplication2
             }
 
         }
+
+
+
+
+        // ------------------------------------------------------------------Return_Invoice_--------------------------- -------------------------------Function\\
+
+
+
+
+
+
+        public void Return_Invoice(string R_F_C_ID, string C_Name,string Date)
+        {
+            try
+            {
+                string New_Item = "Insert Into Return_From_Customer(R_F_C_ID,C_ID,Date) Values('" + R_F_C_ID + ",'" + C_Name + ",'" + Date + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
+
+
+
+
+        public void Return_Invoice_Datail(string R_F_C_ID, string P_ID, string Quantity, string Price, string Total_Amount)
+        {
+            try
+            {
+                string New_Item = "Insert Into Return_From_Customer_Details(R_F_C_ID,P_ID,Quantity,Buy_Price,Total_Price) Values('" + R_F_C_ID + "','" + P_ID + "','" + Quantity + "','" + Price + "','" + Total_Amount + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
+
+
+        public void Return_Invoice_Amount(string R_F_C_ID, string Total_paid, float Balance, string Grand_Total)
+        {
+            try
+            {
+                string New_Item = "Insert Into Return_From_Customer_TotalAmount(R_F_C_ID,Total_Paid,Balance, Grand_Total) Values('" + R_F_C_ID + "','" + Total_paid + "','" + Balance + "','" + Grand_Total + "');";
+                con.Open();
+                cmd = new SqlCommand(New_Item, con);
+                cmd.ExecuteNonQuery();
+                con.Close();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                if (con.State == ConnectionState.Open)
+                {
+                    con.Close();
+                }
+
+            }
+
+        }
+
+
+
 
 
 

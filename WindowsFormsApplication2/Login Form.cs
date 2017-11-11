@@ -38,8 +38,8 @@ namespace WindowsFormsApplication2
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-
             DataAccess.cmd = new SqlCommand("select * from Operators", DataAccess.con);
+
             DataAccess.con.Open();
 
             DataAccess.Dataset = new DataSet();

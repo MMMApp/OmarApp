@@ -20,6 +20,16 @@ namespace WindowsFormsApplication2
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void Settings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
             var config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             var connectionStringsSection = (ConnectionStringsSection)config.GetSection("connectionStrings");
             connectionStringsSection.ConnectionStrings["dbx"].ConnectionString = "Data Source=" + textBox1.Text + ";Initial Catalog=MobileData;Persist Security Info=True;User ID= sa;Password= " + textBox2.Text;
@@ -29,7 +39,7 @@ namespace WindowsFormsApplication2
             Application.Restart();
         }
 
-        private void Settings_Load(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

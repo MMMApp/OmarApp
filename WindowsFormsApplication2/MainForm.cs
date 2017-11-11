@@ -31,25 +31,7 @@ namespace WindowsFormsApplication2
 
         // --------------------------------------------------Class Access---------------------------------\\
 
-        protected override void OnFormClosing(FormClosingEventArgs e)
-        {
-            base.OnFormClosing(e);
 
-            if (e.CloseReason == CloseReason.WindowsShutDown) return;
-
-            // Confirm user wants to close
-            switch (MessageBox.Show(this, "مطمئن هستید که برنامه را بسته کنید", "در حال خارج شدن", MessageBoxButtons.YesNo))
-            {
-                case DialogResult.No:
-                    e.Cancel = true;
-                    break;
-                default:
-                    Application.Exit();
-                   
-                    break;
-
-            }
-        }
         public MainForm()
         {
 
@@ -59,7 +41,7 @@ namespace WindowsFormsApplication2
             AutoComplete_CustomerLoanTap();
             AutoComlete_Invoice_Product_ID();
             AutoComplete_Bank();
-            this.Visible = false;
+            this.Visible = true;
         }
 
 
@@ -108,9 +90,6 @@ namespace WindowsFormsApplication2
 
 
 
-
-
-
         private void Supplier_Cancel_Click(object sender, EventArgs e)
         {
 
@@ -136,7 +115,7 @@ namespace WindowsFormsApplication2
                     else if (dialogResult == DialogResult.No)
                     {
                     }
-                   
+
                 }
 
                 catch (Exception)
@@ -152,6 +131,9 @@ namespace WindowsFormsApplication2
 
 
         }
+
+
+
 
         private void Customer_Remove_Click(object sender, EventArgs e)
         {
@@ -627,6 +609,7 @@ namespace WindowsFormsApplication2
         private void PurchaseInvoiceReturn_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 28;
+            AutoComlete_Invoice_Product_ID();
         }
 
         private void Back_StockReports_Click(object sender, EventArgs e)
@@ -1510,6 +1493,7 @@ namespace WindowsFormsApplication2
         private void Item_Return_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 6;
+            get_last_Return_Invoice_ID();
         }
 
         private void Invoices_Click(object sender, EventArgs e)
@@ -1546,6 +1530,7 @@ namespace WindowsFormsApplication2
         private void ReturnSuppliersItems_Click(object sender, EventArgs e)
         {
             MainTabs.SelectedIndex = 11;
+            get_last_Return_Purchase_ID();
         }
         private void Supplier_Add_Click(object sender, EventArgs e)
         {
@@ -2159,7 +2144,7 @@ namespace WindowsFormsApplication2
         public void invoice_details()
         {
 
-            DataAccess.New_Invoice_Datail(I_IDP_T_B_ID.Text, Invoice_Customer_Name_ID.Text, New_Invoice_quantity.Text, New_Invice_Price.Text, New_Invoice_TotalPrice.Text);
+            DataAccess.New_Invoice_Datail(I_IDP_T_B_ID.Text, Invoice_Pro_ID.Text, New_Invoice_quantity.Text, New_Invice_Price.Text, New_Invoice_TotalPrice.Text);
         }
 
 
@@ -2169,11 +2154,11 @@ namespace WindowsFormsApplication2
         {
             try
             {
-                int one = Convert.ToInt32(Invoice_Total_Grand.Text);
-                  int two = Convert.ToInt32(New_Invoice_TotalPaid.Text);
+                float one = (float) Convert.ToDecimal(Invoice_Total_Grand.Text);
+                float two = (float) Convert.ToDecimal(New_Invoice_TotalPaid.Text);
                  float balance = one - two;
                 
-                DataAccess.New_Invoice_Amount(I_IDP_T_B_ID.Text, New_Invoice_TotalPaid.Text, balance, Invoice_Total_Grand.Text);
+                DataAccess.New_Invoice_Amount(I_IDP_T_B_ID.Text, (float)Convert.ToDecimal(New_Invoice_TotalPaid.Text), balance, (float)Convert.ToDecimal(Invoice_Total_Grand.Text));
             }
             catch (Exception ex)
             {
@@ -2181,6 +2166,63 @@ namespace WindowsFormsApplication2
             }
 
         }
+
+
+
+
+
+
+
+
+
+        public void Return_Purcashe()
+
+        {
+            try
+            {
+                //   int one = Convert.ToInt32(Invoice_Grand_Total.Text);
+                //   int two = Convert.ToInt32(New_Invoice_TotalPaid.Text);
+                // float balance = one - two;
+                string Start_Date = New_invoice_Start_date.Value.ToShortDateString();
+                string end_date = New_invoice_End_date.Value.ToShortDateString();
+             //   DataAccess.Return_Purchase(I_IDP_T_B_ID.Text, Customer_invoice_ID.Text, Start_Date, end_date);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        public void iReturn_Purchase_details()
+        {
+
+        //    DataAccess.Return_Purcahse_Datail(I_IDP_T_B_ID.Text, Invoice_Pro_ID.Text, New_Invoice_quantity.Text, New_Invice_Price.Text, New_Invoice_TotalPrice.Text, New_Invoice_TotalPrice.Text);
+        }
+
+
+
+        public void Retrun_Purcashe_Total_Amount()
+
+        {
+            try
+            {
+                int one = Convert.ToInt32(Invoice_Total_Grand.Text);
+                int two = Convert.ToInt32(New_Invoice_TotalPaid.Text);
+                float balance = one - two;
+
+                DataAccess.Return_Purchase_Amount(I_IDP_T_B_ID.Text, New_Invoice_TotalPaid.Text, balance, Invoice_Total_Grand.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+
+
+
 
 
 
@@ -2234,6 +2276,61 @@ namespace WindowsFormsApplication2
 
         }
 
+
+
+
+
+
+        public void Return_Invoice()
+
+        {
+            try
+            {
+
+                string Start_Date = R_Invoice_Date.Value.ToShortDateString();
+
+                DataAccess.Return_Invoice(R_Invoice_ID.Text,R_Customer_ID.Text,  Start_Date);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        public void Return_Ivoice_details()
+        {
+
+            DataAccess.Return_Invoice_Datail(R_Invoice_ID.Text, Item_return_Name.Text, R_Invoice_Quantity.Text, R_Invoice_Price.Text, R_Invoice_TotalAmount.Text);
+        }
+
+
+
+        public void Return_Invoice_Total_Amount()
+
+        {
+            try
+            {
+                int one = Convert.ToInt32(Purchase_Total.Text);
+                int two = Convert.ToInt32(purchase_Paid.Text);
+                float balance = one - two;
+
+                DataAccess.Return_Invoice_Amount(R_Invoice_ID.Text, Return_Invoice_TotalPaid.Text, balance, R_Invoice_Total_Amount.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+
+
+
+
+
+
+
         //---------------------------------------------End oFFFFF-----Purchase Insertion Classes------------------------------------------------------------------------------------------
 
 
@@ -2277,8 +2374,9 @@ namespace WindowsFormsApplication2
 
         public void Given_Take_Loan()
         {
-            int one = Convert.ToInt32(Invoice_Total_Grand.Text);
-            int two = Convert.ToInt32(New_Invoice_TotalPaid.Text);
+            float one = (float) Convert.ToDecimal(Invoice_Total_Grand.Text);
+            float two = (float)Convert.ToDecimal(New_Invoice_TotalPaid.Text);
+
             float balance = one - two;
             string G_T_Date = New_invoice_Start_date.Value.ToShortDateString();
             DataAccess.Given_Take_loan(I_IDP_T_B_ID.Text, Customer_invoice_ID.Text, G_T_Date, balance);
@@ -3115,7 +3213,7 @@ namespace WindowsFormsApplication2
                 DataAccess.DR = cmd.ExecuteReader();
                 while (DataAccess.DR.Read())
                 {
-                    Invoice_Customer_Name_ID.Text = DataAccess.DR[1].ToString();
+                    Invoice_Pro_ID.Text = DataAccess.DR[1].ToString();
 
                 }
                 DataAccess.con.Close();
@@ -3141,7 +3239,7 @@ namespace WindowsFormsApplication2
                     DataAccess.DR = cmd.ExecuteReader();
                     while (DataAccess.DR.Read())
                     {
-                        Invoice_Customer_Name_ID.Text = DataAccess.DR[1].ToString();
+                        Invoice_Pro_ID.Text = DataAccess.DR[1].ToString();
 
                     }
                     DataAccess.con.Close();
@@ -3268,10 +3366,10 @@ namespace WindowsFormsApplication2
 
         public void Multiply_Invoice()
         {
-            int a, b;
+            float a, b;
 
-            bool isAValid = int.TryParse(New_Invoice_quantity.Text, out a);
-            bool isBValid = int.TryParse(New_Invice_Price.Text, out b);
+            bool isAValid = float.TryParse(New_Invoice_quantity.Text, out a);
+            bool isBValid = float.TryParse(New_Invice_Price.Text, out b);
 
             if (isAValid && isBValid)
                 New_Invoice_TotalPrice.Text = (a * b).ToString();
@@ -3282,7 +3380,12 @@ namespace WindowsFormsApplication2
 
         private void New_Invoice_quantity_TextChanged(object sender, EventArgs e)
         {
-           
+
+
+
+
+
+
 
 
 
@@ -3290,17 +3393,18 @@ namespace WindowsFormsApplication2
             {
                 DataAccess.con.Open();
                 //     '" + Invoice_Product_Name.Text + "'"
-                string str = "select (select sum(P.Quantity) - sum(I.Quantity) from Purchase_Details as P where P.P_ID = I.P_ID ) as [اشیای موجود در گدام] from Invoice_Details as I where I.P_ID = '" + Invoice_Product_Name.Text + "' group by I.P_ID";
+                string str = "select COALESCE(sum(Quantity), 0)   from Purchase_Details as p where p.P_ID  = '" + Invoice_Product_Name.Text + "'";
 
                 SqlCommand cmd = new SqlCommand(str, DataAccess.con);
                 DataAccess.DR = cmd.ExecuteReader();
                 while (DataAccess.DR.Read())
                 {
                     string one = DataAccess.DR[0].ToString();
-                    int total = Convert.ToInt32(one);
+                    // int total = Convert.ToInt32(one);
 
-
-                    textBox2.Text = total.ToString();
+                  
+                        textBox2.Text = one;
+           
 
                 }
                 DataAccess.con.Close();
@@ -3311,29 +3415,89 @@ namespace WindowsFormsApplication2
                 MessageBox.Show(ex.Message);
             }
 
-            try
+
+
+
+
+
+
+            if (textBox2.Text == "0")
             {
-                while (New_Invoice_quantity.Text == "")
-                {
-
-                    if (New_Invoice_quantity.Text == "")
-                    {
-
-                        New_Invoice_quantity.Text = "0";
-                    }
-                }
-
-                if (Convert.ToInt32(textBox2.Text) <= Convert.ToInt32(New_Invoice_quantity.Text))
-                {
-
-                    New_Invoice_TotalPrice.Text = "این تعداد موجود نیست";
-
-                }
-
-                else { Multiply_Invoice(); }
+                textBox2.Text = "0";
             }
 
-            catch { MessageBox.Show("منفی را پک کو لوده"); }
+            else {
+
+
+
+                try
+                {
+                    DataAccess.con.Open();
+                    //     '" + Invoice_Product_Name.Text + "'"
+                    string str = "select (select sum(P.Quantity) - sum(I.Quantity) from Purchase_Details as P where P.P_ID = I.P_ID ) as [اشیای موجود در گدام] from Invoice_Details as I where I.P_ID = '" + Invoice_Product_Name.Text + "' group by I.P_ID";
+
+                    SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                    DataAccess.DR = cmd.ExecuteReader();
+                    while (DataAccess.DR.Read())
+                    {
+                        string one = DataAccess.DR[0].ToString();
+                        // int total = Convert.ToInt32(one);
+
+                        //  one = "";
+                        if (one == null)
+                        {
+                            textBox2.Text = "0";
+                        }
+
+                        else
+                        {
+                            textBox2.Text = one;
+                        }
+
+
+
+                    }
+                    DataAccess.con.Close();
+                }
+                catch (Exception ex)
+                {
+                    DataAccess.con.Close();
+                    MessageBox.Show(ex.Message);
+                }
+
+                while (string.IsNullOrEmpty(textBox2.Text))
+                {
+                    textBox2.Clear();
+                }
+                try
+                {
+
+                    if (Convert.ToInt32(textBox2.Text) < Convert.ToInt32(New_Invoice_quantity.Text))
+                    {
+
+                        New_Invoice_TotalPrice.Text = "این تعداد موجود نیست";
+
+                    }
+
+                    else { Multiply_Invoice(); }
+                }
+
+                catch
+                {
+                    textBox2.Clear();
+                    textBox2.Text = "0";
+                }
+
+
+
+
+
+
+
+            }
+
+
+           
            
 
         }
@@ -3476,6 +3640,66 @@ namespace WindowsFormsApplication2
 
 
 
+
+        public void get_last_Return_Invoice_ID()
+        {
+            try
+            {
+                DataAccess.con.Open();
+                //     
+                string str = "SELECT MAX(R_F_C_ID) FROM [MobileData].[dbo].[Return_From_Customer] ";
+
+                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                DataAccess.DR = cmd.ExecuteReader();
+                while (DataAccess.DR.Read())
+                {
+                    string one = DataAccess.DR[0].ToString();
+                    int total = Convert.ToInt32(one);
+
+                    total = total + 1;
+                    R_Invoice_ID.Text = total.ToString();
+
+                }
+                DataAccess.con.Close();
+            }
+            catch (Exception ex)
+            {
+                DataAccess.con.Close();
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
+        public void get_last_Return_Purchase_ID()
+        {
+            try
+            {
+                DataAccess.con.Open();
+                //     
+                string str = "SELECT MAX(I_ID) FROM [MobileData].[dbo].[Return_From_Us] ";
+
+                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                DataAccess.DR = cmd.ExecuteReader();
+                while (DataAccess.DR.Read())
+                {
+                    string one = DataAccess.DR[0].ToString();
+                    int total = Convert.ToInt32(one);
+
+                    total = total + 1;
+                    R_Purchase_ChackUP.Text = total.ToString();
+
+                }
+                DataAccess.con.Close();
+            }
+            catch (Exception ex)
+            {
+                DataAccess.con.Close();
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
+
         public void get_last_ID_Purchase()
         {
             try
@@ -3537,6 +3761,70 @@ namespace WindowsFormsApplication2
                 MessageBox.Show(ex.Message);
             }
         }
+
+
+
+
+
+        void total_Return_Invoice()
+        {
+            try
+            {
+
+                //     
+                string str = "SELECT  Sum(Total_Price) from [MobileData].[dbo].[Return_Invoice_Datail] where R_F_C_ID = '" + R_Invoice_ID.Text + "'";
+                DataAccess.con.Open();
+                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                DataAccess.DR = cmd.ExecuteReader();
+                while (DataAccess.DR.Read())
+                {
+
+                    string one = DataAccess.DR[0].ToString();
+                    R_Invoice_Total_Amount.Text = one;
+
+                }
+                DataAccess.con.Close();
+            }
+            catch (Exception ex)
+            {
+                DataAccess.con.Close();
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
+
+
+
+
+
+        void total_Return_Purchase()
+        {
+            try
+            {
+
+                //     
+                string str = "SELECT  Sum(Total_Price) from [MobileData].[dbo].[Return_From_Us_Details] where R_F_U_ID = '" + R_Purchase_ID.Text + "'";
+                DataAccess.con.Open();
+                SqlCommand cmd = new SqlCommand(str, DataAccess.con);
+                DataAccess.DR = cmd.ExecuteReader();
+                while (DataAccess.DR.Read())
+                {
+
+                    string one = DataAccess.DR[0].ToString();
+                    R_Purchase_TotalAmount.Text = one;
+
+                }
+                DataAccess.con.Close();
+            }
+            catch (Exception ex)
+            {
+                DataAccess.con.Close();
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+
 
 
 
@@ -3640,7 +3928,7 @@ namespace WindowsFormsApplication2
                     New_Invoice_quantity.Clear();
                     New_Invice_Price.Clear();
                     New_Invoice_TotalPrice.Clear();
-                    Invoice_Customer_Name_ID.Clear();
+                    Invoice_Pro_ID.Clear();
 
 
 
@@ -3702,12 +3990,12 @@ namespace WindowsFormsApplication2
                     invoice_Chackup.Clear();
                     Invoice_Total_Grand.Clear();
                     New_Invoice_TotalPaid.Clear();
-                    Invoice_Customer_Name_ID.Clear();
+                    Invoice_Pro_ID.Clear();
                     New_invoice_DataGrideView.DataSource = null;
                     MessageBox.Show("ثبت موفق بود");
             
             }
-
+            New_Invoice_TotalPaid.Text = "0";
 
             get_last_ID();
 
@@ -4903,6 +5191,40 @@ namespace WindowsFormsApplication2
         {
             Settings set = new Settings();
             set.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(R_Invoice_Cutomer_Name.Text))
+            {
+                MessageBox.Show("جای نام جنس یا از مشستری خالی است");
+            }
+
+            else
+            {
+                if (R_Invoice_ChackUp.Text != R_Invoice_ID.Text)
+                {
+                    Return_Invoice();
+                    R_Invoice_ChackUp.Text = R_Invoice_ID.Text;
+                }
+
+                Return_Ivoice_details();
+
+                DataAccess.RunQuery("Select * from Return_From_Customer_TotalAmount Where R_F_C_ID ='" + R_Invoice_ChackUp.Text + "'");
+                R_Invoice_DataGrideview.DataSource = DataAccess.Dataset.Tables[0];
+
+
+                total_Return_Invoice();
+
+
+            
+
+            }
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
